@@ -5,6 +5,9 @@ Usage: python3 list_versions.py
 """
 
 import os
+import sys
+# Ajouter le dossier parent au path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from datetime import datetime
 
 def main():

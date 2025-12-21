@@ -1,6 +1,7 @@
 from graph_builder import GraphBuilder
 from graph_analyzer import GraphAnalyzer
 from visualizer import GraphVisualizer
+from llm_extractor import LLMExtractor
 from config import START_SCIENTIST
 import os
 import sys
@@ -14,21 +15,11 @@ def main():
     os.makedirs("output", exist_ok=True)
     
     # Vérification Health Check LLM
-    llm_check = GraphBuilder().llm 
-    # Note: GraphBuilder instancie LLMExtractor, mais on peut aussi l'instancier directement
-    # Pour faire propre, importons LLMExtractor ici ou utilisons celui du builder
-    from llm_extractor import LLMExtractor
     if not LLMExtractor().check_connection():
         print("\n" + "="*60)
         print("🛑 ERREUR CRITIQUE : LLM INTROUVABLE")
         print("="*60)
-        print("Le programme ne peut pas fonctionner sans accès à une IA.")
-        if START_SCIENTIST == "Albert Einstein": # Exemple
-             print("👉 Si vous utilisez Ollama (défaut) : Assurez-vous d'avoir installé et lancé Ollama.")
-             print("   Téléchargement : https://ollama.com")
-             print("   Lancement : Commande 'ollama serve' dans un terminal.")
-             print("👉 Si vous utilisez OpenAI : Vérifiez votre clé API dans config.py.")
-        print("="*60 + "\n")
+        # Note: Plus besoin de conseils spécifiques ici, check_connection() est verbeux
         return
     
     # 1. Construction
@@ -43,7 +34,7 @@ def main():
         return
 
     if graph.number_of_nodes() == 0:
-        print("❌ Aucun nœud récupéré. Vérifiez votre connexion internet ou la configuration.")
+        print("❌ Aucun nœud récupéré.")
         return
 
     # 2. Export données brutes
@@ -55,7 +46,7 @@ def main():
     
     # 4. Visualisation
     visualizer = GraphVisualizer(graph)
-    visualizer.create_interactive_html("output/index.html")
+    visualizer.create_interactive_html("output/graph.html")
     
     print("\n✅ Terminé avec succès!")
 

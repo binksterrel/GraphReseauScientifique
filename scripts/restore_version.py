@@ -8,6 +8,8 @@ Exemple: python3 restore_version.py 20251218_001234
 import os
 import shutil
 import sys
+# Ajouter le dossier parent au path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def main():
     if len(sys.argv) < 2:

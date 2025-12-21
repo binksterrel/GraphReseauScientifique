@@ -4,13 +4,17 @@ Script pour régénérer la visualisation à partir du graphe sauvegardé.
 Usage: python3 regenerate_viz.py
 """
 
+import sys
+import os
+# Ajouter le dossier parent au path pour pouvoir importer les modules racine
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import networkx as nx
 from visualizer import GraphVisualizer
-import os
 
 def main():
     gexf_path = "output/scientist_graph.gexf"
-    html_path = "output/index.html"
+    html_path = "output/graph.html"
     
     if not os.path.exists(gexf_path):
         print(f"❌ Fichier introuvable: {gexf_path}")

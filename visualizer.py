@@ -19,36 +19,60 @@ class GraphVisualizer:
         # Calculer le PageRank pour la taille des nœuds
         try:
             pagerank = nx.pagerank(self.graph)
-        except:
-            pagerank = {n: 1.0 for n in self.graph.nodes()}
+        except Exception:
+            # Fallback: utiliser le degré normalisé pour avoir des tailles variées
+            pagerank = nx.degree_centrality(self.graph)
 
-        # Détection de Communautés (Clusters)
-        try:
-            # On transforme en non-dirigé pour la détection de communauté (souvent plus stable pour le clustering visuel)
-            communities = sorted(nx.community.greedy_modularity_communities(self.graph.to_undirected()), key=len, reverse=True)
-            community_map = {}
-            for i, comm in enumerate(communities):
-                for node in comm:
-                    community_map[node] = i
-        except Exception as e:
-            print(f"⚠️ Erreur communautés: {e}")
-            community_map = {n: 0 for n in self.graph.nodes()}
+        # Vérifier si le graphe a des attributs de domaine scientifique
+        has_field_data = any(self.graph.nodes[n].get('field') for n in self.graph.nodes())
         
-        # Palette de couleurs "Clean" pour les communautés (Max 12 distinctes)
-        community_colors = [
-            "#1F2937", # Gris très foncé (presque noir)
-            "#4B5563", # Gris moyen
-            "#9CA3AF", # Gris clair
-            "#DC2626", # Rouge (accent)
-            "#EA580C", # Orange
-            "#D97706", # Jaune/Or
-            "#65A30D", # Vert lime
-            "#059669", # Vert émeraude
-            "#0891B2", # Cyan
-            "#2563EB", # Bleu
-            "#7C3AED", # Violet
-            "#DB2777"  # Rose
-        ]
+        if has_field_data:
+            # Groupement par Domaine Scientifique
+            field_communities = {}
+            community_map = {}
+            
+            for node in self.graph.nodes():
+                field = self.graph.nodes[node].get('field', 'Other')
+                if field not in field_communities:
+                    field_communities[field] = []
+                field_communities[field].append(node)
+                community_map[node] = field
+            
+            communities = list(field_communities.values())
+            
+            field_colors = {
+                'Physics': '#2563EB',
+                'Mathematics': '#7C3AED',
+                'Chemistry': '#059669',
+                'Biology': '#65A30D',
+                'Computer Science': '#0891B2',
+                'Medicine': '#DC2626',
+                'Astronomy': '#4B5563',
+                'Engineering': '#EA580C',
+                'Philosophy': '#DB2777',
+                'Economics': '#D97706',
+                'Other': '#9CA3AF'
+            }
+            use_field_colors = True
+        else:
+            # Fallback: Détection de communautés par graphe
+            try:
+                communities = sorted(nx.community.greedy_modularity_communities(self.graph.to_undirected()), key=len, reverse=True)
+                community_map = {}
+                for i, comm in enumerate(communities):
+                    for node in comm:
+                        community_map[node] = i
+            except Exception:
+                community_map = {n: 0 for n in self.graph.nodes()}
+                communities = [list(self.graph.nodes())]
+            
+            # Palette de couleurs pour les communautés
+            community_colors = [
+                "#1F2937", "#4B5563", "#9CA3AF", "#DC2626", "#EA580C",
+                "#D97706", "#65A30D", "#059669", "#0891B2", "#2563EB",
+                "#7C3AED", "#DB2777"
+            ]
+            use_field_colors = False
 
         # Fonction pour nettoyer les noms (retirer les parenthèses de désambiguïsation)
         def clean_name(name):
@@ -56,30 +80,38 @@ class GraphVisualizer:
                 return name.split("(")[0].strip()
             return name
 
-        # Préparer les données de la légende avec les "Leaders" de chaque groupe
+        # Légende basée sur le type de groupement
         legend_data = []
-        for i, comm in enumerate(communities):
-            if i >= len(community_colors): break # On limite au nombre de couleurs
-            
-            # Trouver le leader (max pagerank)
-            leader = max(comm, key=lambda n: pagerank.get(n, 0))
-            leader_clean = clean_name(leader)
-            color = community_colors[i]
-            
-            legend_data.append({
-                "label": f"Cercle de {leader_clean}",
-                "color": color
-            })
+        if use_field_colors:
+            for field, nodes_list in field_communities.items():
+                if field and len(nodes_list) > 0:
+                    legend_data.append({
+                        "label": f"{field} ({len(nodes_list)})",
+                        "color": field_colors.get(field, '#9CA3AF')
+                    })
+        else:
+            for i, comm in enumerate(communities):
+                if i >= len(community_colors): break
+                leader = max(comm, key=lambda n: pagerank.get(n, 0))
+                leader_clean = clean_name(leader)
+                legend_data.append({
+                    "label": f"Cercle de {leader_clean}",
+                    "color": community_colors[i]
+                })
 
         # Préparation des données pour Vis.js
         nodes_data = []
         for node in self.graph.nodes():
             score = pagerank.get(node, 0)
-            size = 20 + (score * 1200)  # Taille immersive pour exploration
+            size = 8 + min(score * 80, 35)  # Taille compacte pour lisibilité
             
-            # Couleur basée sur la communauté
-            comm_id = community_map.get(node, 0)
-            color = community_colors[comm_id % len(community_colors)]
+            # Couleur basée sur le type de groupement
+            if use_field_colors:
+                field = community_map.get(node, 'Other')
+                color = field_colors.get(field, '#9CA3AF')
+            else:
+                comm_id = community_map.get(node, 0)
+                color = community_colors[comm_id % len(community_colors)]
             
             # Label nettoyé pour l'affichage
             label_display = clean_name(node)
@@ -97,11 +129,12 @@ class GraphVisualizer:
             })
             
         edges_data = []
-        for u, v, data in self.graph.edges(data=True):
+        for idx, (u, v, data) in enumerate(self.graph.edges(data=True)):
             edges_data.append({
+                "id": f"e{idx}",
                 "from": u,
                 "to": v,
-                "title": "A influencé", # Tooltip
+                "title": "A influencé",
                 "color": {"color": "#E5E5E5", "highlight": "#0A0A0A", "hover": "#0A0A0A"},
                 "width": 0.5,
                 "arrows": {"to": {"enabled": True, "scaleFactor": 0.3}},
@@ -112,14 +145,43 @@ class GraphVisualizer:
         json_nodes = json.dumps(nodes_data)
         json_edges = json.dumps(edges_data)
         json_legend = json.dumps(legend_data)
+        total_nodes = len(nodes_data)
         
-        # HTML Template Minimaliste
-        html_content = f"""<!DOCTYPE html>
+        # Calculer les Hubs (Degree Centrality - Top 5%)
+        try:
+            degree = nx.degree_centrality(self.graph)
+            sorted_degree = sorted(degree.items(), key=lambda x: x[1], reverse=True)
+            top_count = max(10, int(len(sorted_degree) * 0.05))
+            hubs = [n for n, _ in sorted_degree[:top_count]]
+            json_hubs = json.dumps(hubs)
+            json_hubs_count = len(hubs)
+        except:
+            json_hubs = "[]"
+            json_hubs_count = 0
+        
+        if '\0' in json_edges:
+            json_edges = json_edges.replace('\0', '')
+        
+        # Calculer les passeurs de savoir (Betweenness Centrality - Top 5%)
+        try:
+            betweenness = nx.betweenness_centrality(self.graph)
+            sorted_betweenness = sorted(betweenness.items(), key=lambda x: x[1], reverse=True)
+            # Garder le top 5% (ou minimum 10)
+            top_count = max(10, int(len(sorted_betweenness) * 0.05))
+            passeurs = [n for n, _ in sorted_betweenness[:top_count]]
+            json_passeurs = json.dumps(passeurs)
+            json_passeurs_count = len(passeurs)
+        except:
+            json_passeurs = "[]"
+            json_passeurs_count = 0
+        
+        # Split f-string to avoid potential issues with large json_edges injection
+        html_head = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RÉSEAU SCIENTIFIQUE Scientifique</title>
+    <title>RÉSEAU SCIENTIFIQUE</title>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -200,21 +262,96 @@ class GraphVisualizer:
             pointer-events: all;
         }}
         
+        /* Animated Background */
+        /* Animated Background (Aurora) */
+        .aurora-container {{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -2;
+            background: #FAFAFA;
+            overflow: hidden;
+        }}
+
+        .orb {{
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.6;
+            animation: float 20s infinite ease-in-out;
+        }}
+
+        .orb-1 {{
+            width: 60vw;
+            height: 60vw;
+            background: #E0E7FF;
+            top: -20%;
+            left: -10%;
+            animation-delay: 0s;
+        }}
+
+        .orb-2 {{
+            width: 50vw;
+            height: 50vw;
+            background: #F0FDFA;
+            bottom: -10%;
+            right: -10%;
+            animation-delay: -5s;
+        }}
+
+        .orb-3 {{
+            width: 40vw;
+            height: 40vw;
+            background: #F5F3FF;
+            top: 40%;
+            left: 40%;
+            animation-delay: -10s;
+        }}
+
+        @keyframes float {{
+            0%, 100% {{ transform: translate(0, 0) scale(1); }}
+            33% {{ transform: translate(30px, -50px) scale(1.1); }}
+            66% {{ transform: translate(-20px, 20px) scale(0.95); }}
+        }}
+
+        /* Noise Texture */
+        .noise-overlay {{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            opacity: 0.03;
+            pointer-events: none;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }}
+
         .sidebar {{
             position: fixed;
-            bottom: 80px; /* Raised for status bar */
-            left: 48px;
-            width: 280px;
-            background: rgba(255, 255, 255, 0.8);
+            top: 50%;
+            left: 24px;
+            transform: translateY(-50%); /* Base state */
+            width: 300px;
+            background: rgba(255, 255, 255, 0.7);
             backdrop-filter: blur(20px);
-            border-radius: 12px;
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 16px;
             padding: 24px;
             z-index: 100;
-            border: 1px solid rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(0, 0, 0, 0.05);
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             opacity: 0;
-            transform: translateY(10px);
-            animation: slideIn 0.6s ease forwards 0.3s;
+            animation: slideInCenter 0.6s ease forwards 0.3s;
+            max-height: calc(100vh - 120px);
+            overflow-y: auto;
+        }}
+
+        @keyframes slideInCenter {{
+            from {{ opacity: 0; transform: translate(0, -40%); }}
+            to {{ opacity: 1; transform: translate(0, -50%); }}
         }}
         
         @keyframes slideIn {{
@@ -450,11 +587,36 @@ class GraphVisualizer:
         
         .floating-actions {{
             position: fixed;
-            bottom: 80px; /* Raised above status bar */
-            right: 48px; /* Aligned with sidebar margin */
+            bottom: 80px;
+            right: 48px;
             display: flex;
+            flex-direction: column;
             gap: 12px;
             z-index: 100;
+        }}
+        
+        .filter-control {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: white;
+            padding: 8px 12px;
+            border-radius: 12px;
+            border: 1px solid rgba(0,0,0,0.1);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.06);
+            font-size: 12px;
+            color: #27272A;
+        }}
+        
+        .filter-control input[type="range"] {{
+            width: 100px;
+            cursor: pointer;
+        }}
+        
+        .filter-control span {{
+            min-width: 35px;
+            text-align: right;
+            font-weight: 500;
         }}
 
         .btn-floating {{
@@ -485,16 +647,20 @@ class GraphVisualizer:
             color: white;
             border-color: #18181B;
         }}
+        
     </style>
 </head>
 <body>
     
-    <div class="header">
-        <div class="logo">RÉSEAU SCIENTIFIQUE Scientifique</div>
-        <div class="stats">
-            <span id="node-count">0</span> nœuds · <span id="edge-count">0</span> liens
-        </div>
+    <div id="app-header"></div>
+    
+    <!-- Aurora Background -->
+    <div class="aurora-container">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
     </div>
+    <div class="noise-overlay"></div>
 
     <div class="sidebar">
         <div style="position: relative;">
@@ -527,27 +693,53 @@ class GraphVisualizer:
     </div>
     
     <div class="floating-actions">
-        <button onclick="togglePathMode()" id="btn-path" class="btn-floating" title="Trouver un itinéraire">
-            <i data-lucide="map-pin" class="icon-md"></i>
-        </button>
-        <button onclick="resetView()" class="btn-floating" title="Recentrer la vue">
-            <i data-lucide="maximize" class="icon-md"></i>
-        </button>
+        <div class="filter-control" title="Nombre de scientifiques affichés">
+            <i data-lucide="users" class="icon-sm"></i>
+            <input type="range" id="node-filter" min="10" max="{total_nodes}" value="{total_nodes}" oninput="filterNodes(this.value)">
+            <span id="filter-count">{total_nodes}</span>
+        </div>
+        
+        <div style="display: flex; gap: 12px;">
+            <button onclick="toggleHubs()" id="btn-hubs" class="btn-floating" title="Hubs (Top 5% les plus connectés)">
+                <i data-lucide="star" class="icon-md"></i>
+            </button>
+            <button onclick="togglePasseurs()" id="btn-passeurs" class="btn-floating" title="Passeurs de Savoir (Top 5%)">
+                <i data-lucide="link" class="icon-md"></i>
+            </button>
+            <button onclick="togglePathMode()" id="btn-path" class="btn-floating" title="Trouver un itinéraire">
+                <i data-lucide="map-pin" class="icon-md"></i>
+            </button>
+            <button onclick="resetView()" class="btn-floating" title="Recentrer la vue">
+                <i data-lucide="maximize" class="icon-md"></i>
+            </button>
+        </div>
     </div>
     
     <div id="status-bar" class="status-bar">
         <span id="status-icon"><i data-lucide="activity" class="icon-sm"></i></span>
         <span id="status-text">Prêt</span>
+        <span class="status-separator" style="width: 1px; height: 12px; background: rgba(0,0,0,0.1); margin: 0 8px;"></span>
+        <span class="stats">
+            <span id="node-count">0</span> nœuds · <span id="edge-count">0</span> liens
+        </span>
     </div>
 
     <script type="text/javascript">
         const nodesData = {json_nodes};
-        const edgesData = {json_edges};
-        const legendData = {json_legend};
+        const edgesData = """
         
-        // Générer la légende dynamiquement basée sur les données
+        html_middle = json_edges
+        
+        html_tail = f""";
+        const legendData = {json_legend};
+        const hubs = new Set({json_hubs});
+        const hubsCount = {json_hubs_count};
+        const passeurs = new Set({json_passeurs});
+        const passeursCount = {json_passeurs_count};
+        
+        // Générer la légende dynamiquement basée sur les données (sans "Other")
         const legendContent = document.getElementById('legend-content');
-        legendData.forEach(item => {{
+        legendData.filter(item => !item.label.startsWith('Other')).forEach(item => {{
             const div = document.createElement('div');
             div.className = 'legend-item';
             div.innerHTML = `<span class="legend-dot" style="background: ${{item.color}};"></span><span>${{item.label}}</span>`;
@@ -560,9 +752,16 @@ class GraphVisualizer:
 
         const container = document.getElementById('mynetwork');
         
+        // Variables globales pour le filtrage
+        const nodes = new vis.DataSet(nodesData);
+        const edges = new vis.DataSet(edgesData);
+        const allNodesData = [...nodesData]; // Keep original copy
+        const allEdgesData = [...edgesData];
+        
+        
         const data = {{
-            nodes: new vis.DataSet(nodesData),
-            edges: new vis.DataSet(edgesData)
+            nodes: nodes,
+            edges: edges
         }};
         
         const options = {{
@@ -927,12 +1126,158 @@ class GraphVisualizer:
             document.getElementById('info-panel').innerHTML = 'Sélectionnez un nœud pour voir les détails';
         }}
         
+        // Filtre dynamique des nœuds par importance
+        const sortedBySize = [...nodesData].sort((a, b) => b.size - a.size);
+        // allNodesData and allEdgesData already declared above
+        
+        // Fonction pour mettre à jour la légende avec les comptes dynamiques
+        function updateLegend(visibleNodes) {{
+            const fieldCounts = {{}};
+            visibleNodes.forEach(n => {{
+                // Trouver le domaine du noeud via legendData
+                const legendItem = legendData.find(item => item.color === n.color);
+                const field = legendItem ? legendItem.label.split(' (')[0] : 'Other';
+                fieldCounts[field] = (fieldCounts[field] || 0) + 1;
+            }});
+            
+            // Mettre à jour la légende
+            const legendContent = document.getElementById('legend-content');
+            legendContent.innerHTML = '';
+            
+            // Trier par nombre décroissant et exclure "Other"
+            const sortedFields = Object.entries(fieldCounts)
+                .filter(([field]) => field !== 'Other')
+                .sort((a, b) => b[1] - a[1]);
+            sortedFields.forEach(([field, count]) => {{
+                const item = legendData.find(l => l.label.startsWith(field));
+                const color = item ? item.color : '#CCCCCC';
+                const div = document.createElement('div');
+                div.className = 'legend-item';
+                div.innerHTML = `<span class="legend-dot" style="background: ${{color}};"></span><span>${{field}} (${{count}})</span>`;
+                legendContent.appendChild(div);
+            }});
+        }}
+        
+        function filterNodes(count) {{
+            console.log('filterNodes appelé avec:', count);
+            count = parseInt(count);
+            document.getElementById('filter-count').textContent = count;
+            
+            // Obtenir les top N nœuds par taille (PageRank)
+            const topNodes = sortedBySize.slice(0, count);
+            const topNodeIds = new Set(topNodes.map(n => n.id));
+            
+            // Filtrer les arêtes pour ne garder que celles entre les nœuds visibles
+            const filteredEdges = allEdgesData.filter(e => 
+                topNodeIds.has(e.from) && topNodeIds.has(e.to)
+            );
+            
+            // Effacer et recréer les données
+            nodes.clear();
+            edges.clear();
+            nodes.add(topNodes);
+            edges.add(filteredEdges);
+            
+            // Mise à jour du compteur
+            document.getElementById('node-count').textContent = count;
+            document.getElementById('edge-count').textContent = filteredEdges.length;
+            
+            // Mise à jour de la légende
+            updateLegend(topNodes);
+            
+            updateStatus(`Affichage de ${{count}} scientifiques`);
+        }}
+        
+        // Hubs (Top 5% Degree Centrality)
+        let hubsActive = false;
+        const originalColors = {{}};
+        
+        function toggleHubs() {{
+            const btn = document.getElementById('btn-hubs');
+            hubsActive = !hubsActive;
+            
+            // Obtenir les nœuds actuellement visibles
+            const currentNodes = nodes.get();
+            
+            if (hubsActive) {{
+                btn.classList.add('active');
+                const hubsInView = currentNodes.filter(n => hubs.has(n.id)).length;
+                updateStatus(`⭐ Hubs: ${{hubsInView}}/${{hubsCount}} visibles (Top 5% connectés)`);
+                
+                // Sauvegarder les couleurs originales et appliquer mise en évidence
+                const updates = [];
+                currentNodes.forEach(n => {{
+                    if (!originalColors[n.id]) originalColors[n.id] = n.color;
+                    if (hubs.has(n.id)) {{
+                        updates.push({{ id: n.id, color: '#FFD700', borderWidth: 3 }});
+                    }} else {{
+                        updates.push({{ id: n.id, color: '#E5E5E5', borderWidth: 1 }});
+                    }}
+                }});
+                nodes.update(updates);
+            }} else {{
+                btn.classList.remove('active');
+                updateStatus('Vue normale');
+                
+                // Restaurer les couleurs originales
+                const updates = [];
+                currentNodes.forEach(n => {{
+                    updates.push({{ id: n.id, color: originalColors[n.id] || n.color, borderWidth: 1 }});
+                }});
+                nodes.update(updates);
+            }}
+            lucide.createIcons();
+        }}
+        
+        // Passeurs de Savoir (Betweenness Centrality - Top 5%)
+        let passeursActive = false;
+        
+        function togglePasseurs() {{
+            const btn = document.getElementById('btn-passeurs');
+            passeursActive = !passeursActive;
+            
+            // Obtenir les nœuds actuellement visibles
+            const currentNodes = nodes.get();
+            
+            if (passeursActive) {{
+                btn.classList.add('active');
+                const passeursInView = currentNodes.filter(n => passeurs.has(n.id)).length;
+                updateStatus(`🔗 Passeurs: ${{passeursInView}}/${{passeursCount}} visibles (Top 5% Intermédiarité)`);
+                
+                // Mettre en évidence les passeurs
+                const updates = [];
+                currentNodes.forEach(n => {{
+                    if (!originalColors[n.id]) originalColors[n.id] = n.color;
+                    if (passeurs.has(n.id)) {{
+                        updates.push({{ id: n.id, color: '#00D9FF', borderWidth: 3 }});
+                    }} else {{
+                        updates.push({{ id: n.id, color: '#E5E5E5', borderWidth: 1 }});
+                    }}
+                }});
+                nodes.update(updates);
+            }} else {{
+                btn.classList.remove('active');
+                updateStatus('Vue normale');
+                
+                // Restaurer les couleurs originales
+                const updates = [];
+                currentNodes.forEach(n => {{
+                    updates.push({{ id: n.id, color: originalColors[n.id] || n.color, borderWidth: 1 }});
+                }});
+                nodes.update(updates);
+            }}
+            lucide.createIcons();
+        }}
+        
         function resetView() {{
             network.fit({{ animation: {{ duration: 1000, easingFunction: "easeInOutQuart" }} }});
         }}
     </script>
+    <script src="header.js"></script>
 </body>
 </html>"""
+        
+        html_content = html_head + html_middle + html_tail
         
         print(f"✨ Génération de la visualisation minimaliste (FR)...")
         try:

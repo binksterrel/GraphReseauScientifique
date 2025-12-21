@@ -11,4 +11,8 @@ env/
 output/
 !output/index.html
 !output/scientist_graph.gexf
+!output/about.html
+!output/live.html
+!output/header.js
+!output/graph.html
 cache/

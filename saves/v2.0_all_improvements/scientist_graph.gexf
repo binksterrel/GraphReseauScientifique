@@ -1,0 +1,5027 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-12-19">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="relation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="depth" type="long" />
+      <attribute id="1" title="field" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Albert Einstein" label="Albert Einstein">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Isaac Newton" label="Isaac Newton">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Immanuel Kant" label="Immanuel Kant">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Henri Poincaré" label="Henri Poincaré">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Ernst Mach" label="Ernst Mach">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="David Hume" label="David Hume">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Satyendra Nath Bose" label="Satyendra Nath Bose">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Max Planck" label="Max Planck">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Walther Nernst" label="Walther Nernst">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="René Descartes" label="René Descartes">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Galileo Galilei" label="Galileo Galilei">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Thomas Street" label="Thomas Street">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Bernhardus Varenius" label="Bernhardus Varenius">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Simon Stevin" label="Simon Stevin">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Albert Girard" label="Albert Girard">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Isaac Barrow" label="Isaac Barrow">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Nicolas Fatio de Duillier" label="Nicolas Fatio de Duillier">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Alexis Clairaut" label="Alexis Clairaut">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Charles Marie de La Condamine" label="Charles Marie de La Condamine">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Gottfried Wilhelm Leibniz" label="Gottfried Wilhelm Leibniz">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Johann Bernoulli" label="Johann Bernoulli">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="John Keill" label="John Keill">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="A. Rupert Hall" label="A. Rupert Hall">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Christian Wolff" label="Christian Wolff">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Martin Knutzen" label="Martin Knutzen">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Emanuel Swedenborg" label="Emanuel Swedenborg">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Moses Mendelssohn" label="Moses Mendelssohn">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Gotthold Ephraim Lessing" label="Gotthold Ephraim Lessing">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Georg Friedrich Meier" label="Georg Friedrich Meier">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Johann Gottfried Herder" label="Johann Gottfried Herder">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Christian Garve" label="Christian Garve">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Johann Georg Heinrich Feder" label="Johann Georg Heinrich Feder">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Johann Georg Hamann" label="Johann Georg Hamann">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Johann Friedrich Schultz" label="Johann Friedrich Schultz">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Karl Leonhard Reinhold" label="Karl Leonhard Reinhold">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Jakob Sigismund Beck" label="Jakob Sigismund Beck">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Johann Gottlieb Fichte" label="Johann Gottlieb Fichte">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Gottlob Benjamin Jäsche" label="Gottlob Benjamin Jäsche">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Charles Sanders Peirce" label="Charles Sanders Peirce">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Charles Hermite" label="Charles Hermite">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Hendrik Lorentz" label="Hendrik Lorentz">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Gösta Mittag-Leffler" label="Gösta Mittag-Leffler">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Karl Weierstrass" label="Karl Weierstrass">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Bernhard Riemann" label="Bernhard Riemann">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Étienne Geoffroy Saint-Hilaire" label="Étienne Geoffroy Saint-Hilaire">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Grigori Perelman" label="Grigori Perelman">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Louis Bachelier" label="Louis Bachelier">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dimitrie Pompeiu" label="Dimitrie Pompeiu">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Henri Becquerel" label="Henri Becquerel">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Hermann Minkowski" label="Hermann Minkowski">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Karl Popper" label="Karl Popper">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Paul Painlevé" label="Paul Painlevé">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Andreas von Ettingshausen" label="Andreas von Ettingshausen">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="George Berkeley" label="George Berkeley">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Richard Avenarius" label="Richard Avenarius">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Friedrich Goltz" label="Friedrich Goltz">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ludwig Boltzmann" label="Ludwig Boltzmann">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Alexander Bogdanov" label="Alexander Bogdanov">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Vladimir Lenin" label="Vladimir Lenin">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Philipp Frank" label="Philipp Frank">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ernst von Glasersfeld" label="Ernst von Glasersfeld">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Friedrich Hayek" label="Friedrich Hayek">
+        <attvalues>
+          <attvalue for="1" value="Economics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Vienna Circle" label="Vienna Circle">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Joseph Petzoldt" label="Joseph Petzoldt">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="B. F. Skinner" label="B. F. Skinner">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Josef Breuer" label="Josef Breuer">
+        <attvalues>
+          <attvalue for="1" value="Medicine" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Peter Salcher" label="Peter Salcher">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="John Locke" label="John Locke">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Francis Bacon" label="Francis Bacon">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Thomas Hobbes" label="Thomas Hobbes">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Francis Hutcheson" label="Francis Hutcheson">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Adam Smith" label="Adam Smith">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Jagadish Chandra Bose" label="Jagadish Chandra Bose">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Prafulla Chandra Ray" label="Prafulla Chandra Ray">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Naman Sharma" label="Naman Sharma">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Sarada Prasanna Das" label="Sarada Prasanna Das">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Ashutosh Mukherjee" label="Ashutosh Mukherjee">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="James Clerk Maxwell" label="James Clerk Maxwell">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Louis de Broglie" label="Louis de Broglie">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Marie Curie" label="Marie Curie">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Meghnad Saha" label="Meghnad Saha">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Paul Dirac" label="Paul Dirac">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Lev Landau" label="Lev Landau">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Niels Bohr" label="Niels Bohr">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Werner Heisenberg" label="Werner Heisenberg">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Erwin Schrödinger" label="Erwin Schrödinger">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Abraham Pais" label="Abraham Pais">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Jayant Narlikar" label="Jayant Narlikar">
+        <attvalues>
+          <attvalue for="1" value="Engineering" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="K. Banerjee" label="K. Banerjee">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="D.S. Kothari" label="D.S. Kothari">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="S.N. Bagchi" label="S.N. Bagchi">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="A.K. Dutta" label="A.K. Dutta">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Hermann Müller" label="Hermann Müller">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Philipp von Jolly" label="Philipp von Jolly">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Hermann von Helmholtz" label="Hermann von Helmholtz">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Gustav Kirchhoff" label="Gustav Kirchhoff">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Rudolf Clausius" label="Rudolf Clausius">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Josiah Willard Gibbs" label="Josiah Willard Gibbs">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Wilhelm Wien" label="Wilhelm Wien">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Heinrich Hertz" label="Heinrich Hertz">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Christiaan Huygens" label="Christiaan Huygens">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Max Abraham" label="Max Abraham">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Max von Laue" label="Max von Laue">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Moritz Schlick" label="Moritz Schlick">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Walther Meissner" label="Walther Meissner">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Fritz Reiche" label="Fritz Reiche">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Walter Schottky" label="Walter Schottky">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Walther Bothe" label="Walther Bothe">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Wolfgang Pauli" label="Wolfgang Pauli">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Albert von Ettingshausen" label="Albert von Ettingshausen">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Friedrich Kohlrausch" label="Friedrich Kohlrausch">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Wilhelm Ostwald" label="Wilhelm Ostwald">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Jacobus Henricus van 't Hoff" label="Jacobus Henricus van 't Hoff">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Svante Arrhenius" label="Svante Arrhenius">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Fritz Haber" label="Fritz Haber">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Theodore Richards" label="Theodore Richards">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Kurt Mendelssohn" label="Kurt Mendelssohn">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Partha Ghose" label="Partha Ghose">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="Isaac Beeckman" label="Isaac Beeckman">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Pierre de Fermat" label="Pierre de Fermat">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Adriaan Metius" label="Adriaan Metius">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Jacobus Golius" label="Jacobus Golius">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Martin Hortensius" label="Martin Hortensius">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Blaise Pascal" label="Blaise Pascal">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Princess Elisabeth of Bohemia" label="Princess Elisabeth of Bohemia">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Girard Desargues" label="Girard Desargues">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Frans van Schooten" label="Frans van Schooten">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Constantijn Huygens" label="Constantijn Huygens">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Dirck Rembrantsz van Nierop" label="Dirck Rembrantsz van Nierop">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Anthony Studler van Zurck" label="Anthony Studler van Zurck">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Girolamo Borro" label="Girolamo Borro">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Domingo de Soto" label="Domingo de Soto">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Francesco Buonamici" label="Francesco Buonamici">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Jacopo Borghini" label="Jacopo Borghini">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Tycho Brahe" label="Tycho Brahe">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Johannes Kepler" label="Johannes Kepler">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Hans Lippershey" label="Hans Lippershey">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Thomas Harriot" label="Thomas Harriot">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="William Gilbert" label="William Gilbert">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Francesco Sizzi" label="Francesco Sizzi">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Johannes Fabricius" label="Johannes Fabricius">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Simon Marius" label="Simon Marius">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Christopher Clavius" label="Christopher Clavius">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Mario Guiducci" label="Mario Guiducci">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Abel Tasman" label="Abel Tasman">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Willem Schouten" label="Willem Schouten">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Willem Blaeu" label="Willem Blaeu">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Giuseppe Biancani" label="Giuseppe Biancani">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Jean Baptiste Bourguignon d' Anville" label="Jean Baptiste Bourguignon d' Anville">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Alexander von Humboldt" label="Alexander von Humboldt">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Vincenzo Galilei" label="Vincenzo Galilei">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Gioseffo Zarlino" label="Gioseffo Zarlino">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Luca Pacioli" label="Luca Pacioli">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Gerolamo Cardano" label="Gerolamo Cardano">
+        <attvalues>
+          <attvalue for="1" value="Medicine" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Maurice, Prince of Orange" label="Maurice, Prince of Orange">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Pierre Varignon" label="Pierre Varignon">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Bartholomaeus Pitiscus" label="Bartholomaeus Pitiscus">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="John Napier" label="John Napier">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="François Viète" label="François Viète">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Joseph Louis Lagrange" label="Joseph Louis Lagrange">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Augustin-Louis Cauchy" label="Augustin-Louis Cauchy">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Apollonius of Perga" label="Apollonius of Perga">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Theodosius of Bithynia" label="Theodosius of Bithynia">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Johannes Hudde" label="Johannes Hudde">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="René de Sluze" label="René de Sluze">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Martin Holbeach" label="Martin Holbeach">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="James Duport" label="James Duport">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Edmund Stone" label="Edmund Stone">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="James M. Child" label="James M. Child">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="John Kirkby" label="John Kirkby">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Giovanni Domenico Cassini" label="Giovanni Domenico Cassini">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Jean-Robert Chouet" label="Jean-Robert Chouet">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Edme Mariotte" label="Edme Mariotte">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Ehrenfried Walther von Tschirnhaus" label="Ehrenfried Walther von Tschirnhaus">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Robert Boyle" label="Robert Boyle">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="George Starkey" label="George Starkey">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Jacob Bernoulli" label="Jacob Bernoulli">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="David Gregory" label="David Gregory">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Edmond Halley" label="Edmond Halley">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Georges-Louis Le Sage" label="Georges-Louis Le Sage">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Colin Maclaurin" label="Colin Maclaurin">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Jean-Baptiste Clairaut" label="Jean-Baptiste Clairaut">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Pierre Louis Maupertuis" label="Pierre Louis Maupertuis">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Charles Bossut" label="Charles Bossut">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Jean le Rond d'Alembert" label="Jean le Rond d'Alembert">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Leonhard Euler" label="Leonhard Euler">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Joseph Jérôme Lefrançois de Lalande" label="Joseph Jérôme Lefrançois de Lalande">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Nicole-Reine Lepaute" label="Nicole-Reine Lepaute">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Sir George Stokes, 1st Baronet" label="Sir George Stokes, 1st Baronet">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Alexis Claude Clairaut" label="Alexis Claude Clairaut">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Pierre Charles Le Monnier" label="Pierre Charles Le Monnier">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Louis Godin" label="Louis Godin">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Pierre Bouguer" label="Pierre Bouguer">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Joseph de Jussieu" label="Joseph de Jussieu">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="François Fresneau" label="François Fresneau">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Georges-Louis Leclerc, Comte de Buffon" label="Georges-Louis Leclerc, Comte de Buffon">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="François-Nicolas-Vincent Campenon" label="François-Nicolas-Vincent Campenon">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Alfred Mézières" label="Alfred Mézières">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="René Boylesve" label="René Boylesve">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Marc Girardin" label="Marc Girardin">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Henri Gouhier" label="Henri Gouhier">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Étienne Gilson" label="Étienne Gilson">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="John Theophilus Desaguliers" label="John Theophilus Desaguliers">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Alexander Gottlieb Baumgarten" label="Alexander Gottlieb Baumgarten">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Edmund Burke" label="Edmund Burke">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Adam Ferguson" label="Adam Ferguson">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Wenceslaus Johann Gustav Karsten" label="Wenceslaus Johann Gustav Karsten">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Georg Simon Klügel" label="Georg Simon Klügel">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Johann Heinrich Lambert" label="Johann Heinrich Lambert">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Christian Jakob Kraus" label="Christian Jakob Kraus">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Johann Schultz" label="Johann Schultz">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Joseph-Louis Lagrange" label="Joseph-Louis Lagrange">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Carl Friedrich Gauss" label="Carl Friedrich Gauss">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Carl Jacob Jacobi" label="Carl Jacob Jacobi">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Joseph Bertrand" label="Joseph Bertrand">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Joseph Liouville" label="Joseph Liouville">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Alexandru Odobescu" label="Alexandru Odobescu">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Petre P. Negulescu" label="Petre P. Negulescu">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Petru Mocanu" label="Petru Mocanu">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Bîrsan, Temistocle" label="Bîrsan, Temistocle">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Tiba, Dan" label="Tiba, Dan">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Gregor Mendel" label="Gregor Mendel">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Rudolf Allers" label="Rudolf Allers">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Baruch Spinoza" label="Baruch Spinoza">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Carl Vogt" label="Carl Vogt">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Ber Borochov" label="Ber Borochov">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Nikolai Valentinov" label="Nikolai Valentinov">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Anatoly Lunacharsky" label="Anatoly Lunacharsky">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="David Ferrier" label="David Ferrier">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Medicine" />
+        </attvalues>
+      </node>
+      <node id="Reinhold Furth" label="Reinhold Furth">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Peter Bergmann" label="Peter Bergmann">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Halton Arp" label="Halton Arp">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Giambattista Vico" label="Giambattista Vico">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Jean Piaget" label="Jean Piaget">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="James Joyce" label="James Joyce">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="David Hilbert" label="David Hilbert">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Sigmund Freud" label="Sigmund Freud">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Medicine" />
+        </attvalues>
+      </node>
+      <node id="Felix Klein" label="Felix Klein">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="August Toepler" label="August Toepler">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Georg von Trapp" label="Georg von Trapp">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Frank Hutchison" label="Frank Hutchison">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="William Henry Bragg" label="William Henry Bragg">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="William Lawrence Bragg" label="William Lawrence Bragg">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Paul Peter Ewald" label="Paul Peter Ewald">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="John Desmond Bernal" label="John Desmond Bernal">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Nikolay Vasilyevich Belov" label="Nikolay Vasilyevich Belov">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="J. M. Robertson" label="J. M. Robertson">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="K. Lonsdale" label="K. Lonsdale">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Melvin Avrami" label="Melvin Avrami">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Homi J. Bhabha" label="Homi J. Bhabha">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Charles Darwin" label="Charles Darwin">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Hermann Joseph Muller" label="Hermann Joseph Muller">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Paul Hermann Müller" label="Paul Hermann Müller">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="Friedrich Jolly" label="Friedrich Jolly">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Medicine" />
+        </attvalues>
+      </node>
+      <node id="Sadi Carnot" label="Sadi Carnot">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="August Krönig" label="August Krönig">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Leon Cooper" label="Leon Cooper">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Robert Ochsenfeld" label="Robert Ochsenfeld">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Rudolf Ladenburg" label="Rudolf Ladenburg">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Heinrich Rubens" label="Heinrich Rubens">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Erwin Gerlach" label="Erwin Gerlach">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Nikola Tesla" label="Nikola Tesla">
+        <attvalues>
+          <attvalue for="1" value="Engineering" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Francis Simon" label="Francis Simon">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Robert Mond" label="Robert Mond">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="C. V. Raman" label="C. V. Raman">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Y. Mizobuchi" label="Y. Mizobuchi">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="M. Genovese" label="M. Genovese">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Rudolph Snellius" label="Rudolph Snellius">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Johan de Witt" label="Johan de Witt">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Pierre Gassendi" label="Pierre Gassendi">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Adriaan Anthonisz" label="Adriaan Anthonisz">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Jacob Metius" label="Jacob Metius">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Ismail ibn Hammad al-Jawhari" label="Ismail ibn Hammad al-Jawhari">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Ibn al-Haytham" label="Ibn al-Haytham">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Henri Brocard" label="Henri Brocard">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Jan Albertsz van Dam" label="Jan Albertsz van Dam">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Cornelis Pietersz Neuvel" label="Cornelis Pietersz Neuvel">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Leonardus Lessius" label="Leonardus Lessius">
+        <attvalues>
+          <attvalue for="1" value="Economics" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Juan Luis Vives" label="Juan Luis Vives">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="David Fabricius" label="David Fabricius">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Aloysius Lilius" label="Aloysius Lilius">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Erasmus Reinhold" label="Erasmus Reinhold">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Hessel Gerritsz" label="Hessel Gerritsz">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Marco Antonio De Dominis" label="Marco Antonio De Dominis">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Niccolò Cabeo" label="Niccolò Cabeo">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Niccolò Zucchi" label="Niccolò Zucchi">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Mario Bettinus" label="Mario Bettinus">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Giovanni Battista Riccioli" label="Giovanni Battista Riccioli">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Abbé Longuerue" label="Abbé Longuerue">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="du Halde" label="du Halde">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Michelagnolo Galilei" label="Michelagnolo Galilei">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Pietro Aaron" label="Pietro Aaron">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Giovanni Croce" label="Giovanni Croce">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Giovanni Artusi" label="Giovanni Artusi">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Erasmus Sterrenberg" label="Erasmus Sterrenberg">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Casparus Sterrenberg" label="Casparus Sterrenberg">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Landgrave William IV of Hesse" label="Landgrave William IV of Hesse">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Michel Rolle" label="Michel Rolle">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Abraham Scultetus" label="Abraham Scultetus">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Georg Joachim Rheticus" label="Georg Joachim Rheticus">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Samuel Pitiscus" label="Samuel Pitiscus">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Eudoxus of Cnidus" label="Eudoxus of Cnidus">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Menelaus of Alexandria" label="Menelaus of Alexandria">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Pappus of Alexandria" label="Pappus of Alexandria">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Hendrik van Heuraet" label="Hendrik van Heuraet">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="John Wallis" label="John Wallis">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Michelangelo Ricci" label="Michelangelo Ricci">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="John Duport" label="John Duport">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Rosemary O'Day" label="Rosemary O'Day">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="John Kirkby (footballer)" label="John Kirkby (footballer)">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="John Kirkby (MP)" label="John Kirkby (MP)">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="David Derodon" label="David Derodon">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Pierre Bayle" label="Pierre Bayle">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Jean Leclerc" label="Jean Leclerc">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="David Gregory (mathematician)" label="David Gregory (mathematician)">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="David Gregory (physician)" label="David Gregory (physician)">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Brook Taylor" label="Brook Taylor">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Père Béraud" label="Père Béraud">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Charles Étienne Louis Camus" label="Charles Étienne Louis Camus">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Jean-Charles de Borda" label="Jean-Charles de Borda">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Charles-Augustin de Coulomb" label="Charles-Augustin de Coulomb">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Joseph-Nicolas Delisle" label="Joseph-Nicolas Delisle">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Jean Baptiste Joseph Delambre" label="Jean Baptiste Joseph Delambre">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Giuseppe Piazzi" label="Giuseppe Piazzi">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Pierre Méchain" label="Pierre Méchain">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Michel Lefrançois de Lalande" label="Michel Lefrançois de Lalande">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Joseph Lepaute Dagelet" label="Joseph Lepaute Dagelet">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Bernard le Bovier de Fontenelle" label="Bernard le Bovier de Fontenelle">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Jean Bouguer" label="Jean Bouguer">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Antoine de Jussieu" label="Antoine de Jussieu">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Bernard de Jussieu" label="Bernard de Jussieu">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Ferdinando Galiani" label="Ferdinando Galiani">
+        <attvalues>
+          <attvalue for="1" value="Economics" />
+        </attvalues>
+      </node>
+      <node id="Louis Philippe of France" label="Louis Philippe of France">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Pierre Bourdieu" label="Pierre Bourdieu">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Michel Foucault" label="Michel Foucault">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Friedrich Albrecht Carl Gren" label="Friedrich Albrecht Carl Gren">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="John J. O'Connor" label="John J. O'Connor">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Edmund F. Robertson" label="Edmund F. Robertson">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="Abraham Gotthelf Kästner" label="Abraham Gotthelf Kästner">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Georg Christoph Lichtenberg" label="Georg Christoph Lichtenberg">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Charles François Sturm" label="Charles François Sturm">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Hortensia Racoviță" label="Hortensia Racoviță">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Gheorghe Călugăreanu" label="Gheorghe Călugăreanu">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="Sanford S. Miller" label="Sanford S. Miller">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="St. Thomas Aquinas" label="St. Thomas Aquinas">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Viktor Frankl" label="Viktor Frankl">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Hans Urs von Balthasar" label="Hans Urs von Balthasar">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Edith Stein" label="Edith Stein">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Louis Agassiz" label="Louis Agassiz">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Karl Marx" label="Karl Marx">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Nachman Syrkin" label="Nachman Syrkin">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="Georgi Plekhanov" label="Georgi Plekhanov">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Alexander Bain" label="Alexander Bain">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="John Hughlings Jackson" label="John Hughlings Jackson">
+        <attvalues>
+          <attvalue for="1" value="Medicine" />
+        </attvalues>
+      </node>
+      <node id="Max Born" label="Max Born">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Robert Schlapp" label="Robert Schlapp">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Ivor Etherington" label="Ivor Etherington">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="James Pickering Kendall" label="James Pickering Kendall">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="Joel Lebowitz" label="Joel Lebowitz">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Pantur Silaban" label="Pantur Silaban">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="John Boardman" label="John Boardman">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Ezra T. Newman" label="Ezra T. Newman">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Rainer K. Sachs" label="Rainer K. Sachs">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="George B. Field" label="George B. Field">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="John N. Bahcall" label="John N. Bahcall">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Barry F. Madore" label="Barry F. Madore">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Margaret Burbidge" label="Margaret Burbidge">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Maximilien Toepler" label="Maximilien Toepler">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Cowboy Copas" label="Cowboy Copas">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Alexander Fersman" label="Alexander Fersman">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Alexei Vasilievich Shubnikov" label="Alexei Vasilievich Shubnikov">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Homer Smith" label="Homer Smith">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Georg Meissner" label="Georg Meissner">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Bernhard von Gudden" label="Bernhard von Gudden">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="Hubert von Grashey" label="Hubert von Grashey">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Franz von Rinecker" label="Franz von Rinecker">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="John James Waterston" label="John James Waterston">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="John Bardeen" label="John Bardeen">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="John Robert Schrieffer" label="John Robert Schrieffer">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Wilhelm Röntgen" label="Wilhelm Röntgen">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="August Kundt" label="August Kundt">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Ernest Rutherford" label="Ernest Rutherford">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="William Thomson" label="William Thomson">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Percy Newberry" label="Percy Newberry">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Howard Carter" label="Howard Carter">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Arthur Weigall" label="Arthur Weigall">
+        <attvalues>
+          <attvalue for="1" value="Chemistry" />
+        </attvalues>
+      </node>
+      <node id="Alan Gardiner" label="Alan Gardiner">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Valentin Naboth" label="Valentin Naboth">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Petrus Ramus" label="Petrus Ramus">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Hugo Grotius" label="Hugo Grotius">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Willebrord Snellius" label="Willebrord Snellius">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Émile Lemoine" label="Émile Lemoine">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Joseph Jean Baptiste Neuberg" label="Joseph Jean Baptiste Neuberg">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Francisco Suarez" label="Francisco Suarez">
+        <attvalues>
+          <attvalue for="1" value="Philosophy" />
+        </attvalues>
+      </node>
+      <node id="Juan de Lugo" label="Juan de Lugo">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Georg Purbach" label="Georg Purbach">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Owen Gingerich" label="Owen Gingerich">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Petrus Plancius" label="Petrus Plancius">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="François Thijssen" label="François Thijssen">
+        <attvalues>
+          <attvalue for="1" value="Biology" />
+        </attvalues>
+      </node>
+      <node id="Georg Marcgrave" label="Georg Marcgrave">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Benedetto Castelli" label="Benedetto Castelli">
+        <attvalues>
+          <attvalue for="1" value="Mathematics" />
+        </attvalues>
+      </node>
+      <node id="Accademia del Cimento" label="Accademia del Cimento">
+        <attvalues>
+          <attvalue for="1" value="Physics" />
+        </attvalues>
+      </node>
+      <node id="Paul Guldin" label="Paul Guldin">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Guarino Guarini" label="Guarino Guarini">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Christoph Grienberger" label="Christoph Grienberger">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Raimondo Montecuccoli" label="Raimondo Montecuccoli">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Charles Le Gobien" label="Charles Le Gobien">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Jesuit China missions" label="Jesuit China missions">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="François Noël (missionary)" label="François Noël (missionary)">
+        <attvalues>
+          <attvalue for="1" value="Other" />
+        </attvalues>
+      </node>
+      <node id="Jean Baptiste Bourguignon d'Anville" label="Jean Baptiste Bourguignon d'Anville">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Ibn al-Nadim" label="Ibn al-Nadim">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+      <node id="Francesco Maurolico" label="Francesco Maurolico">
+        <attvalues>
+          <attvalue for="1" value="Astronomy" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Albert Einstein" target="Satyendra Nath Bose" id="0">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert Einstein" target="Max Planck" id="1">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert Einstein" target="Walther Nernst" id="2">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert Einstein" target="Fritz Reiche" id="252">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert Einstein" target="Kurt Mendelssohn" id="253">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert Einstein" target="Reinhold Furth" id="459">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert Einstein" target="Peter Bergmann" id="460">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Albert Einstein" id="4">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Alexis Clairaut" id="5">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Charles Marie de La Condamine" id="6">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Gottfried Wilhelm Leibniz" id="7">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Johann Bernoulli" id="8">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="John Keill" id="9">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="A. Rupert Hall" id="10">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Immanuel Kant" id="11">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Ernst Mach" id="12">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Max Planck" id="13">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Nicolas Fatio de Duillier" id="14">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Johannes Hudde" id="254">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Colin Maclaurin" id="461">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Newton" target="Alexis Claude Clairaut" id="462">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Albert Einstein" id="15">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Johann Gottfried Herder" id="16">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Christian Garve" id="17">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Johann Georg Heinrich Feder" id="18">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Johann Georg Hamann" id="19">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Johann Friedrich Schultz" id="20">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Karl Leonhard Reinhold" id="21">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Jakob Sigismund Beck" id="22">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Johann Gottlieb Fichte" id="23">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Gottlob Benjamin Jäsche" id="24">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Charles Sanders Peirce" id="25">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Christian Jakob Kraus" id="463">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Immanuel Kant" target="Johann Schultz" id="464">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Henri Poincaré" target="Albert Einstein" id="26">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Henri Poincaré" target="Grigori Perelman" id="27">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Henri Poincaré" target="Louis Bachelier" id="28">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Henri Poincaré" target="Dimitrie Pompeiu" id="29">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Henri Poincaré" target="Henri Becquerel" id="30">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Henri Poincaré" target="Hermann Minkowski" id="31">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Henri Poincaré" target="Karl Popper" id="32">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Henri Poincaré" target="Paul Painlevé" id="33">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Albert Einstein" id="34">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Ludwig Boltzmann" id="35">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Alexander Bogdanov" id="36">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Vladimir Lenin" id="37">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Philipp Frank" id="38">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Ernst von Glasersfeld" id="39">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Friedrich Hayek" id="40">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Vienna Circle" id="41">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Joseph Petzoldt" id="42">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="B. F. Skinner" id="43">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Josef Breuer" id="44">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Peter Salcher" id="45">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernst Mach" target="Nikolai Valentinov" id="465">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Hume" target="Albert Einstein" id="48">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Hume" target="Immanuel Kant" id="49">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Hume" target="Ernst Mach" id="50">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Hume" target="Adam Smith" id="51">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Hume" target="François-Nicolas-Vincent Campenon" id="466">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="Meghnad Saha" id="52">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="Paul Dirac" id="53">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="Albert Einstein" id="54">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="Lev Landau" id="55">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="Niels Bohr" id="56">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="Werner Heisenberg" id="57">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="Erwin Schrödinger" id="58">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="Abraham Pais" id="59">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="Jayant Narlikar" id="60">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="K. Banerjee" id="61">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="D.S. Kothari" id="62">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="S.N. Bagchi" id="63">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="A.K. Dutta" id="64">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Satyendra Nath Bose" target="Partha Ghose" id="3" />
+      <edge source="Max Planck" target="Max Abraham" id="65">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Max von Laue" id="66">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Moritz Schlick" id="67">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Walther Meissner" id="68">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Fritz Reiche" id="69">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Walter Schottky" id="70">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Walther Bothe" id="71">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Albert Einstein" id="72">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Erwin Schrödinger" id="73">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Niels Bohr" id="74">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Werner Heisenberg" id="75">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Wolfgang Pauli" id="76">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Louis de Broglie" id="77">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Kurt Mendelssohn" id="255">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Planck" target="Francis Simon" id="85">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Walther Nernst" target="Albert Einstein" id="78">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Walther Nernst" target="Max Planck" id="79">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Walther Nernst" target="Fritz Haber" id="80">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Walther Nernst" target="Theodore Richards" id="81">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Walther Nernst" target="Kurt Mendelssohn" id="82">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Walther Nernst" target="Francis Simon" id="86">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Isaac Newton" id="93">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Blaise Pascal" id="94">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="John Locke" id="95">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Princess Elisabeth of Bohemia" id="96">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Girard Desargues" id="97">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Frans van Schooten" id="98">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Constantijn Huygens" id="99">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Dirck Rembrantsz van Nierop" id="100">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Anthony Studler van Zurck" id="101">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Pierre Varignon" id="256">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Johannes Hudde" id="257">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René Descartes" target="Jean-Robert Chouet" id="258">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Galileo Galilei" target="Isaac Newton" id="102">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Galileo Galilei" target="Christiaan Huygens" id="103">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Galileo Galilei" target="Simon Marius" id="104">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Galileo Galilei" target="Johannes Kepler" id="105">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Galileo Galilei" target="Christopher Clavius" id="106">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Galileo Galilei" target="Mario Guiducci" id="107">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Galileo Galilei" target="Niccolò Cabeo" id="185">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Thomas Street" target="Isaac Newton" id="108">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Bernhardus Varenius" target="Isaac Newton" id="109">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Bernhardus Varenius" target="Jean Baptiste Bourguignon d' Anville" id="110">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Bernhardus Varenius" target="Alexander von Humboldt" id="111">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Simon Stevin" target="Isaac Newton" id="112">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Simon Stevin" target="René Descartes" id="113">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Simon Stevin" target="Maurice, Prince of Orange" id="114">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Simon Stevin" target="Pierre Varignon" id="116">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Simon Stevin" target="Bartholomaeus Pitiscus" id="117">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Simon Stevin" target="John Napier" id="118">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Simon Stevin" target="Isaac Beeckman" id="259">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert Girard" target="Isaac Newton" id="119">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert Girard" target="Joseph Louis Lagrange" id="120">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert Girard" target="Augustin-Louis Cauchy" id="121">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Barrow" target="Isaac Newton" id="122">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Barrow" target="Edmund Stone" id="123">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Barrow" target="James M. Child" id="124">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Barrow" target="John Kirkby" id="125">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Nicolas Fatio de Duillier" target="Isaac Newton" id="126">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Nicolas Fatio de Duillier" target="Johann Bernoulli" id="128">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Nicolas Fatio de Duillier" target="Jacob Bernoulli" id="129">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Nicolas Fatio de Duillier" target="David Gregory" id="130">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Nicolas Fatio de Duillier" target="Edmond Halley" id="131">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Nicolas Fatio de Duillier" target="Georges-Louis Le Sage" id="132">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexis Clairaut" target="Charles Bossut" id="133">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexis Clairaut" target="Jean le Rond d'Alembert" id="134">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexis Clairaut" target="Leonhard Euler" id="135">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexis Clairaut" target="Joseph Jérôme Lefrançois de Lalande" id="136">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexis Clairaut" target="Nicole-Reine Lepaute" id="137">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexis Clairaut" target="Sir George Stokes, 1st Baronet" id="138">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexis Clairaut" target="Pierre Charles Le Monnier" id="467">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Marie de La Condamine" target="Georges-Louis Leclerc, Comte de Buffon" id="139">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Marie de La Condamine" target="François-Nicolas-Vincent Campenon" id="140">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Marie de La Condamine" target="Alfred Mézières" id="141">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Marie de La Condamine" target="René Boylesve" id="142">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Marie de La Condamine" target="Marc Girardin" id="143">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Marie de La Condamine" target="Henri Gouhier" id="144">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Marie de La Condamine" target="Étienne Gilson" id="145">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Marie de La Condamine" target="Joseph de Jussieu" id="468">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gottfried Wilhelm Leibniz" target="Alexis Clairaut" id="146">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gottfried Wilhelm Leibniz" target="Johannes Hudde" id="260">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gottfried Wilhelm Leibniz" target="Ehrenfried Walther von Tschirnhaus" id="469">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gottfried Wilhelm Leibniz" target="Immanuel Kant" id="46" />
+      <edge source="Johann Bernoulli" target="Johannes Hudde" id="261">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John Keill" target="John Theophilus Desaguliers" id="250">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christian Wolff" target="Immanuel Kant" id="148">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christian Wolff" target="Alexander Gottlieb Baumgarten" id="470">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Martin Knutzen" target="Immanuel Kant" id="149">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Emanuel Swedenborg" target="Immanuel Kant" id="150">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Moses Mendelssohn" target="Immanuel Kant" id="151">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gotthold Ephraim Lessing" target="Immanuel Kant" id="152">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Georg Friedrich Meier" target="Immanuel Kant" id="153">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christian Garve" target="Edmund Burke" id="263">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christian Garve" target="Adam Ferguson" id="264">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johann Georg Heinrich Feder" target="Christian Garve" id="265">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johann Georg Heinrich Feder" target="Immanuel Kant" id="266">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johann Friedrich Schultz" target="Johann Gottlieb Fichte" id="267">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johann Friedrich Schultz" target="Wenceslaus Johann Gustav Karsten" id="268">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johann Friedrich Schultz" target="Georg Simon Klügel" id="269">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johann Friedrich Schultz" target="Johann Heinrich Lambert" id="270">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Hermite" target="Henri Poincaré" id="154">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hendrik Lorentz" target="Henri Poincaré" id="155">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gösta Mittag-Leffler" target="Henri Poincaré" id="156">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Karl Weierstrass" target="Henri Poincaré" id="157">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Karl Weierstrass" target="Max Planck" id="158">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Bernhard Riemann" target="Henri Poincaré" id="159">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Étienne Geoffroy Saint-Hilaire" target="Henri Poincaré" id="160">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Dimitrie Pompeiu" target="Petre P. Negulescu" id="271">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Dimitrie Pompeiu" target="Petru Mocanu" id="272">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Dimitrie Pompeiu" target="Bîrsan, Temistocle" id="273">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Dimitrie Pompeiu" target="Tiba, Dan" id="274">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Andreas von Ettingshausen" target="Ernst Mach" id="161">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Andreas von Ettingshausen" target="Gregor Mendel" id="275">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Andreas von Ettingshausen" target="Rudolf Allers" id="276">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="George Berkeley" target="Ernst Mach" id="162">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="George Berkeley" target="David Hume" id="163">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="George Berkeley" target="Ernst von Glasersfeld" id="47" />
+      <edge source="Richard Avenarius" target="Ernst Mach" id="164">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Richard Avenarius" target="Ber Borochov" id="277">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Richard Avenarius" target="Nikolai Valentinov" id="278">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Richard Avenarius" target="Anatoly Lunacharsky" id="279">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Richard Avenarius" target="Joseph Petzoldt" id="280">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Friedrich Goltz" target="Ernst Mach" id="165">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Friedrich Goltz" target="David Ferrier" id="281">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ludwig Boltzmann" target="Max Planck" id="166">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ludwig Boltzmann" target="Walther Nernst" id="167">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ludwig Boltzmann" target="Philipp Frank" id="283">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ludwig Boltzmann" target="Albert von Ettingshausen" id="284">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexander Bogdanov" target="Nikolai Valentinov" id="471">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Vladimir Lenin" target="Nikolai Valentinov" id="472">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Philipp Frank" target="Reinhold Furth" id="285">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Philipp Frank" target="Peter Bergmann" id="286">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Philipp Frank" target="Halton Arp" id="287">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Petzoldt" target="Albert Einstein" id="288">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Petzoldt" target="David Hilbert" id="289">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Petzoldt" target="Sigmund Freud" id="290">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Petzoldt" target="Felix Klein" id="291">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Peter Salcher" target="Georg von Trapp" id="292">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John Locke" target="David Hume" id="168">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Francis Bacon" target="David Hume" id="169">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Thomas Hobbes" target="David Hume" id="170">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Francis Hutcheson" target="David Hume" id="171">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Francis Hutcheson" target="Frank Hutchison" id="293">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jagadish Chandra Bose" target="Satyendra Nath Bose" id="172">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Prafulla Chandra Ray" target="Satyendra Nath Bose" id="174">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Naman Sharma" target="Satyendra Nath Bose" id="176">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Sarada Prasanna Das" target="Satyendra Nath Bose" id="178">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ashutosh Mukherjee" target="Satyendra Nath Bose" id="179">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="James Clerk Maxwell" target="Satyendra Nath Bose" id="180">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Louis de Broglie" target="Satyendra Nath Bose" id="181">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Marie Curie" target="Satyendra Nath Bose" id="183">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Meghnad Saha" target="Partha Ghose" id="294">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Erwin Schrödinger" target="Kurt Mendelssohn" id="295">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="K. Banerjee" target="Homi J. Bhabha" id="296">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hermann Müller" target="Max Planck" id="186">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hermann Müller" target="Hermann Joseph Muller" id="297">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hermann Müller" target="Paul Hermann Müller" id="298">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Philipp von Jolly" target="Max Planck" id="187">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Philipp von Jolly" target="Friedrich Jolly" id="299">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hermann von Helmholtz" target="Max Planck" id="188">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hermann von Helmholtz" target="Heinrich Rubens" id="473">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gustav Kirchhoff" target="Max Planck" id="189">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolf Clausius" target="Max Planck" id="190">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolf Clausius" target="Walther Nernst" id="300">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolf Clausius" target="Leon Cooper" id="301">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Josiah Willard Gibbs" target="Max Planck" id="191">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Wilhelm Wien" target="Max Planck" id="192">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Heinrich Hertz" target="Max Planck" id="193">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christiaan Huygens" target="Max Planck" id="194">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christiaan Huygens" target="Galileo Galilei" id="195">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christiaan Huygens" target="Nicolas Fatio de Duillier" id="196">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christiaan Huygens" target="Johannes Hudde" id="302">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christiaan Huygens" target="René de Sluze" id="303">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christiaan Huygens" target="Ehrenfried Walther von Tschirnhaus" id="474">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christiaan Huygens" target="Hendrik van Heuraet" id="262">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Walther Meissner" target="Robert Ochsenfeld" id="304">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Fritz Reiche" target="Rudolf Ladenburg" id="306">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Walter Schottky" target="Erwin Gerlach" id="307">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert von Ettingshausen" target="Walther Nernst" id="197">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Albert von Ettingshausen" target="Nikola Tesla" id="308">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Friedrich Kohlrausch" target="Walther Nernst" id="198">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Wilhelm Ostwald" target="Walther Nernst" id="199">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jacobus Henricus van 't Hoff" target="Walther Nernst" id="200">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Svante Arrhenius" target="Walther Nernst" id="201">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Kurt Mendelssohn" target="Francis Simon" id="311">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Kurt Mendelssohn" target="Robert Mond" id="312">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Partha Ghose" target="Y. Mizobuchi" id="314">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Partha Ghose" target="M. Genovese" id="316">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Beeckman" target="René Descartes" id="202">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Beeckman" target="Johan de Witt" id="317">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Isaac Beeckman" target="Pierre Gassendi" id="318">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre de Fermat" target="René Descartes" id="203">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre de Fermat" target="Isaac Barrow" id="204">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre de Fermat" target="Frans van Schooten" id="319">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Adriaan Metius" target="René Descartes" id="205">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Adriaan Metius" target="Jacob Metius" id="320">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jacobus Golius" target="René Descartes" id="206">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Martin Hortensius" target="René Descartes" id="207">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Blaise Pascal" target="René de Sluze" id="321">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Girard Desargues" target="Henri Brocard" id="322">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Frans van Schooten" target="Isaac Newton" id="325">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Frans van Schooten" target="Christiaan Huygens" id="326">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Frans van Schooten" target="Dirck Rembrantsz van Nierop" id="327">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Frans van Schooten" target="Johannes Hudde" id="328">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Frans van Schooten" target="Hendrik van Heuraet" id="282">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Constantijn Huygens" target="Dirck Rembrantsz van Nierop" id="329">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Dirck Rembrantsz van Nierop" target="Jan Albertsz van Dam" id="330">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Dirck Rembrantsz van Nierop" target="Cornelis Pietersz Neuvel" id="332">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Girolamo Borro" target="Galileo Galilei" id="208">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Domingo de Soto" target="Galileo Galilei" id="209">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Domingo de Soto" target="Isaac Newton" id="333">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Domingo de Soto" target="Leonardus Lessius" id="334">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Domingo de Soto" target="Juan Luis Vives" id="336">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Francesco Buonamici" target="Galileo Galilei" id="210">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jacopo Borghini" target="Galileo Galilei" id="211">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Tycho Brahe" target="Galileo Galilei" id="212">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Tycho Brahe" target="Adriaan Metius" id="339">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Tycho Brahe" target="Simon Marius" id="340">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Tycho Brahe" target="Willem Blaeu" id="341">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johannes Kepler" target="Galileo Galilei" id="213">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johannes Kepler" target="Girard Desargues" id="342">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johannes Kepler" target="David Fabricius" id="305">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johannes Kepler" target="Niccolò Zucchi" id="309">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hans Lippershey" target="Galileo Galilei" id="214">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hans Lippershey" target="Thomas Harriot" id="344">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Thomas Harriot" target="Galileo Galilei" id="215">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="William Gilbert" target="Galileo Galilei" id="216">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="William Gilbert" target="Niccolò Cabeo" id="310">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Francesco Sizzi" target="Galileo Galilei" id="217">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johannes Fabricius" target="Galileo Galilei" id="218">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Simon Marius" target="Galileo Galilei" id="347">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christopher Clavius" target="Galileo Galilei" id="349">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Abel Tasman" target="Bernhardus Varenius" id="219">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Willem Schouten" target="Bernhardus Varenius" id="220">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Willem Schouten" target="Abel Tasman" id="350">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Willem Blaeu" target="Bernhardus Varenius" id="221">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Willem Blaeu" target="Hessel Gerritsz" id="352">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Giuseppe Biancani" target="Bernhardus Varenius" id="222">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Giuseppe Biancani" target="Niccolò Cabeo" id="353">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Giuseppe Biancani" target="Niccolò Zucchi" id="354">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Giuseppe Biancani" target="Mario Bettinus" id="355">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Giuseppe Biancani" target="Giovanni Battista Riccioli" id="356">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Vincenzo Galilei" target="Simon Stevin" id="223">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Vincenzo Galilei" target="Galileo Galilei" id="359">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Vincenzo Galilei" target="Michelagnolo Galilei" id="360">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gioseffo Zarlino" target="Simon Stevin" id="224">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gioseffo Zarlino" target="Vincenzo Galilei" id="361">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gioseffo Zarlino" target="Giovanni Croce" id="364">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gioseffo Zarlino" target="Giovanni Artusi" id="365">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Luca Pacioli" target="Simon Stevin" id="225">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gerolamo Cardano" target="Simon Stevin" id="226">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre Varignon" target="Michel Rolle" id="370">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Bartholomaeus Pitiscus" target="Samuel Pitiscus" id="371">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="François Viète" target="Albert Girard" id="227">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="François Viète" target="Frans van Schooten" id="372">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Augustin-Louis Cauchy" target="Charles Hermite" id="373">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Augustin-Louis Cauchy" target="Joseph Liouville" id="475">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Apollonius of Perga" target="Isaac Barrow" id="228">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Theodosius of Bithynia" target="Isaac Barrow" id="229">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Theodosius of Bithynia" target="Menelaus of Alexandria" id="374">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Theodosius of Bithynia" target="Pappus of Alexandria" id="375">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johannes Hudde" target="Isaac Barrow" id="230">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johannes Hudde" target="Hendrik van Heuraet" id="313">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="René de Sluze" target="Isaac Barrow" id="231">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Martin Holbeach" target="Isaac Barrow" id="232">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="James Duport" target="Isaac Barrow" id="233">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="James Duport" target="Rosemary O'Day" id="379">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John Kirkby" target="John Kirkby (footballer)" id="380">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John Kirkby" target="John Kirkby (MP)" id="381">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Giovanni Domenico Cassini" target="Nicolas Fatio de Duillier" id="234">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jean-Robert Chouet" target="Nicolas Fatio de Duillier" id="235">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jean-Robert Chouet" target="Pierre Bayle" id="382">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jean-Robert Chouet" target="Jean Leclerc" id="383">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Edme Mariotte" target="Nicolas Fatio de Duillier" id="236">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Edme Mariotte" target="John Theophilus Desaguliers" id="384">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ehrenfried Walther von Tschirnhaus" target="Nicolas Fatio de Duillier" id="237">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Robert Boyle" target="Nicolas Fatio de Duillier" id="238">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Robert Boyle" target="Edme Mariotte" id="385">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="George Starkey" target="Nicolas Fatio de Duillier" id="239">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Gregory" target="John Keill" id="251">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Colin Maclaurin" target="Alexis Clairaut" id="240">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jean-Baptiste Clairaut" target="Alexis Clairaut" id="241">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre Louis Maupertuis" target="Alexis Clairaut" id="242">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre Louis Maupertuis" target="Charles Marie de La Condamine" id="243">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre Louis Maupertuis" target="Jean Baptiste Bourguignon d' Anville" id="386">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre Louis Maupertuis" target="Pierre Charles Le Monnier" id="476">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Bossut" target="Jean-Charles de Borda" id="477">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Bossut" target="Charles-Augustin de Coulomb" id="478">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jean le Rond d'Alembert" target="Charles Bossut" id="479">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Leonhard Euler" target="Pierre Bouguer" id="480">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Jérôme Lefrançois de Lalande" target="Jean Baptiste Joseph Delambre" id="481">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Jérôme Lefrançois de Lalande" target="Giuseppe Piazzi" id="482">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Jérôme Lefrançois de Lalande" target="Pierre Méchain" id="483">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Jérôme Lefrançois de Lalande" target="Michel Lefrançois de Lalande" id="484">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Jérôme Lefrançois de Lalande" target="Nicole-Reine Lepaute" id="83" />
+      <edge source="Nicole-Reine Lepaute" target="Joseph Lepaute Dagelet" id="486">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexis Claude Clairaut" target="Charles Marie de La Condamine" id="244">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexis Claude Clairaut" target="Pierre Louis Maupertuis" id="487">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre Charles Le Monnier" target="Charles Marie de La Condamine" id="245">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre Charles Le Monnier" target="Joseph Jérôme Lefrançois de Lalande" id="490">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Louis Godin" target="Charles Marie de La Condamine" id="246">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pierre Bouguer" target="Charles Marie de La Condamine" id="247">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph de Jussieu" target="Charles Marie de La Condamine" id="248">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="François Fresneau" target="Charles Marie de La Condamine" id="249">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Marc Girardin" target="Louis Philippe of France" id="492">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Henri Gouhier" target="Pierre Bourdieu" id="494">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Henri Gouhier" target="Michel Foucault" id="495">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexander Gottlieb Baumgarten" target="Georg Friedrich Meier" id="388">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexander Gottlieb Baumgarten" target="Immanuel Kant" id="496">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Wenceslaus Johann Gustav Karsten" target="Friedrich Albrecht Carl Gren" id="498">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Wenceslaus Johann Gustav Karsten" target="John J. O'Connor" id="499">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Wenceslaus Johann Gustav Karsten" target="Edmund F. Robertson" id="500">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Georg Simon Klügel" target="Georg Christoph Lichtenberg" id="501">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christian Jakob Kraus" target="Jakob Sigismund Beck" id="391">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Christian Jakob Kraus" target="Adam Smith" id="502">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johann Schultz" target="Jakob Sigismund Beck" id="392">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johann Schultz" target="Johann Gottlieb Fichte" id="503">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph-Louis Lagrange" target="Charles Hermite" id="393">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Carl Friedrich Gauss" target="Charles Hermite" id="394">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Carl Friedrich Gauss" target="Joseph Bertrand" id="504">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Carl Jacob Jacobi" target="Charles Hermite" id="395">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Bertrand" target="Charles Hermite" id="396">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Liouville" target="Charles Hermite" id="397">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexandru Odobescu" target="Dimitrie Pompeiu" id="398">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexandru Odobescu" target="Hortensia Racoviță" id="506">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Petru Mocanu" target="Sanford S. Miller" id="507">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolf Allers" target="Viktor Frankl" id="508">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolf Allers" target="Hans Urs von Balthasar" id="509">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolf Allers" target="Edith Stein" id="510">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Baruch Spinoza" target="Richard Avenarius" id="399">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Baruch Spinoza" target="Johannes Hudde" id="400">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Baruch Spinoza" target="Ehrenfried Walther von Tschirnhaus" id="84" />
+      <edge source="Carl Vogt" target="Richard Avenarius" id="401">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Carl Vogt" target="Karl Marx" id="511">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Anatoly Lunacharsky" target="Nikolai Valentinov" id="515">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Peter Bergmann" target="Joel Lebowitz" id="516">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Peter Bergmann" target="Pantur Silaban" id="517">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Peter Bergmann" target="John Boardman" id="518">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Peter Bergmann" target="Ezra T. Newman" id="519">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Peter Bergmann" target="Rainer K. Sachs" id="520">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Halton Arp" target="Barry F. Madore" id="521">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Halton Arp" target="Margaret Burbidge" id="522">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Giambattista Vico" target="Ernst von Glasersfeld" id="402">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jean Piaget" target="Ernst von Glasersfeld" id="403">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="James Joyce" target="Ernst von Glasersfeld" id="405">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Sigmund Freud" target="Rudolf Allers" id="523">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="August Toepler" target="Peter Salcher" id="406">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="August Toepler" target="Maximilien Toepler" id="524">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Frank Hutchison" target="Cowboy Copas" id="530">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="William Henry Bragg" target="K. Banerjee" id="408">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="William Lawrence Bragg" target="K. Banerjee" id="409">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Paul Peter Ewald" target="K. Banerjee" id="410">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John Desmond Bernal" target="K. Banerjee" id="411">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Nikolay Vasilyevich Belov" target="K. Banerjee" id="412">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="J. M. Robertson" target="K. Banerjee" id="413">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="J. M. Robertson" target="Homer Smith" id="534">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="K. Lonsdale" target="K. Banerjee" id="414">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Melvin Avrami" target="K. Banerjee" id="415">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Darwin" target="Hermann Müller" id="416">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Sadi Carnot" target="Rudolf Clausius" id="417">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="August Krönig" target="Rudolf Clausius" id="418">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolf Ladenburg" target="Albert Einstein" id="549">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Heinrich Rubens" target="Walter Schottky" id="419">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="C. V. Raman" target="Partha Ghose" id="421">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolph Snellius" target="Isaac Beeckman" id="423">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolph Snellius" target="Adriaan Metius" id="424">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolph Snellius" target="Hugo Grotius" id="88">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Rudolph Snellius" target="Willebrord Snellius" id="89">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Johan de Witt" target="Johannes Hudde" id="425">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Adriaan Anthonisz" target="Adriaan Metius" id="426">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Adriaan Anthonisz" target="Jacob Metius" id="90">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ismail ibn Hammad al-Jawhari" target="Jacobus Golius" id="427">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ibn al-Haytham" target="Girard Desargues" id="428">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Leonardus Lessius" target="Juan de Lugo" id="315">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Fabricius" target="Johannes Fabricius" id="437">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Fabricius" target="Simon Marius" id="438">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Aloysius Lilius" target="Christopher Clavius" id="439">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Erasmus Reinhold" target="Christopher Clavius" id="440">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Erasmus Reinhold" target="Owen Gingerich" id="338">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hessel Gerritsz" target="Abel Tasman" id="343">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hessel Gerritsz" target="François Thijssen" id="345">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hessel Gerritsz" target="Georg Marcgrave" id="346">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Marco Antonio De Dominis" target="Giuseppe Biancani" id="441">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Marco Antonio De Dominis" target="Isaac Newton" id="351">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Niccolò Cabeo" target="Accademia del Cimento" id="357">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Niccolò Cabeo" target="Robert Boyle" id="358">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Mario Bettinus" target="Guarino Guarini" id="362">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Mario Bettinus" target="Christoph Grienberger" id="363">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Mario Bettinus" target="Raimondo Montecuccoli" id="369">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Abbé Longuerue" target="Jean Baptiste Bourguignon d' Anville" id="442">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="du Halde" target="Jean Baptiste Bourguignon d' Anville" id="443">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Pietro Aaron" target="Gioseffo Zarlino" id="448">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Michel Rolle" target="George Berkeley" id="389">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Michel Rolle" target="Pierre Varignon" id="390">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Abraham Scultetus" target="Bartholomaeus Pitiscus" id="449">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Georg Joachim Rheticus" target="Bartholomaeus Pitiscus" id="450">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Eudoxus of Cnidus" target="Theodosius of Bithynia" id="451">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Menelaus of Alexandria" target="Pappus of Alexandria" id="436">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Menelaus of Alexandria" target="Ibn al-Nadim" id="444">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Menelaus of Alexandria" target="Francesco Maurolico" id="445">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hendrik van Heuraet" target="Johannes Hudde" id="452">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John Wallis" target="René de Sluze" id="453">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Michelangelo Ricci" target="René de Sluze" id="454">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John Duport" target="James Duport" id="455">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Derodon" target="Jean-Robert Chouet" id="458">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Gregory (mathematician)" target="David Gregory" id="551">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="David Gregory (physician)" target="David Gregory" id="552">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Brook Taylor" target="Colin Maclaurin" id="554">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Père Béraud" target="Charles Bossut" id="555">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Étienne Louis Camus" target="Charles Bossut" id="556">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph-Nicolas Delisle" target="Joseph Jérôme Lefrançois de Lalande" id="557">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph-Nicolas Delisle" target="Louis Godin" id="558">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Bernard le Bovier de Fontenelle" target="Louis Godin" id="560">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jean Bouguer" target="Pierre Bouguer" id="561">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Antoine de Jussieu" target="Joseph de Jussieu" id="562">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Bernard de Jussieu" target="Joseph de Jussieu" id="563">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ferdinando Galiani" target="François-Nicolas-Vincent Campenon" id="564">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Abraham Gotthelf Kästner" target="Georg Simon Klügel" id="567">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles François Sturm" target="Joseph Liouville" id="568">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Gheorghe Călugăreanu" target="Petru Mocanu" id="569">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="St. Thomas Aquinas" target="Rudolf Allers" id="570">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Louis Agassiz" target="Carl Vogt" id="571">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Karl Marx" target="Nikolai Valentinov" id="572">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Nachman Syrkin" target="Ber Borochov" id="574">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Georgi Plekhanov" target="Nikolai Valentinov" id="575">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexander Bain" target="David Ferrier" id="576">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John Hughlings Jackson" target="David Ferrier" id="577">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Max Born" target="Reinhold Furth" id="578">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Robert Schlapp" target="Reinhold Furth" id="579">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ivor Etherington" target="Reinhold Furth" id="580">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="James Pickering Kendall" target="Reinhold Furth" id="581">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="George B. Field" target="Halton Arp" id="582">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John N. Bahcall" target="Halton Arp" id="583">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexander Fersman" target="Nikolay Vasilyevich Belov" id="584">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alexei Vasilievich Shubnikov" target="Nikolay Vasilyevich Belov" id="585">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Georg Meissner" target="Friedrich Jolly" id="589">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Bernhard von Gudden" target="Friedrich Jolly" id="590">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Hubert von Grashey" target="Friedrich Jolly" id="591">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Franz von Rinecker" target="Friedrich Jolly" id="592">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John James Waterston" target="August Krönig" id="594">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John Bardeen" target="Leon Cooper" id="595">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="John Robert Schrieffer" target="Leon Cooper" id="596">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Wilhelm Röntgen" target="Rudolf Ladenburg" id="599">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="August Kundt" target="Heinrich Rubens" id="600">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Ernest Rutherford" target="Francis Simon" id="91">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="William Thomson" target="Robert Mond" id="92">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Percy Newberry" target="Robert Mond" id="127">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Howard Carter" target="Robert Mond" id="147">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Arthur Weigall" target="Robert Mond" id="173">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Gardiner" target="Robert Mond" id="175">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Valentin Naboth" target="Rudolph Snellius" id="177">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Petrus Ramus" target="Rudolph Snellius" id="184">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Willebrord Snellius" target="Erasmus Sterrenberg" id="87" />
+      <edge source="Willebrord Snellius" target="Casparus Sterrenberg" id="115" />
+      <edge source="Willebrord Snellius" target="Landgrave William IV of Hesse" id="182" />
+      <edge source="Émile Lemoine" target="Henri Brocard" id="446">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Joseph Jean Baptiste Neuberg" target="Henri Brocard" id="447">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Francisco Suarez" target="Leonardus Lessius" id="457">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Georg Purbach" target="Erasmus Reinhold" id="489">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Petrus Plancius" target="Hessel Gerritsz" id="491">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Benedetto Castelli" target="Niccolò Cabeo" id="493">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Paul Guldin" target="Niccolò Zucchi" id="497">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Le Gobien" target="du Halde" id="505">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jesuit China missions" target="du Halde" id="512">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="François Noël (missionary)" target="du Halde" id="513">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+      <edge source="Jean Baptiste Bourguignon d'Anville" target="du Halde" id="514">
+        <attvalues>
+          <attvalue for="2" value="inspired" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

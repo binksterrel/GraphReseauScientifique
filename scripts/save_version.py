@@ -6,7 +6,10 @@ Usage: python3 save_version.py [nom_optionnel]
 
 import os
 import shutil
-from datetime import datetime
+import sys
+import datetime
+# Ajouter le dossier parent au path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import sys
 
 def main():
