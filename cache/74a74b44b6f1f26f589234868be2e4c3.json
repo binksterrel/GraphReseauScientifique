@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Hermann Schubert",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "602ae7b2559fa6f2cdfe46b2bb180475",
+  "text_length": 1859,
+  "result": {
+    "inspired_by": [
+      "Carl Gustav Jacobi",
+      "Bernhard Riemann",
+      "Karl Weierstrass"
+    ],
+    "inspired": [
+      "Adolf Hurwitz"
+    ]
+  },
+  "timestamp": "2025-12-25T13:54:42.684286"
+}

@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Boris Sidis",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "62b58dd23b28aa0c7c9c4c347a25197a",
+  "text_length": 4801,
+  "result": {
+    "inspired_by": [
+      "William James"
+    ],
+    "inspired": [
+      "William James Sidis",
+      "Bessie Sidis"
+    ]
+  },
+  "timestamp": "2025-12-25T18:12:58.979801"
+}

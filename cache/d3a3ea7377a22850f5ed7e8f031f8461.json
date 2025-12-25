@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Carl Ludwig Siegel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "abcf16a276d1e1a4cf0386e420912793",
+  "text_length": 8981,
+  "result": {
+    "inspired_by": [
+      "Max Planck",
+      "Ferdinand Georg Frobenius",
+      "Edmund Landau"
+    ],
+    "inspired": [
+      "Jürgen Moser",
+      "Kurt Mahler",
+      "Hel Braun"
+    ]
+  },
+  "timestamp": "2025-12-25T17:42:28.980723"
+}

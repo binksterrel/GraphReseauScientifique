@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Hugh Ashton",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "eaa012e4a99763f19bdd2888244ce9b8",
+  "text_length": 3508,
+  "result": {
+    "inspired_by": [
+      "Lady Margaret Beaufort",
+      "Unknown"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:08:28.924876"
+}

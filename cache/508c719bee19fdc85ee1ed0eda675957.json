@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Karl Mollweide",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "526d644ff56ada224a43bb246132d372",
+  "text_length": 738,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:31:08.931083"
+}

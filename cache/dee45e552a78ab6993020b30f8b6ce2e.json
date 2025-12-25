@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Conrad Gessner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c1f8850be5d1542db5bce63ba5f087f8",
+  "text_length": 17560,
+  "result": {
+    "inspired_by": [
+      "Great uncle",
+      "Teachers in Zurich",
+      "University teachers in France (University of Bourges and University of Paris)",
+      "Teachers in Strasbourg, the Strasbourg Academy"
+    ],
+    "inspired": [
+      "Students (not specified in the text)"
+    ]
+  },
+  "timestamp": "2025-12-25T18:56:59.803279"
+}

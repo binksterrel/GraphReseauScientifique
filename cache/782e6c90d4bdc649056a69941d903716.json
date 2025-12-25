@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Wilhelm August Lay",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a6776cec09a38d77723b131baf666fd5",
+  "text_length": 5459,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:49:28.234720"
+}

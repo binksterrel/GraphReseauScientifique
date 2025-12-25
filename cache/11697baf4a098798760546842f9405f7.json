@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Otto Frisch",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c03190e0be575b5fe81cb4eb6feda5f6",
+  "text_length": 8432,
+  "result": {
+    "inspired_by": [
+      "Otto Stern",
+      "Immanuel Estermann",
+      "Lise Meitner",
+      "Niels Bohr",
+      "Patrick Maynard Stuart Blackett"
+    ],
+    "inspired": [
+      "Rudolf Peierls",
+      "George Placzek"
+    ]
+  },
+  "timestamp": "2025-12-25T16:52:49.478789"
+}

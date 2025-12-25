@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Birendranath Sasmal",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "849760c347737a6626e1ce762538b827",
+  "text_length": 16186,
+  "result": {
+    "inspired_by": [
+      "Tarak Gopal Ghosh",
+      "Sashibhushan Chakraborty",
+      "Surendranath Banerjee"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:42:52.705931"
+}

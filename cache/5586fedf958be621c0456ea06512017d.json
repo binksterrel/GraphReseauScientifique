@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Hermann Lotze",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8a7fcc05913781b4d43595eeab47b7b2",
+  "text_length": 17499,
+  "result": {
+    "inspired_by": [
+      "E. H. Weber",
+      "Alfred Wilhelm Volkmann",
+      "Gustav Fechner",
+      "Christian Hermann Weisse",
+      "Johann Gottlieb Fichte",
+      "Friedrich Wilhelm Joseph Schelling",
+      "Georg Wilhelm Friedrich Hegel"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:52:02.137904"
+}

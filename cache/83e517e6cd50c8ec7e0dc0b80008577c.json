@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Margaret Mead",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e8492015ad77d5ebd7909e8e7461ed9f",
+  "text_length": 26875,
+  "result": {
+    "inspired_by": [
+      "Franz Boas",
+      "Ruth Benedict"
+    ],
+    "inspired": [
+      "Anthropologist Paul Shankman",
+      "Gregory Bateson",
+      "Rhoda Métraux"
+    ]
+  },
+  "timestamp": "2025-12-25T16:13:17.463374"
+}

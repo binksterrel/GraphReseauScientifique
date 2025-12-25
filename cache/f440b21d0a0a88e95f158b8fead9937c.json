@@ -1,0 +1,15 @@
+{
+  "scientist_name": "George Birkhoff",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "148e9d93c534209e64a95373d01b58fe",
+  "text_length": 10795,
+  "result": {
+    "inspired_by": [
+      "Henri Poincaré"
+    ],
+    "inspired": [
+      "Garrett Birkhoff"
+    ]
+  },
+  "timestamp": "2025-12-25T19:20:14.360035"
+}

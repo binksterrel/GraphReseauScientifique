@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Charles Thomson Rees Wilson",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "dab9f360076920e98eca646cce02ecf4",
+  "text_length": 5776,
+  "result": {
+    "inspired_by": [
+      "John Aitken",
+      "J. J. Thomson"
+    ],
+    "inspired": [
+      "Students and researchers who were influenced by Wilson's work, but specific names are not provided in the text."
+    ]
+  },
+  "timestamp": "2025-12-25T15:28:23.355218"
+}

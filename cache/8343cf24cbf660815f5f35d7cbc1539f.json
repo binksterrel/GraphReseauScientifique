@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Henri Depelchin, S.J.",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5808380ba7f0453140a5823a5a0eeec1",
+  "text_length": 11033,
+  "result": {
+    "inspired_by": [
+      "Peter Jan Beckx",
+      "Leo Meurin, S.J."
+    ],
+    "inspired": [
+      "Eugène Lafont, S.J.",
+      "Jean Devos, S.J.",
+      "Alfred Neut"
+    ]
+  },
+  "timestamp": "2025-12-25T14:36:10.477452"
+}

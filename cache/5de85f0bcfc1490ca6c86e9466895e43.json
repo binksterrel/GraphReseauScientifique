@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Carl Ludwig Willdenow",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "738dfac42d2a3666780fb68f004c3298",
+  "text_length": 3768,
+  "result": {
+    "inspired_by": [
+      "J. G. Gleditsch"
+    ],
+    "inspired": [
+      "Alexander von Humboldt",
+      "Christian Konrad Sprengel"
+    ]
+  },
+  "timestamp": "2025-12-25T16:41:42.937638"
+}

@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Rudolf Peierls",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0887c688afa56f225a045d0f4bf313cf",
+  "text_length": 27322,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Werner Heisenberg",
+      "Wolfgang Pauli",
+      "Enrico Fermi",
+      "Ralph H. Fowler",
+      "Hans Bethe"
+    ],
+    "inspired": [
+      "Fred Hoyle",
+      "P. L. Kapur"
+    ]
+  },
+  "timestamp": "2025-12-25T00:11:31.387080"
+}

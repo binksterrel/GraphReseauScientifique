@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Pierre Rayer",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "dd358aa0ca772126fbe78e720d0d4d84",
+  "text_length": 4461,
+  "result": {
+    "inspired_by": [
+      "André-Marie C. Duméril"
+    ],
+    "inspired": [
+      "Claude Bernard",
+      "Charles-Philippe Robin",
+      "Charles Edouard Brown-Séquard",
+      "François Follin",
+      "Charles-Nicolas Houel"
+    ]
+  },
+  "timestamp": "2025-12-24T23:32:30.580051"
+}

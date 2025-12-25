@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Wilhelm Groth",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9975c45d652679c92e93e27bf198464e",
+  "text_length": 10106,
+  "result": {
+    "inspired_by": [
+      "Walther Gerlach",
+      "Otto Stern",
+      "Paul Harteck"
+    ],
+    "inspired": [
+      "Students and researchers who were assistants or colleagues of Wilhelm Groth during his career, but specific individuals are not explicitly mentioned in the text."
+    ]
+  },
+  "timestamp": "2025-12-25T16:58:45.474072"
+}

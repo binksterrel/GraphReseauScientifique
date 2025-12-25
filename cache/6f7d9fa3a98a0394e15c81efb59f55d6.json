@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Hans Kramers",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7e5ec1dc188c32ecdd4670c11d6f42fe",
+  "text_length": 4180,
+  "result": {
+    "inspired_by": [
+      "Niels Bohr",
+      "Max Born"
+    ],
+    "inspired": [
+      "Tjalling Koopmans"
+    ]
+  },
+  "timestamp": "2025-12-24T23:42:37.065350"
+}

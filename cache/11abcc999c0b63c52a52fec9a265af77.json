@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Albrecht von Haller",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3522abf3ecd404980b6b19b313c23163",
+  "text_length": 14087,
+  "result": {
+    "inspired_by": [
+      "Samuel Hahnemann",
+      "Karl Ludwig von Haller",
+      "Hegel"
+    ],
+    "inspired": [
+      "Homoeopathy",
+      "Albrechtian physiology",
+      "Hegel's Science of Logic"
+    ]
+  },
+  "timestamp": "2025-12-25T18:43:00.039538"
+}

@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Robert Morris Ogden",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4ff344539be257496e6a69ebdd0ca56f",
+  "text_length": 3626,
+  "result": {
+    "inspired_by": [
+      "Edward B. Titchener",
+      "Oswald Külpe"
+    ],
+    "inspired": [
+      "Max Friedrich Meyer",
+      "James Rowland Angell",
+      "Kurt Koffka",
+      "Wolfgang Köhler",
+      "Kurt Lewin"
+    ]
+  },
+  "timestamp": "2025-12-25T15:48:19.537394"
+}

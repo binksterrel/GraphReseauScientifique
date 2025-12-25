@@ -1,0 +1,23 @@
+{
+  "scientist_name": "Shiing-Shen Chern",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "45ea8dee5690aecb486a2a15e51b1a92",
+  "text_length": 26534,
+  "result": {
+    "inspired_by": [
+      "Oswald Veblen",
+      "André Weil",
+      "Solomon Lefschetz",
+      "Ernest Preston Lane",
+      "Sun Guangyuan",
+      "Hans Samelson"
+    ],
+    "inspired": [
+      "Paul Chern (son)",
+      "May Chern (daughter)",
+      "Wu Wenjun (graduate student)",
+      "Shing-Tung Yau (PhD student)"
+    ]
+  },
+  "timestamp": "2025-12-25T18:35:10.830493"
+}

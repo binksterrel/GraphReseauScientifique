@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Léon Brillouin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "850e8262f54eb36781fc248ef501f608",
+  "text_length": 6335,
+  "result": {
+    "inspired_by": [
+      "Jean Perrin",
+      "Arnold Sommerfeld"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:46:35.961630"
+}

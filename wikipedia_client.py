@@ -1,4 +1,5 @@
 import wikipediaapi
+import wikipedia
 from typing import Optional
 from config import WIKIPEDIA_LANGUAGE
 
@@ -9,16 +10,60 @@ class WikipediaClient:
             user_agent='StudentGraphProject/1.0 (contact@example.university.edu)',
             language=WIKIPEDIA_LANGUAGE
         )
+        # Configurer la langue pour la recherche fuzzy
+        wikipedia.set_lang(WIKIPEDIA_LANGUAGE)
     
     def get_scientist_text(self, name: str) -> tuple[Optional[str], list]:
         """
         Récupère le texte Wikipedia d'un scientifique.
+        Utilise une recherche fuzzy pour trouver la bonne page.
         Retourne le résumé + début du contenu pour ne pas surcharger le LLM.
         """
-        page = self.wiki.page(name)
+        # 1. Recherche floue (Fuzzy Search) pour trouver le vrai titre
+        best_match = name
+        try:
+            search_results = wikipedia.search(name, results=1)
+            if search_results:
+                candidate = search_results[0]
+                
+                # Validation ANTI-VOL D'IDENTITÉ 🛡️
+                # Si le nom original est "Humphrey Newton" et le résultat est "Isaac Newton",
+                # c'est probablement faux. On vérifie la similarité.
+                import difflib
+                similarity = difflib.SequenceMatcher(None, name.lower(), candidate.lower()).ratio()
+                
+                # Seuil de tolérance :
+                # - Si > 0.6 : C'est probablement une correction typo ou Prénom manquant (Curie -> Marie Curie)
+                # - Si < 0.6 : C'est suspect (Humphrey Newton -> Isaac Newton = 0.5)
+                
+                if similarity > 0.6 or (name in candidate or candidate in name):
+                    best_match = candidate
+                    if best_match != name:
+                         print(f"  ✨ Correction: '{name}' -> '{best_match}' (Sim: {similarity:.2f})")
+                else:
+                    print(f"  ⚠️ Correction rejetée: '{name}' -> '{candidate}' (Trop différent, Sim: {similarity:.2f})")
+                    best_match = name # On garde le nom original pour tenter le coup ou échouer proprement
+            
+        except Exception as e:
+            print(f"  ⚠️ Erreur recherche fuzzy: {e}. Essai avec le nom brut.")
+            best_match = name
+
+        # 2. Chargement de la page avec le titre exact
+        page = self.wiki.page(best_match)
+        
+        # Validation ANTI-CONCEPT 🛡️
+        # Si le titre de la page contient "method", "theorem", "law", etc., ce n'est pas une personne.
+        from config import EXCLUSION_PATTERNS
+        import re
+        
+        if page.exists():
+            for pattern in EXCLUSION_PATTERNS:
+                if re.search(pattern, page.title, re.IGNORECASE):
+                     print(f"  🚫 Rejet: La page '{page.title}' semble être un concept, pas une personne.")
+                     return None
         
         if not page.exists():
-            return None
+             return None
             
         # On construit un texte riche mais concis
         # 1. Le résumé est crucial (contient souvent les dates, nationalité, domaine)
@@ -37,11 +82,89 @@ class WikipediaClient:
         """Vérifie si une page existe pour ce nom."""
         return self.wiki.page(name).exists()
     
+    def is_scientist(self, name: str) -> bool:
+        """
+        Vérifie si une personne est un scientifique via les catégories Wikipedia.
+        Retourne True si c'est un scientifique, False sinon.
+        """
+        # Recherche fuzzy pour trouver la bonne page
+        try:
+            search_results = wikipedia.search(name, results=1)
+            if search_results:
+                name = search_results[0]
+        except:
+            pass
+
+        page = self.wiki.page(name)
+        
+        if not page.exists():
+            return True  # Fail open si la page n'existe pas (sera filtré plus tard)
+        
+        # Racines de mots qui indiquent un scientifique (matchent singulier ET pluriel)
+        # Ex: 'physic' match 'physicist', 'physicists', 'physics'
+        # NOTE: 'philosoph' trop large (inclut Gandhi) - on limite aux philosophes des sciences
+        SCIENTIST_STEMS = [
+            'physic', 'chemi', 'mathematic', 'biolog', 'astronom',
+            'engineer', 'computer scien', 'genetic', 'geolog',
+            'neuroscien', 'biochem', 'astrophysic', 'pharmacolog',
+            'microbiolog', 'ecolog', 'botan', 'zoolog',
+            'crystallograph', 'immunolog', 'virolog', 'inventor',
+            'logician', 'statistic', 'epidemiolog',
+            'paleontolog', 'anatom', 'physiolog', 'patholog',
+            'naturalist', 'cosmolog', 'oceanograph', 'meteorolog',
+            'scientist', 'women in science', 'nobel laureate',
+            # Philosophes des sciences spécifiquement
+            'philosophy of science', 'analytic philosoph', 'philosophy of mind',
+            'philosophy of math', 'epistemolog'
+        ]
+        
+        # Racines qui excluent (définitivement pas un scientifique)
+        EXCLUDE_STEMS = [
+            'actor', 'actress', 'film director', 'screenwriter', 'television',
+            'singer', 'musician', 'composer', 'rapper', 'songwriter',
+            'politician', 'diplomat', 'monarch', 'king of', 'queen of', 'emperor',
+            'military', 'general of', 'admiral', 'colonel', 'soldier',
+            'president of', 'prime minister', 'governors of', 'senator', 'minister of',
+            'journalist', 'editor', 'newspaper', 'broadcaster',
+            'novelist', 'poet', 'playwright', 'literary',
+            'athlete', 'footballer', 'cricketer', 'basketball', 'tennis player',
+            'religious leader', 'bishop', 'cardinal', 'pope', 'imam', 'rabbi',
+            'businesspeople', 'entrepreneur', 'banker',
+            'criminal', 'murderer', 'revolutionary leader'
+        ]
+        
+        # Récupérer les catégories
+        categories = [cat.lower() for cat in page.categories.keys()]
+        categories_text = ' '.join(categories)
+        
+        # PRIORITÉ AUX SCIENTIFIQUES : si on trouve une catégorie scientifique, on accepte
+        # Cela permet à des scientifiques ayant aussi servi dans l'armée (ex: Poincaré) d'être inclus
+        for stem in SCIENTIST_STEMS:
+            if stem in categories_text:
+                return True
+        
+        # Si pas de catégorie scientifique, vérifier les exclusions
+        for exclude in EXCLUDE_STEMS:
+            if exclude in categories_text:
+                return False
+        
+        # Si aucun match, on accepte par défaut (fail open)
+        # Cela permet d'inclure des scientifiques moins connus
+        return True
+    
     def get_scientific_field(self, name: str) -> Optional[str]:
         """
         Extrait le domaine scientifique à partir des catégories Wikipedia.
         Retourne le domaine principal (ex: 'Physics', 'Biology', 'Mathematics').
         """
+        # Recherche fuzzy ici aussi pour être cohérent
+        try:
+            search_results = wikipedia.search(name, results=1)
+            if search_results:
+                name = search_results[0]
+        except:
+            pass
+
         page = self.wiki.page(name)
         
         if not page.exists():
@@ -85,6 +208,14 @@ class WikipediaClient:
         """
         import re
         
+        # Recherche fuzzy ici aussi
+        try:
+            search_results = wikipedia.search(name, results=1)
+            if search_results:
+                name = search_results[0]
+        except:
+            pass
+
         page = self.wiki.page(name)
         
         if not page.exists():

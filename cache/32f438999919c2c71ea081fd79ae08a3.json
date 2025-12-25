@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Gerard Kuiper",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b5fa4e142238fb62649976e5d2115df8",
+  "text_length": 7842,
+  "result": {
+    "inspired_by": [
+      "Ejnar Hertzsprung",
+      "Antonie Pannekoek",
+      "Willem de Sitter",
+      "Jan Woltjer",
+      "Jan Oort",
+      "Paul Ehrenfest"
+    ],
+    "inspired": [
+      "Carl Sagan"
+    ]
+  },
+  "timestamp": "2025-12-25T00:20:43.961998"
+}

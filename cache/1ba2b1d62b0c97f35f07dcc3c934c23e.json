@@ -1,0 +1,23 @@
+{
+  "scientist_name": "Willard Gibbs",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "62b87fe78a52f455ac7c6555f50a372b",
+  "text_length": 27296,
+  "result": {
+    "inspired_by": [
+      "Hubert Anson Newton",
+      "Joseph Liouville",
+      "Michel Chasles",
+      "Karl Weierstrass",
+      "Leopold Kronecker",
+      "Heinrich Gustav Magnus",
+      "Gustav Kirchhoff",
+      "Hermann von Helmholtz",
+      "Robert Bunsen"
+    ],
+    "inspired": [
+      "James Clerk Maxwell"
+    ]
+  },
+  "timestamp": "2025-12-25T12:14:33.639366"
+}

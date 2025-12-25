@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Hermann Joseph Muller",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7d53a68e68e99d2a0cf87cb086a6977f",
+  "text_length": 18784,
+  "result": {
+    "inspired_by": [
+      "Thomas Hunt Morgan",
+      "E. B. Wilson",
+      "Alfred Sturtevant",
+      "Calvin Bridges"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:08:52.275928"
+}

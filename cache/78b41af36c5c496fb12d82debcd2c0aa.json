@@ -1,0 +1,23 @@
+{
+  "scientist_name": "Jean-Paul Sartre",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3f74e329b1c07d9af1a32d766f8f3504",
+  "text_length": 27773,
+  "result": {
+    "inspired_by": [
+      "Henri Bergson",
+      "Edmund Husserl",
+      "Martin Heidegger",
+      "Alexandre Kojève",
+      "Emmanuel Levinas"
+    ],
+    "inspired": [
+      "Simone de Beauvoir",
+      "Maurice Merleau-Ponty",
+      "Jean-Toussaint Desanti",
+      "Dominique Desanti",
+      "École Normale students"
+    ]
+  },
+  "timestamp": "2025-12-25T16:19:07.083697"
+}

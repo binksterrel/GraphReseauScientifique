@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Richard Whately",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "aa4684379843cae324bcabe2e8dc9711",
+  "text_length": 14818,
+  "result": {
+    "inspired_by": [
+      "Edward Copleston",
+      "Thomas Malthus",
+      "Thomas Chalmers",
+      "Richard Jones",
+      "William Whewell"
+    ],
+    "inspired": [
+      "Charles Sanders Peirce"
+    ]
+  },
+  "timestamp": "2025-12-25T17:58:01.534644"
+}

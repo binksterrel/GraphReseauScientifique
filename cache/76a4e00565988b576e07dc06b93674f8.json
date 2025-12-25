@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Sir Lawrence Bragg",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "dcfb6b202c069c28148fde332e8e7992",
+  "text_length": 19603,
+  "result": {
+    "inspired_by": [
+      "William Henry Bragg"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:04:28.786951"
+}

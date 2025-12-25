@@ -1,0 +1,15 @@
+{
+  "scientist_name": "James H. Bartlett",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e07260dafba9db7ea415e551aff62510",
+  "text_length": 25661,
+  "result": {
+    "inspired_by": [
+      "Paul Ricoeur",
+      "Jean Ladrière",
+      "Alphonse de Waehlens"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:31:50.349966"
+}

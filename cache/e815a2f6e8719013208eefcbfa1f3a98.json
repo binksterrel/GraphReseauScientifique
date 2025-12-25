@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Many pupils",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a83a567248db4f0982b59fb4a0226cc4",
+  "text_length": 18061,
+  "result": {
+    "inspired_by": [
+      "Gerard of Cremona"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:05:17.208909"
+}

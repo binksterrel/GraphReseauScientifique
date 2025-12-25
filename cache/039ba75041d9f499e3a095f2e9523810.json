@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Georges Lemaître",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b2bfdd2ff0616ff617349d54ec82970f",
+  "text_length": 27540,
+  "result": {
+    "inspired_by": [
+      "Arthur Eddington",
+      "Harlow Shapley"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:57:07.309698"
+}

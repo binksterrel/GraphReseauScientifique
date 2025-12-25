@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Alexander Pedler",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ce18af0a04ddfb051b387944baf8b61e",
+  "text_length": 3845,
+  "result": {
+    "inspired_by": [
+      "Herbert McLeod",
+      "Edward Frankland",
+      "Norman Lockyer"
+    ],
+    "inspired": [
+      "Prafulla Chandra Ray"
+    ]
+  },
+  "timestamp": "2025-12-24T21:21:55.279962"
+}

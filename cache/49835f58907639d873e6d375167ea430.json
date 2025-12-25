@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Gunnar Nordström",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "16b12f2543e7b762613c83ebe15a16ae",
+  "text_length": 8038,
+  "result": {
+    "inspired_by": [
+      "Ernst Lindelöf",
+      "Hendrik Lorentz",
+      "Paul Ehrenfest",
+      "Willem de Sitter",
+      "Niels Bohr",
+      "Albert Einstein"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:28:56.901372"
+}

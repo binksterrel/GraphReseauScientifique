@@ -1,0 +1,16 @@
+{
+  "scientist_name": "H. A. Lorentz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7655cb99e8b37db0dfa544625064a1c6",
+  "text_length": 23100,
+  "result": {
+    "inspired_by": [
+      "Frederik Kaiser",
+      "Pieter Rijke"
+    ],
+    "inspired": [
+      "Pieter Zeeman"
+    ]
+  },
+  "timestamp": "2025-12-24T22:56:01.222593"
+}

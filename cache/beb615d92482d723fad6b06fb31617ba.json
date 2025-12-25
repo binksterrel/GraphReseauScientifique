@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Mark Kac",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0300bebcc42f01c70db165c78b278bb5",
+  "text_length": 4887,
+  "result": {
+    "inspired_by": [
+      "Hugo Steinhaus"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:01:19.580667"
+}

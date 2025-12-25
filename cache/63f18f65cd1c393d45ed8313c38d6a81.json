@@ -1,0 +1,25 @@
+{
+  "scientist_name": "Edward Teller",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "901b44fbd1bc6a68486f85a1da82c813",
+  "text_length": 28723,
+  "result": {
+    "inspired_by": [
+      "Enrico Fermi",
+      "Herman Mark",
+      "Arnold Sommerfeld",
+      "George Gamow",
+      "Lev Landau",
+      "Niels Bohr",
+      "Theodore von Kármán"
+    ],
+    "inspired": [
+      "Stanislaw Ulam",
+      "Nicholas Metropolis",
+      "Arianna Rosenbluth",
+      "Marshall Rosenbluth",
+      "Augusta Teller"
+    ]
+  },
+  "timestamp": "2025-12-25T00:14:13.619229"
+}

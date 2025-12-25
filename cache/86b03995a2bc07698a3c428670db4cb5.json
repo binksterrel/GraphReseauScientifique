@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Alfred Landé",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "251c9b40e3320d6af0ada735a6f81633",
+  "text_length": 6883,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "David Hilbert",
+      "Max Born",
+      "Edmund Landau",
+      "Carl Runge",
+      "Ludwig Prandtl"
+    ],
+    "inspired": [
+      "Ralph Kronig"
+    ]
+  },
+  "timestamp": "2025-12-25T13:46:06.699794"
+}

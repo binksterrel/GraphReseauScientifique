@@ -1,0 +1,19 @@
+{
+  "scientist_name": "August Krogh",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7fced18c498cdfb6cd322c39e510b6c0",
+  "text_length": 7275,
+  "result": {
+    "inspired_by": [
+      "Viggo Krogh",
+      "Customs Officer in Holstein (Mother's family)",
+      "Teachers and mentors at the University of Copenhagen"
+    ],
+    "inspired": [
+      "Marie Krogh (Wife)",
+      "Torkel Weis-Fogh",
+      "Bodil Krogh Schmidt-Nielsen (Daughter)"
+    ]
+  },
+  "timestamp": "2025-12-25T15:09:07.497154"
+}

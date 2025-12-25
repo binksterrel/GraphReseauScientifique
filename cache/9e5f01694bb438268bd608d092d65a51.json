@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Lev Vygotsky",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "77f8fdf7b2a12d7f0f7f480998a66ad4",
+  "text_length": 22869,
+  "result": {
+    "inspired_by": [
+      "Alexander Luria",
+      "Konstantin Kornilov"
+    ],
+    "inspired": [
+      "Students and researchers who continued Vygotsky's work after his death, such as Alexander Luria, Boris Varshava, Alexei Leontiev, Leonid Zankov"
+    ]
+  },
+  "timestamp": "2025-12-25T16:03:24.451217"
+}

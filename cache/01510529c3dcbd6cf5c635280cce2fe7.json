@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Willem Hendrik Keesom",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "70d44d20f6f1ceb9377e6ca5d1eaaf7e",
+  "text_length": 1994,
+  "result": {
+    "inspired_by": [
+      "Heike Kamerlingh Onnes"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:14:53.275400"
+}

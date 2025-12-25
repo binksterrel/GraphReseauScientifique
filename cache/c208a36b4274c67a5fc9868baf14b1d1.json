@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Michael Atiyah",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6b43c3a683c8ba09c975c5c265d6658d",
+  "text_length": 25331,
+  "result": {
+    "inspired_by": [
+      "W. V. D. Hodge",
+      "Alexander Grothendieck",
+      "René Thom",
+      "C. T. C. Wall",
+      "Friedrich Hirzebruch"
+    ],
+    "inspired": [
+      "Michael Atiyah",
+      "Friedrich Hirzebruch",
+      "Robert Bott",
+      "Graeme Segal"
+    ]
+  },
+  "timestamp": "2025-12-25T13:56:38.249900"
+}

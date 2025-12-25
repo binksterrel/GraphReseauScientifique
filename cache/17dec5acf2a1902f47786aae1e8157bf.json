@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Michael Maestlin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "07a781acecdc36f3d54c457524d05ca7",
+  "text_length": 22302,
+  "result": {
+    "inspired_by": [
+      "Tycho Brahe",
+      "Nicolaus Copernicus",
+      "Erasmus Reinhold",
+      "Helisaeus Roeslin"
+    ],
+    "inspired": [
+      "Johannes Kepler"
+    ]
+  },
+  "timestamp": "2025-12-24T23:54:49.871257"
+}

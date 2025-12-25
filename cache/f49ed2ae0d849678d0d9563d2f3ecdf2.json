@@ -1,0 +1,19 @@
+{
+  "scientist_name": "William Gilbert",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f1d03751b7e3600a6cd7608c331558f3",
+  "text_length": 14450,
+  "result": {
+    "inspired_by": [
+      "Robert Norman"
+    ],
+    "inspired": [
+      "Francis Bacon",
+      "Thomas Thomson",
+      "William Whewell",
+      "Henry Hallam",
+      "Walter William Bryant"
+    ]
+  },
+  "timestamp": "2025-12-24T23:53:29.882872"
+}

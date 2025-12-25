@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Hilary Putnam",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "091e95fb661f97eee4078d245d4ea8ce",
+  "text_length": 27734,
+  "result": {
+    "inspired_by": [
+      "Hans Reichenbach"
+    ],
+    "inspired": [
+      "Noam Chomsky",
+      "Saul Kripke"
+    ]
+  },
+  "timestamp": "2025-12-25T18:11:53.601009"
+}

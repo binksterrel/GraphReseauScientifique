@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Otto Wilhelm Fiedler",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c391327c8ea7fe6075f0f3af97eaa264",
+  "text_length": 3976,
+  "result": {
+    "inspired_by": [
+      "August Ferdinand Möbius",
+      "George Salmon"
+    ],
+    "inspired": [
+      "Marcel Grossmann",
+      "Emil Weyr",
+      "Ernst Fiedler",
+      "Karl Fiedler"
+    ]
+  },
+  "timestamp": "2025-12-24T21:34:10.931725"
+}

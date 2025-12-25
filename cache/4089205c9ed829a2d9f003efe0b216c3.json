@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Norman Feather",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "291f7084af5216cd3c21fc6df8ecab47",
+  "text_length": 7105,
+  "result": {
+    "inspired_by": [
+      "James Chadwick",
+      "Ernest Rutherford"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:51:43.249391"
+}

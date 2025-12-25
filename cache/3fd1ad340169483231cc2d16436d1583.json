@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Max Abraham",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "286661ef86c1342d29a51b7900e8659e",
+  "text_length": 4295,
+  "result": {
+    "inspired_by": [
+      "Max Planck"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:53:33.810924"
+}

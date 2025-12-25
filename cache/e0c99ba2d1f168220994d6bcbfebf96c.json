@@ -1,0 +1,13 @@
+{
+  "scientist_name": "John Pople",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f3a82fee93bd0de5e79cc9456fac1fff",
+  "text_length": 5763,
+  "result": {
+    "inspired_by": [
+      "John Lennard-Jones"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:19:43.985704"
+}

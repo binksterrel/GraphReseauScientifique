@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Elwin Bruno Christoffel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c37e7824ec0774f334abfe293323b4ce",
+  "text_length": 7396,
+  "result": {
+    "inspired_by": [
+      "Gustav Dirichlet",
+      "Martin Ohm",
+      "Ernst Kummer",
+      "Heinrich Gustav Magnus",
+      "Bernhard Riemann",
+      "Augustin-Louis Cauchy"
+    ],
+    "inspired": [
+      "Rikitaro Fujisawa",
+      "Ludwig Maurer",
+      "Paul Epstein"
+    ]
+  },
+  "timestamp": "2025-12-25T12:49:49.462331"
+}

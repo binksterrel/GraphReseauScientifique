@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Ernst Kummer",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1c39340ea85e35ab5e4aa08fddab84ce",
+  "text_length": 4193,
+  "result": {
+    "inspired_by": [
+      "Peter Gustav Lejeune Dirichlet",
+      "Felix Mendelssohn",
+      "Nathan Mendelssohn",
+      "Henriette Itzig"
+    ],
+    "inspired": [
+      "Leopold Kronecker",
+      "Marie (Kummer) Schwarz"
+    ]
+  },
+  "timestamp": "2025-12-25T13:54:25.221228"
+}

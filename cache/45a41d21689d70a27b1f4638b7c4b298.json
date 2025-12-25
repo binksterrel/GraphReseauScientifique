@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Hubert Anson Newton",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ad9e0f55a2eabdbb87d2d9cddc98e992",
+  "text_length": 3947,
+  "result": {
+    "inspired_by": [
+      "Michel Chasles"
+    ],
+    "inspired": [
+      "E.H. Moore"
+    ]
+  },
+  "timestamp": "2025-12-25T15:33:06.225123"
+}

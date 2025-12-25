@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Edmund Burke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2dd96f1dbf65eeb0926760059856ba3a",
+  "text_length": 27849,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:42:05.823900"
+}

@@ -1,0 +1,23 @@
+{
+  "scientist_name": "Wilhelm Blaschke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f726816656e62505f45cf26c57cbbbf2",
+  "text_length": 7894,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Wirtinger",
+      "Luigi Bianchi",
+      "Felix Klein",
+      "David Hilbert",
+      "Carl Runge",
+      "Eduard Study",
+      "Friedrich Engel"
+    ],
+    "inspired": [
+      "Shiing-Shen Chern",
+      "Luis Santaló",
+      "Emanuel Sperner"
+    ]
+  },
+  "timestamp": "2025-12-25T17:41:51.857987"
+}

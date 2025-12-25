@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Robert Bunsen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "63570d8532e07b289c788b865511c01b",
+  "text_length": 7326,
+  "result": {
+    "inspired_by": [
+      "Friedlieb Runge",
+      "Justus von Liebig",
+      "Eilhard Mitscherlich"
+    ],
+    "inspired": [
+      "Peter Desaga",
+      "Henry Enfield Roscoe"
+    ]
+  },
+  "timestamp": "2025-12-24T22:32:12.200834"
+}

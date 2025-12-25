@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Domingo de Soto",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8fc649ecedcfa15791d9c5fad170ccd4",
+  "text_length": 9202,
+  "result": {
+    "inspired_by": [
+      "Aristotle",
+      "Melchor Cano",
+      "Francisco de Vitoria"
+    ],
+    "inspired": [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Juan Ginés de Sepúlveda"
+    ]
+  },
+  "timestamp": "2025-12-24T23:51:47.887693"
+}

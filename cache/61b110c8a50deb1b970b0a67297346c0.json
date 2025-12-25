@@ -1,0 +1,17 @@
+{
+  "scientist_name": "William Thomson",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "faf77c6b8cf7e4d0544697c02b790cd9",
+  "text_length": 2764,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "William Johnston Thomson",
+      "Scottish actuary",
+      "Scottish mathematician",
+      "Canadian artist and engraver",
+      "music school dean"
+    ]
+  },
+  "timestamp": "2025-12-24T23:12:57.925959"
+}

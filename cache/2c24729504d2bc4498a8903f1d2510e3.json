@@ -1,0 +1,13 @@
+{
+  "scientist_name": "C. P. Boner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c37531f3b2cd4faa2ccd789a6ed7bfa3",
+  "text_length": 8898,
+  "result": {
+    "inspired_by": [
+      "Uday Shankar"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:12:17.629345"
+}

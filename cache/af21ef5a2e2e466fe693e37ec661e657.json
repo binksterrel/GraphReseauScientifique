@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Martin Buber",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "21bfb245ba1f52df42d20a66e48661dd",
+  "text_length": 25950,
+  "result": {
+    "inspired_by": [
+      "Immanuel Kant",
+      "Søren Kierkegaard",
+      "Friedrich Nietzsche"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:50:11.329377"
+}

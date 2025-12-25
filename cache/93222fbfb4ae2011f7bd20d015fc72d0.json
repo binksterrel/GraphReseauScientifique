@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Edward Condon",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "096ddfdc4b645bad2e460bb86195a814",
+  "text_length": 22478,
+  "result": {
+    "inspired_by": [
+      "James Franck",
+      "Max Born",
+      "Arnold Sommerfeld",
+      "Raymond Thayer Birge"
+    ],
+    "inspired": [
+      "Philip M. Morse",
+      "G.H. Shortley",
+      "many prominent scientists"
+    ]
+  },
+  "timestamp": "2025-12-25T13:48:31.742230"
+}

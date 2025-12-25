@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Bronisław Malinowski",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "384b8123cfcf3d067869ee64526db452",
+  "text_length": 27498,
+  "result": {
+    "inspired_by": [
+      "C. G. Seligman",
+      "Edvard Westermarck"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:39:18.003056"
+}

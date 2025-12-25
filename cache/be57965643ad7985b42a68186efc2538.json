@@ -1,0 +1,29 @@
+{
+  "scientist_name": "Wilhelm Dilthey",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fa008a2dc6781cc9e18676cc6dc4f7e9",
+  "text_length": 17268,
+  "result": {
+    "inspired_by": [
+      "Georg Wilhelm Friedrich Hegel",
+      "Friedrich Schleiermacher",
+      "Kuno Fischer",
+      "Friedrich Adolf Trendelenburg",
+      "August Böckh"
+    ],
+    "inspired": [
+      "Bernhard Groethuysen",
+      "Hans Lipps",
+      "Herman Nohl",
+      "Theodor Litt",
+      "Eduard Spranger",
+      "Georg Misch",
+      "Erich Rothacker",
+      "Martin Buber",
+      "Friedrich Nietzsche",
+      "Georg Simmel",
+      "Henri Bergson"
+    ]
+  },
+  "timestamp": "2025-12-25T16:17:00.797896"
+}

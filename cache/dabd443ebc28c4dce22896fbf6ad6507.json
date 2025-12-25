@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Kazimierz Żorawski",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3b0f645cffce78ffda0c59daee35e65c",
+  "text_length": 10949,
+  "result": {
+    "inspired_by": [
+      "M. Sophius Lie"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:34:58.516009"
+}

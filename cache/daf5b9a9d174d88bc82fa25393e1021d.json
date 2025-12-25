@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Frank Angell",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d1ef30db3329102933e334032e1d4ac0",
+  "text_length": 1289,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Wundt"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:30:25.743918"
+}

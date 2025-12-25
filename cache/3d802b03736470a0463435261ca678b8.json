@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Edward Pococke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8a0537f68a8b06bf452eb44a0546d91e",
+  "text_length": 6608,
+  "result": {
+    "inspired_by": [
+      "Gerard Vossius",
+      "John Greaves"
+    ],
+    "inspired": [
+      "Edward Pococke (son)",
+      "Abd al-Latif al-Baghdadi",
+      "Ibn Tufayl"
+    ]
+  },
+  "timestamp": "2025-12-25T18:48:56.272169"
+}

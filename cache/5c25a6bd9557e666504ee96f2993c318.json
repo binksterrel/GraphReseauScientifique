@@ -1,0 +1,24 @@
+{
+  "scientist_name": "John Herman Randall, Jr. (1899–1980)",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "21699608dbdd24acbe5cd175680e67be",
+  "text_length": 2702,
+  "result": {
+    "inspired_by": [
+      "James Gutmann",
+      "Horace Fries",
+      "Herbert Schneider",
+      "Irwin Edman",
+      "John Dewey",
+      "Frederick J. E. Woodbridge",
+      "John J. Cross",
+      "Wendell T. Bush",
+      "Albert Redpath",
+      "Frank Tannenbaum"
+    ],
+    "inspired": [
+      "John P. Anton"
+    ]
+  },
+  "timestamp": "2025-12-25T19:47:21.569351"
+}

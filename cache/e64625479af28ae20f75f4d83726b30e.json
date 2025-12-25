@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Lise Meitner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "21772772fc3053d051bd22df4fe4b687",
+  "text_length": 27417,
+  "result": {
+    "inspired_by": [
+      "Ludwig Boltzmann",
+      "Arthur Szarvasy"
+    ],
+    "inspired": [
+      "Otto Hahn",
+      "Fritz Strassmann",
+      "Otto Robert Frisch",
+      "Dirk Coster"
+    ]
+  },
+  "timestamp": "2025-12-24T22:15:24.941722"
+}

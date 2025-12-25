@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Carol Greider",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "134f4a427bf1c69b597ac524d05a4677",
+  "text_length": 10385,
+  "result": {
+    "inspired_by": [
+      "Elizabeth Blackburn"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:14:16.522358"
+}

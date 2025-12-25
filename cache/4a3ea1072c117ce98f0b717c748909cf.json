@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Charles Galton Darwin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b3228d1c41ed7672d3b23777854cdc18",
+  "text_length": 5936,
+  "result": {
+    "inspired_by": [
+      "Ernest Rutherford",
+      "Niels Bohr",
+      "Henry Moseley",
+      "R.H. Fowler"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:42:17.133067"
+}

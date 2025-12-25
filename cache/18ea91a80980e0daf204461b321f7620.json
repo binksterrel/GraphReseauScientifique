@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Karl Fiedler",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "241f6e15448e2534764086a56787126e",
+  "text_length": 6088,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:21:01.910320"
+}

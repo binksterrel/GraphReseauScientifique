@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Adolf von Strümpell",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f46f4794e1eba04afddccbe7fbd91c57",
+  "text_length": 2331,
+  "result": {
+    "inspired_by": [
+      "Carl Wunderlich",
+      "Karl Thiersch",
+      "Carl Ludwig"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:48:04.096750"
+}

@@ -1,0 +1,27 @@
+{
+  "scientist_name": "Friedrich Wilhelm Schadow",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "845d2a8395a04f1297b8eb8537f23bdf",
+  "text_length": 4124,
+  "result": {
+    "inspired_by": [
+      "Johann Gottfried Schadow",
+      "Weitsch"
+    ],
+    "inspired": [
+      "Peter von Cornelius",
+      "Johann Friedrich Overbeck",
+      "Philipp Veit",
+      "Heinrich Mucke",
+      "George Caleb Bingham",
+      "Eastman Johnson",
+      "Worthington Whittredge",
+      "Richard Caton Woodville",
+      "William Stanley Haseltine",
+      "James M. Hart",
+      "William Morris Hunt",
+      "Emmanuel Leutze"
+    ]
+  },
+  "timestamp": "2025-12-25T16:46:01.620712"
+}

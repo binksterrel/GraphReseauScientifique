@@ -1,0 +1,44 @@
+{
+  "scientist_name": "Paul Ehrenfest",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "57c94ae6b1f2659562f4e01fa3d09310",
+  "text_length": 13409,
+  "result": {
+    "inspired_by": [
+      "Ludwig Boltzmann",
+      "Hendrik Lorentz",
+      "Max Planck",
+      "Gustav Herglotz",
+      "Arnold Sommerfeld"
+    ],
+    "inspired": [
+      "Johannes Burgers",
+      "Hendrik Kramers",
+      "Dirk Coster",
+      "George Uhlenbeck",
+      "Samuel Goudsmit",
+      "Jan Tinbergen",
+      "Arend Rutgers",
+      "Hendrik Casimir",
+      "Gerhard Dieke",
+      "Dirk Struik",
+      "Gerard Kuiper",
+      "Yuri Krutkov",
+      "Viktor Trkal",
+      "Adriaan Fokker",
+      "Paul Epstein",
+      "Gregory Breit",
+      "Gunnar Nordström",
+      "Enrico Fermi",
+      "Igor Tamm",
+      "Oskar Klein",
+      "J. Robert Oppenheimer",
+      "Walter Elsasser",
+      "Ralph Kronig",
+      "Werner Heisenberg",
+      "Paul Dirac",
+      "David Dennison"
+    ]
+  },
+  "timestamp": "2025-12-25T14:31:19.757429"
+}

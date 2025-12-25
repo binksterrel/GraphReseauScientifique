@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Augustus De Morgan",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1c4dd67406e35b0e70870d508fd65a54",
+  "text_length": 25522,
+  "result": {
+    "inspired_by": [
+      "George Peacock",
+      "William Whewell"
+    ],
+    "inspired": [
+      "James Joseph Sylvester",
+      "Edward Routh",
+      "Isaac Todhunter",
+      "William Stanley Jevons"
+    ]
+  },
+  "timestamp": "2025-12-24T22:23:03.523279"
+}

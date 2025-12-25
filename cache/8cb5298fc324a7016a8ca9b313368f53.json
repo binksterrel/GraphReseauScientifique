@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Karl Compton",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9e230fabd401d9b7c1343bfcf2ed651b",
+  "text_length": 17566,
+  "result": {
+    "inspired_by": [
+      "Owen Willans Richardson"
+    ],
+    "inspired": [
+      "Students at Reed College",
+      "Students at Princeton University",
+      "Students at MIT",
+      "American Institute of Physics",
+      "American Society for Engineering Education",
+      "Digital Equipment Corporation"
+    ]
+  },
+  "timestamp": "2025-12-25T17:29:42.381035"
+}

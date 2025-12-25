@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Johann Elert Bode",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7bd972657001e6751b5a8a70fd370241",
+  "text_length": 7899,
+  "result": {
+    "inspired_by": [
+      "Johann Georg Büsch"
+    ],
+    "inspired": [
+      "Martin Klaproth"
+    ]
+  },
+  "timestamp": "2025-12-25T14:08:16.985846"
+}

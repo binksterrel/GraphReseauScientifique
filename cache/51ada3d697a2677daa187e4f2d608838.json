@@ -1,0 +1,29 @@
+{
+  "scientist_name": "Friedrich Ritschl",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5ab56e8e62fb553205835dd5060bcfe7",
+  "text_length": 13568,
+  "result": {
+    "inspired_by": [
+      "Gottfried Hermann",
+      "Christian Karl Reisig"
+    ],
+    "inspired": [
+      "Georg Curtius",
+      "Ihne",
+      "Schleicher",
+      "Bernays",
+      "Ribbeck",
+      "Lorenz",
+      "Vahlen",
+      "Hübner",
+      "Bücheler",
+      "Helbig",
+      "Benndorf",
+      "Riese",
+      "Windisch",
+      "Nietzsche"
+    ]
+  },
+  "timestamp": "2025-12-25T19:10:51.834987"
+}

@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Simon Newcomb",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "05853e833aa205b708aadc387c9981bb",
+  "text_length": 20183,
+  "result": {
+    "inspired_by": [
+      "Benjamin Peirce"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T10:20:23.671977"
+}

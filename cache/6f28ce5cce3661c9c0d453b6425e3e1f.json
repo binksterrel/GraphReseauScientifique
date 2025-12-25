@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Christiaan Huygens",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "183dea6536b2b20a5ef4638ca1a07877",
+  "text_length": 27952,
+  "result": {
+    "inspired_by": [
+      "Marin Mersenne",
+      "Francis Vernon"
+    ],
+    "inspired": [
+      "Gregoire de Saint-Vincent",
+      "Claude Mylon",
+      "Pierre de Carcavi",
+      "Pierre de Fermat",
+      "Ismael Boulliau"
+    ]
+  },
+  "timestamp": "2025-12-25T15:42:14.153166"
+}

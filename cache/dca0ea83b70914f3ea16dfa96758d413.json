@@ -1,0 +1,14 @@
+{
+  "scientist_name": "W. V. D. Hodge",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ead62a082d7a990e4bf8f3f275cce24e",
+  "text_length": 6668,
+  "result": {
+    "inspired_by": [
+      "E. T. Whittaker",
+      "H. F. Baker"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:36:02.511003"
+}

@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Ludwig Knorr",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3c774ee7d5e822f7d45c2850a34543cd",
+  "text_length": 4290,
+  "result": {
+    "inspired_by": [
+      "Jacob Volhard",
+      "Hermann Emil Fischer",
+      "Robert Wilhelm Bunsen",
+      "Adolf von Baeyer"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:47:38.124983"
+}

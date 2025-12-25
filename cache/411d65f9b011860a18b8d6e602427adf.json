@@ -1,0 +1,16 @@
+{
+  "scientist_name": "John Wallis",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3c1c131bc7150f740b0211bbcfac5603",
+  "text_length": 25601,
+  "result": {
+    "inspired_by": [
+      "Rene Descartes",
+      "Bonaventura Cavalieri"
+    ],
+    "inspired": [
+      "Integral calculus"
+    ]
+  },
+  "timestamp": "2025-12-25T15:44:19.595787"
+}

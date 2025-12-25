@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Ernst Meumann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "adb5387e8ef01d6b3bf05db11f87d775",
+  "text_length": 1210,
+  "result": {
+    "inspired_by": [
+      "Wilhelm August Lay"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:25:04.686591"
+}

@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Éve Curie",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c56d34d5a90d056275ca43755feb1524",
+  "text_length": 13949,
+  "result": {
+    "inspired_by": [
+      "Marie Curie",
+      "Pierre Curie",
+      "Irène Joliot-Curie",
+      "Frédéric Joliot-Curie"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:49:42.817239"
+}

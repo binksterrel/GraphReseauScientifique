@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Sophus Lie",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "51c0421d5d7a3bdf57eee6324fa210a0",
+  "text_length": 8859,
+  "result": {
+    "inspired_by": [
+      "Felix Klein",
+      "Camille Jordan",
+      "Gaston Darboux"
+    ],
+    "inspired": [
+      "Élie Cartan",
+      "Kazimierz Żorawski",
+      "Hans Frederick Blichfeldt"
+    ]
+  },
+  "timestamp": "2025-12-24T22:28:57.123703"
+}

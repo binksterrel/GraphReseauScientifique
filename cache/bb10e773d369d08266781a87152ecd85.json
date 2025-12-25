@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Erich Bagge",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fcf23a779cce3b31a9c5e176451383e1",
+  "text_length": 3467,
+  "result": {
+    "inspired_by": [
+      "Werner Heisenberg"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T00:07:13.863973"
+}

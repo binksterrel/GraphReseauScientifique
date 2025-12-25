@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Francis March",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f3e713d342aee08fc4e365253467cc83",
+  "text_length": 14106,
+  "result": {
+    "inspired_by": [
+      "Noah Webster"
+    ],
+    "inspired": [
+      "Francis Andrew March Jr.",
+      "Peyton C. March",
+      "Thomas Stone March",
+      "Alden March",
+      "Moncure March",
+      "John Lewis March",
+      "Mildred March",
+      "Margaret D. March"
+    ]
+  },
+  "timestamp": "2025-12-25T15:51:03.666392"
+}

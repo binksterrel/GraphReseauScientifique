@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Karl August Wunderlich",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0173566a90bc7e665bd76b7c5aba0458",
+  "text_length": 2695,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:46:30.592621"
+}

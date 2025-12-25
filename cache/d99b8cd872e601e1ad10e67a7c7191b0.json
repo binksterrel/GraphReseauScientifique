@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Wilhelm Ostwald",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2fe60f78d9cb33e8e57328fefb618355",
+  "text_length": 24506,
+  "result": {
+    "inspired_by": [
+      "Carl Schmidt",
+      "Johann Lemberg",
+      "Arthur von Oettingen"
+    ],
+    "inspired": [
+      "Svante Arrhenius",
+      "Jacobus Henricus van 't Hoff",
+      "Walther Nernst",
+      "Arthur Noyes",
+      "Willis Rodney Whitney",
+      "Kikunae Ikeda"
+    ]
+  },
+  "timestamp": "2025-12-25T14:32:32.175044"
+}

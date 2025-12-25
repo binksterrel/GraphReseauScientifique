@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Paul Langevin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d3d6cd5e0f4d3256b7232555bcb3363d",
+  "text_length": 5884,
+  "result": {
+    "inspired_by": [
+      "Pierre Curie"
+    ],
+    "inspired": [
+      "Constantin Chilowsky",
+      "Eliane Montel",
+      "Michel Langevin",
+      "Hélène Solomon-Langevin"
+    ]
+  },
+  "timestamp": "2025-12-25T12:57:19.354669"
+}

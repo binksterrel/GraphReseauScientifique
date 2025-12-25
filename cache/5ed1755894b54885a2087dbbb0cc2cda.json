@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Gilbert N. Lewis",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1cb0ef6395b29f7973bf48c16978e096",
+  "text_length": 19956,
+  "result": {
+    "inspired_by": [
+      "T. W. Richards",
+      "Walther Nernst",
+      "Wilhelm Ostwald"
+    ],
+    "inspired": [
+      "Harold Urey",
+      "William F. Giauque",
+      "Glenn T. Seaborg",
+      "Willard Libby",
+      "Melvin Calvin"
+    ]
+  },
+  "timestamp": "2025-12-25T15:21:07.669140"
+}

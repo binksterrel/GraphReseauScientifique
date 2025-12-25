@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Gerald Edelman",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cd5f2220d2801e0533092324c8689662",
+  "text_length": 16025,
+  "result": {
+    "inspired_by": [
+      "Henry Kunkel"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:49:40.666425"
+}

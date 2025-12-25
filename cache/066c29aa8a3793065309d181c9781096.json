@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Gregor Mendel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a58a142ab31eb07de3e97305e3445881",
+  "text_length": 21513,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Erich von Tschermak",
+      "Hugo de Vries",
+      "Carl Correns"
+    ]
+  },
+  "timestamp": "2025-12-25T14:23:42.483239"
+}

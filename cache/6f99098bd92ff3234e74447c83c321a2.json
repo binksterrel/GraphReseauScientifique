@@ -1,0 +1,26 @@
+{
+  "scientist_name": "Sir Joseph Banks",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6b30f4e305632b068906fb17585006a5",
+  "text_length": 26359,
+  "result": {
+    "inspired_by": [
+      "William Banks",
+      "Sarah",
+      "Daniel Solander",
+      "Israel Lyons",
+      "Carl Linnaeus"
+    ],
+    "inspired": [
+      "Constantine Phipps",
+      "Sydney Parkinson",
+      "Alexander Buchan",
+      "James Roberts",
+      "Peter Peter",
+      "Allan Cunningham",
+      "Francis Masson",
+      "James Bowie"
+    ]
+  },
+  "timestamp": "2025-12-25T16:42:40.602334"
+}

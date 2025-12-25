@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Karl T. Compton",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9e230fabd401d9b7c1343bfcf2ed651b",
+  "text_length": 17566,
+  "result": {
+    "inspired_by": [
+      "Owen Willans Richardson"
+    ],
+    "inspired": [
+      "Reed College students",
+      "Princeton University students",
+      "MIT students",
+      "General Electric Corporation",
+      "US Embassy in Paris as an associate science attaché",
+      "University of Göttingen young physicists",
+      "American Physical Society",
+      "Digital Equipment Corporation employees"
+    ]
+  },
+  "timestamp": "2025-12-25T17:27:58.610003"
+}

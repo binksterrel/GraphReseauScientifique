@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Ralph Gerard",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9e8b213f26302d0e141dd532f136bcfb",
+  "text_length": 7210,
+  "result": {
+    "inspired_by": [
+      "Julius Stieglitz",
+      "Anton Carlson",
+      "Ralph Lillie",
+      "A. V. Hill",
+      "Otto Meyerhof"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:19:36.747931"
+}

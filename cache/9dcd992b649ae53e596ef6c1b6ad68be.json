@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Sir William Ramsay",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2318618ed7d77225dd2ae5c8868cad27",
+  "text_length": 7594,
+  "result": {
+    "inspired_by": [
+      "Thomas Anderson",
+      "Wilhelm Rudolph Fittig",
+      "John William Strutt, 3rd Baron Rayleigh",
+      "Morris Travers"
+    ],
+    "inspired": [
+      "Emily Aston",
+      "H. E. Watson"
+    ]
+  },
+  "timestamp": "2025-12-25T16:53:49.817403"
+}

@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Vinayak Damodar Savarkar",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "70b3f00e87ef292024ab23174a55cee8",
+  "text_length": 27452,
+  "result": {
+    "inspired_by": [
+      "Lokmanya Tilak",
+      "Giuseppe Mazzini"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:39:32.384357"
+}

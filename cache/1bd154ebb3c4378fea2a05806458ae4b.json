@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Philipp Carl",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fa58fd978519118d22dbb8eb49773e96",
+  "text_length": 1679,
+  "result": {
+    "inspired_by": [
+      "Philipp von Jolly",
+      "Johann von Lamont"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:09:50.341038"
+}

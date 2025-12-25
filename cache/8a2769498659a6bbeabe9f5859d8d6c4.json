@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Debendranath Tagore",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "dab5f128505c25c1b8b61a7673a825e6",
+  "text_length": 5243,
+  "result": {
+    "inspired_by": [
+      "Raja Rammohan Roy"
+    ],
+    "inspired": [
+      "Rabindranath Tagore",
+      "Girindranath Tagore",
+      "Nagendranath Tagore"
+    ]
+  },
+  "timestamp": "2025-12-24T21:40:15.108312"
+}

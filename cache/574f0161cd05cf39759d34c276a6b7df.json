@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Henry J. Watt",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7a6becea230fc0159e1bf5efbcdfdf1a",
+  "text_length": 2425,
+  "result": {
+    "inspired_by": [
+      "Oswald Külpe",
+      "Carl Stumpf"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:47:55.917431"
+}

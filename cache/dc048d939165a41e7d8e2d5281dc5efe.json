@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Heinrich J. Matthaei",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "257a6d3eeba8f84d813c16fbe89c0fea",
+  "text_length": 2320,
+  "result": {
+    "inspired_by": [
+      "Marshall Warren Nirenberg"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:33:55.528804"
+}

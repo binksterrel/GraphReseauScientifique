@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Carl Correns",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6cd2e13a5cdcbd79ea8e40a28d0fa2a4",
+  "text_length": 5011,
+  "result": {
+    "inspired_by": [
+      "Gregor Mendel",
+      "Karl Nägeli"
+    ],
+    "inspired": [
+      "Carl Wilhelm Correns",
+      "Erich Correns",
+      "Anna-Eva Correns"
+    ]
+  },
+  "timestamp": "2025-12-25T18:05:36.912300"
+}

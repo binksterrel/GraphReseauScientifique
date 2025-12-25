@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Peter Jan Beckx",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "efe9dda4088d41ebf8e9c212c37999df",
+  "text_length": 6622,
+  "result": {
+    "inspired_by": [
+      "Jan Roothaan"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:29:35.224039"
+}

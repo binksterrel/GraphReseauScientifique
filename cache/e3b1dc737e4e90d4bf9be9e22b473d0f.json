@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Stanisław Zaremba",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "68ecc9be57b7db059bb75e3a9f7811a7",
+  "text_length": 375,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:33:37.810667"
+}

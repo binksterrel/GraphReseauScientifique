@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Walter Elsasser",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "da1c961f53a7e8a2fae176ed61625893",
+  "text_length": 9530,
+  "result": {
+    "inspired_by": [
+      "Max Born",
+      "Nobel Prize recipient Max Born"
+    ],
+    "inspired": [
+      "Students and scientists influenced by Walter Elsasser's work are not explicitly mentioned in the text."
+    ]
+  },
+  "timestamp": "2025-12-25T18:30:00.410966"
+}

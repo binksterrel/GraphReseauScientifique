@@ -1,0 +1,21 @@
+{
+  "scientist_name": "René Thom",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "04046119e165982232b762cddc2e2d86",
+  "text_length": 6978,
+  "result": {
+    "inspired_by": [
+      "Henri Cartan"
+    ],
+    "inspired": [
+      "Christopher Zeeman",
+      "Harold Levine",
+      "John Mather",
+      "Christopher Gibson",
+      "Klaus Wirthmüller",
+      "Andrew du Plessis",
+      "Eduard Looijenga"
+    ]
+  },
+  "timestamp": "2025-12-25T17:37:30.309476"
+}

@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Leonhard Euler",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bbf876b4a501331a3c3df24c2892877e",
+  "text_length": 28863,
+  "result": {
+    "inspired_by": [
+      "Jacob Bernoulli",
+      "Johann Bernoulli"
+    ],
+    "inspired": [
+      "Pierre-Simon Laplace",
+      "Carl Friedrich Gauss",
+      "Stepan Rumovsky"
+    ]
+  },
+  "timestamp": "2025-12-25T01:46:34.728513"
+}

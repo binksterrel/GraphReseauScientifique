@@ -1,0 +1,17 @@
+{
+  "scientist_name": "John Dalton",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1682cac4b2c2b51c42c1249644939e79",
+  "text_length": 26733,
+  "result": {
+    "inspired_by": [
+      "Elihu Robinson",
+      "George Hadley"
+    ],
+    "inspired": [
+      "Scientific community in the 19th century",
+      "Future chemists and physicists influenced by Dalton's atomic theory"
+    ]
+  },
+  "timestamp": "2025-12-25T12:15:48.108707"
+}

@@ -1,0 +1,24 @@
+{
+  "scientist_name": "Max Born",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "052523ba41dd77aec6e7a003a758ea74",
+  "text_length": 28053,
+  "result": {
+    "inspired_by": [
+      "Felix Klein",
+      "David Hilbert",
+      "Hermann Minkowski",
+      "Fritz Haber"
+    ],
+    "inspired": [
+      "Max Planck",
+      "Otto Toeplitz",
+      "Ernst Hellinger",
+      "J. J. Thomson",
+      "George Searle",
+      "Joseph Larmor",
+      "Albert Einstein"
+    ]
+  },
+  "timestamp": "2025-12-24T23:24:51.450341"
+}

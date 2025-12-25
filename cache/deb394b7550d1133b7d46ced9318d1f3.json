@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Gottlob Frege",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8e75d8da8c0a77d39708f20cec6765b2",
+  "text_length": 26338,
+  "result": {
+    "inspired_by": [
+      "George Boole",
+      "Ernst Schröder",
+      "Rudolf Carnap",
+      "Bertrand Russell",
+      "Ludwig Wittgenstein"
+    ],
+    "inspired": [
+      "Bertrand Russell",
+      "Alfred North Whitehead"
+    ]
+  },
+  "timestamp": "2025-12-25T18:02:53.531789"
+}

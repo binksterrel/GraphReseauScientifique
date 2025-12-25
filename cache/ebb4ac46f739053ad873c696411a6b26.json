@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Heinrich Behnke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "863b96f56eb92a0bef02733647e3d842",
+  "text_length": 1823,
+  "result": {
+    "inspired_by": [
+      "Henri Cartan",
+      "Peter Thullen"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:59:05.660893"
+}

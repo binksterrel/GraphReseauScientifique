@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Benjamin Lee Whorf",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "21472ced35bc0ffab3cd07ae5f69b44c",
+  "text_length": 27358,
+  "result": {
+    "inspired_by": [
+      "Edward Sapir",
+      "Wilhelm von Humboldt",
+      "Wilhelm Wundt"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:41:50.591752"
+}

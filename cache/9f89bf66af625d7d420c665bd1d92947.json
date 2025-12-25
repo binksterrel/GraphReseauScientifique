@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Walter Schottky",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "791d0a39fb7d23a5c7b14752f90427f4",
+  "text_length": 10548,
+  "result": {
+    "inspired_by": [
+      "Max Planck",
+      "Heinrich Rubens"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:55:49.822266"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Freeman Dyson",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cb7ddee3c58af574eb482b558920e395",
+  "text_length": 26908,
+  "result": {
+    "inspired_by": [
+      "Abram Besicovitch",
+      "Hans Bethe",
+      "Richard Feynman",
+      "Julian Schwinger",
+      "Shin'ichirō Tomonaga"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:55:37.456701"
+}

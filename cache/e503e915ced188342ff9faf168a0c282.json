@@ -1,0 +1,14 @@
+{
+  "scientist_name": "William Whewell",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3fb9cec181df569be5b410d4fcd606e0",
+  "text_length": 25906,
+  "result": {
+    "inspired_by": [
+      "John Lubbock",
+      "Michael Faraday"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:18:51.082890"
+}

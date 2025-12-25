@@ -1,0 +1,23 @@
+{
+  "scientist_name": "William Butler Yeats",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "348de4959bce8a45e4da58f12067f48b",
+  "text_length": 26907,
+  "result": {
+    "inspired_by": [
+      "Percy Bysshe Shelley",
+      "Edmund Spenser",
+      "Oscar Wilde",
+      "William Blake",
+      "Mohini Chatterjee",
+      "Emanuel Swedenborg"
+    ],
+    "inspired": [
+      "Sir Samuel Ferguson",
+      "Althea Gyles",
+      "Ernest Rhys",
+      "Aleister Crowley"
+    ]
+  },
+  "timestamp": "2025-12-25T14:51:53.265318"
+}

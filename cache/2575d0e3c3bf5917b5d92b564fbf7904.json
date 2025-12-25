@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Alan Watts",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bad30d5941d56299ffdd370b09592219",
+  "text_length": 26115,
+  "result": {
+    "inspired_by": [
+      "Christmas Humphreys",
+      "D. T. Suzuki",
+      "Nicholas Roerich",
+      "Sarvepalli Radhakrishnan",
+      "Alice Bailey"
+    ],
+    "inspired": [
+      "Eugene Rose",
+      "Hieromonk Damascene"
+    ]
+  },
+  "timestamp": "2025-12-25T18:10:32.954865"
+}

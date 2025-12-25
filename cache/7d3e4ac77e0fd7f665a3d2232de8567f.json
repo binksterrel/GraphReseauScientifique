@@ -1,0 +1,44 @@
+{
+  "scientist_name": "J. W. Graham",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b7379536d0e43c50fea0902d49eee6f8",
+  "text_length": 3776,
+  "result": {
+    "inspired_by": [
+      "University of Toronto",
+      "IBM Canada"
+    ],
+    "inspired": [
+      "Ian McPhee",
+      "William Reeves",
+      "James G. Mitchell",
+      "Dan Dodge",
+      "Kim Davidson",
+      "Paul Van Oorschot",
+      "Terry Stepien",
+      "Peter Savich",
+      "F. David Boswell",
+      "David P. Yach",
+      "Garth A. Gibson",
+      "Deanne Farrar",
+      "Ricardo Baeza-Yates",
+      "Eric Veach",
+      "Craig Eisler",
+      "Steven Woods",
+      "Zack Urlocker",
+      "Stephen M. Watt",
+      "Jay Steele",
+      "Jeromy Carriere",
+      "Tom Duff",
+      "Tas Tsonis",
+      "Vicki Iverson",
+      "Alex Nicolaou",
+      "Eldon Sprickerhoff",
+      "Joanne McKinley",
+      "Don Cowan",
+      "Beryl Tomay",
+      "Brice Steven Nkengsa"
+    ]
+  },
+  "timestamp": "2025-12-25T19:16:45.294335"
+}

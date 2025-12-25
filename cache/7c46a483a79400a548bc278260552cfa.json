@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Rosalind Franklin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "03f9a7ddc0fe69b010f731522c89bc84",
+  "text_length": 27987,
+  "result": {
+    "inspired_by": [
+      "Ronald George Wreyford Norrish",
+      "Adrienne Weill"
+    ],
+    "inspired": [
+      "Raymond Gosling",
+      "Aaron Klug"
+    ]
+  },
+  "timestamp": "2025-12-25T15:18:40.850141"
+}

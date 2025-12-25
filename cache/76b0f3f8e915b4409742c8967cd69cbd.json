@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Wojciech Królikowski",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5b787f0f440430adc723363fab6d68e2",
+  "text_length": 3238,
+  "result": {
+    "inspired_by": [
+      "Wojciech Rubinowicz"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:33:37.908724"
+}

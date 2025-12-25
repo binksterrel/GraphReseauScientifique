@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Sir John E. Sulston",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b5f28a874fe6e564d7f0315e5068465b",
+  "text_length": 8310,
+  "result": {
+    "inspired_by": [
+      "Colin Reese",
+      "Leslie Orgel",
+      "Francis Crick",
+      "Sydney Brenner"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:13:01.434778"
+}

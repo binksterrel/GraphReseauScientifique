@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Robert Döpel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ba0df8b9225a585d36b4ce8cbb4812d4",
+  "text_length": 12414,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Wien",
+      "Robert W. Pohl",
+      "Rudolf Freihern von Hirsch zu Planegg",
+      "Johannes Stark"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:01:51.437478"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Jerard Hurwitz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "39665889217ff57edd8e666f7cae8f38",
+  "text_length": 3010,
+  "result": {
+    "inspired_by": [
+      "Samuel B. Weiss",
+      "Audrey Stevens",
+      "James Bonner",
+      "Marianne Grunberg-Manago",
+      "Severo Ochoa"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:23:51.800604"
+}

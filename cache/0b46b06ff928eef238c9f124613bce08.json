@@ -1,0 +1,13 @@
+{
+  "scientist_name": "A. L. Crelle",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "158218a63299b2fa18b856df51e4d025",
+  "text_length": 1324,
+  "result": {
+    "inspired_by": [
+      "Niels Henrik Abel"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:52:04.561035"
+}

@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Morris Swadesh",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1abd4e71a79a6a57406c9e4935b28600",
+  "text_length": 17132,
+  "result": {
+    "inspired_by": [
+      "Edward Sapir",
+      "Morris Swadesh"
+    ],
+    "inspired": [
+      "You"
+    ]
+  },
+  "timestamp": "2025-12-25T16:25:23.800516"
+}

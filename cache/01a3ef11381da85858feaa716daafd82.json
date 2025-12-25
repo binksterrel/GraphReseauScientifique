@@ -1,0 +1,28 @@
+{
+  "scientist_name": "Lejeune Dirichlet",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4c0fcf8e01477239f5c60cce93608d75",
+  "text_length": 20761,
+  "result": {
+    "inspired_by": [
+      "Hachette",
+      "Fourier",
+      "Poisson",
+      "Gauss",
+      "Alexander von Humboldt",
+      "Friedrich Bessel"
+    ],
+    "inspired": [
+      "Gotthold Eisenstein",
+      "Leopold Kronecker",
+      "Rudolf Lipschitz",
+      "Carl Wilhelm Borchardt",
+      "Elwin Bruno Christoffel",
+      "Wilhelm Weber",
+      "Eduard Heine",
+      "Ludwig von Seidel",
+      "Julius Weingarten"
+    ]
+  },
+  "timestamp": "2025-12-25T16:37:00.799543"
+}

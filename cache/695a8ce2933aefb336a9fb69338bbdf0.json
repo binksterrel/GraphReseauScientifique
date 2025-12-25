@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Henri de Saint-Simon",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0f923fe862c1b51f7c11803c508942db",
+  "text_length": 21897,
+  "result": {
+    "inspired_by": [
+      "Adam Smith",
+      "Enlightenment-era",
+      "Isaac Newton"
+    ],
+    "inspired": [
+      "utopian socialism",
+      "John Stuart Mill",
+      "anarchism (through its founder, Pierre-Joseph Proudhon)",
+      "Marxism—Karl Marx and Friedrich Engels",
+      "Thorstein Veblen"
+    ]
+  },
+  "timestamp": "2025-12-24T23:34:24.383137"
+}

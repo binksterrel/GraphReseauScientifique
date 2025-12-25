@@ -1,0 +1,18 @@
+{
+  "scientist_name": "William Henry Perkin Jr.",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b07d5a055db278906c5394fe5c598afc",
+  "text_length": 6020,
+  "result": {
+    "inspired_by": [
+      "Adolf von Baeyer"
+    ],
+    "inspired": [
+      "Frank Lee Pyman",
+      "Robert Robinson",
+      "Walter Haworth",
+      "Eduard Hope"
+    ]
+  },
+  "timestamp": "2025-12-25T18:39:14.809644"
+}

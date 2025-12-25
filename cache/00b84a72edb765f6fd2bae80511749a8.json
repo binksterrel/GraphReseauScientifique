@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Gabriel Wells",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d154d200acfd6af9ad5b54327081c0ef",
+  "text_length": 7141,
+  "result": {
+    "inspired_by": [
+      "William James"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:15:16.529371"
+}

@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Eduard Heine",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9c70997cac1d8ac9b99016a7c7181df3",
+  "text_length": 3584,
+  "result": {
+    "inspired_by": [
+      "Carl Friedrich Gauss",
+      "Moritz Stern",
+      "Peter Gustav Lejeune Dirichlet",
+      "Jakob Steiner",
+      "Johann Franz Encke",
+      "Carl Gustav Jacobi",
+      "Franz Ernst Neumann"
+    ],
+    "inspired": [
+      "Gustav Kirchhoff",
+      "Philipp Ludwig von Seidel"
+    ]
+  },
+  "timestamp": "2025-12-25T12:50:34.019786"
+}

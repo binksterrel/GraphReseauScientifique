@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Raymond Dart",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "dc61efdeb0eab389c8dee82e2fe8ddc2",
+  "text_length": 8485,
+  "result": {
+    "inspired_by": [
+      "Grafton Elliot Smith"
+    ],
+    "inspired": [
+      "Robert Broom",
+      "W. Maxwell Cowan"
+    ]
+  },
+  "timestamp": "2025-12-25T15:11:14.200640"
+}

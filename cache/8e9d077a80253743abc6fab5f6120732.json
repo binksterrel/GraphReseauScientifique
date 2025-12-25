@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Raymond Gosling",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "af9f077b7771557eb8f4cbefcc0f7b32",
+  "text_length": 5545,
+  "result": {
+    "inspired_by": [
+      "Maurice Wilkins",
+      "Sir John Randall"
+    ],
+    "inspired": [
+      "James Watson",
+      "Francis Crick",
+      "Alex Stokes",
+      "Herbert Wilson"
+    ]
+  },
+  "timestamp": "2025-12-25T15:24:31.501198"
+}

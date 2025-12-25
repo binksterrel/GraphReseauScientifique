@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Richard Avenarius",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ad9cf4668db282b46621cc5205f5db47",
+  "text_length": 3351,
+  "result": {
+    "inspired_by": [
+      "Baruch Spinoza",
+      "Carl Vogt"
+    ],
+    "inspired": [
+      "Ernst Mach",
+      "Ber Borochov",
+      "William James",
+      "Anatoly Lunacharsky",
+      "Alexander Bogdanov",
+      "Nikolai Valentinov"
+    ]
+  },
+  "timestamp": "2025-12-24T22:25:53.065233"
+}

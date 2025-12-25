@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Alfred Kroeber",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "39fdc4300c47812860daa46138a65745",
+  "text_length": 10056,
+  "result": {
+    "inspired_by": [
+      "Franz Boas"
+    ],
+    "inspired": [
+      "Karl Kroeber",
+      "Ursula K. Le Guin",
+      "Many of his contemporaries in his views as a cultural historian",
+      "Several of his former students who served as expert witnesses"
+    ]
+  },
+  "timestamp": "2025-12-25T16:23:43.588417"
+}

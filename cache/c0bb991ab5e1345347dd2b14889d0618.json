@@ -1,0 +1,23 @@
+{
+  "scientist_name": "Raja Rammohan Roy",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8c20a8162154bb7dbcc8045b45e57b26",
+  "text_length": 21531,
+  "result": {
+    "inspired_by": [
+      "William Carey",
+      "Hariharananda",
+      "Dwarkanath",
+      "King William IV",
+      "Sophia Dobson Collet"
+    ],
+    "inspired": [
+      "Vedanta",
+      "Unitarianism",
+      "Deism",
+      "Islam",
+      "Freemasons"
+    ]
+  },
+  "timestamp": "2025-12-24T22:35:14.969810"
+}

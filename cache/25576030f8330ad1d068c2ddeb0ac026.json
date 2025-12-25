@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Tycho Brahe",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9ddc70a26280e76c3f3411a1e88d472a",
+  "text_length": 27289,
+  "result": {
+    "inspired_by": [
+      "Aristotle",
+      "Johannes de Sacrobosco",
+      "Petrus Apianus",
+      "Regiomontanus",
+      "Lucas Bachmeister"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:55:39.138962"
+}

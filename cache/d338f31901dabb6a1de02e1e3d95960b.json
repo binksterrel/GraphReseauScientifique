@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Hans Benndorf",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4594b833f41ce8e8a9707277deaae615",
+  "text_length": 2273,
+  "result": {
+    "inspired_by": [
+      "Franz Serafin Exner",
+      "Otto Benndorf",
+      "Rudolf Wagner"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:51:47.228157"
+}

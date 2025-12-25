@@ -1,0 +1,20 @@
+{
+  "scientist_name": "George Salmon",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "51fff90c688faa2ab7826dc50ed67c6a",
+  "text_length": 12312,
+  "result": {
+    "inspired_by": [
+      "Arthur Cayley",
+      "J. J. Sylvester",
+      "Charles Hermite"
+    ],
+    "inspired": [
+      "Frances Anne Salvador",
+      "Students at Trinity College Dublin (undergraduate textbook A Treatise on Conic Sections)",
+      "University Chess Club members",
+      "Dublin Chess Club members"
+    ]
+  },
+  "timestamp": "2025-12-24T21:19:46.530294"
+}

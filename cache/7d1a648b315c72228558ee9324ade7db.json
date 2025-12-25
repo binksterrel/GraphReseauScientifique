@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Percival Bailey",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0fb0f695e38bdc1b4dfbd9abe34e8817",
+  "text_length": 4734,
+  "result": {
+    "inspired_by": [
+      "Harvey Cushing"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:19:57.181257"
+}

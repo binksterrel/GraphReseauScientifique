@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Quantum Theory",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fbc430ac1c8c1e84f19da46d2685f9b5",
+  "text_length": 637,
+  "result": {
+    "inspired_by": [
+      "Max Planck",
+      "Werner Heisenberg",
+      "Niels Bohr",
+      "Erwin Schrödinger",
+      "Paul Dirac",
+      "Albert Einstein"
+    ],
+    "inspired": [
+      "Asher Peres",
+      "Video game developers of Quantum Theory (2010 video game)",
+      "Jarvis Cocker"
+    ]
+  },
+  "timestamp": "2025-12-25T17:10:58.254329"
+}

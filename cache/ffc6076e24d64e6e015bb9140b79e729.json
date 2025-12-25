@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Jeremy Bentham",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "31ca0bcb2834a88a85bb275122d79dd6",
+  "text_length": 27155,
+  "result": {
+    "inspired_by": [
+      "Jeremiah Bentham",
+      "Alicia Woodward",
+      "Westminster School",
+      "The Queen's College, Oxford",
+      "John Lind"
+    ],
+    "inspired": [
+      "James Mill",
+      "John Stuart Mill",
+      "John Austin",
+      "John Neal"
+    ]
+  },
+  "timestamp": "2025-12-25T14:42:45.283467"
+}

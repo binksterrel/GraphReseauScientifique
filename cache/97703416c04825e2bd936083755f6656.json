@@ -1,0 +1,26 @@
+{
+  "scientist_name": "Karl Přibram",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c6f0b6349ca8241ea18659d44bb28e9e",
+  "text_length": 21651,
+  "result": {
+    "inspired_by": [
+      "Anton Carlson",
+      "Ralph Gerard",
+      "Percival Bailey",
+      "Warren McCullock",
+      "Paul Bucy",
+      "Eric Oldberg",
+      "Karl Lashley",
+      "Roger Sperry",
+      "Donald Hebb"
+    ],
+    "inspired": [
+      "Lawrence Weiskrantz",
+      "Walter Freeman III",
+      "Mortimer Mishkin",
+      "Leslie Ungerleider"
+    ]
+  },
+  "timestamp": "2025-12-25T14:29:47.942712"
+}

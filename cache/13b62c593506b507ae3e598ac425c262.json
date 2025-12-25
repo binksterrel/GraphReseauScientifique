@@ -1,0 +1,11 @@
+{
+  "scientist_name": "William McDougall",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b0eb206ae27e82656f1761a92faa047b",
+  "text_length": 1426,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:04:29.960846"
+}

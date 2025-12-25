@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Laurent Itti",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "78572476ab5b040f4b091bf24f476a56",
+  "text_length": 3353,
+  "result": {
+    "inspired_by": [
+      "Christof Koch"
+    ],
+    "inspired": [
+      "Vidya Navalpakkam",
+      "T Nathan Mundhenk",
+      "Jinal Jhaveri"
+    ]
+  },
+  "timestamp": "2025-12-25T15:24:52.267680"
+}

@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Jab Tak Hai Jaan",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6835d68a656c76e0e1417b1ff66314ca",
+  "text_length": 19119,
+  "result": {
+    "inspired_by": [
+      "Yash Chopra",
+      "A. R. Rahman",
+      "Gulzar"
+    ],
+    "inspired": [
+      "Classic romantic films",
+      "Yash Raj Films' romantic sound",
+      "Lyrics by Gulzar"
+    ]
+  },
+  "timestamp": "2025-12-24T22:45:45.502673"
+}

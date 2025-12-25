@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Eugène Lafont, S.J.",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f15d2f2f7492f9c73671ef0d5268e1e5",
+  "text_length": 6968,
+  "result": {
+    "inspired_by": [
+      "Henri Depelchin, S.J."
+    ],
+    "inspired": [
+      "Mahendra Lal Sircar",
+      "Jagadish Chandra Bose"
+    ]
+  },
+  "timestamp": "2025-12-24T22:29:58.991508"
+}

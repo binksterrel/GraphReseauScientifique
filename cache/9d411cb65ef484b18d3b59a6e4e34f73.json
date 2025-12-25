@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Leopold Kronecker",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f4207ed2f38c31fb7adf6df5a6903821",
+  "text_length": 8357,
+  "result": {
+    "inspired_by": [
+      "Ernst Kummer"
+    ],
+    "inspired": [
+      "Kurt Hensel",
+      "Adolf Kneser",
+      "Mathias Lerch",
+      "Franz Mertens"
+    ]
+  },
+  "timestamp": "2025-12-25T12:48:21.407231"
+}

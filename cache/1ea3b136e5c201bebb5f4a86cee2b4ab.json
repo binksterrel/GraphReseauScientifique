@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Stanisław Ulam",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "629aca7e39c17c726670f541d787f94e",
+  "text_length": 27812,
+  "result": {
+    "inspired_by": [
+      "Kazimierz Kuratowski",
+      "Włodzimierz Stożek",
+      "Hugo Steinhaus",
+      "Stefan Banach",
+      "John von Neumann"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:02:28.879336"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Ae Dil Hai Mushkil",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "65552e9577cea596466a637504b13f7f",
+  "text_length": 14824,
+  "result": {
+    "inspired_by": [
+      "Karan Johar",
+      "Master storyteller"
+    ],
+    "inspired": [
+      "Bollywood films",
+      "Contemporary and progressive take on relationships"
+    ]
+  },
+  "timestamp": "2025-12-24T22:47:33.936842"
+}

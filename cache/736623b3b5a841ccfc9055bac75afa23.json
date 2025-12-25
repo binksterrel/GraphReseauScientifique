@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Ernst Ising",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7b37f4b5220d455a075af0404ed3f66a",
+  "text_length": 6847,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Lenz"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:18:58.845520"
+}

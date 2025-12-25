@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Hans Bethe",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "648fc091eabe4bffbc63e83ccdb261de",
+  "text_length": 27614,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Enrico Fermi"
+    ],
+    "inspired": [
+      "Freeman Dyson"
+    ]
+  },
+  "timestamp": "2025-12-24T23:46:39.431319"
+}

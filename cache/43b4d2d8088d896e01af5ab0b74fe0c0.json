@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Ralph H. Fowler",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e85fa49a6809f570fa7e7e57056669b7",
+  "text_length": 5214,
+  "result": {
+    "inspired_by": [
+      "Arthur Milne",
+      "Archibald Hill",
+      "Sir Arthur Eddington",
+      "Subrahmanyan Chandrasekhar",
+      "Paul Dirac",
+      "Homi J. Bhabha",
+      "Sir William McCrea"
+    ],
+    "inspired": [
+      "John Lennard-Jones",
+      "Garrett Birkhoff"
+    ]
+  },
+  "timestamp": "2025-12-25T17:07:38.972110"
+}

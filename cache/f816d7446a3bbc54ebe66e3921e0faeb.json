@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Wander de Haas",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9b690e196467867b88a028879e7e87eb",
+  "text_length": 2796,
+  "result": {
+    "inspired_by": [
+      "Heike Kamerlingh Onnes",
+      "Johannes Petrus Kuenen"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:09:30.365217"
+}

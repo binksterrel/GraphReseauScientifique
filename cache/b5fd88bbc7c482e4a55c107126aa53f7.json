@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Beno Gutenberg",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bb1ace5cf72848969ee677147fd45131",
+  "text_length": 5737,
+  "result": {
+    "inspired_by": [
+      "Emil Wiechert"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:04:53.032920"
+}

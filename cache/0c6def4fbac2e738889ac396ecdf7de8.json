@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Georges Clemenceau",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d8c672c0ac276d03aa437ea2f7144b73",
+  "text_length": 26620,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:37:17.011597"
+}

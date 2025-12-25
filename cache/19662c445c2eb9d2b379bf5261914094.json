@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Rajendralal Dutt",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "74a668a1305219beeb42c5f703bd5722",
+  "text_length": 25753,
+  "result": {
+    "inspired_by": [
+      "William Jones",
+      "H.T. Colebrooke",
+      "James Prinsep"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:38:15.786220"
+}

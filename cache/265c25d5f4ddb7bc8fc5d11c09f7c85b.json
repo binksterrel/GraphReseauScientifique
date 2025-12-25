@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Mohini Chatterjee",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "72261dc4ee9648e4348af49bde7b540d",
+  "text_length": 6401,
+  "result": {
+    "inspired_by": [
+      "Madame Blavatsky",
+      "H. S. Olcott"
+    ],
+    "inspired": [
+      "George Russell (Æ)",
+      "William Butler Yeats"
+    ]
+  },
+  "timestamp": "2025-12-25T19:03:39.643136"
+}

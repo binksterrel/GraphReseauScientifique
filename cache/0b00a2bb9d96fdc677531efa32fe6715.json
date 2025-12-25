@@ -1,0 +1,17 @@
+{
+  "scientist_name": "James David Forbes",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2853672974e803e3c94d6efb562f578f",
+  "text_length": 7921,
+  "result": {
+    "inspired_by": [
+      "Sir David Brewster"
+    ],
+    "inspired": [
+      "John Campbell Shairp",
+      "Peter Guthrie Tait",
+      "George Forbes"
+    ]
+  },
+  "timestamp": "2025-12-25T19:52:35.901903"
+}

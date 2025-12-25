@@ -1,0 +1,27 @@
+{
+  "scientist_name": "Eugene Wigner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ba30624e259776333d8abf966fda6d3f",
+  "text_length": 27599,
+  "result": {
+    "inspired_by": [
+      "Karl Weissenberg",
+      "Richard Becker",
+      "David Hilbert",
+      "Leó Szilárd",
+      "Michael Polanyi",
+      "Arnold Sommerfeld"
+    ],
+    "inspired": [
+      "John von Neumann",
+      "Paul Dirac",
+      "Amelia Frank",
+      "J. Ernest Wilkins Jr.",
+      "Alvin M. Weinberg",
+      "Katharine Way",
+      "Gale Young",
+      "Edward Creutz"
+    ]
+  },
+  "timestamp": "2025-12-25T17:13:29.211223"
+}

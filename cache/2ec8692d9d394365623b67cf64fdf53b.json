@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Arthur von Oettingen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0b6ff5e280c823d2ad2a20ae89f96b34",
+  "text_length": 2635,
+  "result": {
+    "inspired_by": [
+      "Antoine César Becquerel",
+      "Henri Victor Régnault",
+      "Heinrich Gustav Magnus",
+      "Johann Christian Poggendorff",
+      "Heinrich Wilhelm Dove"
+    ],
+    "inspired": [
+      "Hugo Riemann"
+    ]
+  },
+  "timestamp": "2025-12-25T18:30:29.885672"
+}

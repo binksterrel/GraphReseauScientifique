@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Fritz Albert Lipmann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ad212cdf502e8e7613d07e3541111720",
+  "text_length": 3228,
+  "result": {
+    "inspired_by": [
+      "Hans Meerwein",
+      "Otto Meyerhof"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:09:29.394416"
+}

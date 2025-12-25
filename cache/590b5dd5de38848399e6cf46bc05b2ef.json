@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Francis Crick",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "34cd993626f0c7da71066a26ae620eaa",
+  "text_length": 26575,
+  "result": {
+    "inspired_by": [
+      "Edward Neville da Costa Andrade",
+      "Max Perutz",
+      "John Kendrew",
+      "Sir Lawrence Bragg",
+      "Linus Pauling"
+    ],
+    "inspired": [
+      "James Watson",
+      "Maurice Wilkins",
+      "Christof Koch"
+    ]
+  },
+  "timestamp": "2025-12-24T21:50:39.018379"
+}

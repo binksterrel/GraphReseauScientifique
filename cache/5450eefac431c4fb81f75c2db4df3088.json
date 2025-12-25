@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Leopold von Ranke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7ce184f2511e15195980213e23a65412",
+  "text_length": 20446,
+  "result": {
+    "inspired_by": [
+      "Barthold Georg Niebuhr",
+      "Johann Gottfried Jakob Hermann"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:19:35.574428"
+}

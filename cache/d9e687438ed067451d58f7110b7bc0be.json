@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Francis Ellingwood Abbot",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "68b58d78620dfbefab422653a2d60e4a",
+  "text_length": 8208,
+  "result": {
+    "inspired_by": [
+      "Joseph Hale Abbot",
+      "Fanny Ellingwood Larcom",
+      "Harvard University",
+      "Meadville Theological School"
+    ],
+    "inspired": [
+      "Everett Vergnies",
+      "Fanny Larcom",
+      "Edward Stanley Abbot",
+      "Frederick Douglass"
+    ]
+  },
+  "timestamp": "2025-12-25T17:59:09.414432"
+}

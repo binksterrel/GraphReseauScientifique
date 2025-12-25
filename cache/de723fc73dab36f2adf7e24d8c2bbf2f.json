@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Karl Jaspers",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f6bf49ff3b1695319e679c02c808910e",
+  "text_length": 14978,
+  "result": {
+    "inspired_by": [
+      "Immanuel Kant",
+      "Aristotle",
+      "Plato",
+      "Nietzsche",
+      "Kierkegaard"
+    ],
+    "inspired": [
+      "Paul Ricœur",
+      "Hans-Georg Gadamer"
+    ]
+  },
+  "timestamp": "2025-12-25T16:20:07.553086"
+}

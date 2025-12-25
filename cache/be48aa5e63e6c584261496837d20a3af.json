@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Rajkumar Hirani",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7fd898f551b59e4002f8094de836ffae",
+  "text_length": 22781,
+  "result": {
+    "inspired_by": [
+      "Not specified in the text"
+    ],
+    "inspired": [
+      "Vidhu Vinod Chopra"
+    ]
+  },
+  "timestamp": "2025-12-24T22:41:50.548188"
+}

@@ -1,0 +1,43 @@
+{
+  "scientist_name": "Franz S. Exner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3efdd81a624f6afe5a4f331071cf2696",
+  "text_length": 11926,
+  "result": {
+    "inspired_by": [
+      "Viktor von Lang",
+      "August Kundt",
+      "Wilhelm Conrad Röntgen"
+    ],
+    "inspired": [
+      "Stefan Meyer",
+      "Erwin Schrödinger",
+      "Marian Smoluchowski",
+      "Lise Meitner",
+      "Josef Thuma",
+      "Anton Lampa",
+      "Hans Benndorf",
+      "Marian Smoluchowski",
+      "Stefan Meyer",
+      "Egon Schweidler",
+      "Eduard Haschek",
+      "Friedrich Hasenöhrl",
+      "Arthur Szarvassi",
+      "Heinrich Mache",
+      "Victor Conrad",
+      "Felix Maria von Exner-Ewarten",
+      "Friedrich von Lerch",
+      "Karl Przibram",
+      "Felix Ehrenhaft",
+      "Erwin Lohr",
+      "Wilhelm Schmidt",
+      "Franz Aigner",
+      "Victor Francis Hess",
+      "Karl Wilhelm Friedrich Kohlrausch",
+      "Ludwig Flamm",
+      "Erwin Schrödinger",
+      "Hans Thirring"
+    ]
+  },
+  "timestamp": "2025-12-24T21:46:51.101696"
+}

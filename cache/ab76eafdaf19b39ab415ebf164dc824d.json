@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Louis Hachette",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ec7d9108f65a550bf77c7675b98a803c",
+  "text_length": 4118,
+  "result": {
+    "inspired_by": [
+      "Louis Hachette"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:31:32.545506"
+}

@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Carl Eckart",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f8e507e05b14166ecb22b807d1b41055",
+  "text_length": 12566,
+  "result": {
+    "inspired_by": [
+      "Arthur Compton",
+      "Karl Compton",
+      "Max Born",
+      "Werner Heisenberg",
+      "Eugene Wigner",
+      "Arnold Sommerfeld"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:49:36.057727"
+}

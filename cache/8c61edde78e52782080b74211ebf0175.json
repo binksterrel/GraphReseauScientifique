@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Viktor von Weizsäcker",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1085606c49e221e2dcb02c3417dbd34d",
+  "text_length": 4023,
+  "result": {
+    "inspired_by": [
+      "Ludolf von Krehl",
+      "Otfrid Foerster"
+    ],
+    "inspired": [
+      "Martin Buber",
+      "Joseph Wittig"
+    ]
+  },
+  "timestamp": "2025-12-25T12:55:07.909347"
+}

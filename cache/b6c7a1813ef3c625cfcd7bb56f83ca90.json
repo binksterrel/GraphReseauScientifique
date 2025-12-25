@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Clarence Zener",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "05ca6fb6504ad03966b82b20fd442648",
+  "text_length": 4423,
+  "result": {
+    "inspired_by": [
+      "Edwin C. Kemble"
+    ],
+    "inspired": [
+      "John B. Goodenough",
+      "Arthur Nowick"
+    ]
+  },
+  "timestamp": "2025-12-25T00:16:49.665106"
+}

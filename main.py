@@ -31,6 +31,8 @@ def main():
         graph = builder.graph
     except Exception as e:
         print(f"\n❌ Erreur critique: {e}")
+        print("💾 Sauvegarde d'urgence des données graph...")
+        builder.save_graph("output/scientist_graph.gexf")
         return
 
     if graph.number_of_nodes() == 0:

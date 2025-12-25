@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Johann Tobias Mayer",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c79ebc19651cf777a8040aadf8250934",
+  "text_length": 1853,
+  "result": {
+    "inspired_by": [
+      "Abraham Gotthelf Kästner",
+      "Georg Christoph Lichtenberg"
+    ],
+    "inspired": [
+      "Enno Dirksen"
+    ]
+  },
+  "timestamp": "2025-12-25T14:06:39.145266"
+}

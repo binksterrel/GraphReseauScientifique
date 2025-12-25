@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Zora Neale Hurston",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fd8b4204cc980fe4da8ef30d878f4ae9",
+  "text_length": 27810,
+  "result": {
+    "inspired_by": [
+      "Franz Boas",
+      "Ruth Benedict",
+      "Alain Locke",
+      "Charlotte Osgood Mason"
+    ],
+    "inspired": [
+      "Langston Hughes",
+      "Countee Cullen",
+      "future students of Bethune-Cookman College and North Carolina College for Negroes"
+    ]
+  },
+  "timestamp": "2025-12-25T16:14:16.183269"
+}

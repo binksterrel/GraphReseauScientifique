@@ -1,0 +1,21 @@
+{
+  "scientist_name": "John von Neumann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3d618af061f7e9fd80c0f142de8b71ac",
+  "text_length": 27073,
+  "result": {
+    "inspired_by": [
+      "Gabor Szegő",
+      "David Hilbert",
+      "Hermann Weyl"
+    ],
+    "inspired": [
+      "Eugene Wigner",
+      "Marietta Kövesi",
+      "Stanisław Ulam",
+      "Herbert York",
+      "Marina von Neumann"
+    ]
+  },
+  "timestamp": "2025-12-25T17:46:24.455390"
+}

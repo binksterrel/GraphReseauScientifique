@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Karl Bernhard Zoeppritz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1d66300ac7bd58fdd51837842895359d",
+  "text_length": 4059,
+  "result": {
+    "inspired_by": [
+      "Emil Wiechert"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:04:35.094531"
+}

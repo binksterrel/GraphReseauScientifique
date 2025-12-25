@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Adoniram Judson",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "14d4a60575d84ba18931d09d1879fea5",
+  "text_length": 23324,
+  "result": {
+    "inspired_by": [
+      "Jacob Eames",
+      "The Brethren"
+    ],
+    "inspired": [
+      "Maung Naw",
+      "U Shwe Ngong",
+      "Ko-Thah-a"
+    ]
+  },
+  "timestamp": "2025-12-25T19:03:13.480327"
+}

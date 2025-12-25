@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Arthur Compton",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cfb4d557ee3fe5c6928aa675b6f00093",
+  "text_length": 26141,
+  "result": {
+    "inspired_by": [
+      "Hereward L. Cooke",
+      "George Paget Thomson",
+      "Ernest Rutherford",
+      "Charles Galton Darwin",
+      "Arthur Eddington"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:29:01.497151"
+}

@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Ludwig Boltzmann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4e8578c79bd697ebcd08137b35000658",
+  "text_length": 26285,
+  "result": {
+    "inspired_by": [
+      "James Clerk Maxwell"
+    ],
+    "inspired": [
+      "Svante Arrhenius",
+      "Walther Nernst",
+      "Karl Přibram",
+      "Paul Ehrenfest",
+      "Lise Meitner"
+    ]
+  },
+  "timestamp": "2025-12-24T22:26:40.479850"
+}

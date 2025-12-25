@@ -1,0 +1,21 @@
+{
+  "scientist_name": "John Dewey",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4c9c69f919d3677d784983f00b472e22",
+  "text_length": 26945,
+  "result": {
+    "inspired_by": [
+      "Henry Augustus Pearson Torrey",
+      "George Sylvester Morris",
+      "Charles Sanders Peirce",
+      "Herbert Baxter Adams",
+      "G. Stanley Hall"
+    ],
+    "inspired": [
+      "Carl Rogers",
+      "Hundreds and sometimes thousands of people in China",
+      "black people and their white supporters in South Africa"
+    ]
+  },
+  "timestamp": "2025-12-25T16:22:56.441995"
+}

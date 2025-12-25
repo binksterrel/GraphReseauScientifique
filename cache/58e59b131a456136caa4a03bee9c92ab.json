@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Pierre Curie",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4a718736c0cfd06fa2b2908d1c047a6e",
+  "text_length": 9996,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Henri Becquerel",
+      "Albert Laborde",
+      "Irène Joliot-Curie",
+      "Frédéric Joliot-Curie",
+      "Hélène Langevin-Joliot",
+      "Pierre Joliot"
+    ]
+  },
+  "timestamp": "2025-12-24T23:48:08.446742"
+}

@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Philipp Ludwig von Seidel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2ac892376aafb8a3ecf62faed0325210",
+  "text_length": 1932,
+  "result": {
+    "inspired_by": [
+      "Augustin-Louis Cauchy"
+    ],
+    "inspired": [
+      "Eduard Study",
+      "Hermann Wiener"
+    ]
+  },
+  "timestamp": "2025-12-25T16:40:34.745019"
+}

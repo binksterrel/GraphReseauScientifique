@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Rene Descartes",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "da908e967e8f8c9a108b761aca887fe0",
+  "text_length": 26478,
+  "result": {
+    "inspired_by": [
+      "Isaac Beeckman",
+      "Simon Stevin",
+      "Girard Desargues",
+      "Marin Hortensius",
+      "Pierre de Fermat"
+    ],
+    "inspired": [
+      "Princess Elisabeth of Bohemia"
+    ]
+  },
+  "timestamp": "2025-12-24T23:50:32.108193"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Irène Joliot-Curie",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a5009c3d04b03af7625c141e831f2e1f",
+  "text_length": 16191,
+  "result": {
+    "inspired_by": [
+      "Marie Skłodowska-Curie",
+      "Paul Langevin"
+    ],
+    "inspired": [
+      "Hélène Joliot-Curie",
+      "Pierre Joliot-Curie"
+    ]
+  },
+  "timestamp": "2025-12-24T23:48:56.977337"
+}

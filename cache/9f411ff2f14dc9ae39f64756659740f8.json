@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Christophe Gadbled",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3e760b0bafd00743d42caabb95612665",
+  "text_length": 918,
+  "result": {
+    "inspired_by": [
+      "Not specified in the text"
+    ],
+    "inspired": [
+      "Pierre-Simon Laplace"
+    ]
+  },
+  "timestamp": "2025-12-25T17:47:21.049532"
+}

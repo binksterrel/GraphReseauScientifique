@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Julian Schwinger",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "85d7ea920916ab4561ab1ad6ac0e283e",
+  "text_length": 18519,
+  "result": {
+    "inspired_by": [
+      "Isidor Isaac Rabi",
+      "Gregory Breit",
+      "Eugene Wigner",
+      "J. Robert Oppenheimer"
+    ],
+    "inspired": [
+      "Roy Glauber",
+      "Benjamin Roy Mottelson",
+      "Sheldon Glashow",
+      "Walter Kohn"
+    ]
+  },
+  "timestamp": "2025-12-24T23:44:31.185323"
+}

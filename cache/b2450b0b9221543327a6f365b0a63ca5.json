@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Franz Ernst Christian Neumann (son)",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8c2671070578ad3999c1d6f71fedddf2",
+  "text_length": 7096,
+  "result": {
+    "inspired_by": [
+      "Ernst Neumann (father)",
+      "Unknown mentors and teachers at the Gymnasium in Berlin",
+      "Unknown mentors and teachers at Berlin University"
+    ],
+    "inspired": [
+      "Carl Gottfried Neumann",
+      "Franz Ernst Christian Neumann (son)",
+      "Friedrich Julius Neumann",
+      "Luise Neumann"
+    ]
+  },
+  "timestamp": "2025-12-25T16:28:51.160488"
+}

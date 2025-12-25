@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Charles de Gaulle",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "58e2071c5ad30ec7fd63614719b31cd9",
+  "text_length": 29224,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:38:44.488242"
+}

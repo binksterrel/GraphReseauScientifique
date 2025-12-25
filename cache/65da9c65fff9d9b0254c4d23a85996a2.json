@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Edward Bradford Titchener",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5ba61de8c4281700a4560046f6758b5d",
+  "text_length": 13659,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Wundt",
+      "John Scott Burdon-Sanderson"
+    ],
+    "inspired": [
+      "Margaret Floy Washburn"
+    ]
+  },
+  "timestamp": "2025-12-25T12:29:32.834367"
+}

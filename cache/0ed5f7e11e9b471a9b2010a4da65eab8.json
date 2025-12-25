@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Victor Hugo",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "59ede648ccb378242252c1a573718d59",
+  "text_length": 26439,
+  "result": {
+    "inspired_by": [
+      "François-René de Chateaubriand"
+    ],
+    "inspired": [
+      "Albert Camus",
+      "Charles Dickens",
+      "Fyodor Dostoyevsky",
+      "future writers who were influenced by Hugo's work"
+    ]
+  },
+  "timestamp": "2025-12-24T21:58:09.890046"
+}

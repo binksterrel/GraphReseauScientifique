@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Charles William Eliot",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "72435827b2a72362d6d9fc5bb72faf1c",
+  "text_length": 25454,
+  "result": {
+    "inspired_by": [
+      "Josiah P. Cooke"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:58:38.411869"
+}

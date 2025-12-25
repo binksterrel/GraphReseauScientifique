@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Hendrik de Vries",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f0a10dcec3af3d4247c613a1f9aa06d5",
+  "text_length": 3083,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:20:28.420704"
+}

@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Richard S. Varga",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "534f55cbef109f6404b3c2c3a7eb78f2",
+  "text_length": 3549,
+  "result": {
+    "inspired_by": [
+      "Max Morris",
+      "Joseph L. Walsh",
+      "Garrett Birkhoff"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:21:48.596001"
+}

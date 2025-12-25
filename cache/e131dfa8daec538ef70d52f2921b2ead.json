@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Thomas Hobbes",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1db5eba894b7f812b0a72e194096c0f6",
+  "text_length": 26919,
+  "result": {
+    "inspired_by": [
+      "Francis",
+      "Fulgenzio Micanzio",
+      "Marin Mersenne",
+      "Galileo Galilei"
+    ],
+    "inspired": [
+      "William Cavendish (1st Earl of Devonshire)",
+      "William Cavendish (3rd Earl of Devonshire)",
+      "Charles Cavendish",
+      "Charles I",
+      "Charles James, Duke of Cornwall"
+    ]
+  },
+  "timestamp": "2025-12-25T18:06:25.361646"
+}

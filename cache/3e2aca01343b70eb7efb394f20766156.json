@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Raymond Thayer Birge",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1bf14c9cdfd1c58d4694cdee196b16e9",
+  "text_length": 3924,
+  "result": {
+    "inspired_by": [
+      "Gilbert N. Lewis",
+      "Niels Bohr"
+    ],
+    "inspired": [
+      "William Francis Giauque",
+      "Harold Clayton Urey",
+      "Robert Walsh"
+    ]
+  },
+  "timestamp": "2025-12-25T17:28:19.526987"
+}

@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Victor Weisskopf",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c3edf0abdae047ab9dafa37108587968",
+  "text_length": 7777,
+  "result": {
+    "inspired_by": [
+      "Werner Heisenberg",
+      "Erwin Schrödinger",
+      "Wolfgang Pauli",
+      "Niels Bohr"
+    ],
+    "inspired": [
+      "Esther Conwell"
+    ]
+  },
+  "timestamp": "2025-12-25T00:20:12.826359"
+}

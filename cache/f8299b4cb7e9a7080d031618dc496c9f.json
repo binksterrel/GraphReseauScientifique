@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Gottfried Köthe",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ffdd150f86d9ab44c599400fb14e5d3f",
+  "text_length": 3562,
+  "result": {
+    "inspired_by": [
+      "Alfred Kastil",
+      "Paul Finsler",
+      "Emmy Noether",
+      "Bartel van der Waerden",
+      "Otto Toeplitz"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:48:54.356342"
+}

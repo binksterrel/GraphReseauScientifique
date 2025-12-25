@@ -1,0 +1,24 @@
+{
+  "scientist_name": "Gabriel Tarde",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b8a5bbfc2891c8e40c795043ca704236",
+  "text_length": 8826,
+  "result": {
+    "inspired_by": [
+      "Enrico Ferri",
+      "Cesare Lombroso",
+      "Alexandre Lacassagne"
+    ],
+    "inspired": [
+      "Gustave le Bon",
+      "Henri Bergson",
+      "Sigmund Freud",
+      "Everett Rogers",
+      "Gilles Deleuze",
+      "Félix Guattari",
+      "Bruno Latour",
+      "Tony D Sampson"
+    ]
+  },
+  "timestamp": "2025-12-25T16:10:01.877163"
+}

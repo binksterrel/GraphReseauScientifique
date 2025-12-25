@@ -12,7 +12,12 @@ output/
 !output/index.html
 !output/scientist_graph.gexf
 !output/about.html
-!output/live.html
+!output/top.html
+!output/top_data.json
 !output/header.js
 !output/graph.html
-cache/
+!output/scientists_report.txt
+saves/
+.history/
+saves/
+.history/

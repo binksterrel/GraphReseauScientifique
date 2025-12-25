@@ -1,0 +1,54 @@
+{
+  "scientist_name": "Jhano Murmu",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "08169f73a34aadb78f0aa2640986326f",
+  "text_length": 4993,
+  "result": {
+    "inspired_by": [
+      "Sidhu Murmu (Sidhu Kanhu)",
+      "Kanhu Murmu",
+      "Tilka Majhi (Murmu)"
+    ],
+    "inspired": [
+      "Droupadi Murmu",
+      "Anthony Murmu",
+      "Bhagwat Murmu",
+      "Bhairav Murmu",
+      "Chami Murmu",
+      "Chand Murmu",
+      "Chandrani Murmu",
+      "Durga Murmu",
+      "G. C. Murmu",
+      "Hemlal Murmu",
+      "Jauna Murmu",
+      "Joyel Murmu",
+      "Khagen Murmu",
+      "Naresh Chandra Murmu",
+      "Nathaniyal Murmu",
+      "Paika Murmu",
+      "Paresh Murmu",
+      "Rabindranath Murmu",
+      "Raghunath Murmu",
+      "Rupchand Murmu",
+      "Sadhu Ramchand Murmu",
+      "Salkhan Murmu",
+      "Sidha Lal Murmu",
+      "Sonu Murmu",
+      "Pandit Raghunath Murmu"
+    ],
+    "unknown": [
+      "Pt. Raghunath Academy Of Santali Cinema & Art",
+      "Pandit Raghunath Murmu Government College in Baligeria",
+      "Pandit Raghunath Murmu Medical College and Hospital",
+      "Pandit Raghunath Murmu Smriti Mahavidyalaya",
+      "Pandit Raghunath Murmu Teachers Training College",
+      "Pandit Raghunath Murmu Tribal University",
+      "Sidho Kanho Birsa University",
+      "Sidhu Kanho Birsa Polytechnic",
+      "Tilka Majhi Bhagalpur University",
+      "Phulo Jhano Murmu College of Dairy Technology",
+      "Phulo Jhano Murmu Medical College and Hospital"
+    ]
+  },
+  "timestamp": "2025-12-25T19:08:02.625108"
+}

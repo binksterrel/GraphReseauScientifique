@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Lightner Witmer",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ed72d63c775a6cde87dfdf0f0078497c",
+  "text_length": 23983,
+  "result": {
+    "inspired_by": [
+      "James McKeen Cattell",
+      "Wilhelm Maximilian Wundt"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:30:13.905979"
+}

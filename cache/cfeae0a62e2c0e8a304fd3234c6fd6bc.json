@@ -1,0 +1,17 @@
+{
+  "scientist_name": "François Jacob",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f74b7d8c538fa1a1f3cfb7cbcf2f8217",
+  "text_length": 6841,
+  "result": {
+    "inspired_by": [
+      "Albert Franck",
+      "Jacques Monod",
+      "André Lwoff"
+    ],
+    "inspired": [
+      "Not specified in the text"
+    ]
+  },
+  "timestamp": "2025-12-25T19:26:26.933695"
+}

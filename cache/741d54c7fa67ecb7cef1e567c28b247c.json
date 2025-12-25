@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Andrew Donald Booth",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0737594a3d8926342fe42aead02764cb",
+  "text_length": 4876,
+  "result": {
+    "inspired_by": [
+      "Douglas Hartree",
+      "Alan Turing",
+      "John von Neumann"
+    ],
+    "inspired": [
+      "Amanda Booth",
+      "Ian Booth"
+    ]
+  },
+  "timestamp": "2025-12-25T19:39:12.516583"
+}

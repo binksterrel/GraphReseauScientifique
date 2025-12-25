@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Louis Pasteur",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "eb3d05ec8d9a99d3fec9f6bf57d82765",
+  "text_length": 27491,
+  "result": {
+    "inspired_by": [
+      "Jean-Baptiste Boussingault",
+      "Antoine Jérôme Balard",
+      "Theodor Schwann"
+    ],
+    "inspired": [
+      "Marie Laurent",
+      "Students at the École Normale Supérieure",
+      "Students at the University of Strasbourg",
+      "Students at the École nationale supérieure des Beaux-Arts"
+    ]
+  },
+  "timestamp": "2025-12-24T22:00:17.510837"
+}

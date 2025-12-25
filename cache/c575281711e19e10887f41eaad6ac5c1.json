@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Carolyn S. Shoemaker",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "40c8fda3b4a954e01890feec8ca1a68b",
+  "text_length": 7398,
+  "result": {
+    "inspired_by": [
+      "Eugene Merle Shoemaker"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:12:55.152030"
+}

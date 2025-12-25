@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Ernst Hellinger",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0022e6318c62b0b2efae1e667277b2ec",
+  "text_length": 3173,
+  "result": {
+    "inspired_by": [
+      "David Hilbert"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:05:27.098724"
+}

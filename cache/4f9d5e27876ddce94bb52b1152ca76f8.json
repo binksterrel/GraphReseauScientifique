@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Hans Meerwein",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "aa4b2ed28f3b867053d6d0ed3ac1d338",
+  "text_length": 2155,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:30:28.528097"
+}

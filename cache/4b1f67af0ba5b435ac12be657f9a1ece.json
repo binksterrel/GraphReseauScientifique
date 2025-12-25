@@ -1,0 +1,16 @@
+{
+  "scientist_name": "William Dittmar",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ade7ebf53a44f6d152bdabdcee5873e8",
+  "text_length": 4926,
+  "result": {
+    "inspired_by": [
+      "Henry Enfield Roscoe",
+      "Lord Playfair"
+    ],
+    "inspired": [
+      "Students and successors not explicitly mentioned in the text"
+    ]
+  },
+  "timestamp": "2025-12-25T18:56:02.291237"
+}

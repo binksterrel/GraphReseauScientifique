@@ -1,0 +1,25 @@
+{
+  "scientist_name": "William Nierenberg",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4464e407df2f0a557b436d6acfab5741",
+  "text_length": 10138,
+  "result": {
+    "inspired_by": [
+      "I. I. Rabi"
+    ],
+    "inspired": [
+      "40 PhD students at University of California, Berkeley",
+      "Many international scientists through the Deep Sea Drilling Project (1966–1986)",
+      "E. O. Wilson",
+      "Walter Cronkite",
+      "Jane Lubchenco",
+      "David Attenborough",
+      "Jane Goodall",
+      "Craig Venter",
+      "Gordon Moore",
+      "James E. Hansen",
+      "Richard Dawkins"
+    ]
+  },
+  "timestamp": "2025-12-25T17:27:03.052676"
+}

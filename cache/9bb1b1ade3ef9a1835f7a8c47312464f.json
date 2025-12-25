@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Joseph-Louis Lagrange",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "df74cceab8a44173f9bfa6e6e184cd7b",
+  "text_length": 26499,
+  "result": {
+    "inspired_by": [
+      "Leonhard Euler",
+      "d'Alembert"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:25:16.201874"
+}

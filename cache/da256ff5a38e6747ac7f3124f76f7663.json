@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Jöns Jakob Berzelius",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f3662f7b37e449bddad673ff2550bafb",
+  "text_length": 21656,
+  "result": {
+    "inspired_by": [
+      "Anders Gustaf Ekeberg",
+      "Carl William Scheele"
+    ],
+    "inspired": [
+      "Students working in Berzelius's laboratory"
+    ]
+  },
+  "timestamp": "2025-12-25T12:45:32.838141"
+}

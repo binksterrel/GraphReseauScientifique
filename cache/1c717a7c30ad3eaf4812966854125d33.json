@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Keshub Chandra Sen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a11b3abf5f61d8f616aa78ce56cefc1a",
+  "text_length": 17958,
+  "result": {
+    "inspired_by": [
+      "Debendranath Tagore",
+      "Charles Dall",
+      "James Long"
+    ],
+    "inspired": [
+      "Followers of Bharatvarshiya Brahmo Samaj (until 1878)",
+      "Annette Akroyd and the female emancipation supporters"
+    ]
+  },
+  "timestamp": "2025-12-24T21:22:39.475292"
+}

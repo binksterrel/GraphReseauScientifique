@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Christof Koch",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9457d104fdb2cb86cd68935588d82a4e",
+  "text_length": 9008,
+  "result": {
+    "inspired_by": [
+      "Francis Crick"
+    ],
+    "inspired": [
+      "Laurent Itti",
+      "Nao Tsuchiya",
+      "Giulio Tononi"
+    ]
+  },
+  "timestamp": "2025-12-24T23:07:18.147274"
+}

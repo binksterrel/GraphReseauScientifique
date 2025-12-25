@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Herbert Fröhlich",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ca5a8725390f2651b98137007a320a41",
+  "text_length": 3820,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Yakov Frenkel"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:41:06.188159"
+}

@@ -1,0 +1,11 @@
+{
+  "scientist_name": "George Ensor",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f46b000a9a38d608ddae6bc502b0b2e9",
+  "text_length": 21334,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:53:44.103042"
+}

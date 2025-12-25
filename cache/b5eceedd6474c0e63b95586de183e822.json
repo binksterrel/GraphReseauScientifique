@@ -1,0 +1,14 @@
+{
+  "scientist_name": "George Herbert Mead",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "50061cbd1a8e4b024157ab8a6e9895b7",
+  "text_length": 24830,
+  "result": {
+    "inspired_by": [
+      "Charles Horton Cooley",
+      "John Dewey"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:40:03.892414"
+}

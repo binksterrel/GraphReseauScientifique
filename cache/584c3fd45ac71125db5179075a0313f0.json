@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Walther Bothe",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0b02eb75eb8af33ae457417830733d74",
+  "text_length": 22702,
+  "result": {
+    "inspired_by": [
+      "Karl W. Hauser",
+      "Ludolf von Krehl",
+      "Max Planck"
+    ],
+    "inspired": [
+      "Wolfgang Gentner",
+      "Heinz Maier-Leibnitz",
+      "Arnold Flammersfeld",
+      "Peter Jensen",
+      "Erwin Fünfer"
+    ]
+  },
+  "timestamp": "2025-12-24T21:56:38.325583"
+}

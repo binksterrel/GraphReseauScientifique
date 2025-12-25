@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Felix Hoppe-Seyler",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2800080fa9073d43a8edc41505a49ff9",
+  "text_length": 4871,
+  "result": {
+    "inspired_by": [
+      "Rudolf Virchow"
+    ],
+    "inspired": [
+      "Friedrich Miescher",
+      "Albrecht Kossel"
+    ]
+  },
+  "timestamp": "2025-12-25T15:39:24.793370"
+}

@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Theodor Schwann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "43c36aa0fd9314f4bc60459943fb651e",
+  "text_length": 20092,
+  "result": {
+    "inspired_by": [
+      "Johannes Peter Müller"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:35:48.864936"
+}

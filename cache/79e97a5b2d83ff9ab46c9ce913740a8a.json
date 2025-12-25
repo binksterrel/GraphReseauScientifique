@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Peter Lax",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "385b56b76ad5ad8c737de01b1b1583d8",
+  "text_length": 9256,
+  "result": {
+    "inspired_by": [
+      "Rózsa Péter",
+      "John von Neumann",
+      "Richard Courant",
+      "Paul Erdős",
+      "Albert Einstein",
+      "Gábor Szegő",
+      "George Pólya",
+      "Kurt O. Friedrichs"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:41:13.733246"
+}

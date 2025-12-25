@@ -1,0 +1,18 @@
+{
+  "scientist_name": "George Uhlenbeck",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3c49da6df10a8dad5f88967135e3ab59",
+  "text_length": 7316,
+  "result": {
+    "inspired_by": [
+      "Johannes Diderik van der Waals",
+      "Paul Ehrenfest"
+    ],
+    "inspired": [
+      "Samuel Goudsmit",
+      "Enrico Fermi",
+      "E.G.D. Cohen"
+    ]
+  },
+  "timestamp": "2025-12-25T18:25:14.342314"
+}

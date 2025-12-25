@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Jacques Monod",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "da889628ca1d6c6249cb8cf9fa2aaafd",
+  "text_length": 14702,
+  "result": {
+    "inspired_by": [
+      "George Teissier",
+      "André Lwoff",
+      "Boris Ephrussi",
+      "Louis Rapkine",
+      "Thomas Hunt Morgan"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:27:05.657905"
+}

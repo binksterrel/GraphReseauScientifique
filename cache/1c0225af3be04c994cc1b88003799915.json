@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Carl Menger",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "73c07c3b540aa52486f2b6e0301ca868",
+  "text_length": 9287,
+  "result": {
+    "inspired_by": [
+      "Adam Smith",
+      "David Ricardo",
+      "Karl Marx"
+    ],
+    "inspired": [
+      "Eugen von Böhm-Bawerk",
+      "Friedrich von Wieser",
+      "Friedrich Hayek"
+    ]
+  },
+  "timestamp": "2025-12-25T17:56:21.639418"
+}

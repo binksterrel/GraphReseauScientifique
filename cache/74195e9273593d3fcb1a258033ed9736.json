@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Carl Friedrich Gauss",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "af1252bf1041a45fa13eee49dd93bcae",
+  "text_length": 28813,
+  "result": {
+    "inspired_by": [
+      "Abraham Gotthelf Kästner",
+      "Karl Felix Seyffer",
+      "Georg Christoph Lichtenberg",
+      "Christian Gottlob Heyne"
+    ],
+    "inspired": [
+      "Richard Dedekind",
+      "Bernhard Riemann"
+    ]
+  },
+  "timestamp": "2025-12-24T21:31:48.048998"
+}

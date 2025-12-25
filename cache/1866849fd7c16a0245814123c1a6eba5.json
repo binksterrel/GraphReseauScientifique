@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Andreas von Ettingshausen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bbd9660f7914096b6635c34bc33ea598",
+  "text_length": 4287,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Gregor Mendel"
+    ]
+  },
+  "timestamp": "2025-12-24T22:25:32.820915"
+}

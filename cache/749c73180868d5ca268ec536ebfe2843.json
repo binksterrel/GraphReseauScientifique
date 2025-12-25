@@ -1,0 +1,23 @@
+{
+  "scientist_name": "James Joule",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4cc8ce05d2ffb90b6e4a78b111179b88",
+  "text_length": 16095,
+  "result": {
+    "inspired_by": [
+      "John Dalton",
+      "William Henry",
+      "Peter Ewart",
+      "Eaton Hodgkinson"
+    ],
+    "inspired": [
+      "Lord Kelvin",
+      "Rudolf Clausius",
+      "Hermann Helmholtz",
+      "George Gabriel Stokes",
+      "Michael Faraday",
+      "William Thomson"
+    ]
+  },
+  "timestamp": "2025-12-24T23:11:02.553036"
+}

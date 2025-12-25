@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Leslie Orgel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "77c4d5363c2aa9f236433e90c2b678fa",
+  "text_length": 9411,
+  "result": {
+    "inspired_by": [
+      "Sydney Brenner",
+      "Francis Crick",
+      "Dorothy Hodgkin",
+      "Beryl M. Oughton"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:02:21.287911"
+}

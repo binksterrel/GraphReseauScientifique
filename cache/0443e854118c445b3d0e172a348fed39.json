@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Constantin Rădulescu-Motru",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0a190a9ebc5fa3a3ec0913eef08d7403",
+  "text_length": 22487,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Wundt",
+      "Titu Maiorescu",
+      "Georg Wilhelm Friedrich Hegel"
+    ],
+    "inspired": [
+      "Romanian culture and society",
+      "Personalism",
+      "Junimea tradition"
+    ]
+  },
+  "timestamp": "2025-12-25T12:33:25.769861"
+}

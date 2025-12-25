@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Edvard Westermarck",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0f2f1c52d3ebddcb68d30abc0170959b",
+  "text_length": 6776,
+  "result": {
+    "inspired_by": [
+      "Charles Darwin"
+    ],
+    "inspired": [
+      "Ragnar Numelin"
+    ]
+  },
+  "timestamp": "2025-12-25T16:21:12.814963"
+}

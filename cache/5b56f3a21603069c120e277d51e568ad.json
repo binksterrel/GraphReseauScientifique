@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Simon Marius",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "65a2b392d1469e86daaedf022b8d6703",
+  "text_length": 7353,
+  "result": {
+    "inspired_by": [
+      "George Frederick",
+      "Tycho Brahe",
+      "David Fabricius"
+    ],
+    "inspired": [
+      "Baldassarre Capra"
+    ]
+  },
+  "timestamp": "2025-12-24T23:54:01.588417"
+}

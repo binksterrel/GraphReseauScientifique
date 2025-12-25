@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Joseph Merrick",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8e436fe61f50c805fc4ab8599119a954",
+  "text_length": 27452,
+  "result": {
+    "inspired_by": [
+      "Joseph Rockley Merrick",
+      "Mary Jane Potterton",
+      "Charles Merrick"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:42:16.478736"
+}

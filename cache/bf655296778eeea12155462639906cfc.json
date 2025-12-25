@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Marshall Warren Nirenberg",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "418ccd018d5265eac6a82961e1623aeb",
+  "text_length": 8057,
+  "result": {
+    "inspired_by": [
+      "James F. Hogg",
+      "Heinrich J. Matthaei"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:13:36.208754"
+}

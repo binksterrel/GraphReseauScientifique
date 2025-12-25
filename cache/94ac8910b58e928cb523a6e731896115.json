@@ -1,0 +1,15 @@
+{
+  "scientist_name": "William Stanley Jevons",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "eaf6fd0b4c71dc00a21453a08c3c1b6b",
+  "text_length": 27147,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Irving Fisher",
+      "Carl Menger",
+      "Léon Walras"
+    ]
+  },
+  "timestamp": "2025-12-25T14:20:21.630197"
+}

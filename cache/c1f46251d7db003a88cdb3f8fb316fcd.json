@@ -1,0 +1,28 @@
+{
+  "scientist_name": "Robert S. Mulliken",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "acee5df9b94bc2de7d606a7561c6f0b7",
+  "text_length": 9510,
+  "result": {
+    "inspired_by": [
+      "Arthur Amos Noyes",
+      "Robert A. Millikan",
+      "Hermann I. Schlesinger",
+      "Erwin Schrödinger",
+      "Paul A. M. Dirac",
+      "Werner Heisenberg",
+      "Louis de Broglie",
+      "Max Born",
+      "Walther Bothe",
+      "Friedrich Hund",
+      "John C. Slater",
+      "J. Robert Oppenheimer",
+      "John H. Van Vleck",
+      "Harold C. Urey"
+    ],
+    "inspired": [
+      "Not specified in the text"
+    ]
+  },
+  "timestamp": "2025-12-25T00:10:39.788205"
+}

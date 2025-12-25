@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Arthur Schoenflies",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7a2e37f88d57c664d8daede029de43fa",
+  "text_length": 3619,
+  "result": {
+    "inspired_by": [
+      "Ernst Kummer",
+      "Karl Weierstrass",
+      "Felix Klein"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:16:33.517797"
+}

@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Felix Maria von Exner-Ewarten",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e2881ceb0b3c2ce45d587d919fb33ff5",
+  "text_length": 704,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Christof Exner"
+    ]
+  },
+  "timestamp": "2025-12-24T22:52:40.520886"
+}

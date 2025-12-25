@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Niels Bohr",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ba0f8f1253ad1ddf315e0338f91fb4df",
+  "text_length": 27250,
+  "result": {
+    "inspired_by": [
+      "J. J. Thomson",
+      "William Lawrence Bragg",
+      "Ernest Rutherford",
+      "George de Hevesy",
+      "Charles Galton Darwin"
+    ],
+    "inspired": [
+      "Hans Kramers",
+      "Oskar Klein",
+      "Werner Heisenberg"
+    ]
+  },
+  "timestamp": "2025-12-25T15:08:11.180307"
+}

@@ -1,0 +1,26 @@
+{
+  "scientist_name": "Emilio G. Segrè",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "55c54c0d0c8e98398848b0e421ceade9",
+  "text_length": 23591,
+  "result": {
+    "inspired_by": [
+      "Ernest O. Lawrence",
+      "Edwin McMillan",
+      "Donald Cooksey",
+      "Franz Kurie",
+      "Philip Abelson",
+      "Robert Oppenheimer"
+    ],
+    "inspired": [
+      "Otto Stern",
+      "Otto Frisch",
+      "Isidor Isaac Rabi",
+      "Michele Cipolla",
+      "Michele De Franchis",
+      "Carlo Perrier",
+      "Luigi Montemartini"
+    ]
+  },
+  "timestamp": "2025-12-25T12:56:05.632767"
+}

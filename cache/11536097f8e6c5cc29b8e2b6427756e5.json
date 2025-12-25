@@ -1,0 +1,29 @@
+{
+  "scientist_name": "James Franck",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b534a7f8d86392d5b2d003091dd66362",
+  "text_length": 23716,
+  "result": {
+    "inspired_by": [
+      "Max Born",
+      "Gustav Hertz",
+      "Eva von Bahr",
+      "Robert Pohl",
+      "Peter Pringsheim",
+      "Robert W. Wood",
+      "Arthur Wehnelt",
+      "Wilhelm Westphal"
+    ],
+    "inspired": [
+      "Lise Meitner",
+      "Hertha Sponer",
+      "Hilde Levi",
+      "Hans Kopfermann",
+      "Arthur R. von Hippel",
+      "Wilhelm Hanle",
+      "Fritz Houtermans",
+      "Heinz Maier-Leibnitz"
+    ]
+  },
+  "timestamp": "2025-12-25T00:05:52.666675"
+}

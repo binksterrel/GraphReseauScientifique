@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Sir David Brewster",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "de8fd9f614e2e5141aa599e390731e60",
+  "text_length": 21650,
+  "result": {
+    "inspired_by": [
+      "James Veitch",
+      "Henry Brougham",
+      "Thomas Dick",
+      "William Whewell"
+    ],
+    "inspired": [
+      "Sir Charles Wheatstone",
+      "William Henry Fox Talbot"
+    ]
+  },
+  "timestamp": "2025-12-25T17:54:05.035478"
+}

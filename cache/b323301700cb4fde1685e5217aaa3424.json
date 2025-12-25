@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Theobald Fischer",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0142f9de708b16490d73c6737f085b34",
+  "text_length": 2085,
+  "result": {
+    "inspired_by": [
+      "Alfred Kirchhoff"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:10:31.390377"
+}

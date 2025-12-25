@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Gerhard Hoffmann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "44ba485ccb3edbbdfbde0a8021e935d6",
+  "text_length": 342,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:59:04.271627"
+}

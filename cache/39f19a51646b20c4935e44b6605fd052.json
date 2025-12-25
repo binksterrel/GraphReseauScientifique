@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Kikunae Ikeda",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1dd8b8679ac52a84298a0c7e6545395d",
+  "text_length": 2900,
+  "result": {
+    "inspired_by": [
+      "Friedrich Wilhelm Ostwald"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:31:41.090323"
+}

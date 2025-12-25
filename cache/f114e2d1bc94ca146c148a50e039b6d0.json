@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Erwin Schrödinger",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5fed6362083c1b94ee1a9f5715242958",
+  "text_length": 26888,
+  "result": {
+    "inspired_by": [
+      "Franz S. Exner",
+      "Friedrich Hasenöhrl",
+      "Max Wien",
+      "Max Planck"
+    ],
+    "inspired": [
+      "Paul Dirac",
+      "Albert Einstein",
+      "James D. Watson",
+      "Francis Crick"
+    ]
+  },
+  "timestamp": "2025-12-24T21:26:01.926355"
+}

@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Karl Felix Seyffer",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0c3120987b0fa04e36f9cc635b349433",
+  "text_length": 5791,
+  "result": {
+    "inspired_by": [
+      "Johann Elert Bode",
+      "Unknown (mentors at University of Tübingen)"
+    ],
+    "inspired": [
+      "Carl Friedrich Gauss"
+    ]
+  },
+  "timestamp": "2025-12-24T22:17:56.893397"
+}

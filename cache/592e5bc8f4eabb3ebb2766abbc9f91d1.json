@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Charles-Bernard Desormes",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e03b5815cb4cc3af0b08f0a6dacade08",
+  "text_length": 2520,
+  "result": {
+    "inspired_by": [
+      "École Polytechnique"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:21:18.292419"
+}

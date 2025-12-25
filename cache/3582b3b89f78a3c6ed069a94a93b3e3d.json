@@ -1,0 +1,15 @@
+{
+  "scientist_name": "August Ferdinand Möbius",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ccb1ec70cdaafe16b790aa4ef2d4aa7d",
+  "text_length": 3495,
+  "result": {
+    "inspired_by": [
+      "Karl Mollweide",
+      "Carl Friedrich Gauss",
+      "Johann Pfaff"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:19:00.968017"
+}

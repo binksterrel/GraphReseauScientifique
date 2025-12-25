@@ -1,0 +1,19 @@
+{
+  "scientist_name": "John C. Slater",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f31b5130bffdcd8eb67d4b555d9c5562",
+  "text_length": 27274,
+  "result": {
+    "inspired_by": [
+      "Percy W. Bridgman",
+      "E. C. Kemble",
+      "Niels Bohr",
+      "Hendrik Kramers"
+    ],
+    "inspired": [
+      "Students at MIT's department of physics",
+      "Researchers at the Quantum Theory Project of the University of Florida"
+    ]
+  },
+  "timestamp": "2025-12-24T23:43:42.941390"
+}

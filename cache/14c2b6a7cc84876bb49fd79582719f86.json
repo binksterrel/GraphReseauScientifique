@@ -1,0 +1,16 @@
+{
+  "scientist_name": "John A. Randall (1881–1968)",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "47adf01eb7b553f4d5059115a2d43d87",
+  "text_length": 2211,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "John A. Randall (1881–1968)",
+      "John Ernest Randall (1924–2020)",
+      "John Herman Randall, Jr. (1899–1980)",
+      "John Witt Randall (1813–1892)"
+    ]
+  },
+  "timestamp": "2025-12-25T19:46:39.266010"
+}

@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Sofia Kovalevskaya",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8c0197669ac24a038abca7b8eada86d0",
+  "text_length": 21427,
+  "result": {
+    "inspired_by": [
+      "Iosif Ignatevich Malevich",
+      "A. N. Strannoliubskii",
+      "Hermann von Helmholtz",
+      "Gustav Kirchhoff",
+      "Robert Bunsen"
+    ],
+    "inspired": [
+      "Herbert Spencer"
+    ]
+  },
+  "timestamp": "2025-12-24T22:28:22.668406"
+}

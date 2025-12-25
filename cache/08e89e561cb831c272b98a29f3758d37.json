@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Richard Courant",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c083c6a49940d5730790ede1c5eaec7d",
+  "text_length": 7460,
+  "result": {
+    "inspired_by": [
+      "David Hilbert",
+      "Erich Hecke"
+    ],
+    "inspired": [
+      "Ernest Courant",
+      "Gertrude Courant",
+      "Hans Courant",
+      "Leonore Courant Berkowitz Lax"
+    ]
+  },
+  "timestamp": "2025-12-25T10:36:27.566663"
+}

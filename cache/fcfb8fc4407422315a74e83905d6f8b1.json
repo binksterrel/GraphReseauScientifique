@@ -1,0 +1,30 @@
+{
+  "scientist_name": "Wilhelm Maximilian Wundt",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ca496660a8a71a27c6e4c0089d209bfa",
+  "text_length": 26039,
+  "result": {
+    "inspired_by": [
+      "Gottfried Wilhelm Leibniz",
+      "John Locke",
+      "English empiricism (sensualism)"
+    ],
+    "inspired": [
+      "Oswald Külpe",
+      "Ernst Meumann",
+      "Hugo Münsterberg",
+      "Willy Hellpach",
+      "Charles Spearman",
+      "Vladimir Mikhailovich Bekhterev",
+      "Franz Boas",
+      "Émile Durkheim",
+      "Edmund Husserl",
+      "Bronisław Malinowski",
+      "George Herbert Mead",
+      "Edward Sapir",
+      "Ferdinand Tönnies",
+      "Benjamin Lee Whorf"
+    ]
+  },
+  "timestamp": "2025-12-25T15:55:59.256311"
+}

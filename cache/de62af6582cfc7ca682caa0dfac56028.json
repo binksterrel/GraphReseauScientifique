@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Theory of Relativity",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2f4e38091ae2d6e7ba169d5e2200f874",
+  "text_length": 14507,
+  "result": {
+    "inspired_by": [
+      "Albert A. Michelson",
+      "Hendrik Lorentz",
+      "Henri Poincaré"
+    ],
+    "inspired": [
+      "Max Planck",
+      "Hermann Minkowski",
+      "Marcel Grossmann"
+    ]
+  },
+  "timestamp": "2025-12-25T01:33:23.235902"
+}

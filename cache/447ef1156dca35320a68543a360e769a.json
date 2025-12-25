@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Daniel Bernoulli",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5093373a795bde3f6ea2f826b308f842",
+  "text_length": 7297,
+  "result": {
+    "inspired_by": [
+      "Johann Bernoulli",
+      "Jacob Bernoulli"
+    ],
+    "inspired": [
+      "Leonhard Euler"
+    ]
+  },
+  "timestamp": "2025-12-24T23:11:35.190314"
+}

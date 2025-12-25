@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Paul Harteck",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6f22bae9acdba877e9d5fb9557f8316e",
+  "text_length": 7327,
+  "result": {
+    "inspired_by": [
+      "Max Bodenstein",
+      "Arnold Eucken",
+      "Ernest Rutherford"
+    ],
+    "inspired": [
+      "Karl-Hermann Geib",
+      "Wilhelm Groth"
+    ]
+  },
+  "timestamp": "2025-12-25T12:58:49.489420"
+}

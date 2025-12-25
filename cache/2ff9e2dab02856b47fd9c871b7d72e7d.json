@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Richard Rorty",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ebab1a801c875bd5f9b6ad2dbed0107c",
+  "text_length": 26551,
+  "result": {
+    "inspired_by": [
+      "Richard McKeon",
+      "Paul Weiss",
+      "John Dewey",
+      "Willard Van Orman Quine",
+      "Wilfrid Sellars"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:12:35.894267"
+}

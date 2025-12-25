@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Grafton Elliot Smith",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e53341a538eac3d5de9b35f3257b1831",
+  "text_length": 14383,
+  "result": {
+    "inspired_by": [
+      "Thomas Anderson Stuart",
+      "Alexander Macalister"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:32:34.662522"
+}

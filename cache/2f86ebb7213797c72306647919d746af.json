@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Mahatma Gandhi",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "eca6f458c9622dc2573d3478e71ede77",
+  "text_length": 28500,
+  "result": {
+    "inspired_by": [
+      "Henry Morley",
+      "Mavji Dave Joshiji",
+      "Karamchand Gandhi",
+      "Putlibai Gandhi"
+    ],
+    "inspired": [
+      "Harilal Gandhi",
+      "Manilal Gandhi",
+      "Ramdas Gandhi",
+      "Devdas Gandhi"
+    ]
+  },
+  "timestamp": "2025-12-24T22:38:45.180157"
+}

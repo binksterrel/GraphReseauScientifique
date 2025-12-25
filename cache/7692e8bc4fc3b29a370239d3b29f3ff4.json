@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Paul Bucy",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "375f51ec7f997d734a656f607728b640",
+  "text_length": 3058,
+  "result": {
+    "inspired_by": [
+      "Percival Bailey",
+      "Gordon Morgan Holmes",
+      "Otfrid Foerster"
+    ],
+    "inspired": [
+      "65 neurosurgeons (not named in the text)"
+    ]
+  },
+  "timestamp": "2025-12-25T18:20:13.055345"
+}

@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Arnold Flammersfeld",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ac2bc331676a35f7340484d7a805abea",
+  "text_length": 5231,
+  "result": {
+    "inspired_by": [
+      "Lise Meitner"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:23:45.379392"
+}

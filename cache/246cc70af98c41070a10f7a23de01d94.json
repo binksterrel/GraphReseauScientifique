@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Adolphe Thiers",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d7cd7cad97afd990fb966248b4e2f070",
+  "text_length": 27595,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:01:39.265031"
+}

@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Georg Wilhelm Friedrich Hegel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b6b7918501b8eea06635d2d378fb799f",
+  "text_length": 27305,
+  "result": {
+    "inspired_by": [
+      "Friedrich Hölderlin",
+      "Friedrich Schelling"
+    ],
+    "inspired": [
+      "Ludwig Feuerbach",
+      "Karl Marx",
+      "French Hegelianism",
+      "critical theory",
+      "existentialism"
+    ]
+  },
+  "timestamp": "2025-12-25T16:07:06.313208"
+}

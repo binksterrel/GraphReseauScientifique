@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Harvey Lodish",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6525d459b7ae618ab0ebc2c1eef0f79b",
+  "text_length": 10048,
+  "result": {
+    "inspired_by": [
+      "Sydney Brenner",
+      "Francis Crick",
+      "Norton Zinder"
+    ],
+    "inspired": [
+      "Three married children and seven grandchildren (not individual names provided)"
+    ]
+  },
+  "timestamp": "2025-12-25T19:26:02.558492"
+}

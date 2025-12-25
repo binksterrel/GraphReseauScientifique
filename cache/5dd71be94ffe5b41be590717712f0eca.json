@@ -1,0 +1,32 @@
+{
+  "scientist_name": "Wolfgang Gentner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ac549c5a5eefc600da1971148bb9b2b1",
+  "text_length": 19283,
+  "result": {
+    "inspired_by": [
+      "Walther Bothe",
+      "Emilio G. Segrè",
+      "Donald Cooksey",
+      "Frédéric Joliot-Curie",
+      "Paul Langevin",
+      "Otto Hahn",
+      "Kurt Diebner",
+      "Siegfried Flügge",
+      "Hans Geiger",
+      "Paul Harteck",
+      "Gerhard Hoffmann",
+      "Josef Mattauch",
+      "Georg Stetter",
+      "Klaus Clusius",
+      "Robert Döpel",
+      "Werner Heisenberg",
+      "Carl Friedrich von Weizsäcker"
+    ],
+    "inspired": [
+      "Frédéric Joliot-Curie",
+      "Paul Langevin"
+    ]
+  },
+  "timestamp": "2025-12-24T23:22:24.155910"
+}

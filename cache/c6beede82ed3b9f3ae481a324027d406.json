@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Wilhelm Hanle",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "93464b9a10de6225fb151b91c38034f9",
+  "text_length": 8900,
+  "result": {
+    "inspired_by": [
+      "James Franck",
+      "Philipp Lenard"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:55:26.537516"
+}

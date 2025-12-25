@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Émile Borel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "dc1c06613df0a1e99c2dcd030d66fa23",
+  "text_length": 5230,
+  "result": {
+    "inspired_by": [
+      "Henri Lebesgue",
+      "René-Louis Baire"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:32:00.196653"
+}

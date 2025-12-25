@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Cyril Hinshelwood",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "37cfad19c955b64dc21c967afea17354",
+  "text_length": 4039,
+  "result": {
+    "inspired_by": [
+      "Harold Warris Thompson",
+      "Igor Ivanovich Langmuir"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:12:27.438080"
+}

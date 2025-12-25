@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Comte de Buffon",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "013946310d49b197179f8389acebe42c",
+  "text_length": 22947,
+  "result": {
+    "inspired": [
+      "Jean-Baptiste Lamarck",
+      "Georges Cuvier"
+    ],
+    "inspired_by": []
+  },
+  "timestamp": "2025-12-25T18:57:38.928280"
+}

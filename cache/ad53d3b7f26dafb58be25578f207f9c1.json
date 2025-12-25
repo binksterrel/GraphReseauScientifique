@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Yuri Krutkov",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ce6e1a83c91e42da920e80198b054bff",
+  "text_length": 1988,
+  "result": {
+    "inspired_by": [
+      "Paul Ehrenfest"
+    ],
+    "inspired": [
+      "V. A. Fock"
+    ]
+  },
+  "timestamp": "2025-12-25T18:27:39.398117"
+}

@@ -1,0 +1,34 @@
+{
+  "scientist_name": "William James",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ef10dc5ff4c558e62f57426ee52160f1",
+  "text_length": 26899,
+  "result": {
+    "inspired_by": [
+      "Henry James Sr.",
+      "Charles Sanders Peirce"
+    ],
+    "inspired": [
+      "Alan Watts",
+      "W. E. B. Du Bois",
+      "Edmund Husserl",
+      "Bertrand Russell",
+      "Ludwig Wittgenstein",
+      "Hilary Putnam",
+      "Richard Rorty",
+      "Boris Sidis",
+      "Theodore Roosevelt",
+      "George Santayana",
+      "W. E. B. Du Bois",
+      "G. Stanley Hall",
+      "Ralph Barton Perry",
+      "Gabriel Wells",
+      "Horace Kallen",
+      "Walter Lippmann",
+      "Alain Locke",
+      "C. I. Lewis",
+      "Mary Whiton Calkins"
+    ]
+  },
+  "timestamp": "2025-12-25T14:26:22.554214"
+}

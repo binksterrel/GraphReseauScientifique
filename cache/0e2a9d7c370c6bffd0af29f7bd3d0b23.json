@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Jack Szostak",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "887e1b56d051111fe24fac8a5a939022",
+  "text_length": 7407,
+  "result": {
+    "inspired_by": [
+      "Chen K. Chai",
+      "Ray Wu",
+      "Ruth Sager",
+      "Howard Goodman"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:14:45.858757"
+}

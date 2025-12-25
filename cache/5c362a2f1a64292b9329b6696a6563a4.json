@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Joel Mandelstam",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e1d3685f649fe55837653549b78b1212",
+  "text_length": 2755,
+  "result": {
+    "inspired_by": [
+      "John Yudkin"
+    ],
+    "inspired": [
+      "Sydney Brenner"
+    ]
+  },
+  "timestamp": "2025-12-25T15:10:40.919285"
+}

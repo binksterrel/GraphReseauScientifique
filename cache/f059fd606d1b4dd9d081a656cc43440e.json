@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Karl Lashley",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3cea12d45333c134af1a7bb26ba66084",
+  "text_length": 10779,
+  "result": {
+    "inspired_by": [
+      "John Black Johnston",
+      "John B. Watson",
+      "Shepherd Ivory Franz"
+    ],
+    "inspired": [
+      "Not specified in the text"
+    ]
+  },
+  "timestamp": "2025-12-25T18:20:48.695557"
+}

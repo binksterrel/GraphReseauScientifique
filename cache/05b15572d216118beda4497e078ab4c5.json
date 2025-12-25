@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Alexander Luria",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a786f3731e30ef67b076f2358b63f51d",
+  "text_length": 27101,
+  "result": {
+    "inspired_by": [
+      "Lev Vygotsky"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:02:30.129493"
+}

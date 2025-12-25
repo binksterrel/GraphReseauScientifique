@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Josef Skoda",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d1433ccd4fb047caf7fb8e861f66ec8e",
+  "text_length": 6394,
+  "result": {
+    "inspired_by": [
+      "Carl Freiherr von Rokitansky"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:46:50.236074"
+}

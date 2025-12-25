@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Henry Enfield Roscoe",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d283f919786c251661be75150578c04c",
+  "text_length": 5365,
+  "result": {
+    "inspired_by": [
+      "Robert Bunsen",
+      "William Dittmar"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:46:04.794540"
+}

@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Ludwig Hopf",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e205e1eb650073ca1fe7c75bdbc02f2f",
+  "text_length": 4826,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Albert Einstein"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:05:31.716593"
+}

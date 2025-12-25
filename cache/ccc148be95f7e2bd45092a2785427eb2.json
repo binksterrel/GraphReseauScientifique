@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Pieter Rijke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7a26cc45e5e82d013a354fb21cc88535",
+  "text_length": 2066,
+  "result": {
+    "inspired_by": [
+      "Pieter Johannes Uijlenbroek"
+    ],
+    "inspired": [
+      "Hendrik Lorentz",
+      "Johannes van der Waals"
+    ]
+  },
+  "timestamp": "2025-12-25T01:37:01.086491"
+}

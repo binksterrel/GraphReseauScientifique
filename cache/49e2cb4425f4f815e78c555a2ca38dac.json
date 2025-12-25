@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Arnold Eucken",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3639285b2fa46ecf15ccd347b4330ca1",
+  "text_length": 2840,
+  "result": {
+    "inspired_by": [
+      "Walther Nernst"
+    ],
+    "inspired": [
+      "Manfred Eigen"
+    ]
+  },
+  "timestamp": "2025-12-25T16:57:35.643644"
+}

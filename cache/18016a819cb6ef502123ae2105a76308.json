@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Hans Frederick Blichfeldt",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9598d0b6deb3358434ddab0a9fe4c0a1",
+  "text_length": 5481,
+  "result": {
+    "inspired_by": [
+      "Sophus Lie"
+    ],
+    "inspired": [
+      "George Abram Miller",
+      "Leonard Eugene Dickson",
+      "Students at Stanford University"
+    ]
+  },
+  "timestamp": "2025-12-25T14:35:24.202933"
+}

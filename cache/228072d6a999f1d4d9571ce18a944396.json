@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Erich Hecke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0c3f31e8745787ddd17df941f9d01a4d",
+  "text_length": 1934,
+  "result": {
+    "inspired_by": [
+      "David Hilbert"
+    ],
+    "inspired": [
+      "Kurt Reidemeister",
+      "Heinrich Behnke",
+      "André Weil"
+    ]
+  },
+  "timestamp": "2025-12-25T01:44:57.038803"
+}

@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Wilhelm Röntgen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "da8085e28f7c3ed258044bebb81c58f4",
+  "text_length": 10781,
+  "result": {
+    "inspired_by": [
+      "August Kundt",
+      "Heinrich Hertz",
+      "Johann Hittorf",
+      "William Crookes",
+      "Nikola Tesla",
+      "Philipp Lenard"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:57:15.738727"
+}

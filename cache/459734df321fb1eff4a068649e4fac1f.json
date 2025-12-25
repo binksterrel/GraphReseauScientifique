@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Oswald Külpe",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c2e1e60578cca27d956f999bc9015aba",
+  "text_length": 19556,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Wundt"
+    ],
+    "inspired": [
+      "Max Wertheimer",
+      "Narziß Ach",
+      "Henry J. Watt",
+      "Robert Morris Ogden",
+      "Kurt Koffka"
+    ]
+  },
+  "timestamp": "2025-12-25T12:24:46.248667"
+}

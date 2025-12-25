@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Gerald Fink",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cd634f1163ce8cdfa98b5c0069e6b44c",
+  "text_length": 5331,
+  "result": {
+    "inspired_by": [
+      "Bruce Ames"
+    ],
+    "inspired": [
+      "Albert Hinnen",
+      "Jim Hicks",
+      "Many students at Cold Spring Harbor Laboratory and MIT"
+    ]
+  },
+  "timestamp": "2025-12-25T19:25:16.859396"
+}

@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Salvador Luria",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "61bfcfce2a58a01324628e967d1eb4ff",
+  "text_length": 7857,
+  "result": {
+    "inspired_by": [
+      "Giuseppe Levi",
+      "Max Delbrück",
+      "Alfred Hershey",
+      "Enrico Fermi"
+    ],
+    "inspired": [
+      "James D. Watson",
+      "David Baltimore",
+      "Susumu Tonegawa",
+      "Phillip Allen Sharp",
+      "H. Robert Horvitz"
+    ]
+  },
+  "timestamp": "2025-12-24T22:58:34.959317"
+}

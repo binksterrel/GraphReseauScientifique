@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Josef Stefan",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "45a59155262483b37044ad8a6911e13d",
+  "text_length": 5885,
+  "result": {
+    "inspired_by": [
+      "Karel Robida"
+    ],
+    "inspired": [
+      "Ludwig Boltzmann"
+    ]
+  },
+  "timestamp": "2025-12-25T14:55:35.486414"
+}

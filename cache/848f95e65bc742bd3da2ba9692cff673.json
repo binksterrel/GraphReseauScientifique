@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Deshayes de Marcère",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d19f464bd9842672cc8c013103260a9a",
+  "text_length": 1164,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:37:35.586287"
+}

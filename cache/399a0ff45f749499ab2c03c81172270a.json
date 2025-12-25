@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Dirk Struik",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3c12e053aa951bff7873177071f8e679",
+  "text_length": 8806,
+  "result": {
+    "inspired_by": [
+      "Willem de Sitter",
+      "Hendrik Lorentz",
+      "Paul Ehrenfest",
+      "Tullio Levi-Civita",
+      "Richard Courant"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:27:14.092441"
+}

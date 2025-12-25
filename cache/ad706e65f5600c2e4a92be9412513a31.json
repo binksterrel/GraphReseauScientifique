@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Philip M. Morse",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cecd4064ace67ad0de828a9af13d0ae1",
+  "text_length": 4897,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Ludwig Maximilian University of Munich"
+    ],
+    "inspired": [
+      "John Little",
+      "Operations Research Society of America (ORSA)",
+      "American Physical Society",
+      "Acoustical Society of America (ASA)",
+      "MIT Operations Research Center"
+    ]
+  },
+  "timestamp": "2025-12-25T13:52:56.828793"
+}

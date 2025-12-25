@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Ernst Fiedler",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2f44c617eae5b3a2b04bc946c00eb814",
+  "text_length": 2058,
+  "result": {
+    "inspired_by": [
+      "Karl Weierstrass",
+      "Felix Klein",
+      "Wilhelm Fiedler"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:20:40.780659"
+}

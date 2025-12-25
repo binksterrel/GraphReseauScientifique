@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Joshua Marshman",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6b0c399db977c13cd6cbbb7ede00a355",
+  "text_length": 7883,
+  "result": {
+    "inspired_by": [
+      "John Marshman",
+      "Mary Couzener",
+      "Broadmead Baptist Church",
+      "Baptist Union of Great Britain"
+    ],
+    "inspired": [
+      "William Carey",
+      "William Ward",
+      "Henry Havelock",
+      "Sir Dietrich Brandis",
+      "Four boys of William Carey"
+    ]
+  },
+  "timestamp": "2025-12-25T19:02:26.051451"
+}

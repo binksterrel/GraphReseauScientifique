@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Jean Perrin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cd956cbcabc979a2a84e9bb044f6f659",
+  "text_length": 5895,
+  "result": {
+    "inspired_by": [
+      "Albert Einstein",
+      "Joseph Ulysses Chaudesaigues"
+    ],
+    "inspired": [
+      "Francis Perrin"
+    ]
+  },
+  "timestamp": "2025-12-25T17:23:32.076625"
+}

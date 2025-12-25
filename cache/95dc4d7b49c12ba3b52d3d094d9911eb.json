@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Pierre-Joseph Proudhon",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4bf63ed25ef4fc23ea2556658b235a0e",
+  "text_length": 27743,
+  "result": {
+    "inspired_by": [
+      "Charles Fourier",
+      "Gustave Fallot"
+    ],
+    "inspired": [
+      "Karl Marx",
+      "Edmund Wilson",
+      "Carlo Cafiero",
+      "Joseph Déjacque",
+      "Peter Kropotkin",
+      "Benjamin Tucker"
+    ]
+  },
+  "timestamp": "2025-12-25T17:51:16.924247"
+}

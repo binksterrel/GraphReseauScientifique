@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Michael Faraday",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e47b60f8aa0165c441d64cdf73d6dea0",
+  "text_length": 28570,
+  "result": {
+    "inspired_by": [
+      "Humphry Davy",
+      "John Tatum"
+    ],
+    "inspired": [
+      "James Clerk Maxwell",
+      "Ernest Rutherford",
+      "Albert Einstein"
+    ]
+  },
+  "timestamp": "2025-12-25T15:37:42.971545"
+}

@@ -1,0 +1,18 @@
+{
+  "scientist_name": "J. Hans D. Jensen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1d853abc8312fea0b4b651fe2bad6ac3",
+  "text_length": 10249,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Lenz",
+      "Paul Harteck"
+    ],
+    "inspired": [
+      "Otto Haxel",
+      "Helmut Steinwedel",
+      "Peter Jensen"
+    ]
+  },
+  "timestamp": "2025-12-25T17:19:29.129503"
+}

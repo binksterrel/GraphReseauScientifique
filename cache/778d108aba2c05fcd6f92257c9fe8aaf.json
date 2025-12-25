@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Gerhard Dieke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c908d260b40e1ed807cf5a36bef0d157",
+  "text_length": 2193,
+  "result": {
+    "inspired_by": [
+      "Paul Ehrenfest"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:26:46.074863"
+}

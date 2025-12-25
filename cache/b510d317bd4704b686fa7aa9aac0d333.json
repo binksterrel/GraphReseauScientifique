@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Robert W. Pohl",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2c35a146fc74bb56cfe0154239f819d8",
+  "text_length": 15500,
+  "result": {
+    "inspired_by": [
+      "Robert Wichard Pohl",
+      "James Franck",
+      "Nevill Mott"
+    ],
+    "inspired": [
+      "Solid state physics"
+    ]
+  },
+  "timestamp": "2025-12-25T17:00:27.124769"
+}

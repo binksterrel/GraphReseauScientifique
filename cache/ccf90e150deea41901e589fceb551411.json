@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Edmund Landau",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "578189ea75d4f167774701939c283555",
+  "text_length": 4983,
+  "result": {
+    "inspired_by": [
+      "Paul Ehrlich",
+      "Leopold Landau",
+      "University of Berlin faculty (implied but not named in the text)"
+    ],
+    "inspired": [
+      "G. H. Hardy",
+      "Hans Heilbronn",
+      "Students at the University of Göttingen, Hebrew University of Jerusalem, and other institutions where he taught (not named in the text)"
+    ]
+  },
+  "timestamp": "2025-12-25T17:21:25.497175"
+}

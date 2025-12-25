@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Paul Peter Ewald",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5b3540c8fa437ee74159cdfb966d5a00",
+  "text_length": 15413,
+  "result": {
+    "inspired_by": [
+      "Paul Ewald",
+      "Max Born",
+      "Arnold Sommerfeld",
+      "Hans Bethe"
+    ],
+    "inspired": [
+      "Theoretical Physics",
+      "Quantum Theory",
+      "X-Ray Diffraction",
+      "Crystallography"
+    ]
+  },
+  "timestamp": "2025-12-25T13:07:34.662747"
+}

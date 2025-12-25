@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Leslie Ungerleider",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "51d3b24d9df446b6cae90dbfaec2fcbd",
+  "text_length": 3673,
+  "result": {
+    "inspired_by": [
+      "Karl Pribram"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:23:27.587995"
+}

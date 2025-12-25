@@ -1,0 +1,25 @@
+{
+  "scientist_name": "Edmund Husserl",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fa2f631c38af4bbabe853e41308a40b7",
+  "text_length": 26378,
+  "result": {
+    "inspired_by": [
+      "Franz Brentano",
+      "Constantin Carathéodory",
+      "Wilhelm Dilthey",
+      "Kant",
+      "Descartes"
+    ],
+    "inspired": [
+      "Edith Stein",
+      "Martin Heidegger",
+      "Hermann Weyl",
+      "Jean-Paul Sartre",
+      "Paul Ricœur",
+      "Ivan Ilyin",
+      "Karl Jaspers"
+    ]
+  },
+  "timestamp": "2025-12-25T12:38:18.926081"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Norman Ramsey",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "925d8e057acb90da2733b9d4b1a239cd",
+  "text_length": 15867,
+  "result": {
+    "inspired_by": [
+      "Ernest Orlando Lawrence",
+      "Rabi"
+    ],
+    "inspired": [
+      "William Nierenberg",
+      "Daniel Kleppner"
+    ]
+  },
+  "timestamp": "2025-12-25T17:26:24.243026"
+}

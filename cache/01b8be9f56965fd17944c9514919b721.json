@@ -1,0 +1,23 @@
+{
+  "scientist_name": "David Hilbert",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "955cb7ecc4fbabba557b418298ace8f0",
+  "text_length": 25969,
+  "result": {
+    "inspired_by": [
+      "Georg Cantor",
+      "Hermann Minkowski",
+      "Adolf Hurwitz"
+    ],
+    "inspired": [
+      "Otto Blumenthal",
+      "Felix Bernstein",
+      "Hermann Weyl",
+      "Richard Courant",
+      "Erich Hecke",
+      "Hugo Steinhaus",
+      "Wilhelm Ackermann"
+    ]
+  },
+  "timestamp": "2025-12-25T00:06:50.144621"
+}

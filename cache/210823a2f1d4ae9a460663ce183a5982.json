@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Graeme Segal",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "66871263bbf2cc9040d22df1c85ea9cc",
+  "text_length": 2254,
+  "result": {
+    "inspired_by": [
+      "Michael Atiyah"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:38:55.940431"
+}

@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Martin Klaproth",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "886d993c1b565040a726386ef62177be",
+  "text_length": 10029,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "August Hermann Brande",
+      "Valentin Rose the Elder"
+    ]
+  },
+  "timestamp": "2025-12-25T17:50:35.928873"
+}

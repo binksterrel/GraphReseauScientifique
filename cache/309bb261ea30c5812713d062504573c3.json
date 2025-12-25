@@ -1,0 +1,29 @@
+{
+  "scientist_name": "Otto Laporte",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "725333f053d65d7e312741f2b7e24ea0",
+  "text_length": 10300,
+  "result": {
+    "inspired_by": [
+      "Arthur Schoenflies",
+      "Ludwig Bieberbach",
+      "Ernst Hellinger",
+      "Max Born",
+      "Alfred Landé",
+      "Arnold Sommerfeld",
+      "William F. Meggers",
+      "Gregory Breit",
+      "Merle A. Tuve",
+      "Paul D. Foote",
+      "F. L. Mohler",
+      "Arthur Ruark",
+      "Harold Urey"
+    ],
+    "inspired": [
+      "Claire Laporte",
+      "Irene Plenefisch",
+      "Marianne Laporte"
+    ]
+  },
+  "timestamp": "2025-12-25T13:43:21.191586"
+}

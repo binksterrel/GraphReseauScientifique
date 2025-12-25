@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Helmut Hönl",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "159b511225190694a8dd718f4ea7ad39",
+  "text_length": 4567,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Paul Peter Ewald"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:42:15.145567"
+}

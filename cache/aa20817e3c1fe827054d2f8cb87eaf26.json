@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Johann Pfaff",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bc43d380ddf71bcee816390bdf5b8e47",
+  "text_length": 3171,
+  "result": {
+    "inspired_by": [
+      "Abraham Gotthelf Kästner",
+      "J. E. Bode"
+    ],
+    "inspired": [
+      "Carl Friedrich Gauss",
+      "August Möbius"
+    ]
+  },
+  "timestamp": "2025-12-24T21:32:08.637196"
+}

@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Kurt Koffka",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d3283c5d4ab2a55a26599fd86b818680",
+  "text_length": 16674,
+  "result": {
+    "inspired_by": [
+      "maternal uncle"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:49:06.776091"
+}

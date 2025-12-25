@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Rudolf L. Mößbauer",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "07768791172d0a82837f1f890f9b4956",
+  "text_length": 4290,
+  "result": {
+    "inspired_by": [
+      "Heinz Maier-Leibnitz"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:03:35.156951"
+}

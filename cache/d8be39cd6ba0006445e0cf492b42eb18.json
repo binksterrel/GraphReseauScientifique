@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Franz-Serafin Exner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3efdd81a624f6afe5a4f331071cf2696",
+  "text_length": 11926,
+  "result": {
+    "inspired_by": [
+      "Viktor von Lang",
+      "August Kundt",
+      "Wilhelm Conrad Röntgen"
+    ],
+    "inspired": [
+      "Stefan Meyer",
+      "Erwin Schrödinger",
+      "Marian Smoluchowski",
+      "Lise Meitner"
+    ]
+  },
+  "timestamp": "2025-12-24T22:56:41.133425"
+}

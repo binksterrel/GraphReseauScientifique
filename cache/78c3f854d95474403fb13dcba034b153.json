@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Eadweard Muybridge",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ebabf7e96ee3de7cd70a100266c373c1",
+  "text_length": 27631,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:01:35.177791"
+}

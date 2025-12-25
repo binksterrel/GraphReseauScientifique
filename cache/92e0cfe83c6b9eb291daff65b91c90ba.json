@@ -1,0 +1,15 @@
+{
+  "scientist_name": "John Hasbrouck van Vleck",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6e0dc2d2919ecc23393f5bcdb4d46f03",
+  "text_length": 7675,
+  "result": {
+    "inspired_by": [
+      "Edwin C. Kemble"
+    ],
+    "inspired": [
+      "Thomas Kuhn"
+    ]
+  },
+  "timestamp": "2025-12-25T00:14:49.603748"
+}

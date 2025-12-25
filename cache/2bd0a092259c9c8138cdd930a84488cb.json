@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Eugene Feenberg",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5e2ed8fe87b7679e95902f46463819fa",
+  "text_length": 5587,
+  "result": {
+    "inspired_by": [
+      "C. P. Boner",
+      "Edwin C. Kemble",
+      "Arnold Sommerfeld",
+      "Wolfgang Pauli",
+      "Enrico Fermi"
+    ],
+    "inspired": [
+      "Gregory Breit",
+      "Eugene Wigner",
+      "Melba Phillips"
+    ]
+  },
+  "timestamp": "2025-12-25T13:40:41.312274"
+}

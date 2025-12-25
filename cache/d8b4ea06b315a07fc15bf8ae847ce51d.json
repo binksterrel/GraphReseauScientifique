@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Carl Vogt",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f09c868a7566216b364c9c1960c893eb",
+  "text_length": 7233,
+  "result": {
+    "inspired_by": [
+      "Louis Agassiz",
+      "Philipp Friedrich Wilhelm Vogt",
+      "Charles Follen"
+    ],
+    "inspired": [
+      "Students and successors could not be determined from the provided text."
+    ]
+  },
+  "timestamp": "2025-12-25T14:25:09.070949"
+}

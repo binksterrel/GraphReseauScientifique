@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Adrien-Marie Legendre",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c33c66fb3f8c772b74db5a3f82b6d9f2",
+  "text_length": 10561,
+  "result": {
+    "inspired_by": [
+      "Lagrange",
+      "Carl Friedrich Gauss"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T01:47:10.756083"
+}

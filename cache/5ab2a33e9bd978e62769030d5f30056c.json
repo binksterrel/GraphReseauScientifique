@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Irving Langmuir",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7d9fe6f6f8d7d2d428f001981cb1086a",
+  "text_length": 13106,
+  "result": {
+    "inspired_by": [
+      "Gilbert N. Lewis",
+      "Walther Kossel"
+    ],
+    "inspired": [
+      "John B. Taylor",
+      "Katharine B. Blodgett",
+      "Vincent J Schaefer",
+      "Research Associates at General Electric"
+    ]
+  },
+  "timestamp": "2025-12-25T15:22:06.952039"
+}

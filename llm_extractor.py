@@ -115,78 +115,31 @@ class LLMExtractor:
         links = links or []
         links_hint = ", ".join(links[:200])
         
-        # Enhanced Few-Shot + Chain-of-Thought Prompt
-        prompt = f"""You are an expert historian of science. Your task is to extract intellectual influence relationships.
+        # Enhanced Prompt with Strict Naming Rules
+        # Enhanced Prompt with Strict Naming Rules
+        prompt = f"""You are a world expert in the history of science.
 
-## EXAMPLES (Few-Shot Learning)
+TASK: Analyze the provided text about scientist "{scientist_name}" and extract their intellectual network.
+You must identify:
+1. "inspired_by": Mentors, teachers, and scientists who influenced {scientist_name}.
+2. "inspired": Students, successors, and scientists influenced by {scientist_name}.
 
-### Example 1:
-Text: "Isaac Newton studied under Isaac Barrow at Cambridge, who introduced him to mathematics."
-Analysis:
-- Isaac Barrow is explicitly named as Newton's teacher at Cambridge
-- This is a documented mentorship relationship
-Output: {{"inspirations": ["Isaac Barrow"], "inspired": [], "confidence": "high"}}
+### CRITICAL RULES:
+- OUTPUT MUST BE VALID JSON.
+- USE "Firstname Lastname" format (No surname alone).
+- JSON keys MUST be exactly "inspired_by" and "inspired".
+- Do not invent information. Only extract what is implied in the text.
 
-### Example 2:
-Text: "Einstein's work on special relativity was deeply influenced by Ernst Mach's critique of Newtonian mechanics and Hendrik Lorentz's transformations."
-Analysis:
-- Ernst Mach's philosophical critique is explicitly credited as an influence
-- Lorentz's mathematical work is cited as foundational
-- Both are direct intellectual influences, not just contemporaries
-Output: {{"inspirations": ["Ernst Mach", "Hendrik Lorentz"], "inspired": [], "confidence": "high"}}
+## TEXT TO ANALYZE:
+{text[:15000]}
 
-### Example 3:
-Text: "Bohr developed his atomic model, which later influenced Heisenberg and Pauli in their quantum mechanics work."
-Analysis:
-- Heisenberg is named as someone influenced by Bohr's work
-- Pauli is also named as influenced
-- The influence is on their scientific work specifically
-Output: {{"inspirations": [], "inspired": ["Werner Heisenberg", "Wolfgang Pauli"], "confidence": "high"}}
-
-### Example 4:
-Text: "Gauss was a contemporary of Laplace and they corresponded occasionally."
-Analysis:
-- Being a contemporary is NOT an influence relationship
-- Occasional correspondence doesn't indicate intellectual influence
-- No explicit mentor/student or inspiration relationship
-Output: {{"inspirations": [], "inspired": [], "confidence": "medium"}}
-
-## YOUR TASK
-
-Analyze the following text about "{scientist_name}".
-
-Think step by step:
-1. Identify all named scientists/philosophers/academics in the text
-2. For EACH name, determine if there is EXPLICIT evidence of:
-   - Mentorship (teacher/student, doctoral advisor)
-   - Intellectual influence (cited as inspiration, built upon their work)
-   - NOT just: contemporaries, colleagues, collaborators without influence direction
-3. Classify as "inspirations" (influenced {scientist_name}) or "inspired" (influenced BY {scientist_name})
-4. Use canonical full names
-
-## CONSTRAINTS
-- Return ONLY valid JSON
-- Exclude "{scientist_name}" from results
-- ONLY include human scientists/academics/philosophers
-- EXCLUDE: musicians, artists, writers, politicians, theologians, military figures
-- NO institutions, awards, or organizations
-- If uncertain about a relationship, omit it
-- Prefer precision over recall (fewer false positives)
-
-## HINTS (potential names found in links)
-[{links_hint}]
-
-## OUTPUT FORMAT
+### FINAL INSTRUCTION:
+Return ONLY the JSON object. 
+Format:
 {{
-  "inspirations": ["Full Name 1", "Full Name 2"],
-  "inspired": ["Full Name 3"],
-  "confidence": "high|medium|low"
+  "inspired_by": ["List of names"],
+  "inspired": ["List of names"]
 }}
-
-## TEXT TO ANALYZE
-{text[:25000]}
-
-## YOUR ANALYSIS (Think step by step, then output JSON)
 """
         
         print(f"  🤖 Interrogation du LLM pour {scientist_name}...")
@@ -221,7 +174,7 @@ Think step by step:
                 print("  ⚠️ Échec de toutes les APIs cloud -> Tentative locale avec OLLAMA 🦙")
             result = self._call_ollama(prompt)
         
-        final_result = result if result else {"inspirations": [], "inspired": []}
+        final_result = result if result else {"inspired_by": [], "inspired": []}
         
         # Store in cache
         self.cache.set(text, scientist_name, final_result)
@@ -245,6 +198,7 @@ Think step by step:
             if response.status_code != 200:
                 print(f"  ⚠️ Erreur Cerebras: {response.status_code}")
                 return None
+            
             return self._parse_json_response(response.json()["choices"][0]["message"]["content"])
         except Exception as e:
             print(f"  ⚠️ Exception Cerebras: {e}")
@@ -293,12 +247,13 @@ Think step by step:
         try:
             response = requests.post(
                 f"{OLLAMA_URL}/api/generate",
-                json={"model": OLLAMA_MODEL, "prompt": prompt, "stream": False, "options": {"temperature": 0.1}},
-                timeout=60
+                json={"model": OLLAMA_MODEL, "prompt": prompt, "stream": False, "options": {"temperature": 0.1}, "format": "json"},
+                timeout=120
             )
             if response.status_code != 200:
                 print(f"  ⚠️ Erreur Ollama: {response.status_code}")
                 return None
+            
             return self._parse_json_response(response.json().get('response', '{}'))
         except Exception as e:
             print(f"  ⚠️ Exception Ollama: {e}")
@@ -332,4 +287,4 @@ Think step by step:
                 return json.loads(response[start:end])
         except json.JSONDecodeError:
             pass
-        return {"inspirations": [], "inspired": []}
+        return {"inspired_by": [], "inspired": []}

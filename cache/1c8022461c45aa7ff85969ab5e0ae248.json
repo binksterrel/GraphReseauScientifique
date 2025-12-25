@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Balfour Stewart",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2e358183ed9b7c71dd76233a6940215a",
+  "text_length": 12111,
+  "result": {
+    "inspired_by": [
+      "James David Forbes"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:26:21.648110"
+}

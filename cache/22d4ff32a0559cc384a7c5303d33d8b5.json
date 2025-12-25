@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Johann Franz Encke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3c3e22f135e8020e0f3ee9fd449e0671",
+  "text_length": 7134,
+  "result": {
+    "inspired_by": [
+      "Carl Friedrich Gauss",
+      "Bernhardt von Lindenau"
+    ],
+    "inspired": [
+      "Jean-Louis Pons",
+      "Carl Ludwig Christian Rümker",
+      "Caroline Herschel"
+    ]
+  },
+  "timestamp": "2025-12-25T16:39:43.887053"
+}

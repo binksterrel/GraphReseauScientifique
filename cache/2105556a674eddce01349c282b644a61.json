@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Fred Hoyle",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1037e84e951b272fe23e0ea2eb245805",
+  "text_length": 25849,
+  "result": {
+    "inspired_by": [
+      "Hermann Bondi",
+      "Thomas Gold"
+    ],
+    "inspired": [
+      "Geoffrey Hoyle"
+    ]
+  },
+  "timestamp": "2025-12-25T17:08:38.532351"
+}

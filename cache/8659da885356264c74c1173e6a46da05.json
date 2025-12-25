@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Marian Smoluchowski",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "49a7247bac1e60d2793e7a54bfc44125",
+  "text_length": 8802,
+  "result": {
+    "inspired_by": [
+      "Franz S. Exner",
+      "Josef Stefan",
+      "Ludwig Boltzmann"
+    ],
+    "inspired": [
+      "Józef Patkowski",
+      "Stanisław Loria",
+      "Wacław Dziewulski",
+      "Roman Smoluchowski"
+    ]
+  },
+  "timestamp": "2025-12-24T22:51:30.006365"
+}

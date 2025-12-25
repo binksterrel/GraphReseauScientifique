@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Eugène Burnouf",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "40e164c374af77eb0d805132f7986bd7",
+  "text_length": 7210,
+  "result": {
+    "inspired_by": [
+      "Jean-Louis Burnouf",
+      "Christian Lassen"
+    ],
+    "inspired": [
+      "Brian Houghton Hodgson",
+      "Henry Rawlinson"
+    ]
+  },
+  "timestamp": "2025-12-24T23:32:02.584417"
+}

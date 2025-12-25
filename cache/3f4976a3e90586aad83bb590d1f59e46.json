@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Alain Locke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3e1c2dca8df298cd7a33ca9539ce0495",
+  "text_length": 25322,
+  "result": {
+    "inspired_by": [
+      "W. E. B. Du Bois",
+      "Pixley ka Isaka Seme",
+      "Harvard University",
+      "University of Berlin"
+    ],
+    "inspired": [
+      "Zora Neale Hurston",
+      "Ossie Davis"
+    ]
+  },
+  "timestamp": "2025-12-25T18:16:22.639187"
+}

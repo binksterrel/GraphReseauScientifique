@@ -1,0 +1,24 @@
+{
+  "scientist_name": "Howard Goodman",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "05db39f41c578c5219987f03cd3283cf",
+  "text_length": 2604,
+  "result": {
+    "inspired_by": [
+      "Vestal Freeman",
+      "Gussie Mae",
+      "Stella",
+      "Bill Huie",
+      "Jake Hand",
+      "Harold Patrick",
+      "Faye"
+    ],
+    "inspired": [
+      "LaBreeska",
+      "Sam",
+      "Rusty",
+      "Johnny Minick"
+    ]
+  },
+  "timestamp": "2025-12-25T19:35:41.623385"
+}

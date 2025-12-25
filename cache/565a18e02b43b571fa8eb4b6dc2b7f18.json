@@ -1,0 +1,25 @@
+{
+  "scientist_name": "Antoni Łomnicki",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "49b500cfa4ae2b4ee45849571a616075",
+  "text_length": 2813,
+  "result": {
+    "inspired_by": [
+      "Józef Puzyna",
+      "Jan Rajewski",
+      "Stanisław Kępiński",
+      "Marian Smoluchowski",
+      "Kazimierz Twardowski"
+    ],
+    "inspired": [
+      "Stefan Banach",
+      "Kazimierz Kuratowski",
+      "Stanisław Stożek",
+      "Antoni Nikliborc",
+      "Stefan Kaczmarz",
+      "Władysław Orlicz",
+      "Stanisław Mazur"
+    ]
+  },
+  "timestamp": "2025-12-25T17:44:32.333081"
+}

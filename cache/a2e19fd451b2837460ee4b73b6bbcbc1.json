@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Carl Gottfried Neumann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "99a2dcf36a13232edf92112e01a3703a",
+  "text_length": 8727,
+  "result": {
+    "inspired_by": [
+      "Carl Gustav Jacob Jacobi",
+      "Friedrich Wilhelm Bessel",
+      "Franz Ernst Neumann",
+      "Wilhelm Eduard Weber"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:42:26.444401"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Arthur Cayley",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "95fbc89b1c587e19a725d52c55ad0f22",
+  "text_length": 11500,
+  "result": {
+    "inspired_by": [
+      "George Peacock",
+      "William Hopkins"
+    ],
+    "inspired": [
+      "J. J. Sylvester",
+      "William Rowan Hamilton"
+    ]
+  },
+  "timestamp": "2025-12-24T21:32:42.855276"
+}

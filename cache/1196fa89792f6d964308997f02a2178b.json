@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Peter Desaga",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "08b10496d2e8bd6938daf6ff4c9e079d",
+  "text_length": 1688,
+  "result": {
+    "inspired_by": [
+      "Robert Bunsen",
+      "Michael Faraday"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:45:38.504665"
+}

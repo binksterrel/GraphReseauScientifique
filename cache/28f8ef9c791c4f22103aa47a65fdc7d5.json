@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Vladimir Mikhailovich Bekhterev",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d30633f9fa9d5cf115f3e6ff873d84a5",
+  "text_length": 17807,
+  "result": {
+    "inspired_by": [
+      "Jan Lucjan Mierzeyewski",
+      "Gustave Le Bon",
+      "Gabriel Tarde"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:35:14.122620"
+}

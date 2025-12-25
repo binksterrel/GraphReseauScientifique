@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Edward Frankland",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "997fa33d458b7529aa26a9f85f4c118f",
+  "text_length": 14335,
+  "result": {
+    "inspired_by": [
+      "Joseph Priestley",
+      "Stephen Ross",
+      "James Wallasey",
+      "Lyon Playfair",
+      "Robert Bunsen",
+      "Justus von Liebig"
+    ],
+    "inspired": [
+      "William Dibdin"
+    ]
+  },
+  "timestamp": "2025-12-24T21:39:06.587107"
+}

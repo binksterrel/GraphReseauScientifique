@@ -1,0 +1,22 @@
+{
+  "scientist_name": "John Cockcroft",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0b0fc819c38150edcc28c8839166f0f5",
+  "text_length": 27852,
+  "result": {
+    "inspired_by": [
+      "Miles Walker",
+      "Peter Kapitza",
+      "Ernest Rutherford"
+    ],
+    "inspired": [
+      "Timothy (deceased son)",
+      "Joan Dorothea (Thea)",
+      "Jocelyn",
+      "Elisabeth Fielden",
+      "Catherine Helena",
+      "Christopher Hugh John"
+    ]
+  },
+  "timestamp": "2025-12-25T00:01:55.743704"
+}

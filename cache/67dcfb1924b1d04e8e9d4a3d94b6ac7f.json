@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Claude Chevalley",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f3efcbc63798589389ceb0a015884df5",
+  "text_length": 6764,
+  "result": {
+    "inspired_by": [
+      "Émile Picard",
+      "Emil Artin",
+      "Helmut Hasse",
+      "Shokichi Iyanaga"
+    ],
+    "inspired": [
+      "Leon Ehrenpreis",
+      "Gerhard Hochschild"
+    ]
+  },
+  "timestamp": "2025-12-25T17:42:57.515604"
+}

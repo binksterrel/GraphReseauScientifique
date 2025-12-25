@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Wilhelm Lenz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "64ee6465e69c510b81b95216f0f8014b",
+  "text_length": 3459,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld"
+    ],
+    "inspired": [
+      "Ernst Ising",
+      "J. Hans D. Jensen",
+      "Wolfgang Pauli",
+      "Pascual Jordan",
+      "Albrecht Unsöld"
+    ]
+  },
+  "timestamp": "2025-12-25T13:44:02.516561"
+}

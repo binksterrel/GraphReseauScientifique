@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Julius von Schlosser",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "50fbe132bf92079f59d6392a63de43a0",
+  "text_length": 10196,
+  "result": {
+    "inspired_by": [
+      "Franz Wickhoff"
+    ],
+    "inspired": [
+      "Ernst Kris",
+      "Otto Kurz",
+      "Ernst Gombrich",
+      "Otto Pächt",
+      "Hans Sedlmayr",
+      "Fritz Saxl",
+      "Ludwig Goldscheider",
+      "Charles de Tolnay"
+    ]
+  },
+  "timestamp": "2025-12-25T19:12:00.097524"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Peter P. Debye",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "682561f9e01f77948f4f87479069f6f4",
+  "text_length": 22984,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Max Planck"
+    ],
+    "inspired": [
+      "Peter P. Debye (son)",
+      "Mathilde Maria (daughter)"
+    ]
+  },
+  "timestamp": "2025-12-25T17:06:42.909810"
+}

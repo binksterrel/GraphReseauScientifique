@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Woodrow Wilson",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c2b712d823f7598cebf9e8efa05e14eb",
+  "text_length": 29098,
+  "result": {
+    "inspired_by": [
+      "Johns Hopkins University",
+      "University of Virginia School of Law",
+      "Davidson College",
+      "College of New Jersey (Princeton University)"
+    ],
+    "inspired": [
+      "Students at Bryn Mawr College",
+      "Students at Wesleyan University",
+      "M. Carey Thomas",
+      "Faculty and students at Princeton University"
+    ]
+  },
+  "timestamp": "2025-12-24T22:37:15.922008"
+}

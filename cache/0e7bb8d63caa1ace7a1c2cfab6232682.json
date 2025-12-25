@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Ruth Sager",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6801ef4d21bf807547695c1053e06f1d",
+  "text_length": 7850,
+  "result": {
+    "inspired_by": [
+      "Anton Carlson",
+      "Marcus Rhoades",
+      "Barbara McClintock",
+      "Sam Granick"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:35:20.378786"
+}

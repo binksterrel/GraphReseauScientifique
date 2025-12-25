@@ -1,0 +1,18 @@
+{
+  "scientist_name": "James Joseph Sylvester",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5b696b6968b31dfe1f93eed11442603f",
+  "text_length": 9919,
+  "result": {
+    "inspired_by": [
+      "Augustus De Morgan",
+      "John Hymers"
+    ],
+    "inspired": [
+      "Benjamin Peirce",
+      "Joseph Henry",
+      "Christine Ladd-Franklin"
+    ]
+  },
+  "timestamp": "2025-12-25T14:19:33.448947"
+}

@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Deccan Herald",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1e158b5ff983f1b7afa446199b5618e3",
+  "text_length": 6971,
+  "result": {
+    "inspired_by": [
+      "Pothan Joseph"
+    ],
+    "inspired": [
+      "K. A. Nettakallappa",
+      "Sitaraman Shankar"
+    ]
+  },
+  "timestamp": "2025-12-24T21:44:52.415107"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Ugo Fano",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "26d3e9db4b23d2339d287eeb823ad318",
+  "text_length": 4644,
+  "result": {
+    "inspired_by": [
+      "Enrico Persico",
+      "Enrico Fermi"
+    ],
+    "inspired": [
+      "Camilla Lattes (Lilla)",
+      "Approximately thirty graduate students and postdoctoral research associates"
+    ]
+  },
+  "timestamp": "2025-12-25T00:08:07.460018"
+}

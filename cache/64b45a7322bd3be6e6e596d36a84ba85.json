@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Gustave Le Bon",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "95d5d17748ca6fdac8285aaa26248e60",
+  "text_length": 23704,
+  "result": {
+    "inspired_by": [
+      "Charles Darwin",
+      "Herbert Spencer",
+      "Ernst Haeckel"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:09:17.244748"
+}

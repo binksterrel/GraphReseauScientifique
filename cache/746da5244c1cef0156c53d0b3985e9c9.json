@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Theodore Roosevelt",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "68d9b8d84b4f162313fd941aaa72eaab",
+  "text_length": 28290,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:13:38.066323"
+}

@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Lewis Terman",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e098c4814708b40b7650758f5ba83f2e",
+  "text_length": 16295,
+  "result": {
+    "inspired_by": [
+      "Alfred Binet",
+      "Théodore Simon",
+      "William Stern",
+      "J. McKeen Cattell",
+      "Francis Galton",
+      "Wilhelm Wundt"
+    ],
+    "inspired": [
+      "Many successful participants in the Genetic Studies of Genius, including Robert Richardson Sears"
+    ]
+  },
+  "timestamp": "2025-12-25T15:53:29.292424"
+}

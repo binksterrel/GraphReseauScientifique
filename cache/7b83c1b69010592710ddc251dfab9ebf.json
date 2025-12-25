@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Ludwig Prandtl",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "939e3995b1e0a0df1f9d97d411528c34",
+  "text_length": 14428,
+  "result": {
+    "inspired_by": [
+      "August Foeppl",
+      "Daniel Bernoulli"
+    ],
+    "inspired": [
+      "Blasius",
+      "Boltze",
+      "Theodore Von Karman",
+      "Frederick Lanchester",
+      "Albert Betz",
+      "Max Munk",
+      "Adolf Busemann"
+    ]
+  },
+  "timestamp": "2025-12-25T17:22:29.784342"
+}

@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Heinz Maier-Leibnitz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f2c448432efff04a1853cebde4573bd2",
+  "text_length": 15971,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Brenig",
+      "Nikolaus Riehl",
+      "Wolfgang Wild"
+    ],
+    "inspired": [
+      "Rudolf L. Mößbauer",
+      "Louis Néel"
+    ]
+  },
+  "timestamp": "2025-12-24T23:23:19.888770"
+}

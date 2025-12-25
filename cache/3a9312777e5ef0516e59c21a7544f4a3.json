@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Émile Durkheim",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ddcc5ba398e377d3ab2c7cff1378736d",
+  "text_length": 27920,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:37:09.756086"
+}

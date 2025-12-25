@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Heike Kamerlingh Onnes",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f3504deefd16f1a34eca747caf8fe6b9",
+  "text_length": 10086,
+  "result": {
+    "inspired_by": [
+      "Robert Bunsen",
+      "Gustav Kirchhoff"
+    ],
+    "inspired": [
+      "Willem Hendrik Keesom"
+    ]
+  },
+  "timestamp": "2025-12-24T22:55:20.747884"
+}

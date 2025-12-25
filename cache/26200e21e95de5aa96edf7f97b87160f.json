@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Ernst Guillemin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7b8030ec06df3be7f7b8b850ceb117de",
+  "text_length": 4476,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld"
+    ],
+    "inspired": [
+      "Victor Guillemin",
+      "Robert Charles Guillemin",
+      "Karen Guillemin",
+      "Mary Elizabeth Meyerand",
+      "Robert Fano",
+      "Thomas Stockham"
+    ]
+  },
+  "timestamp": "2025-12-25T13:41:49.175892"
+}

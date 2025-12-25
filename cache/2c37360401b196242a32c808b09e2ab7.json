@@ -1,0 +1,15 @@
+{
+  "scientist_name": "John Witt Randall (1813–1892)",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "96f9c6691c75913e7e8295e262bae286",
+  "text_length": 11027,
+  "result": {
+    "inspired_by": [
+      "Dr. John Randall (1774–1843)",
+      "Thomas Cushing",
+      "Henry Blanchard"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:48:10.857004"
+}

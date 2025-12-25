@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Philipp van Limborch",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bd611b1cef873bf929fdb64f15daacee",
+  "text_length": 4676,
+  "result": {
+    "inspired_by": [
+      "John Locke",
+      "Simon Episcopius",
+      "Stephan Curcellaeus",
+      "Jacobus Arminius",
+      "Joannes Uytenbogardus",
+      "Konrad Vorstius",
+      "Gerhard Vossius",
+      "Hugo Grotius"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:50:01.275658"
+}

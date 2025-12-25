@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Wilhelm von Humboldt",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ee67e276369f533293aa0582bbe5706e",
+  "text_length": 19801,
+  "result": {
+    "inspired_by": [
+      "Johann Georg Hamann",
+      "Johann Gottfried Herder",
+      "Noam Chomsky",
+      "Edward Sapir",
+      "Benjamin Whorf",
+      "Anna Wierzbicka"
+    ],
+    "inspired": [
+      "Charles Taylor"
+    ]
+  },
+  "timestamp": "2025-12-25T12:53:53.378034"
+}

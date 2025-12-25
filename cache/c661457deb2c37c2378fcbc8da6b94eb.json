@@ -1,0 +1,29 @@
+{
+  "scientist_name": "Martin Ohm",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ccfc77ab7ed66e75ee044968804df154",
+  "text_length": 2282,
+  "result": {
+    "inspired_by": [
+      "Karl Christian von Langsdorf"
+    ],
+    "inspired": [
+      "Friedrich August",
+      "Friedrich Bachmann",
+      "Elwin Bruno Christoffel",
+      "Paul Bachmann",
+      "Joseph Brutkowski",
+      "Heinrich Eduard Heine",
+      "Rudolf Lipschitz",
+      "Leo Pochhammer",
+      "Friedrich Prym",
+      "Wilhelm Wagner",
+      "Hermann Waldaestel",
+      "Wilhelm Wernicke",
+      "Elena Gerz",
+      "Valentien Gerz",
+      "Johanna Gerz"
+    ]
+  },
+  "timestamp": "2025-12-25T16:37:32.871695"
+}

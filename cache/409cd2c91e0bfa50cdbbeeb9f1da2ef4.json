@@ -1,0 +1,17 @@
+{
+  "scientist_name": "George Collison",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1e3f2b1d1d1c4eccde18f0f8884aa169",
+  "text_length": 7824,
+  "result": {
+    "inspired_by": [
+      "John Eyre",
+      "George Collison's associates"
+    ],
+    "inspired": [
+      "Andrew Reed",
+      "Isaac Phillips"
+    ]
+  },
+  "timestamp": "2025-12-25T18:40:48.269828"
+}

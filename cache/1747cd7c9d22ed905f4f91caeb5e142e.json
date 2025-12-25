@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Valéry Giscard d'Estaing",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "51dba128b9ad1a3687b3e2c6d76a2982",
+  "text_length": 27490,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Valéry Giscard d'Estaing"
+    ]
+  },
+  "timestamp": "2025-12-24T22:04:07.755276"
+}

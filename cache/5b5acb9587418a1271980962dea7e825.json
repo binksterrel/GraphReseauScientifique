@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Paul Appell",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bf635aa81340bbd667ca303f3cc901eb",
+  "text_length": 5108,
+  "result": {
+    "inspired_by": [
+      "Henri Poincaré",
+      "Jules Drach"
+    ],
+    "inspired": [
+      "Émile Borel",
+      "Marguerite Appell (Camille Marbo)"
+    ]
+  },
+  "timestamp": "2025-12-25T18:34:25.926906"
+}

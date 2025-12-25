@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Robert Millikan",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4cc77c4f01156fb8ec1cabe721c3b8c9",
+  "text_length": 20847,
+  "result": {
+    "inspired_by": [
+      "J. J. Thomson",
+      "George Ellery Hale"
+    ],
+    "inspired": [
+      "Harvey Fletcher",
+      "Students at Caltech",
+      "General Public through textbooks"
+    ]
+  },
+  "timestamp": "2025-12-24T23:58:13.529523"
+}

@@ -1,0 +1,13 @@
+{
+  "scientist_name": "George Searle",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b33880119811e9a42f43a32a2df67870",
+  "text_length": 343,
+  "result": {
+    "inspired_by": [
+      "Not specified in the text"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:05:34.917949"
+}

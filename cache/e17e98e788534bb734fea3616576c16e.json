@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Yakov Frenkel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2d0bd84a03ad282a50a4b014b49a3d1a",
+  "text_length": 7782,
+  "result": {
+    "inspired_by": [
+      "Abram Ioffe",
+      "Paul Ehrenfest"
+    ],
+    "inspired": [
+      "Tatyana Kontorova",
+      "Victor Frenkel"
+    ]
+  },
+  "timestamp": "2025-12-25T17:14:45.790668"
+}

@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Adolf Kneser",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0020761341f5d3cbc618a6595e9cde07",
+  "text_length": 2051,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Hellmuth Kneser",
+      "Martin Kneser"
+    ]
+  },
+  "timestamp": "2025-12-25T16:33:43.377108"
+}

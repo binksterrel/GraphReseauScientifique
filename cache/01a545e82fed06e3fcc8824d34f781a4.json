@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Harry Hammond Hess",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9af6dd2e2e4db51be0b965f3ff74eada",
+  "text_length": 8028,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Marie Tharp",
+      "Bruce Heezen",
+      "Students at Princeton University",
+      "Scientists involved in the Mohole project"
+    ]
+  },
+  "timestamp": "2025-12-25T12:12:11.684258"
+}

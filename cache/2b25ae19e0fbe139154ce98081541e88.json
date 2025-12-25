@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Friedrich Hasenöhrl",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4f0d92299690ac280d26c5150a3221c8",
+  "text_length": 11770,
+  "result": {
+    "inspired_by": [
+      "Joseph Stefan",
+      "Ludwig Boltzmann",
+      "Heike Kamerlingh Onnes",
+      "H. A. Lorentz",
+      "Franz-Serafin Exner"
+    ],
+    "inspired": [
+      "Erwin Schrödinger"
+    ]
+  },
+  "timestamp": "2025-12-24T21:47:52.180585"
+}

@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Marcel Grossmann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d4b69b22e1654be412fb9f91dad7ab93",
+  "text_length": 6101,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Fiedler"
+    ],
+    "inspired": [
+      "Albert Einstein"
+    ]
+  },
+  "timestamp": "2025-12-24T21:14:34.234270"
+}

@@ -1,0 +1,15 @@
+{
+  "scientist_name": "William Crookes",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f8c202972709a9299c58c48eb2043c62",
+  "text_length": 19305,
+  "result": {
+    "inspired_by": [
+      "August Wilhelm von Hofmann",
+      "George Gabriel Stokes",
+      "Michael Faraday"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:55:09.743208"
+}

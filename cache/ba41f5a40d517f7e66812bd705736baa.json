@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Norman Lockyer",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bb14b64916e0058d8d0aac23385fc6ba",
+  "text_length": 7802,
+  "result": {
+    "inspired_by": [
+      "Pierre Janssen",
+      "Edward Frankland"
+    ],
+    "inspired": [
+      "Winifred James",
+      "Six sons and two daughters (not named)",
+      "Thomazine Mary Brodhurst (née Browne)",
+      "William J.S. Lockyer",
+      "Professor Tim Naylor"
+    ]
+  },
+  "timestamp": "2025-12-24T21:39:46.228021"
+}

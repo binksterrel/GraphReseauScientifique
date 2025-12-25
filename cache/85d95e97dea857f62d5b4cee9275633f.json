@@ -1,0 +1,14 @@
+{
+  "scientist_name": "David Bohm",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "93144941dc76a867cd886862796f33c8",
+  "text_length": 26841,
+  "result": {
+    "inspired_by": [
+      "J. Robert Oppenheimer",
+      "Albert Einstein"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:27:41.477592"
+}

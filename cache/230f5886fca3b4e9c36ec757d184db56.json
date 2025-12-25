@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Heinrich Welker",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ba1af16d3b36163930993693c8606c5f",
+  "text_length": 4875,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:45:41.896116"
+}

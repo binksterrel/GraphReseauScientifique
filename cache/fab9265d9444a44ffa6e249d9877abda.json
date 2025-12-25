@@ -1,0 +1,25 @@
+{
+  "scientist_name": "Wojciech Rubinowicz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ec88409738d240c83158440637833be0",
+  "text_length": 4150,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld"
+    ],
+    "inspired": [
+      "Jan Blaton",
+      "Wanda Hanusowa",
+      "Roman Stanisław Ingarden",
+      "Wasyl Milianczuk",
+      "Jerzy Rayski",
+      "Kazimierz Vetulani",
+      "Bohdan Karczewski",
+      "Wojciech Królikowski",
+      "Adam Kujawski",
+      "Jan Petykiewicz",
+      "Jerzy Plebański"
+    ]
+  },
+  "timestamp": "2025-12-25T13:53:35.404250"
+}

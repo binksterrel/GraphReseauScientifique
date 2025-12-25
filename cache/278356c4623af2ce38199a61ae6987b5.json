@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Gerhard vom Rath",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "084b96c5352ee8d45818dc263727ec01",
+  "text_length": 2158,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:05:03.689865"
+}

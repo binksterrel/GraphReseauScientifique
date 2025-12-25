@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Ruth Benedict",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "21beae9161ce9b70f76cb3780ccbd9c7",
+  "text_length": 26284,
+  "result": {
+    "inspired_by": [
+      "Elsie Clews Parsons",
+      "Alexander Goldenweiser",
+      "Franz Boas",
+      "Edward Sapir"
+    ],
+    "inspired": [
+      "Margaret Mead",
+      "Marvin Opler",
+      "Vera D. Rubin",
+      "Ruth Landes"
+    ]
+  },
+  "timestamp": "2025-12-25T16:12:23.446730"
+}

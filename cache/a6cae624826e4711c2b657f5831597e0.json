@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Kurt Diebner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d1eb1c63f7dd2c556c0cd8ebc2991172",
+  "text_length": 9915,
+  "result": {
+    "inspired_by": [
+      "Gerhard Hoffmann",
+      "Wilhelm Dames",
+      "Georg Joos",
+      "Wilhelm Hanle",
+      "Walther Bothe",
+      "Robert Döpel",
+      "Hans Geiger",
+      "Wolfgang Gentner"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:58:04.291108"
+}

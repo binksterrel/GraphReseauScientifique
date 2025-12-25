@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Auguste Chauveau",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d1681f7172f6677c9901c65589c7d56c",
+  "text_length": 2325,
+  "result": {
+    "inspired_by": [
+      "Étienne-Jules Marey"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:00:45.810098"
+}

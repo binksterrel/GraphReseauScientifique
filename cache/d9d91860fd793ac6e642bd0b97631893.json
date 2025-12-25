@@ -1,0 +1,27 @@
+{
+  "scientist_name": "George Placzek",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "226bfdbcf4f39dbdbdcf67346e887fc0",
+  "text_length": 2967,
+  "result": {
+    "inspired_by": [
+      "Hans Bethe",
+      "Edward Teller",
+      "Rudolf Peierls",
+      "Werner Heisenberg",
+      "Victor Weisskopf",
+      "Enrico Fermi",
+      "Niels Bohr",
+      "Lev Landau",
+      "Edoardo Amaldi",
+      "Emilio Segrè",
+      "Otto Frisch",
+      "Leon van Hove"
+    ],
+    "inspired": [
+      "Robert Oppenheimer",
+      "Edward Teller"
+    ]
+  },
+  "timestamp": "2025-12-25T00:11:56.412633"
+}

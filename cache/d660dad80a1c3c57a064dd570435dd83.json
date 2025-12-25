@@ -1,0 +1,28 @@
+{
+  "scientist_name": "Mary Haas",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2b0b4dd5bad599f88987a2f8e0c2cf19",
+  "text_length": 6125,
+  "result": {
+    "inspired_by": [
+      "Edward Sapir",
+      "Franz Boas"
+    ],
+    "inspired": [
+      "Karl V. Teeter",
+      "William Bright",
+      "William Shipley",
+      "Robert Oswalt",
+      "Catherine Callaghan",
+      "Margaret Langdon",
+      "Sally McLendon",
+      "Victor Golla",
+      "Wick Miller",
+      "Marc Okrand",
+      "Kenneth Whistler",
+      "Douglas Parks",
+      "William Jacobsen"
+    ]
+  },
+  "timestamp": "2025-12-25T16:24:25.782947"
+}

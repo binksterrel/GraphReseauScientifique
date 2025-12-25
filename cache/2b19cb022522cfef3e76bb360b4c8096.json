@@ -1,0 +1,23 @@
+{
+  "scientist_name": "Harold Urey",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6f8298dc8a62e495a5e4b6b57fae2e1b",
+  "text_length": 23386,
+  "result": {
+    "inspired_by": [
+      "Gilbert N. Lewis",
+      "Niels Bohr",
+      "Werner Heisenberg",
+      "Hans Kramers",
+      "Wolfgang Pauli",
+      "Georg von Hevesy",
+      "John Slater",
+      "Albert Einstein",
+      "James Franck"
+    ],
+    "inspired": [
+      "Stanley L. Miller"
+    ]
+  },
+  "timestamp": "2025-12-25T17:18:32.589583"
+}

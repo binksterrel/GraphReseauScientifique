@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Felix Klein",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "721bc4d7cff9090fad5e40948d2f8e7a",
+  "text_length": 17376,
+  "result": {
+    "inspired_by": [
+      "Sophus Lie",
+      "Camille Jordan",
+      "Arthur Cayley"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:36:13.068305"
+}

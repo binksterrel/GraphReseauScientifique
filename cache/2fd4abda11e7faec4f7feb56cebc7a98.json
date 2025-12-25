@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Philipp Lenard",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ff8b088eac4aed6c0b6f1394ca525605",
+  "text_length": 14083,
+  "result": {
+    "inspired_by": [
+      "Robert Bunsen",
+      "Hermann von Helmholtz",
+      "Georg Quincke"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:16:41.885655"
+}

@@ -1,0 +1,27 @@
+{
+  "scientist_name": "Murray Gell-Mann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "56d7f9ba0e3e7c250fcec42cc988d481",
+  "text_length": 14476,
+  "result": {
+    "inspired_by": [
+      "James Joyce",
+      "Richard Earl Block",
+      "Yuval Ne'eman"
+    ],
+    "inspired": [
+      "George Zweig",
+      "Harald Fritzsch",
+      "Heinrich Leutwyler",
+      "William A. Bardeen",
+      "Pierre Ramond",
+      "Richard Slansky",
+      "Peter Minkowski",
+      "Rabindra Mohapatra",
+      "Goran Senjanović",
+      "Sheldon Glashow",
+      "Tsutomu Yanagida"
+    ]
+  },
+  "timestamp": "2025-12-25T19:13:48.261115"
+}

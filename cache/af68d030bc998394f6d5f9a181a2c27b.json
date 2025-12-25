@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Christine Ladd-Franklin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "69e0e4448d8399dc754fc6a0199dd6dc",
+  "text_length": 15685,
+  "result": {
+    "inspired_by": [
+      "Charles S. Peirce",
+      "Arthur Prior"
+    ],
+    "inspired": [
+      "Bertrand Russell"
+    ]
+  },
+  "timestamp": "2025-12-24T22:24:32.846448"
+}

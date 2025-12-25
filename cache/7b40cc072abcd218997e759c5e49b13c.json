@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Charles Spearman",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1f1567949998a5c4b50320e3a22d9e4b",
+  "text_length": 12137,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Wundt",
+      "Felix Krueger",
+      "Wilhelm Wirth",
+      "Francis Galton",
+      "William McDougall"
+    ],
+    "inspired": [
+      "Many pupils"
+    ]
+  },
+  "timestamp": "2025-12-25T12:32:33.567397"
+}

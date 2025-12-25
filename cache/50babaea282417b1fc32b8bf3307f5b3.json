@@ -1,0 +1,19 @@
+{
+  "scientist_name": "X-Ray Diffraction",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "18a0883402a313fa8a55acfd8dce27ba",
+  "text_length": 26511,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Röntgen",
+      "Charles Glover Barkla",
+      "Arnold Sommerfeld"
+    ],
+    "inspired": [
+      "Max von Laue",
+      "William Lawrence Bragg",
+      "William Henry Bragg"
+    ]
+  },
+  "timestamp": "2025-12-25T17:11:46.875965"
+}

@@ -1,0 +1,18 @@
+{
+  "scientist_name": "James Chadwick",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cc38e2543da4cdaa3f0231fed8801292",
+  "text_length": 27155,
+  "result": {
+    "inspired_by": [
+      "Ernest Rutherford",
+      "Hans Geiger"
+    ],
+    "inspired": [
+      "John Cockcroft",
+      "Norman Feather",
+      "Mark Oliphant"
+    ]
+  },
+  "timestamp": "2025-12-25T00:01:04.241997"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Titu Maiorescu",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a172118c5d3c9a7d08c42825197324d9",
+  "text_length": 16497,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Ion Creangă",
+      "Mihai Eminescu",
+      "Caragiale",
+      "Slavici",
+      "Duiliu Zamfirescu"
+    ]
+  },
+  "timestamp": "2025-12-25T16:06:11.467531"
+}

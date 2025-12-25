@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Robert Weinberg",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "df70a0f4aeed45e540aa1ed60df87415",
+  "text_length": 5225,
+  "result": {
+    "inspired_by": [
+      "Ernest Winocour",
+      "Renato Dulbecco"
+    ],
+    "inspired": [
+      "Tyler Jacks",
+      "William C. Hahn",
+      "Clifford Tabin",
+      "Sendurai Mani",
+      "Cornelia Bargmann"
+    ]
+  },
+  "timestamp": "2025-12-25T19:24:50.679112"
+}

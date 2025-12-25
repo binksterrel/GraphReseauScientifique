@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Marie Laurent",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "609f341a647b1d477cdbf783e522b86c",
+  "text_length": 2654,
+  "result": {
+    "inspired_by": [
+      "Louis Pasteur",
+      "Jean Baptiste Biot",
+      "Jean Joseph (father of Louis Pasteur)"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:36:03.987780"
+}

@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Heinrich Mache",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "909ded929fd9558edb783a603d20e37c",
+  "text_length": 2696,
+  "result": {
+    "inspired_by": [
+      "Ernst Mach",
+      "Franz Serafin Exner",
+      "Ludwig Boltzmann"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:52:12.136192"
+}

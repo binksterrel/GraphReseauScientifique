@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Franz Kurie",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "06875ce1959002a2cf13aa47fd24984b",
+  "text_length": 2809,
+  "result": {
+    "inspired_by": [
+      "Ernest Lawrence"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:52:14.643490"
+}

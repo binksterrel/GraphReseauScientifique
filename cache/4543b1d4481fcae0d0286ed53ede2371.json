@@ -1,0 +1,17 @@
+{
+  "scientist_name": "W. Maxwell Cowan",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5ecd91cbcc52bd6bd02e34071d59e7b4",
+  "text_length": 6101,
+  "result": {
+    "inspired_by": [
+      "Sydney Brenner",
+      "Raymond Dart",
+      "Wilfrid Le Gros Clark"
+    ],
+    "inspired": [
+      "Geoffrey Raisman"
+    ]
+  },
+  "timestamp": "2025-12-25T19:32:58.519822"
+}

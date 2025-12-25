@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Heinrich Magnus",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "01fac45e919f81a0ab76d929b9f6f517",
+  "text_length": 6012,
+  "result": {
+    "inspired_by": [
+      "Eilhard Mitscherlich",
+      "Jöns Jakob Berzelius",
+      "Joseph Louis Gay-Lussac",
+      "Louis Jacques Thénard"
+    ],
+    "inspired": [
+      "Rudolf Clausius",
+      "Hermann Helmholtz",
+      "Gustav Wiedemann"
+    ]
+  },
+  "timestamp": "2025-12-25T14:54:00.419278"
+}

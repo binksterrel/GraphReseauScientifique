@@ -1,0 +1,38 @@
+{
+  "scientist_name": "Friedrich Hirzebruch",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "eaa35cb0b0b563e5b84f7e7dfa4b781a",
+  "text_length": 5349,
+  "result": {
+    "inspired_by": [
+      "Albert Einstein",
+      "British soldier"
+    ],
+    "inspired": [
+      "Kunihiko Kodaira",
+      "John Milnor",
+      "Armand Borel",
+      "Michael Atiyah",
+      "Raoul Bott",
+      "Jean-Pierre Serre",
+      "Egbert Brieskorn",
+      "Matthias Kreck",
+      "Don Zagier",
+      "Detlef Gromoll",
+      "Klaus Jänich",
+      "Lothar Göttsche",
+      "Dietmar Arlt",
+      "Winfried Scharlau",
+      "Walter Neumann",
+      "Wolfgang Meyer",
+      "Kang Zuo",
+      "Hans Scheerer",
+      "Erich Ossa",
+      "Klaus Lamotke",
+      "Eduardo Mendoza",
+      "Dimitrios Dais",
+      "Friedhelm Waldhausen"
+    ]
+  },
+  "timestamp": "2025-12-25T17:38:15.403408"
+}

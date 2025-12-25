@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Moritz Stern",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "91be70b02798ee29893ce813de2f28dd",
+  "text_length": 2710,
+  "result": {
+    "inspired_by": [
+      "Carl Friedrich Gauss"
+    ],
+    "inspired": [
+      "Bernhard Riemann",
+      "Gotthold Eisenstein"
+    ]
+  },
+  "timestamp": "2025-12-25T14:11:21.666712"
+}

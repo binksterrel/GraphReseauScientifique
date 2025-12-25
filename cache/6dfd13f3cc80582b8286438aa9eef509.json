@@ -1,0 +1,20 @@
+{
+  "scientist_name": "William Henry Bragg",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7627f8fa7920c96496d36091205eb25a",
+  "text_length": 16444,
+  "result": {
+    "inspired_by": [
+      "Ernest Rutherford",
+      "Samuel Barbour",
+      "Arthur Lionel Rogers"
+    ],
+    "inspired": [
+      "Lawrence Bragg",
+      "Gwendoline Todd",
+      "Alban Caroe",
+      "Robert Smyth School students"
+    ]
+  },
+  "timestamp": "2025-12-25T15:20:08.233923"
+}

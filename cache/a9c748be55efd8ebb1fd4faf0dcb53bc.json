@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Adolf Kratzer",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d637ad98fb20a3554beb7e8ae65bdf36",
+  "text_length": 8449,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Wilhelm Lenz"
+    ],
+    "inspired": [
+      "Werner Heisenberg",
+      "Students at the University of Münster"
+    ]
+  },
+  "timestamp": "2025-12-25T13:42:41.539229"
+}

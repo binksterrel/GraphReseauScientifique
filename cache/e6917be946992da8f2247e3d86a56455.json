@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Arthur Noyes",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ebf9c6ffa7531f3e1580e014bd897634",
+  "text_length": 618,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:30:42.470492"
+}

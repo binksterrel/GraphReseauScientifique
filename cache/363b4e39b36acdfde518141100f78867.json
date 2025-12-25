@@ -1,0 +1,14 @@
+{
+  "scientist_name": "David H. Levy",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ce79d5a7e3aa3d795f40bf1c84865d6a",
+  "text_length": 4171,
+  "result": {
+    "inspired_by": [
+      "Gene Shoemaker",
+      "Carolyn Shoemaker"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:13:13.611876"
+}

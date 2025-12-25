@@ -1,0 +1,14 @@
+{
+  "scientist_name": "W. E. B. Du Bois",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7fd7affb1c96a1ffb37e8747ade1de75",
+  "text_length": 27855,
+  "result": {
+    "inspired_by": [
+      "William James",
+      "Alexander Crummell"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:11:19.285116"
+}

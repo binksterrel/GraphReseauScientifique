@@ -1,0 +1,19 @@
+{
+  "scientist_name": "William Thomson (Lord Kelvin)",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c4b244d1281d30fbac7411d27d8f099f",
+  "text_length": 27606,
+  "result": {
+    "inspired_by": [
+      "Joseph Fourier",
+      "David Thomson",
+      "Henri Victor Regnault",
+      "Michael Faraday"
+    ],
+    "inspired": [
+      "Hugh Blackburn",
+      "George Eastman"
+    ]
+  },
+  "timestamp": "2025-12-25T12:24:01.432676"
+}

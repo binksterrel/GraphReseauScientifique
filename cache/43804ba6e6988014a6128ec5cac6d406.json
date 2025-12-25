@@ -1,0 +1,26 @@
+{
+  "scientist_name": "Isidor I. Rabi",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5a2bd184f56b17283dc7b0c7479c6f85",
+  "text_length": 27646,
+  "result": {
+    "inspired_by": [
+      "Albert Wills",
+      "Erwin Schrödinger",
+      "Arnold Sommerfeld",
+      "Werner Heisenberg",
+      "Niels Bohr",
+      "Otto Stern"
+    ],
+    "inspired": [
+      "Ralph Kronig",
+      "Francis Bitter",
+      "Mark Zemansky",
+      "Leon Lederman",
+      "Irving Kaplan",
+      "Norman Ramsey",
+      "William Nierenberg"
+    ]
+  },
+  "timestamp": "2025-12-25T13:47:20.854956"
+}

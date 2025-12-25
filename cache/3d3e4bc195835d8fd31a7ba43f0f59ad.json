@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Johann Göttling",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d2eb6ef9159d4350096cfa84c6282b9a",
+  "text_length": 2824,
+  "result": {
+    "inspired_by": [
+      "Johann Christian Wiegleb"
+    ],
+    "inspired": [
+      "Karl Wilhelm Gottlob Kastner"
+    ]
+  },
+  "timestamp": "2025-12-25T18:56:19.296662"
+}

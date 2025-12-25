@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Gustav Kirchhoff",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ee97088e40791ffcd0513ad63ba32b0c",
+  "text_length": 9839,
+  "result": {
+    "inspired_by": [
+      "C. G. J. Jacobi",
+      "Franz Ernst Neumann",
+      "Friedrich Julius Richelot"
+    ],
+    "inspired": [
+      "Robert Bunsen"
+    ]
+  },
+  "timestamp": "2025-12-24T21:52:42.771366"
+}

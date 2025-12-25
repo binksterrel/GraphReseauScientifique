@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Robert Fano",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0204d5b61b445c8e1cea50ec5113e8af",
+  "text_length": 4738,
+  "result": {
+    "inspired_by": [
+      "Claude Shannon"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:15:48.070485"
+}

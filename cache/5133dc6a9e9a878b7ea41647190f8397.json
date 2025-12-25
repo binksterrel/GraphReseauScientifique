@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Arthur Ruark",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "dbbe242d3c005a5ab89dd9ec642617b9",
+  "text_length": 2372,
+  "result": {
+    "inspired_by": [
+      "Harold Clayton Urey"
+    ],
+    "inspired": [
+      "Mary Wilma Hodge"
+    ]
+  },
+  "timestamp": "2025-12-25T17:17:47.848915"
+}

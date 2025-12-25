@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Alice S. Huang",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "63c298e8cedd8a6b330de9c64c0ab976",
+  "text_length": 6978,
+  "result": {
+    "inspired_by": [
+      "Robert R. Wagner",
+      "David Baltimore"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:24:28.616056"
+}

@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Milton S. Livingston",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d56f7f3d7b9f37599e7fcc1eef23a08c",
+  "text_length": 12419,
+  "result": {
+    "inspired_by": [
+      "Ernest Lawrence",
+      "Roland R. Tileston"
+    ],
+    "inspired": [
+      "Robert Bacher",
+      "Hans Bethe",
+      "Physicists at MIT",
+      "Philip Morse",
+      "Leland John Haworth"
+    ]
+  },
+  "timestamp": "2025-12-25T17:39:29.632463"
+}

@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Melvin Calvin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4b5aa8c962f8e1a6fa31bc553f4faadc",
+  "text_length": 12424,
+  "result": {
+    "inspired_by": [
+      "George Glocker",
+      "Michael Polanyi"
+    ],
+    "inspired": [
+      "Andrew Benson",
+      "James A. Bassham",
+      "Elin",
+      "Sowie",
+      "Karole",
+      "Noel"
+    ]
+  },
+  "timestamp": "2025-12-25T19:43:37.652860"
+}

@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Gaston Darboux",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "efe6c4e13170bbc9b00306ec7a8434f6",
+  "text_length": 3351,
+  "result": {
+    "inspired_by": [
+      "Michel Chasles"
+    ],
+    "inspired": [
+      "Émile Borel",
+      "Élie Cartan",
+      "Édouard Goursat",
+      "Émile Picard",
+      "Gheorghe Țițeica",
+      "Stanisław Zaremba"
+    ]
+  },
+  "timestamp": "2025-12-25T14:32:59.504806"
+}

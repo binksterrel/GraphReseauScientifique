@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Scientific community in the 19th century",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ef2e8b2f0971034d3e72eedf3eeb217a",
+  "text_length": 30110,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:35:44.702375"
+}

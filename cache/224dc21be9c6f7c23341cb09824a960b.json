@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Hippolyte Bernheim",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "357559d2b38daf1ec0856fc6feaa9c36",
+  "text_length": 6741,
+  "result": {
+    "inspired_by": [
+      "Ambroise-Auguste Liébeault",
+      "Dr. Ambroise-Auguste Liébeault"
+    ],
+    "inspired": [
+      "Albert Moll",
+      "Boris Sidis",
+      "Morton Prince",
+      "Sigmund Freud"
+    ]
+  },
+  "timestamp": "2025-12-25T15:59:28.017175"
+}

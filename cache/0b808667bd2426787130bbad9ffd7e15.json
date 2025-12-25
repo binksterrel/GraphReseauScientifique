@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Fritz Reiche",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5149e4d552f1989a62545fde0593ae71",
+  "text_length": 2327,
+  "result": {
+    "inspired_by": [
+      "Max Planck",
+      "Albert Einstein"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:55:20.264802"
+}

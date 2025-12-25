@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Students from many of the German states, as well as Britain and the United States",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2389205467914a7ae84d921fd99b745e",
+  "text_length": 28878,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Paleo-Indians",
+      "Spanish colonizers",
+      "French colonizers",
+      "Dutch settlers",
+      "Swedish settlers",
+      "British colonists",
+      "Native American tribes"
+    ]
+  },
+  "timestamp": "2025-12-25T14:49:13.550275"
+}

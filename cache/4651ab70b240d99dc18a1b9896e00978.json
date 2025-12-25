@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Georg Stetter",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5cba5b283b7a7c8e8a0b09cb20745c05",
+  "text_length": 11824,
+  "result": {
+    "inspired_by": [
+      "Unnamed mentors at II. Physikalische Institut der Wiener Universität (Second Physics Institute of the University of Vienna) and Institut für Radiumforschung (Institute for Radium Research) of the Österreichischen Akademie der Wissenschaften (ÖAW, Austrian Academy of Sciences) in Vienna",
+      "Unnamed mentors at Universität Wien (University of Venna)"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T13:00:25.780907"
+}

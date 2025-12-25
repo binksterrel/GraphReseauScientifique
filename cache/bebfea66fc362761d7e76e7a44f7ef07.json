@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Eliane Montel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "089a3eea472434faa64c25b68d93dbeb",
+  "text_length": 3155,
+  "result": {
+    "inspired_by": [
+      "Paul Langevin"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:53:23.579429"
+}

@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Gregory Breit",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4aa3d81633ee1f90608638b07f71c907",
+  "text_length": 4441,
+  "result": {
+    "inspired_by": [
+      "Paul Ehrenfest"
+    ],
+    "inspired": [
+      "Merle Tuve",
+      "Eugene Wigner",
+      "Edward Condon",
+      "John A. Wheeler",
+      "Alvin M. Saperstein",
+      "George O. Zimmerman"
+    ]
+  },
+  "timestamp": "2025-12-25T17:12:39.284380"
+}

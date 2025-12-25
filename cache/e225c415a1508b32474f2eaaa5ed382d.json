@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Henri Victor Regnault",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b00d2322e3c6a9e683ff5580a38181b4",
+  "text_length": 3916,
+  "result": {
+    "inspired_by": [
+      "Justus von Liebig"
+    ],
+    "inspired": [
+      "William Thomson",
+      "Charles Algernon Parsons"
+    ]
+  },
+  "timestamp": "2025-12-25T15:36:52.663783"
+}

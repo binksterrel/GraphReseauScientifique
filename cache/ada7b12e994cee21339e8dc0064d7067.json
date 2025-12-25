@@ -1,0 +1,11 @@
+{
+  "scientist_name": "William F. Giauque",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2fb00c078b0aef80174841cd2fd06585",
+  "text_length": 2629,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:41:47.813953"
+}

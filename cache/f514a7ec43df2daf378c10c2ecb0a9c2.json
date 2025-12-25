@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Constantin Carathéodory",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ea7f00167083d3d66ea1a786b38a927e",
+  "text_length": 25567,
+  "result": {
+    "inspired_by": [
+      "Leonhard Euler",
+      "Adrien-Marie Legendre",
+      "Carl Gustav Jacob Jacobi",
+      "Karl Weierstrass"
+    ],
+    "inspired": [
+      "Max Planck",
+      "Max Born",
+      "Arnold Sommerfeld"
+    ]
+  },
+  "timestamp": "2025-12-25T01:38:35.571999"
+}

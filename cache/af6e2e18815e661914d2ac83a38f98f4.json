@@ -1,0 +1,25 @@
+{
+  "scientist_name": "C.A. Coulson",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a1e11934764586ceef482e94f005a40f",
+  "text_length": 11138,
+  "result": {
+    "inspired_by": [
+      "Lord Rutherford",
+      "J. J. Thomson",
+      "A. S. Besicovitch",
+      "Sir Arthur Eddington",
+      "G. H. Hardy",
+      "J. E. Littlewood",
+      "F. P. Ramsey",
+      "Ebenezer Cunningham"
+    ],
+    "inspired": [
+      "H. Christopher Longuet-Higgins",
+      "John Maddox",
+      "Roy McWeeny",
+      "William E. (Bill) Moffitt"
+    ]
+  },
+  "timestamp": "2025-12-25T19:18:28.576686"
+}

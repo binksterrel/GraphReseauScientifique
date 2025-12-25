@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Carl Runge",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9daab0bd7247cdd2a2b208e525b5ff7b",
+  "text_length": 3161,
+  "result": {
+    "inspired_by": [
+      "Karl Weierstrass"
+    ],
+    "inspired": [
+      "Iris Runge",
+      "Wilhelm Runge",
+      "Richard Courant"
+    ]
+  },
+  "timestamp": "2025-12-25T17:21:47.800233"
+}

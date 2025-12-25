@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Jacobus Henricus van’t Hoff",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ec7b6df1ed6c4a26490452724f868ba6",
+  "text_length": 8501,
+  "result": {
+    "inspired_by": [
+      "August Kekulé",
+      "Adolphe Wurtz",
+      "Eduard Mulder"
+    ],
+    "inspired": [
+      "Johanna Francina Mees",
+      "Jacobus Henricus van 't Hoff III",
+      "Govert Jacob",
+      "Johanna Francina (daughter)",
+      "Aleida Jacoba (daughter)"
+    ]
+  },
+  "timestamp": "2025-12-25T18:18:54.383908"
+}

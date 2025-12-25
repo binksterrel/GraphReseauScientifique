@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Bruce Heezen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6fcd4b0bb71a2216659e8d6ea5edb6ea",
+  "text_length": 2987,
+  "result": {
+    "inspired_by": [
+      "Marie Tharp"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:30:54.870753"
+}

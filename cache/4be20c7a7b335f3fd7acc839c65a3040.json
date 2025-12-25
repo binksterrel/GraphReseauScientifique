@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Lazare Carnot",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "04014e95439305f57be81aaaf8942da3",
+  "text_length": 22658,
+  "result": {
+    "inspired_by": [
+      "Abbé Bison",
+      "duc d'Aumont (Marquis de Nolay)"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:20:43.859048"
+}

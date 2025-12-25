@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Irving Fisher",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "49ae36edcd827efa6e81721f0798a61e",
+  "text_length": 26032,
+  "result": {
+    "inspired_by": [
+      "Willard Gibbs",
+      "William Graham Sumner"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:55:51.863494"
+}

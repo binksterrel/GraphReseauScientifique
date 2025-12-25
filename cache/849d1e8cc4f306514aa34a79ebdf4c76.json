@@ -1,0 +1,24 @@
+{
+  "scientist_name": "James Mark Baldwin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "71585189fc3c3e438870883eb2e314f9",
+  "text_length": 16758,
+  "result": {
+    "inspired_by": [
+      "James McCosh",
+      "Théodule-Armand Ribot",
+      "Wilhelm Wundt",
+      "Friedrich Paulsen",
+      "Jean-Martin Charcot",
+      "Hippolyte Bernheim",
+      "Pierre Janet"
+    ],
+    "inspired": [
+      "Jean Piaget",
+      "Lawrence Kohlberg",
+      "Alexander Luria",
+      "Lev Vygotsky"
+    ]
+  },
+  "timestamp": "2025-12-25T12:31:42.759470"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Sir John Randall",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "47adf01eb7b553f4d5059115a2d43d87",
+  "text_length": 2211,
+  "result": {
+    "inspired_by": [
+      "Not specified in the text"
+    ],
+    "inspired": [
+      "John A. Randall (1881–1968)",
+      "John Herman Randall, Jr. (1899–1980)",
+      "John Witt Randall (1813–1892)"
+    ]
+  },
+  "timestamp": "2025-12-25T19:48:28.791918"
+}

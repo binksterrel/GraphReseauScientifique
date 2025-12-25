@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Roman Stanisław Ingarden",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "46d9d270c58ec5a3daa409df71751fa7",
+  "text_length": 3161,
+  "result": {
+    "inspired_by": [
+      "Juliusz Schauder",
+      "Stefan Banach",
+      "Hugo Steinhaus",
+      "Stanisław Loria",
+      "Wojciech Rubinowicz",
+      "Jan Weyssenhoff",
+      "Konstanty Zakrzewski"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:32:40.164058"
+}

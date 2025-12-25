@@ -1,0 +1,25 @@
+{
+  "scientist_name": "Yash Chopra",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c0ab45ad02649bef6d20ed9e9c598fa2",
+  "text_length": 22675,
+  "result": {
+    "inspired_by": [
+      "Yash Chopra",
+      "Salim-Javed",
+      "Rajesh Khanna",
+      "Amitabh Bachchan",
+      "Shashi Kapoor",
+      "Dilip Kumar",
+      "Sridevi",
+      "Anil Kapoor",
+      "Shahrukh Khan"
+    ],
+    "inspired": [
+      "Bollywood films",
+      "Hindi cinema",
+      "Indian cinema"
+    ]
+  },
+  "timestamp": "2025-12-24T22:40:49.579673"
+}

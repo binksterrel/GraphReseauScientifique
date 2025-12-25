@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Narziß Ach",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d635360b83a6a6860312e9333a3e4459",
+  "text_length": 2116,
+  "result": {
+    "inspired_by": [
+      "Oswald Külpe"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:47:41.515357"
+}

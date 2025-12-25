@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Émile Deschanel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cab65f309032e3ba35145542a88f623e",
+  "text_length": 1614,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:37:26.599634"
+}

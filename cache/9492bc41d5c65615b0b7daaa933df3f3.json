@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Victor Guillemin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f297a04c9505171062de21499b10e20c",
+  "text_length": 3654,
+  "result": {
+    "inspired_by": [
+      "Shlomo Sternberg"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:15:05.303933"
+}

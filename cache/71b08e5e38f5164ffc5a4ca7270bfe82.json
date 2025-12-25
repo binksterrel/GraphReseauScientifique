@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Johannes Kepler",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ed7004876f11d6a2e1eb97e2f0a1acbf",
+  "text_length": 27354,
+  "result": {
+    "inspired_by": [
+      "Michael Maestlin",
+      "Tycho Brahe"
+    ],
+    "inspired": [
+      "Isaac Newton"
+    ]
+  },
+  "timestamp": "2025-12-24T22:10:59.921903"
+}

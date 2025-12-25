@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Pierre Janet",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6235ee1f76a90c3b5f90ce54d73421d1",
+  "text_length": 8932,
+  "result": {
+    "inspired_by": [
+      "Jean-Martin Charcot"
+    ],
+    "inspired": [
+      "William James",
+      "Wilhelm Wundt",
+      "Carl Jung",
+      "Alfred Adler"
+    ]
+  },
+  "timestamp": "2025-12-25T16:00:07.222168"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Etienne Jules Marey",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2ac5242a584a82d00cbae660eff4dada",
+  "text_length": 7635,
+  "result": {
+    "inspired_by": [
+      "Auguste Chauveau",
+      "Breguet",
+      "Karl von Vierordt"
+    ],
+    "inspired": [
+      "Eadweard Muybridge"
+    ]
+  },
+  "timestamp": "2025-12-25T14:49:51.984279"
+}

@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Christian Gottlob Heyne",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a2069f8e827bde88f4c1b3343cf129d9",
+  "text_length": 6769,
+  "result": {
+    "inspired_by": [
+      "Johann Friedrich Christ"
+    ],
+    "inspired": [
+      "Wilhelm Humboldt",
+      "Alexander Humboldt"
+    ]
+  },
+  "timestamp": "2025-12-24T22:19:17.749411"
+}

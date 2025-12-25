@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Hermann Brück",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c313e3164399e98447d1c20272bfa171",
+  "text_length": 5187,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Albrecht Unsöld",
+      "Max von Laue",
+      "Albert Einstein",
+      "Walter Grotrian"
+    ],
+    "inspired": [
+      "M.J. Smyth",
+      "Vincent Reddish"
+    ]
+  },
+  "timestamp": "2025-12-25T13:06:45.116533"
+}

@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Roger Sperry",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b5289f45f1ac5238f91ab212a92a499e",
+  "text_length": 15970,
+  "result": {
+    "inspired_by": [
+      "R. H. Stetson",
+      "Paul A. Weiss",
+      "Karl Lashley"
+    ],
+    "inspired": [
+      "Michael Gazzaniga",
+      "Many students at California Institute of Technology (Caltech)"
+    ]
+  },
+  "timestamp": "2025-12-25T18:21:29.114670"
+}

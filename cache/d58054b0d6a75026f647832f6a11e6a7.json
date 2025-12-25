@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Oliver Wendell Holmes Jr.",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2bc0738c5187423fb6b296780949ed14",
+  "text_length": 27637,
+  "result": {
+    "inspired_by": [
+      "Oliver Wendell Holmes Sr.",
+      "Ralph Waldo Emerson",
+      "Henry James Sr."
+    ],
+    "inspired": [
+      "Many subsequent American legal thinkers",
+      "Judicial consensus upholding New Deal regulatory law",
+      "Legal Realism"
+    ]
+  },
+  "timestamp": "2025-12-25T17:59:53.158862"
+}

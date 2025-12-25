@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Walther Müller",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7f6260973c32b68ef317c450c9f46e66",
+  "text_length": 2173,
+  "result": {
+    "inspired_by": [
+      "Hans Geiger"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:56:46.826124"
+}

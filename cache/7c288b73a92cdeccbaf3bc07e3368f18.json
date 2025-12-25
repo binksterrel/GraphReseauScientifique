@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Ernst Mach",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "017e1f87bd6bf65bf7004acecd05366a",
+  "text_length": 17935,
+  "result": {
+    "inspired_by": [
+      "Andreas von Ettingshausen",
+      "Richard Avenarius",
+      "Joseph Petzoldt"
+    ],
+    "inspired": [
+      "Ludwig Boltzmann",
+      "Alexander Bogdanov",
+      "Vienna Circle",
+      "Gestalt psychology"
+    ]
+  },
+  "timestamp": "2025-12-24T21:34:49.012979"
+}

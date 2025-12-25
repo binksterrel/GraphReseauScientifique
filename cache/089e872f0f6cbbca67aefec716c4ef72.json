@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Johann Bernoulli",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f33ab9b62c33d3b8fab18017e2414300",
+  "text_length": 7648,
+  "result": {
+    "inspired_by": [
+      "Nicolaus Bernoulli",
+      "Jacob Bernoulli",
+      "Gottfried Leibniz"
+    ],
+    "inspired": [
+      "Leonhard Euler"
+    ]
+  },
+  "timestamp": "2025-12-25T12:19:07.780220"
+}

@@ -1,0 +1,24 @@
+{
+  "scientist_name": "John Stuart Mill",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3f6991c19e89d39ad6075ba5c243749e",
+  "text_length": 26692,
+  "result": {
+    "inspired_by": [
+      "Jeremy Bentham",
+      "James Mill",
+      "Francis Place",
+      "William Whewell",
+      "John Herschel",
+      "Auguste Comte",
+      "George Ensor",
+      "Jean-Baptiste Say",
+      "Henri Saint-Simon"
+    ],
+    "inspired": [
+      "Thomas Carlyle",
+      "Harriet Taylor"
+    ]
+  },
+  "timestamp": "2025-12-25T14:43:57.809378"
+}

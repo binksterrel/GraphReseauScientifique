@@ -1,0 +1,26 @@
+{
+  "scientist_name": "Felix Bloch",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "23ebe7b55731a222dd7271a9d3846bb7",
+  "text_length": 7994,
+  "result": {
+    "inspired_by": [
+      "Peter Debye",
+      "Hermann Weyl",
+      "Erwin Schrödinger",
+      "Werner Heisenberg",
+      "Wolfgang Pauli",
+      "Hans Kramers",
+      "Adriaan Fokker",
+      "Niels Bohr",
+      "Enrico Fermi"
+    ],
+    "inspired": [
+      "George Jacob Bloch",
+      "Daniel Arthur Bloch",
+      "Frank Samuel Bloch",
+      "Ruth Hedy Bloch"
+    ]
+  },
+  "timestamp": "2025-12-25T00:07:43.550041"
+}

@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Léon Walras",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a423e26c451c494ccb33898afe223914",
+  "text_length": 18433,
+  "result": {
+    "inspired_by": [
+      "Auguste Walras",
+      "Augustin Cournot"
+    ],
+    "inspired": [
+      "Vilfredo Pareto",
+      "Knut Wicksell",
+      "Gustav Cassel",
+      "John Hicks",
+      "Paul Samuelson",
+      "Kenneth Arrow",
+      "Gérard Debreu"
+    ]
+  },
+  "timestamp": "2025-12-25T17:57:07.501397"
+}

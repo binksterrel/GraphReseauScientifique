@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Jeremiah Bentham",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "31ca0bcb2834a88a85bb275122d79dd6",
+  "text_length": 27155,
+  "result": {
+    "inspired_by": [
+      "Jeremiah Bentham's secretary and collaborator James Mill",
+      "John Stuart Mill (son of James Mill)",
+      "John Austin",
+      "American writer and activist John Neal"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:52:06.929340"
+}

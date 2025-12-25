@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Sanjeev Kumar",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f004965dbb7f16eb0a4c2407e38b18cf",
+  "text_length": 12861,
+  "result": {
+    "inspired_by": [
+      "Hema Malini",
+      "Sulakshana Pandit"
+    ],
+    "inspired": [
+      "Dinesh Raheja",
+      "Devesh Sharma",
+      "Jyothi Jha",
+      "Deccan Herald"
+    ]
+  },
+  "timestamp": "2025-12-24T21:23:52.242873"
+}

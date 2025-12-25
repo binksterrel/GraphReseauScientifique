@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Rabindranath Tagore",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6a431fd40a4c8245bb0185f1db95922a",
+  "text_length": 27620,
+  "result": {
+    "inspired_by": [
+      "Vidyapati",
+      "Brahmo traditions",
+      "William Butler Yeats",
+      "Ezra Pound",
+      "Lalon Shah",
+      "Syed Abdul Majid"
+    ],
+    "inspired": [
+      "European novelty",
+      "Guruvayoor Temple"
+    ]
+  },
+  "timestamp": "2025-12-24T22:36:04.714535"
+}

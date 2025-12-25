@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Isaac Todhunter",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6768fa889f9fbf635e99026544a99d14",
+  "text_length": 5661,
+  "result": {
+    "inspired_by": [
+      "Augustus De Morgan"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:17:27.568690"
+}

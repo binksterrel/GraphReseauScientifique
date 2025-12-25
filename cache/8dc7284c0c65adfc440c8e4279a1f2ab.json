@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Bombay Velvet",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3ac7b87b679b203c6997e3052b6f5e3e",
+  "text_length": 7794,
+  "result": {
+    "inspired_by": [
+      "Anurag Kashyap",
+      "James Ellroy"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:46:17.091605"
+}

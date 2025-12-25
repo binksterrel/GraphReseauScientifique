@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Lawrence Weiskrantz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3d8e106cde116c95a84b981cf65d0749",
+  "text_length": 4346,
+  "result": {
+    "inspired_by": [
+      "Alexander Luria"
+    ],
+    "inspired": [
+      "Alan Cowey",
+      "Charles Gross",
+      "Nicholas Humphrey",
+      "Susan Iversen",
+      "Melvyn A. Goodale"
+    ]
+  },
+  "timestamp": "2025-12-25T18:22:32.738707"
+}

@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Marcel Guénin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "61d7412e0e351da37fd13dc2c656f797",
+  "text_length": 915,
+  "result": {
+    "inspired_by": [
+      "Ernst Stueckelberg"
+    ],
+    "inspired": [
+      "Jean-Pierre Eckmann"
+    ]
+  },
+  "timestamp": "2025-12-25T17:21:00.934820"
+}

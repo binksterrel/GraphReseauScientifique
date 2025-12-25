@@ -1,0 +1,22 @@
+{
+  "scientist_name": "John Lennard-Jones",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7a11dc5e5b41ec4a3c9d6686b1da3a38",
+  "text_length": 7358,
+  "result": {
+    "inspired_by": [
+      "Sydney Chapman",
+      "Ralph H. Fowler"
+    ],
+    "inspired": [
+      "S.F. Boys",
+      "C.A. Coulson",
+      "G.G. Hall",
+      "A. Hurley",
+      "J. Pople",
+      "Charles Coulson",
+      "John Pople"
+    ]
+  },
+  "timestamp": "2025-12-25T15:02:11.196236"
+}

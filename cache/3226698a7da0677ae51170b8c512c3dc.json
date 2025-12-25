@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Ludwig Bieberbach",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "23bb7bbd096d47d359a8024c8850e403",
+  "text_length": 4808,
+  "result": {
+    "inspired_by": [
+      "Felix Klein",
+      "Unknown (for habilitation thesis)"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:16:51.574392"
+}

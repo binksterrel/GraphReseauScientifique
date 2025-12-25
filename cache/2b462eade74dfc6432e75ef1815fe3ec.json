@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Georg Joos",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "034ac09efd5f6ae604e5963468620d18",
+  "text_length": 8141,
+  "result": {
+    "inspired_by": [
+      "C. Füchtbauer",
+      "Jonathan Zenneck"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:54:48.739409"
+}

@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Junimea tradition",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b2a987436d1c01e36057d56f2c5eebe9",
+  "text_length": 16439,
+  "result": {
+    "inspired_by": [
+      "Titu Maiorescu",
+      "Petre P. Carp",
+      "Vasile Pogor",
+      "Theodor Rosetti",
+      "Iacob Negruzzi"
+    ],
+    "inspired": [
+      "Mihai Eminescu",
+      "Ion Creangă",
+      "Ion Luca Caragiale",
+      "Ioan Slavici"
+    ]
+  },
+  "timestamp": "2025-12-25T16:08:07.247618"
+}

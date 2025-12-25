@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Pierre-Simon Laplace",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "53c9643d822d2fa305d3b4ca82b5d01a",
+  "text_length": 26903,
+  "result": {
+    "inspired_by": [
+      "Jean le Rond d'Alembert",
+      "Pierre Le Canu",
+      "Christophe Gadbled"
+    ],
+    "inspired": [
+      "Antoine Lavoisier",
+      "Marquis de Condorcet"
+    ]
+  },
+  "timestamp": "2025-12-25T14:03:25.215643"
+}

@@ -1,0 +1,11 @@
+{
+  "scientist_name": "David Hartley",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "05b8e3cefafae3a84967fa6f7f8aba44",
+  "text_length": 1462,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:42:05.709133"
+}

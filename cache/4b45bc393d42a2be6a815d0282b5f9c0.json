@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Aimé Bonpland",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2a1c4f66129479f22af0ca12dbc8d7e0",
+  "text_length": 10185,
+  "result": {
+    "inspired_by": [
+      "Jean-Baptiste Lamarck",
+      "Antoine Laurent de Jussieu",
+      "René Louiche Desfontaines",
+      "Jean-Nicolas Corvisart",
+      "Pierre-Joseph Desault"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:43:32.875860"
+}

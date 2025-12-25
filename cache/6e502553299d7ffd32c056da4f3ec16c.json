@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Patrick Blackett",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5275ebcdb1962363d4ce63abe5c00900",
+  "text_length": 17217,
+  "result": {
+    "inspired_by": [
+      "Ernest Rutherford",
+      "James Franck"
+    ],
+    "inspired": [
+      "J. Robert Oppenheimer",
+      "Unknown students at Cambridge",
+      "Future scientists influenced by Blackett's work and political advocacy"
+    ]
+  },
+  "timestamp": "2025-12-24T23:27:05.820673"
+}

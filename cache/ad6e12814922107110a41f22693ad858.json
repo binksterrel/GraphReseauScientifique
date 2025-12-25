@@ -1,0 +1,25 @@
+{
+  "scientist_name": "John Theophilus Desaguliers",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2ae5d7fb753712dee7dc66f6c95083d6",
+  "text_length": 14483,
+  "result": {
+    "inspired_by": [
+      "Isaac Newton",
+      "René Descartes",
+      "Galileo Galilei",
+      "Christiaan Huygens"
+    ],
+    "inspired": [
+      "James Brydges",
+      "Hans Hysing",
+      "Peter Pelham",
+      "James Tookey",
+      "Edmé Mariotte",
+      "Willem 'sGravesande",
+      "Archibald Pitcairn",
+      "Jacques Vaucanson"
+    ]
+  },
+  "timestamp": "2025-12-25T18:44:32.925539"
+}

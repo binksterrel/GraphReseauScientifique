@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Émilie du Châtelet",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d6e3ed1b7604b65ab266d9bb56b7cc0c",
+  "text_length": 26785,
+  "result": {
+    "inspired_by": [
+      "Isaac Newton",
+      "Johann Bernoulli",
+      "Leonhard Euler",
+      "Moreau de Maupertuis",
+      "Alexis Clairaut"
+    ],
+    "inspired": [
+      "Voltaire"
+    ]
+  },
+  "timestamp": "2025-12-25T18:43:44.443725"
+}

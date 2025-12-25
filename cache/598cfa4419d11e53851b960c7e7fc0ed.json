@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Mathias Lerch",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b40ae20b68a5aae1fa1f0c4b2da52f0c",
+  "text_length": 1635,
+  "result": {
+    "inspired_by": [
+      "Unnamed (Czech Technical University)",
+      "Unnamed (Berlin University)"
+    ],
+    "inspired": [
+      "Michel Plancherel",
+      "Otakar Borůvka"
+    ]
+  },
+  "timestamp": "2025-12-25T16:33:59.846012"
+}

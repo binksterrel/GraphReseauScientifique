@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Hans Courant",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c083c6a49940d5730790ede1c5eaec7d",
+  "text_length": 7460,
+  "result": {
+    "inspired_by": [
+      "David Hilbert"
+    ],
+    "inspired": [
+      "Ernest Courant",
+      "Gertrude Courant",
+      "Hans Courant",
+      "Leonore Courant",
+      "Jürgen Moser",
+      "Peter Lax",
+      "Jerome Berkowitz"
+    ]
+  },
+  "timestamp": "2025-12-25T13:58:31.928719"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Herman Kalckar",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fb6041ffbc8d6b4e8820c38db64e5bca",
+  "text_length": 7884,
+  "result": {
+    "inspired_by": [
+      "August Krogh",
+      "Ejnar Lundsgaard",
+      "Fritz Albert Lipmann"
+    ],
+    "inspired": [
+      "James D. Watson"
+    ]
+  },
+  "timestamp": "2025-12-24T22:59:37.787389"
+}

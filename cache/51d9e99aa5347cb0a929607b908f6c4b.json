@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Wilhelm Eduard Weber",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "76924b3df274732ff60311cda96919ad",
+  "text_length": 7522,
+  "result": {
+    "inspired_by": [
+      "Carl Friedrich Gauss"
+    ],
+    "inspired": [
+      "Students at the University of Göttingen",
+      "Students at Leipzig University"
+    ]
+  },
+  "timestamp": "2025-12-25T16:28:12.234416"
+}

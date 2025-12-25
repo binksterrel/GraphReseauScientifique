@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Thomas Stockham",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7614a5da922dfd3e4904487f7e674604",
+  "text_length": 5518,
+  "result": {
+    "inspired_by": [
+      "Amar Bose",
+      "David Gross",
+      "Alan Kotok",
+      "Jack B. Dennis"
+    ],
+    "inspired": [
+      "Students at MIT (implied but not named in the text)"
+    ]
+  },
+  "timestamp": "2025-12-25T17:16:09.050619"
+}

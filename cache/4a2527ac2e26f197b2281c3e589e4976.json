@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Martin Heidegger",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ec69a6c62e54fee709eaf395c300bf4e",
+  "text_length": 26291,
+  "result": {
+    "inspired_by": [
+      "Edmund Husserl",
+      "Aristotle",
+      "Franz Brentano",
+      "Wilhelm Dilthey",
+      "Søren Kierkegaard"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:17:59.966069"
+}

@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Ralph Kronig",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "311a9e056291466345349482a394253d",
+  "text_length": 10907,
+  "result": {
+    "inspired_by": [
+      "Paul Ehrenfest",
+      "Niels Bohr",
+      "Werner Heisenberg",
+      "Wolfgang Pauli",
+      "Hans Kramers"
+    ],
+    "inspired": [
+      "Isidor Isaac Rabi"
+    ]
+  },
+  "timestamp": "2025-12-25T17:23:09.846397"
+}

@@ -1,0 +1,30 @@
+{
+  "scientist_name": "David Baltimore",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "22a1ea21f7be256c605ab2846a6425d1",
+  "text_length": 26145,
+  "result": {
+    "inspired_by": [
+      "George Streisinger",
+      "Salvador Luria",
+      "Cyrus Levinthal",
+      "Richard Franklin",
+      "James E. Darnell",
+      "Jerard Hurwitz"
+    ],
+    "inspired": [
+      "Marc Girard",
+      "Michael Jacobson",
+      "Alice S. Huang",
+      "Martha Stampfer",
+      "Phillips Robbins",
+      "Herman Eisen",
+      "Philip Sharp",
+      "Robert Weinberg",
+      "Gerald Fink",
+      "Rudolf Jaenisch",
+      "Harvey Lodish"
+    ]
+  },
+  "timestamp": "2025-12-25T15:04:49.659765"
+}

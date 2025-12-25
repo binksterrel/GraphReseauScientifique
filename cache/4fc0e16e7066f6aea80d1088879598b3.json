@@ -1,0 +1,26 @@
+{
+  "scientist_name": "Max Planck",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b9eba5145cef088dccb40fc4a8040b85",
+  "text_length": 25909,
+  "result": {
+    "inspired_by": [
+      "Hermann Müller",
+      "Philipp von Jolly",
+      "Hermann von Helmholtz",
+      "Gustav Kirchhoff",
+      "Karl Weierstrass",
+      "Rudolf Clausius"
+    ],
+    "inspired": [
+      "Max Abraham",
+      "Max von Laue",
+      "Moritz Schlick",
+      "Walther Meissner",
+      "Fritz Reiche",
+      "Walter Schottky",
+      "Walther Bothe"
+    ]
+  },
+  "timestamp": "2025-12-24T21:26:52.874183"
+}

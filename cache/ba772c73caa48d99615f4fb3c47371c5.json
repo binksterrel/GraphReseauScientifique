@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Sir Ernest Rutherford",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fdbc0e63798dbd45ff3e4ac882f3c64b",
+  "text_length": 26930,
+  "result": {
+    "inspired_by": [
+      "J. J. Thomson",
+      "Henri Becquerel"
+    ],
+    "inspired": [
+      "Thomas Royds",
+      "Frederick Soddy",
+      "Niels Bohr",
+      "Hans Geiger",
+      "James Chadwick",
+      "John Cockcroft",
+      "Ernest Walton"
+    ]
+  },
+  "timestamp": "2025-12-25T19:46:18.650753"
+}

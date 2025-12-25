@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Augustin-Louis Cauchy",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3d629dc092d81f616c7f809b74e53166",
+  "text_length": 26027,
+  "result": {
+    "inspired_by": [
+      "Lagrange",
+      "Unknown"
+    ],
+    "inspired": [
+      "Hans Freudenthal",
+      "Students at École Polytechnique",
+      "Henri d'Artois (1820–1883)"
+    ]
+  },
+  "timestamp": "2025-12-25T16:38:31.220662"
+}

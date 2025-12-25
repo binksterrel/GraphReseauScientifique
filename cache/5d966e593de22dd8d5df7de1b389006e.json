@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Phillip Allen Sharp",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b53a54d8b3a2598655113975bc20172e",
+  "text_length": 10731,
+  "result": {
+    "inspired_by": [
+      "RNA biology",
+      "History of RNA biology"
+    ],
+    "inspired": [
+      "Phillip A. Sharp"
+    ]
+  },
+  "timestamp": "2025-12-25T15:06:47.528498"
+}

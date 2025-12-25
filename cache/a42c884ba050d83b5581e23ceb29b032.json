@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Jerzy Plebański",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d446405156edd0d7e5a329ea2dcfe7ac",
+  "text_length": 3827,
+  "result": {
+    "inspired_by": [
+      "Wojciech Rubinowicz",
+      "Leopold Infeld"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:33:54.359088"
+}

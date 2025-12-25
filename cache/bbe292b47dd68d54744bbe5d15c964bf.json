@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Vishal Bhardwaj",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "34bf49a13800b476192f459525738039",
+  "text_length": 16958,
+  "result": {
+    "inspired_by": [
+      "Ruskin Bond",
+      "Kenyan writer",
+      "A. K. Ramanujan",
+      "Charan Singh Pathik",
+      "Sahitya Kala Parishad"
+    ],
+    "inspired": [
+      "William Shakespeare"
+    ]
+  },
+  "timestamp": "2025-12-24T22:42:31.388888"
+}

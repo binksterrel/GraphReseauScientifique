@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Angelo Genocchi",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "92f5e3ec65686a188f744946d89739fd",
+  "text_length": 1502,
+  "result": {
+    "inspired_by": [
+      "Giuseppe Peano"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:51:51.361131"
+}

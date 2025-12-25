@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Henry Collen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6bf7f899a56e5b1ce51c3e58e98797e7",
+  "text_length": 19505,
+  "result": {
+    "inspired_by": [
+      "Sir George Hayter",
+      "John Hayter",
+      "Edwin Landseer"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:53:13.898721"
+}

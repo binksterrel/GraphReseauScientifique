@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Jean-Jacques Rousseau",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c54fbddc5d912b3ba11767c1819df752",
+  "text_length": 26271,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:41:22.957646"
+}

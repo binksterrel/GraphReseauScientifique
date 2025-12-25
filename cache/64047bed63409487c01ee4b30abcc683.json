@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Arthur Schuster",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c606c87f4ee2c6caf05c488fe3aadbf9",
+  "text_length": 10158,
+  "result": {
+    "inspired_by": [
+      "Thomas Barker",
+      "Balfour Stewart",
+      "Henry Roscoe",
+      "Gustav Kirchhoff",
+      "Wilhelm Eduard Weber",
+      "Hermann von Helmholtz"
+    ],
+    "inspired": [
+      "Ernest Rutherford"
+    ]
+  },
+  "timestamp": "2025-12-25T16:56:06.151551"
+}

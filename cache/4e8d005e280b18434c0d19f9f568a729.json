@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Padmalochan Bose",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2dc1f126f1c6063ede20cd0f1df419d3",
+  "text_length": 4150,
+  "result": {
+    "inspired_by": [
+      "Padmalochan Bose"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:36:29.926909"
+}

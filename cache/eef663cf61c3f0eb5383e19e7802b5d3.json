@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Albert Einstein",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "379f78d47870784eecf645dde87eef0e",
+  "text_length": 28788,
+  "result": {
+    "inspired_by": [
+      "Max Talmud",
+      "Marcel Grossmann"
+    ],
+    "inspired": [
+      "Satyendra Nath Bose",
+      "Many physicists influenced by his theories and discoveries"
+    ]
+  },
+  "timestamp": "2025-12-24T21:12:32.537966"
+}

@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Paul Hermann Müller",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ee1164bbf26bff1bf68821f76161f800",
+  "text_length": 13767,
+  "result": {
+    "inspired_by": [
+      "Paul Hermann Müller"
+    ],
+    "inspired": [
+      "Friedrich Fichter"
+    ]
+  },
+  "timestamp": "2025-12-24T23:09:38.908967"
+}

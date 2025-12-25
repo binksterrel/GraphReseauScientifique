@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Christoph Gudermann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "744285dfd2a1963fe12901e1e7d3f6d9",
+  "text_length": 1731,
+  "result": {
+    "inspired_by": [
+      "Not specified in the text"
+    ],
+    "inspired": [
+      "Karl Weierstrass"
+    ]
+  },
+  "timestamp": "2025-12-24T22:27:39.452149"
+}

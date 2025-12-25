@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Otto Benndorf",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ef776e90249928795901097ed060f813",
+  "text_length": 2099,
+  "result": {
+    "inspired_by": [
+      "Friedrich Gottlieb Welcker",
+      "Otto Jahn",
+      "Friedrich Ritschl"
+    ],
+    "inspired": [
+      "Friedrich Nietzsche",
+      "Michael Rostovtzeff",
+      "Emil Szántó",
+      "Julius von Schlosser",
+      "Franz Studniczka"
+    ]
+  },
+  "timestamp": "2025-12-25T14:57:45.631617"
+}

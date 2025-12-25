@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Nicolas Clément",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d9143aca34adcfeef87679a97d2714d0",
+  "text_length": 3742,
+  "result": {
+    "inspired_by": [
+      "Charles Desormes"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:21:02.789923"
+}

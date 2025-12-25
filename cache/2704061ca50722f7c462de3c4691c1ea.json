@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Marshall Stone",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0f6dd43e67aca0ff7c415204f145ae47",
+  "text_length": 4855,
+  "result": {
+    "inspired_by": [
+      "George David Birkhoff"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:20:31.702387"
+}

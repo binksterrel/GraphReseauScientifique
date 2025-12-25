@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Six sons and two daughters (not named)",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e635542380095288a1dd6b0d2e42bfbd",
+  "text_length": 26405,
+  "result": {
+    "inspired_by": [
+      "Reg Watson"
+    ],
+    "inspired": [
+      "Rowena Wallace",
+      "Belinda Giblin",
+      "Normie Rowe"
+    ]
+  },
+  "timestamp": "2025-12-24T22:34:21.503674"
+}

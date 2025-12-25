@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Abraham Kästner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "86fd5a591d42f2cb3e133f88b287a143",
+  "text_length": 3925,
+  "result": {
+    "inspired_by": [
+      "Abraham Kästner's mentors, teachers, or direct influences are not explicitly mentioned in the text."
+    ],
+    "inspired": [
+      "Georg Christoph Lichtenberg",
+      "Johann Christian Polycarp Erxleben",
+      "Johann Pfaff",
+      "Carl Friedrich Gauss",
+      "Johann Tobias Mayer",
+      "Heinrich Wilhelm Brandes",
+      "Farkas Bolyai",
+      "Georg Klügel"
+    ]
+  },
+  "timestamp": "2025-12-25T14:06:04.311947"
+}

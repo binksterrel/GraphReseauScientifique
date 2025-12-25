@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Iswar Chandra Ghosh",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a4f6a8dcadc673de484dedd1c3c7023d",
+  "text_length": 12971,
+  "result": {
+    "inspired_by": [
+      "Bhagabat Charan",
+      "Sanskrit College in Calcutta"
+    ],
+    "inspired": [
+      "Dwarakanath Vidyabhusan",
+      "Students at Jorashanko",
+      "Government of Bengal",
+      "People of Santhal Pargana"
+    ]
+  },
+  "timestamp": "2025-12-25T18:37:33.708577"
+}

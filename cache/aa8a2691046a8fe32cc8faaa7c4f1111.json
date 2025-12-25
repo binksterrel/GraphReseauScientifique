@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Horace Lamb",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a1b62a5728624024c3b279d794cebc1e",
+  "text_length": 7799,
+  "result": {
+    "inspired_by": [
+      "Thomas Barker",
+      "James Clerk Maxwell",
+      "George Gabriel Stokes"
+    ],
+    "inspired": [
+      "Richard Glazebrook",
+      "Students at the University of Adelaide",
+      "Students at the University of Manchester"
+    ]
+  },
+  "timestamp": "2025-12-25T19:16:11.245376"
+}

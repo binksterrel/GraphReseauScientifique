@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Fritz Sauter",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "14b41312a6af205be2a6c7f21eed4333",
+  "text_length": 5829,
+  "result": {
+    "inspired_by": [
+      "Arthur March",
+      "Arnold Sommerfeld"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T00:13:23.547230"
+}

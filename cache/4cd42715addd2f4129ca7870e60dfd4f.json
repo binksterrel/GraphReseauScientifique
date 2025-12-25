@@ -1,0 +1,16 @@
+{
+  "scientist_name": "G. Stanley Hall",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "adac9454fc14188e2af720c6ad8be56d",
+  "text_length": 25486,
+  "result": {
+    "inspired_by": [
+      "Wilhelm Wundt",
+      "William James"
+    ],
+    "inspired": [
+      "Lewis Terman"
+    ]
+  },
+  "timestamp": "2025-12-25T18:00:29.472179"
+}

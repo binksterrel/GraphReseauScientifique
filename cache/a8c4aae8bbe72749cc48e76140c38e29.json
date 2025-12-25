@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Robert Broom",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7214f529958921c992ecc3cb662c73fb",
+  "text_length": 9752,
+  "result": {
+    "inspired_by": [
+      "Raymond Dart",
+      "Jan Smuts"
+    ],
+    "inspired": [
+      "John T. Robinson"
+    ]
+  },
+  "timestamp": "2025-12-25T15:11:50.835596"
+}

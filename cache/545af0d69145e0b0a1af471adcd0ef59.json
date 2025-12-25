@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Igor Tamm",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c46e09ddbe61aa268db4adda7524ecc7",
+  "text_length": 5483,
+  "result": {
+    "inspired_by": [
+      "Leonid Isaakovich Mandelshtam",
+      "Paul Ehrenfest",
+      "Paul Dirac"
+    ],
+    "inspired": [
+      "Andrei Sakharov",
+      "Irina Tamm (chemist)",
+      "Evgeny Tamm (experimental physicist and mountain climber)"
+    ]
+  },
+  "timestamp": "2025-12-25T18:29:23.263246"
+}

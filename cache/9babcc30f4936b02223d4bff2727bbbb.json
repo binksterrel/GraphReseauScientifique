@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Karl Wilhelm Gottlob Kastner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7c8dd1cc31cefabbae950c157b0ae8b0",
+  "text_length": 2694,
+  "result": {
+    "inspired_by": [
+      "Johann Göttling"
+    ],
+    "inspired": [
+      "Justus Liebig"
+    ]
+  },
+  "timestamp": "2025-12-25T14:46:20.905288"
+}

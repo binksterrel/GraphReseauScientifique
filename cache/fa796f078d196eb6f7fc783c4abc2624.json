@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Bogenhausen Observatory",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2fedaf98102d473a613a58386814d653",
+  "text_length": 424,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:34:39.415047"
+}

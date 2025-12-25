@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Sir Arthur Eddington",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f914af998c796a81e1a76bdadda0d006",
+  "text_length": 26234,
+  "result": {
+    "inspired_by": [
+      "Arthur Schuster",
+      "Horace Lamb",
+      "J. W. Graham"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:01:33.179281"
+}

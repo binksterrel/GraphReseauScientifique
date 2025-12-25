@@ -1,0 +1,26 @@
+{
+  "scientist_name": "History of RNA biology",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c0b836533c2dcac104bad913a141411e",
+  "text_length": 25050,
+  "result": {
+    "inspired_by": [
+      "Jean Brachet",
+      "Joachim Hämmerling",
+      "James Watson",
+      "Francis Crick",
+      "Matthew Meselson",
+      "Marshall Nirenberg",
+      "Har Gobind Khorana",
+      "Robert Holley",
+      "Paul Berg",
+      "Frederick Sanger",
+      "Richard Roberts",
+      "Philip Sharp"
+    ],
+    "inspired": [
+      "Many students and researchers in the field of RNA biology, molecular biology, genetics, and related fields"
+    ]
+  },
+  "timestamp": "2025-12-25T19:28:02.068979"
+}

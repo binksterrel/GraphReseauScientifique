@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Charles Kay Ogden",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6eecb41bf3e0ea781d28c482196acda5",
+  "text_length": 15195,
+  "result": {
+    "inspired_by": [
+      "William Chawner",
+      "Georg Kerschensteiner",
+      "Robert Hall Best",
+      "Mary Sargant Florence",
+      "Ernst Mach",
+      "Victoria Lady Welby",
+      "Charles Sanders Peirce"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:38:25.070948"
+}

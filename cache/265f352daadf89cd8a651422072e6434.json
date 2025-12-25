@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Benjamin Ives Gilman",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "975c2fa1ca6820512c6e833af74b459a",
+  "text_length": 4784,
+  "result": {
+    "inspired_by": [
+      "Charles Sanders Peirce"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:02:12.838563"
+}

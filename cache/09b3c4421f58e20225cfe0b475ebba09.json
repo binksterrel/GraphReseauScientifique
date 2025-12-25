@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Adriaan Fokker",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "24d41c7ccf3fa895cc91282bb25528d2",
+  "text_length": 4891,
+  "result": {
+    "inspired_by": [
+      "Hendrik Lorentz",
+      "Albert Einstein",
+      "Ernest Rutherford",
+      "W. H. Bragg"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T18:28:29.763011"
+}

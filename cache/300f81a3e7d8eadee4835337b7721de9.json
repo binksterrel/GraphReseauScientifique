@@ -1,0 +1,18 @@
+{
+  "scientist_name": "G. E. Moore",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bb3d7f0b680f6fb0df8dcf4aebc50d7e",
+  "text_length": 20106,
+  "result": {
+    "inspired_by": [
+      "Gottlob Frege",
+      "Bertrand Russell",
+      "Ludwig Wittgenstein"
+    ],
+    "inspired": [
+      "Academic philosophers",
+      "Bloomsbury Group members (indirectly)"
+    ]
+  },
+  "timestamp": "2025-12-25T18:03:37.211253"
+}

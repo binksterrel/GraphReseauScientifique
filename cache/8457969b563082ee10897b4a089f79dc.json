@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Moritz Schlick",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1bde5d1ec03f7938ba47e6ff55438759",
+  "text_length": 14559,
+  "result": {
+    "inspired_by": [
+      "Wittgenstein (through his Tractatus)"
+    ],
+    "inspired": [
+      "Herbert Feigl, Albert Blumberg, Rudolf Carnap, Jim Holt, Karl Sigmund"
+    ]
+  },
+  "timestamp": "2025-12-24T21:54:56.158783"
+}

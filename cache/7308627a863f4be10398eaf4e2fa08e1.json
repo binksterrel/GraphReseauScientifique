@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Leonard Eugene Dickson",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2a6335a39db7bf68ffbf166a0f18d0ee",
+  "text_length": 12475,
+  "result": {
+    "inspired_by": [
+      "George Bruce Halsted",
+      "E. H. Moore",
+      "Sophus Lie",
+      "Camille Jordan"
+    ],
+    "inspired": [
+      "A. A. Albert"
+    ]
+  },
+  "timestamp": "2025-12-25T18:36:47.317637"
+}

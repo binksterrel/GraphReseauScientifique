@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Pierre Janssen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d94dd3442d984ad6fed6da5d09d1f4ca",
+  "text_length": 6802,
+  "result": {
+    "inspired_by": [
+      "César Antoine Janssen",
+      "Paul Guillaume Le Moyne"
+    ],
+    "inspired": [
+      "Etienne Jules Marey"
+    ]
+  },
+  "timestamp": "2025-12-24T22:33:36.014773"
+}

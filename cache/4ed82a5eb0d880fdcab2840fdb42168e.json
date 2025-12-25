@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Saunders Mac Lane",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d39ba0f5bfaf03bcfca6f089f6c31336",
+  "text_length": 9460,
+  "result": {
+    "inspired_by": [
+      "E. H. Moore",
+      "Leonard Eugene Dickson",
+      "Gilbert Ames Bliss",
+      "Mortimer J. Adler",
+      "Paul Bernays",
+      "Hermann Weyl",
+      "Heinz Hopf"
+    ],
+    "inspired": [
+      "Samuel Eilenberg"
+    ]
+  },
+  "timestamp": "2025-12-25T19:21:04.481974"
+}

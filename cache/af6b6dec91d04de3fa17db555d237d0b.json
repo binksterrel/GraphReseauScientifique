@@ -1,0 +1,13 @@
+{
+  "scientist_name": "János Bolyai",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "072f157fbbdc7ddee7e225357f2cf01f",
+  "text_length": 7640,
+  "result": {
+    "inspired_by": [
+      "Farkas Bolyai"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:49:55.666749"
+}

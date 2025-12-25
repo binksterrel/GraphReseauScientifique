@@ -1,0 +1,20 @@
+{
+  "scientist_name": "French colonizers",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "da79145ea7a44115faccf905c9e393e9",
+  "text_length": 26157,
+  "result": {
+    "inspired_by": [
+      "Henry IV",
+      "Cardinal Richelieu",
+      "Pierre Du Gua de Monts",
+      "Louis XIV"
+    ],
+    "inspired": [
+      "Samuel de Champlain",
+      "Jean Nicolet",
+      "Jérôme le Royer de la Dauversière"
+    ]
+  },
+  "timestamp": "2025-12-25T19:00:15.962189"
+}

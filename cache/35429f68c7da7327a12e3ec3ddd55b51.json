@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Maurice Wilkins",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b3e253f96d7d0517e581370ffcb78df8",
+  "text_length": 23087,
+  "result": {
+    "inspired_by": [
+      "Mark Oliphant",
+      "John Randall"
+    ],
+    "inspired": [
+      "James Watson",
+      "Francis Crick",
+      "Raymond Gosling"
+    ]
+  },
+  "timestamp": "2025-12-24T23:06:46.377131"
+}

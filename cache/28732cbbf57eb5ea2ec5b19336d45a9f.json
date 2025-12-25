@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Klaus Clusius",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "dad955d4eef2036681f8b2261a70bb45",
+  "text_length": 10835,
+  "result": {
+    "inspired_by": [
+      "Arnold Eucken",
+      "Cyril Norman Hinshelwood",
+      "Georg-August-Universität Göttingen"
+    ],
+    "inspired": [
+      "Ernst Schumacher",
+      "Horst Meyer (physicist)",
+      "Michael Hoch"
+    ]
+  },
+  "timestamp": "2025-12-25T13:01:04.825580"
+}

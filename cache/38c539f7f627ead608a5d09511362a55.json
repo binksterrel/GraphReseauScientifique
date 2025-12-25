@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Paul Epstein",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "394e97b64f2ae1d91f75a8eb686e1c41",
+  "text_length": 2169,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:39:11.233220"
+}

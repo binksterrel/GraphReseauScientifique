@@ -1,0 +1,19 @@
+{
+  "scientist_name": "American Revolutionaries",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bb9fb20874912a269a8633a201003ae8",
+  "text_length": 9928,
+  "result": {
+    "inspired_by": [
+      "Francis Bacon",
+      "John Locke",
+      "Jean-Jacques Rousseau"
+    ],
+    "inspired": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Thomas Paine"
+    ]
+  },
+  "timestamp": "2025-12-25T18:51:20.528548"
+}

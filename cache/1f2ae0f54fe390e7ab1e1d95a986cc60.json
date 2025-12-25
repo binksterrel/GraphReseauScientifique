@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Garrett Birkhoff",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cf29a87c1ac716cdd7bcb38e5ce6e861",
+  "text_length": 5749,
+  "result": {
+    "inspired_by": [
+      "George Birkhoff",
+      "Philip Hall",
+      "Constantin Carathéodory"
+    ],
+    "inspired": [
+      "Marshall Stone",
+      "Saunders Mac Lane",
+      "David M. Young",
+      "Richard S. Varga"
+    ]
+  },
+  "timestamp": "2025-12-25T15:02:48.368307"
+}

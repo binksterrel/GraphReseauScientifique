@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Kurt Hensel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "390cd03e131dd120cc2327abaffb7755",
+  "text_length": 2424,
+  "result": {
+    "inspired_by": [
+      "Leopold Kronecker",
+      "Karl Weierstrass"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:33:28.693283"
+}

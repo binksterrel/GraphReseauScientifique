@@ -1,0 +1,22 @@
+{
+  "scientist_name": "William Vermillion Houston",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c42e08959358e972afce66fd6397068e",
+  "text_length": 7978,
+  "result": {
+    "inspired_by": [
+      "Albert A. Michelson",
+      "Robert Millikan",
+      "A. D. Cole",
+      "Arnold Sommerfeld",
+      "Werner Heisenberg",
+      "Carl Eckart",
+      "Edwin C. Kemble",
+      "Rudolf Peierls"
+    ],
+    "inspired": [
+      "Felix Bloch"
+    ]
+  },
+  "timestamp": "2025-12-25T00:09:10.409228"
+}

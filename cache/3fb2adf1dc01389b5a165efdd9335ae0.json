@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Charles Hermite",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7ef333227212b56970b335e505e559e1",
+  "text_length": 8614,
+  "result": {
+    "inspired_by": [
+      "Joseph-Louis Lagrange",
+      "Carl Friedrich Gauss"
+    ],
+    "inspired": [
+      "Henri Poincaré"
+    ]
+  },
+  "timestamp": "2025-12-24T21:33:50.570285"
+}

@@ -1,0 +1,34 @@
+{
+  "scientist_name": "Sydney Brenner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9930aa573d2bbef161ca23c2be770a33",
+  "text_length": 12711,
+  "result": {
+    "inspired_by": [
+      "Joel Mandelstam",
+      "Alfred Oettle",
+      "Harold Daitz",
+      "Joseph Gillman",
+      "Raymond Dart",
+      "Robert Broom",
+      "Wilfred Le Gros Clark",
+      "Cyril Hinshelwood",
+      "Francis Crick",
+      "Leslie Orgel",
+      "Beryl M. Oughton"
+    ],
+    "inspired": [
+      "H. Robert Horvitz",
+      "Sir John E. Sulston",
+      "Jack Dunitz",
+      "Dorothy Hodgkin",
+      "Leslie Barnett",
+      "Richard J. Watts-Tobin",
+      "Marshall Warren Nirenberg",
+      "George Pieczenik",
+      "Carol Greider",
+      "Jack Szostak"
+    ]
+  },
+  "timestamp": "2025-12-24T23:01:12.149951"
+}

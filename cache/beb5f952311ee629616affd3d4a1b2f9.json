@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Guruvayoor Temple",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "38d887cb20ac556ba0efd29fd61a9e3f",
+  "text_length": 14290,
+  "result": {
+    "inspired_by": [
+      "Melpathur Narayana Bhattathiri",
+      "Poonthanam Namboothiri",
+      "Vilwamangalam Swamiyar"
+    ],
+    "inspired": [
+      "Lord Guruvayurappan"
+    ]
+  },
+  "timestamp": "2025-12-25T14:52:55.711404"
+}

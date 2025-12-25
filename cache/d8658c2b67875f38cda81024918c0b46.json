@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Svante Arrhenius",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1e2d81bd998c6e17f4655fb59c6242c0",
+  "text_length": 22256,
+  "result": {
+    "inspired_by": [
+      "Rudolf Clausius",
+      "Wilhelm Ostwald",
+      "Johannes Diderik van der Waals",
+      "Jacobus Henricus van 't Hoff"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:27:32.995713"
+}

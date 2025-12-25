@@ -1,0 +1,20 @@
+{
+  "scientist_name": "André Weil",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9b35aeb4e3226a752e6e60f2655f49b7",
+  "text_length": 12116,
+  "result": {
+    "inspired_by": [
+      "Carl Ludwig Siegel",
+      "Claude Chevalley"
+    ],
+    "inspired": [
+      "Oscar Zariski",
+      "Bernard Dwork",
+      "Alexander Grothendieck",
+      "Michael Artin",
+      "Pierre Deligne"
+    ]
+  },
+  "timestamp": "2025-12-25T13:59:57.907665"
+}

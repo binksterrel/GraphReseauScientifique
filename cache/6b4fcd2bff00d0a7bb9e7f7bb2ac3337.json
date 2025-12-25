@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Georg Cantor",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8220ddb11373694882cddc346aeaa9ed",
+  "text_length": 27930,
+  "result": {
+    "inspired_by": [
+      "Leopold Kronecker",
+      "Karl Weierstrass",
+      "Ernst Kummer"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T01:43:15.602693"
+}

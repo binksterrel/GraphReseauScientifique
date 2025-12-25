@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Jules Simon",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ee57bcf03e34855b2da989627510244b",
+  "text_length": 8168,
+  "result": {
+    "inspired_by": [
+      "Victor Cousin"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T23:38:01.957403"
+}

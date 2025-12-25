@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Adolf Hurwitz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c36da5b5dc1c444bac8ee12c9c8eff06",
+  "text_length": 5526,
+  "result": {
+    "inspired_by": [
+      "Felix Klein",
+      "Hermann Schubert",
+      "Kummer",
+      "Weierstrass",
+      "Kronecker"
+    ],
+    "inspired": [
+      "David Hilbert",
+      "Hermann Minkowski"
+    ]
+  },
+  "timestamp": "2025-12-25T01:43:39.753293"
+}

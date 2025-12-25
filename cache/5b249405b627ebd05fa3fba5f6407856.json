@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Friedrich Paschen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e3b4b951336e1edfd8e7eb9f3d18317e",
+  "text_length": 2271,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "He Zehui"
+    ]
+  },
+  "timestamp": "2025-12-25T17:20:19.911764"
+}

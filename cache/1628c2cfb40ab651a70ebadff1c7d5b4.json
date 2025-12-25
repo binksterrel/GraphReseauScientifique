@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Ernst Wilhelm von Brücke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3c8bb8612b81e7500e4c6e7e327c702a",
+  "text_length": 11627,
+  "result": {
+    "inspired_by": [
+      "Johannes Peter Müller",
+      "Emil Du Bois-Reymond",
+      "Hermann von Helmholtz"
+    ],
+    "inspired": [
+      "Sigmund Freud",
+      "Ernst Fleischl von Marxow",
+      "Joseph Paneth"
+    ]
+  },
+  "timestamp": "2025-12-25T19:12:45.860554"
+}

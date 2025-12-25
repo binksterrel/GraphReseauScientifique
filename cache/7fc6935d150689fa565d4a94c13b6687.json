@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Heinrich Wilhelm Brandes",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9798cfa7066f55235f90acb757e9ef8f",
+  "text_length": 3880,
+  "result": {
+    "inspired_by": [
+      "Abraham Gotthelf Kästner",
+      "Georg Christoph Lichtenberg"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:07:00.459791"
+}

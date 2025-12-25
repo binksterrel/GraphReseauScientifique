@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Frederik Kaiser",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ed472d3d18d8431c913559e1880bfa67",
+  "text_length": 2969,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Jean Abraham Chrétien Oudemans",
+      "Johannes van der Waals",
+      "Hendricus Gerardus van de Sande Bakhuyzen",
+      "Hendrik Antoon Lorentz"
+    ]
+  },
+  "timestamp": "2025-12-25T01:36:40.582976"
+}

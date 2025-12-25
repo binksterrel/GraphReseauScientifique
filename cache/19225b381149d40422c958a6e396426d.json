@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Hermann Weyl",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9acbbee2ae126799dd0cba76ee124ac2",
+  "text_length": 20517,
+  "result": {
+    "inspired_by": [
+      "Carl Friedrich Gauss",
+      "David Hilbert",
+      "Hermann Minkowski",
+      "Edmund Husserl"
+    ],
+    "inspired": [
+      "Freeman Dyson",
+      "Michael Atiyah"
+    ]
+  },
+  "timestamp": "2025-12-25T01:44:40.929198"
+}

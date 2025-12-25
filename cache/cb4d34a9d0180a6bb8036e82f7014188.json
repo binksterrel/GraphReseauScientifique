@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Lawrence Kohlberg",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "df49d39bc785916831a030ff6bab5e46",
+  "text_length": 22812,
+  "result": {
+    "inspired_by": [
+      "Jean Piaget",
+      "George Herbert Mead",
+      "James Mark Baldwin"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:01:41.424811"
+}

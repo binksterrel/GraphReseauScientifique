@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Satyendra Nath Bose",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "adb5039d5f32f09f7404f674a707a153",
+  "text_length": 16611,
+  "result": {
+    "inspired_by": [
+      "Jagadish Chandra Bose",
+      "Prafulla Chandra Ray",
+      "Naman Sharma"
+    ],
+    "inspired": [
+      "Meghnad Saha",
+      "Louis de Broglie",
+      "Marie Curie",
+      "Albert Einstein"
+    ]
+  },
+  "timestamp": "2025-12-24T21:15:14.979708"
+}

@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Father Eugene Lafont",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f15d2f2f7492f9c73671ef0d5268e1e5",
+  "text_length": 6968,
+  "result": {
+    "inspired_by": [
+      "Henri Depelchin",
+      "Superior General of the Society of Jesus"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:21:40.041825"
+}

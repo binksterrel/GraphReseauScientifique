@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Max Talmey",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "25dbd4a3600b7418120b425f3d015b82",
+  "text_length": 15737,
+  "result": {
+    "inspired_by": [
+      "Max Talmey",
+      "Albert Einstein"
+    ],
+    "inspired": [
+      "Gloro language",
+      "The Relativity Theory",
+      "Psyche: A Concise and Easily Comprehensible Treatise on the Elements of Psychiatry and Psychology for Students of Medicine and Law"
+    ]
+  },
+  "timestamp": "2025-12-25T01:32:46.359472"
+}

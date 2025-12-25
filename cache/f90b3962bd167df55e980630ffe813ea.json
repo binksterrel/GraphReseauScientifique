@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Karl W. Hauser",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4ade25635210849f0fefca300939f82e",
+  "text_length": 20893,
+  "result": {
+    "inspired_by": [
+      "Anonymous author of the letter",
+      "Captain von Wessenig",
+      "Shoemaker named Weickmann",
+      "Kaspar Hauser's mother (if she existed)",
+      "Lord Stanhope"
+    ],
+    "inspired": [
+      "Baron von Tucher",
+      "Johann Georg Meyer"
+    ]
+  },
+  "timestamp": "2025-12-24T23:21:03.580468"
+}

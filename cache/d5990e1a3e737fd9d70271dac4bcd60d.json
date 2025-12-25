@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Viktor von Lang",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5a923de315e91f75b9ae5df88735df60",
+  "text_length": 1046,
+  "result": {
+    "inspired_by": [
+      "Unnamed mentor at University of Giessen (PhD advisor)"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:49:54.594604"
+}

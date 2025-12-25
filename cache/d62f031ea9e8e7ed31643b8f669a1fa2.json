@@ -1,0 +1,32 @@
+{
+  "scientist_name": "John Locke",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "56cdf271917cf9be4281c0228f64e7c3",
+  "text_length": 26753,
+  "result": {
+    "inspired_by": [
+      "Francis Bacon",
+      "René Descartes",
+      "Thomas Willis",
+      "Robert Boyle",
+      "Robert Hooke",
+      "Alexander Popham",
+      "John Owen",
+      "Ibn Tufayl",
+      "Edward Pococke",
+      "Baruch Spinoza",
+      "Van Leeuwenhoek",
+      "Philipp van Limborch"
+    ],
+    "inspired": [
+      "Voltaire",
+      "Jean-Jacques Rousseau",
+      "Scottish Enlightenment thinkers",
+      "American Revolutionaries",
+      "Caleb Banks",
+      "John Dryden",
+      "Isaac Newton"
+    ]
+  },
+  "timestamp": "2025-12-25T14:41:30.267249"
+}

@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Bertrand Russell",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9bc24874621cb10c20c13fb64c304b74",
+  "text_length": 26996,
+  "result": {
+    "inspired_by": [
+      "Gottlob Frege",
+      "G. E. Moore",
+      "Alfred North Whitehead"
+    ],
+    "inspired": [
+      "Ludwig Wittgenstein"
+    ]
+  },
+  "timestamp": "2025-12-25T14:22:35.588380"
+}

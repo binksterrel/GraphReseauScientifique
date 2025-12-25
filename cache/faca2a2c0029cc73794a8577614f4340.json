@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Baruch Spinoza",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "712ca4361f343e6655f8d1ce401ee3ac",
+  "text_length": 27664,
+  "result": {
+    "inspired_by": [
+      "Thomas Hobbes",
+      "René Descartes",
+      "Ibn Tufayl",
+      "heterodox Christians"
+    ],
+    "inspired": [
+      "Not specified in the text"
+    ]
+  },
+  "timestamp": "2025-12-25T14:24:33.692732"
+}

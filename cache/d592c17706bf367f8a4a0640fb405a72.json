@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Émile Littré",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3fea0ad998367c69ceab62f46660533e",
+  "text_length": 10821,
+  "result": {
+    "inspired_by": [
+      "Louis Hachette",
+      "Eugène Burnouf",
+      "Pierre Rayer",
+      "Armand Carrel",
+      "Auguste Comte",
+      "Henri de Saint-Simon"
+    ],
+    "inspired": [
+      "Not specified in the text"
+    ]
+  },
+  "timestamp": "2025-12-24T21:59:19.194446"
+}

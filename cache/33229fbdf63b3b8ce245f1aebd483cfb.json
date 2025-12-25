@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Walter Thirring",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cd629d4984c2ff1e43ae01ad7fbd3db7",
+  "text_length": 5561,
+  "result": {
+    "inspired_by": [
+      "Hans Thirring"
+    ],
+    "inspired": [
+      "Albert Einstein",
+      "Erwin Schrödinger",
+      "Werner Heisenberg",
+      "Wolfgang Pauli",
+      "Murray Gell-Mann",
+      "Elliott Lieb"
+    ]
+  },
+  "timestamp": "2025-12-25T14:59:39.689969"
+}

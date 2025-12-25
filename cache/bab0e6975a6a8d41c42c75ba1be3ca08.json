@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Friedlieb Runge",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d0f6cb039a9114853185c06b02c753ea",
+  "text_length": 5200,
+  "result": {
+    "inspired_by": [
+      "Goethe"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:45:24.831970"
+}

@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Albrecht Unsöld",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e1f8d35c220f9daf19134f7f7e0bcb93",
+  "text_length": 4971,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:09:37.379795"
+}

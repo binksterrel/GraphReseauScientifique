@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Merle A. Tuve",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b9da85766353118403d7698bbf9b120d",
+  "text_length": 5416,
+  "result": {
+    "inspired_by": [
+      "Ernest Lawrence"
+    ],
+    "inspired": [
+      "Trygve Tuve",
+      "Lucy Tuve"
+    ]
+  },
+  "timestamp": "2025-12-25T17:17:24.661501"
+}

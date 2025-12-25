@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Nathan Mendelssohn",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5fdb4cfdb39b719a1872a2aa823473f7",
+  "text_length": 20663,
+  "result": {
+    "inspired_by": [
+      "Gotthold Ephraim Lessing",
+      "Aaron Solomon Gumperz"
+    ],
+    "inspired": [
+      "Fanny Mendelssohn",
+      "Felix Mendelssohn",
+      "Paul Mendelssohn Bartholdy",
+      "Paul Hensel",
+      "Kurt Hensel"
+    ]
+  },
+  "timestamp": "2025-12-25T17:34:57.046755"
+}

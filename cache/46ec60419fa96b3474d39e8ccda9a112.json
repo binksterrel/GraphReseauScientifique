@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Thomas Edison",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "59e8612eccfe8825ff2024f8c74b4b7a",
+  "text_length": 26139,
+  "result": {
+    "inspired_by": [
+      "Franklin Leonard Pope",
+      "Charles Batchelor"
+    ],
+    "inspired": [
+      "Many researchers and employees",
+      "Students in telegraphy field"
+    ]
+  },
+  "timestamp": "2025-12-25T15:10:21.821691"
+}

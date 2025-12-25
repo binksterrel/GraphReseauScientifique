@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Albert Wills",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c0b060e047ee7f0710eb828ab1877d06",
+  "text_length": 2942,
+  "result": {
+    "inspired_by": [
+      "Arthur Gordon Webster"
+    ],
+    "inspired": [
+      "Isidor Isaac Rabi"
+    ]
+  },
+  "timestamp": "2025-12-25T17:23:48.299422"
+}

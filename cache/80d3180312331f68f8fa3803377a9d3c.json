@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Felix Ehrenhaft",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c567582308ed50a936dd5ee0c583f0b1",
+  "text_length": 8104,
+  "result": {
+    "inspired_by": [
+      "Franz S. Exner"
+    ],
+    "inspired": [
+      "Paul Feyerabend",
+      "Leo Banet"
+    ]
+  },
+  "timestamp": "2025-12-24T22:53:15.739959"
+}

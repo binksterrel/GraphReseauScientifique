@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Charles Darwin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "cd642638fccb86bf0eb8bc36495ec0a6",
+  "text_length": 28393,
+  "result": {
+    "inspired_by": [
+      "Robert Edmond Grant",
+      "John Stevens Henslow",
+      "Charles Lyell"
+    ],
+    "inspired": [
+      "Alfred Russel Wallace",
+      "Modern evolutionary synthesis scientists (from the 1930s to the 1950s)"
+    ]
+  },
+  "timestamp": "2025-12-24T23:08:04.506537"
+}

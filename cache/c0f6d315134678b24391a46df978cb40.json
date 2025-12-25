@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Herbert McLeod",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "41cdf22d18aadec830b4a9443d6f41ca",
+  "text_length": 2611,
+  "result": {
+    "inspired_by": [
+      "George Frederick Ansell",
+      "August Wilhelm von Hofmann",
+      "Edward Frankland"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:38:18.141735"
+}

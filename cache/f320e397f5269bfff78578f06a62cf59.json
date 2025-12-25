@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Marie Tharp",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8a39828068b1bcb6452fa7a205b9025d",
+  "text_length": 14693,
+  "result": {
+    "inspired_by": [
+      "Bertha Louise Tharp",
+      "William Edgar Tharp",
+      "Maurice Ewing"
+    ],
+    "inspired": [
+      "Bruce Heezen",
+      "Howard Foster",
+      "Graduate students"
+    ]
+  },
+  "timestamp": "2025-12-25T15:30:30.727715"
+}

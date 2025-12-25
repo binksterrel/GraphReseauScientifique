@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Thomas Graham",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "68bb99c6258b09d35862df88e28eadfc",
+  "text_length": 1903,
+  "result": {
+    "inspired_by": [],
+    "inspired": [
+      "Thomas J. Graham",
+      "Unknown mentors or teachers implied by the text"
+    ]
+  },
+  "timestamp": "2025-12-25T14:37:49.015450"
+}

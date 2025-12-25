@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Melpathur Narayana Bhattathiri",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "055bb8bc2ce258c5e389179d5405646c",
+  "text_length": 2465,
+  "result": {
+    "inspired_by": [
+      "Achyuta Pisharati",
+      "Madhava",
+      "Damodara"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:04:38.846434"
+}

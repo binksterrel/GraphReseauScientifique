@@ -1,0 +1,31 @@
+{
+  "scientist_name": "Karan Johar",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "107da6ec10149ea15c7b19b810df6091",
+  "text_length": 17866,
+  "result": {
+    "inspired_by": [
+      "Not specified in the provided text"
+    ],
+    "inspired": [
+      "Amitabh Bachchan",
+      "Jaya Bachchan",
+      "Shah Rukh Khan",
+      "Hrithik Roshan",
+      "Kajol",
+      "Preity Zinta",
+      "Abhishek Bachchan",
+      "Rani Mukerji",
+      "Saqib Saleem",
+      "Randeep Hooda",
+      "Ranbir Kapoor",
+      "Anushka Sharma",
+      "Aishwarya Rai Bachchan",
+      "Fawad Khan",
+      "Kiara Advani",
+      "Vicky Kaushal",
+      "Mrunal Thakur"
+    ]
+  },
+  "timestamp": "2025-12-24T22:44:33.291824"
+}

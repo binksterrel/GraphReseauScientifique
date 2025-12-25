@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Carl Friedrich von Weizsäcker",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ede5ef138d3d4be07e39bc9b1cbdabc6",
+  "text_length": 19874,
+  "result": {
+    "inspired_by": [
+      "Werner Heisenberg",
+      "Niels Bohr",
+      "Friedrich Hund"
+    ],
+    "inspired": [
+      "Ernst Ulrich von Weizsäcker",
+      "Konrad Raiser"
+    ]
+  },
+  "timestamp": "2025-12-25T00:16:08.255191"
+}

@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Albert A. Michelson",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7f701645f689c904692201b52ef27d98",
+  "text_length": 21078,
+  "result": {
+    "inspired_by": [
+      "Simon Newcomb"
+    ],
+    "inspired": [
+      "Edward Morley",
+      "Dayton Miller",
+      "Hendrik Lorentz",
+      "Robert Shankland",
+      "Francis G. Pease",
+      "Fred Pearson"
+    ]
+  },
+  "timestamp": "2025-12-25T10:17:39.722288"
+}

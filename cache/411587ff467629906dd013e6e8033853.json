@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Eugene Merle Shoemaker",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bd1a689cbea3b81ba48811754fc3d637",
+  "text_length": 14166,
+  "result": {
+    "inspired_by": [
+      "Harry Hammond Hess",
+      "Daniel Barringer",
+      "G. K. Gilbert"
+    ],
+    "inspired": [
+      "Carolyn S. Shoemaker",
+      "David H. Levy"
+    ]
+  },
+  "timestamp": "2025-12-25T15:32:13.526516"
+}

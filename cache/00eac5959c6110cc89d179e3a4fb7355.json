@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Carl Sagan",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d7b3b638c89d538f56e53d864c4f6e49",
+  "text_length": 27339,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:17:05.294193"
+}

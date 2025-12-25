@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Antoine François Fourcroy",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "be0ab665a58229466f82feb9d6571f53",
+  "text_length": 10660,
+  "result": {
+    "inspired_by": [
+      "J. B. M. Bucquet",
+      "Félix Vicq-d'Azyr"
+    ],
+    "inspired": [
+      "Louis Nicolas Vauquelin"
+    ]
+  },
+  "timestamp": "2025-12-25T16:30:23.367797"
+}

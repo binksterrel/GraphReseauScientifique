@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Attilio Bandiera",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "59339d272ce566f194968bb1930eb402",
+  "text_length": 3722,
+  "result": {
+    "inspired_by": [
+      "Giuseppe Mazzini"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:40:00.559323"
+}

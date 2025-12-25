@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Hans Thirring",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0713fe9de058935f1abe0959ef6c76ba",
+  "text_length": 3111,
+  "result": {
+    "inspired_by": [
+      "Josef Lense",
+      "Albert Einstein"
+    ],
+    "inspired": [
+      "Walter Thirring",
+      "Paul Feyerabend"
+    ]
+  },
+  "timestamp": "2025-12-24T22:54:24.699506"
+}

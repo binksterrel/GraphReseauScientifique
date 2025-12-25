@@ -1,0 +1,28 @@
+{
+  "scientist_name": "Subrahmanyan Chandrasekhar",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "bf8c4dba00c9c7d86457aa9b0e973f2c",
+  "text_length": 25675,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "R. H. Fowler",
+      "Max Born",
+      "Paul Dirac",
+      "Niels Bohr",
+      "Victor Weisskopf",
+      "Léon Rosenfeld",
+      "George Placzek",
+      "Max Delbrück"
+    ],
+    "inspired": [
+      "Harlow Shapley",
+      "Gerard Kuiper",
+      "Otto Struve",
+      "John A. Simpson",
+      "Peter Meyer",
+      "Eugene N. Parker"
+    ]
+  },
+  "timestamp": "2025-12-24T22:16:16.212129"
+}

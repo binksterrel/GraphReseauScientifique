@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Nikolaus Riehl",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ec5f43c86f3730d49164553c5f21daad",
+  "text_length": 12915,
+  "result": {
+    "inspired_by": [
+      "Lise Meitner",
+      "Otto Hahn"
+    ],
+    "inspired": [
+      "Manfred von Ardenne",
+      "Gustav Hertz",
+      "Peter Adolf Thiessen",
+      "Max Volmer",
+      "Heinz Maier-Leibniz"
+    ]
+  },
+  "timestamp": "2025-12-25T13:03:05.494732"
+}

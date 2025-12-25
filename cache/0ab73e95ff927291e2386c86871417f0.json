@@ -1,0 +1,11 @@
+{
+  "scientist_name": "William Willis",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "39625529ad6d3ffb7014875d68e58cb4",
+  "text_length": 1008,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:53:25.691195"
+}

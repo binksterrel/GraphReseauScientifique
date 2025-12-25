@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Archibald Hill",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4788a3d530cf5398753d6e7756a1aa0f",
+  "text_length": 15866,
+  "result": {
+    "inspired_by": [
+      "Magnus Blix",
+      "Hermann Helmholtz"
+    ],
+    "inspired": [
+      "John Neville Keynes",
+      "Geoffrey Keynes",
+      "John Maynard Keynes",
+      "Sigmund Freud",
+      "Stephen Hawking"
+    ]
+  },
+  "timestamp": "2025-12-25T15:00:39.947372"
+}

@@ -1,0 +1,25 @@
+{
+  "scientist_name": "James Watson",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "273f00f69450e2c3a90d72cf1ea1fbb3",
+  "text_length": 27303,
+  "result": {
+    "inspired_by": [
+      "Salvador Luria",
+      "Max Delbrück",
+      "Herman Kalckar",
+      "Ole Maaløe",
+      "Linus Pauling"
+    ],
+    "inspired": [
+      "Francis Crick",
+      "Maurice Wilkins",
+      "Sydney Brenner",
+      "Jack Dunitz",
+      "Dorothy Hodgkin",
+      "Leslie Orgel",
+      "Beryl M. Oughton"
+    ]
+  },
+  "timestamp": "2025-12-24T23:06:05.653807"
+}

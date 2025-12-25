@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Michael Rostovtzeff",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3eed68b879d63449e7c5cd39dd788566",
+  "text_length": 8392,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:11:24.363604"
+}

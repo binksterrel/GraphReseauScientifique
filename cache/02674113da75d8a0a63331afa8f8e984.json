@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Thomas Harriot",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5251788a2dcd4739b25bf0c695af2235",
+  "text_length": 19328,
+  "result": {
+    "inspired_by": [
+      "Sir Walter Raleigh",
+      "Sir Ralph Lane",
+      "Manteo",
+      "Wanchese"
+    ],
+    "inspired": [
+      "John White",
+      "Henry Percy, 9th Earl of Northumberland",
+      "Théodore de Mayerne"
+    ]
+  },
+  "timestamp": "2025-12-24T23:52:42.453108"
+}

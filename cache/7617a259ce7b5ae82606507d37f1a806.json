@@ -1,0 +1,17 @@
+{
+  "scientist_name": "James McKeen Cattell",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7ee07aa0d0cd538fe1c69f83b4dcc74a",
+  "text_length": 13282,
+  "result": {
+    "inspired_by": [
+      "Francis March",
+      "Wilhelm Wundt",
+      "Hermann Lotze"
+    ],
+    "inspired": [
+      "Psyche Cattell"
+    ]
+  },
+  "timestamp": "2025-12-25T12:26:37.620947"
+}

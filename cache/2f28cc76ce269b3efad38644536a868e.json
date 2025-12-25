@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Lewis Carroll",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1272cef7d4d8057bec9cf47ea90229c6",
+  "text_length": 26457,
+  "result": {
+    "inspired_by": [
+      "Henry Liddell",
+      "John Henry Newman",
+      "Tractarian movement"
+    ],
+    "inspired": [
+      "George MacDonald",
+      "Many children of his acquaintance",
+      "Pre-Raphaelite social circle"
+    ]
+  },
+  "timestamp": "2025-12-25T18:41:30.738284"
+}

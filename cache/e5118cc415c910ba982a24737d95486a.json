@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Jagadish Chandra Bose",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f56b82e209e61f7e170ce3b501568f0f",
+  "text_length": 27523,
+  "result": {
+    "inspired_by": [
+      "Anandamohan Bose",
+      "Father Eugene Lafont"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:16:24.209250"
+}

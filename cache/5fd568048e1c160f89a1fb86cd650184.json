@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Walther Nernst",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2b88b1dc48fa14984754c4afb5b28308",
+  "text_length": 14831,
+  "result": {
+    "inspired_by": [
+      "Jacobus Henricus van’t Hoff",
+      "Svante Arrhenius"
+    ],
+    "inspired": [
+      "Max Planck",
+      "Otto Hahn",
+      "Max von Laue"
+    ]
+  },
+  "timestamp": "2025-12-25T14:28:46.000700"
+}

@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Alexandre Dumas père",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "14555287a9cca0a329ba163cbd53e455",
+  "text_length": 27143,
+  "result": {
+    "inspired_by": [
+      "Victor Hugo",
+      "Charles Baudelaire",
+      "Gérard de Nerval",
+      "Eugène Delacroix",
+      "Honoré de Balzac"
+    ],
+    "inspired": [
+      "Giuseppe Garibaldi"
+    ]
+  },
+  "timestamp": "2025-12-24T23:31:09.360141"
+}

@@ -1,0 +1,14 @@
+{
+  "scientist_name": "Louis Jacques Thénard",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "98a3ad8dccf22e4e579813f24cd36b72",
+  "text_length": 4405,
+  "result": {
+    "inspired_by": [
+      "Antoine François Fourcroy",
+      "Louis Nicolas Vauquelin"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:46:33.078017"
+}

@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Francis Aston",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "94c760c3338569d6c4d53970d5ee0b85",
+  "text_length": 7040,
+  "result": {
+    "inspired_by": [
+      "John Henry Poynting",
+      "Frankland",
+      "Tilden",
+      "Joseph John Thomson"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:27:54.063151"
+}

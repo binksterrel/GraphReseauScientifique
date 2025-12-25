@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Hugo Eckener",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e6f9aa0b9575c84e721ad23eb60832dc",
+  "text_length": 15184,
+  "result": {
+    "inspired_by": [
+      "Count Zeppelin",
+      "Hugo Eckener"
+    ],
+    "inspired": [
+      "James L. Cambias",
+      "David John",
+      "Timothée de Fombelle",
+      "Hugh Ashton"
+    ]
+  },
+  "timestamp": "2025-12-25T12:34:24.145349"
+}

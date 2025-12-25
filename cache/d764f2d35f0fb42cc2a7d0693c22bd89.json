@@ -1,0 +1,19 @@
+{
+  "scientist_name": "George Gabriel Stokes",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "e6c4318ba4a21c8df50e645fee3a2597",
+  "text_length": 22796,
+  "result": {
+    "inspired_by": [
+      "John Stokes",
+      "Reverend Gabriel Stokes",
+      "Reverend John Haughton"
+    ],
+    "inspired": [
+      "James Clerk Maxwell",
+      "Lord Kelvin",
+      "Felix Hoppe-Seyler"
+    ]
+  },
+  "timestamp": "2025-12-25T12:18:36.603344"
+}

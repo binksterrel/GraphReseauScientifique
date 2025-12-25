@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Lord Guruvayurappan",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7cd981e420877a26efcec11ed840d896",
+  "text_length": 13948,
+  "result": {
+    "inspired_by": [
+      "Guruvayoor Temple",
+      "Guruvayoor",
+      "Abhimana Kshethram",
+      "Divya desam"
+    ],
+    "inspired": [
+      "Krishnanattam",
+      "Nenmini Unni",
+      "Poonthanam",
+      "Melpathur"
+    ]
+  },
+  "timestamp": "2025-12-25T19:05:20.185906"
+}

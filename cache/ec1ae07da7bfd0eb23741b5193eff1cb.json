@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Karen Guillemin",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3c05bd535c5af5f5831ca1f54602fc02",
+  "text_length": 2371,
+  "result": {
+    "inspired_by": [
+      "Stanley Falkow"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:15:31.248977"
+}

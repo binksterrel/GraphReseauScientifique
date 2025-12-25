@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Paul Deschanel",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "28d22eb8e2567dc66684efea2782066a",
+  "text_length": 5641,
+  "result": {
+    "inspired_by": [
+      "Émile Deschanel",
+      "Deshayes de Marcère",
+      "Jules Simon"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:02:43.562392"
+}

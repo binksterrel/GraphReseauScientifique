@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Johann Georg Meyer",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d26fc81bffb0c1d15d3f3098de6d6c26",
+  "text_length": 3423,
+  "result": {
+    "inspired_by": [
+      "Friedrich Wilhelm Schadow"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:54:26.065831"
+}

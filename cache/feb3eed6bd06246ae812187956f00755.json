@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Robert Boyle",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ce13f8ac0a21a66d4c14079e6b347e9d",
+  "text_length": 21867,
+  "result": {
+    "inspired_by": [
+      "Francis Bacon",
+      "Galileo Galilei",
+      "Robert Hooke"
+    ],
+    "inspired": [
+      "Students and scientists influenced by Robert Boyle are not explicitly mentioned in the text."
+    ]
+  },
+  "timestamp": "2025-12-25T18:46:57.079524"
+}

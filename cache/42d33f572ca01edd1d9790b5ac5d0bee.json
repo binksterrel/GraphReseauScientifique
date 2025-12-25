@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Théodule-Armand Ribot",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d34a8e96df6792717a89e0c105427973",
+  "text_length": 6146,
+  "result": {
+    "inspired_by": [
+      "Jean-Martin Charcot",
+      "Herbert Spencer",
+      "The sensationalist school"
+    ],
+    "inspired": [
+      "Not specified in the text. Ribot was a prolific writer and his works influenced many psychologists."
+    ]
+  },
+  "timestamp": "2025-12-25T15:57:24.826632"
+}

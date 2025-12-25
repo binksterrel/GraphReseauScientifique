@@ -1,0 +1,15 @@
+{
+  "scientist_name": "G. W. Pierce",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "7f433f1255d1e750a2677094b48e6b89",
+  "text_length": 6719,
+  "result": {
+    "inspired_by": [
+      "Alexander Macfarlane"
+    ],
+    "inspired": [
+      "No direct information provided about students influenced by G. W. Pierce in the text."
+    ]
+  },
+  "timestamp": "2025-12-25T17:30:51.383347"
+}

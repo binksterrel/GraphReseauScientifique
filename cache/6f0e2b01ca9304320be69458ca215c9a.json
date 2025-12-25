@@ -1,0 +1,13 @@
+{
+  "scientist_name": "David M. Young",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b6e2fa8ede9606329669715a6d80d300",
+  "text_length": 6045,
+  "result": {
+    "inspired_by": [
+      "Garrett Birkhoff"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:21:35.299596"
+}

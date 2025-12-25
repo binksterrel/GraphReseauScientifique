@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Kurt Reidemeister",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1f3eb6301de024d78732468d9b7e990e",
+  "text_length": 2566,
+  "result": {
+    "inspired_by": [
+      "Erich Hecke",
+      "Wilhelm Blaschke"
+    ],
+    "inspired": [
+      "Not specified in the text"
+    ]
+  },
+  "timestamp": "2025-12-25T13:58:51.529966"
+}

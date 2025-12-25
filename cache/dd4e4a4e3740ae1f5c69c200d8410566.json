@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Willem 's Gravesande",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9188ac466dc6e22fde7f3c7a908f03c6",
+  "text_length": 8539,
+  "result": {
+    "inspired_by": [
+      "Isaac Newton",
+      "Johann Bernoulli"
+    ],
+    "inspired": [
+      "Voltaire",
+      "Albrecht von Haller",
+      "Émilie du Châtelet",
+      "John Theophilus Desaguliers"
+    ]
+  },
+  "timestamp": "2025-12-25T14:40:19.756345"
+}

@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Richard Dedekind",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2ba858dad380a8c5a71d756159ad2109",
+  "text_length": 10498,
+  "result": {
+    "inspired_by": [
+      "Moritz Stern",
+      "Gauss",
+      "Peter Gustav Lejeune Dirichlet"
+    ],
+    "inspired": [
+      "Georg Cantor",
+      "Giuseppe Peano"
+    ]
+  },
+  "timestamp": "2025-12-24T22:19:55.034350"
+}

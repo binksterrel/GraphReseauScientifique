@@ -1,0 +1,17 @@
+{
+  "scientist_name": "British Association for the Advancement of Science",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "72cc5916cea9468d362442c476dcaaff",
+  "text_length": 21937,
+  "result": {
+    "inspired_by": [
+      "Reverend William Vernon Harcourt",
+      "Sir David Brewster",
+      "Charles Babbage",
+      "William Whewell",
+      "J. F. W. Johnston"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:14:02.029523"
+}

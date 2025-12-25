@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Hermann Helmholtz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0eaa0113218a319517cd17178907c6e2",
+  "text_length": 20115,
+  "result": {
+    "inspired_by": [
+      "Julius von Mayer",
+      "James Joule",
+      "Daniel Bernoulli",
+      "Sadi Carnot",
+      "Benoît Paul Émile Clapeyron",
+      "William Thomson",
+      "William Rankine"
+    ],
+    "inspired": [
+      "Wilhelm Wundt"
+    ]
+  },
+  "timestamp": "2025-12-25T12:17:56.059610"
+}

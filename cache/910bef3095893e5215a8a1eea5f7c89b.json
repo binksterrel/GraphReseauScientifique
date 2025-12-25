@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Ernest Walton",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "605998f42b84087ff14e3c76c4b26044",
+  "text_length": 10145,
+  "result": {
+    "inspired_by": [
+      "Ernest Rutherford"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T00:02:31.608056"
+}

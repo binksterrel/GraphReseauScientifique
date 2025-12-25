@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Alex Stokes",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d317d810cc992323a28f0e410dcfae8d",
+  "text_length": 3766,
+  "result": {
+    "inspired_by": [
+      "Francis Crick",
+      "James Watson",
+      "Rosalind Franklin",
+      "Raymond Gosling"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:48:45.882191"
+}

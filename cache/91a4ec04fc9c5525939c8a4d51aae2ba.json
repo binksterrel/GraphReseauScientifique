@@ -1,0 +1,11 @@
+{
+  "scientist_name": "John A. Simpson",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0ef12a29d4dabebd5e0b35fa2a3204c0",
+  "text_length": 3102,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T00:21:04.657287"
+}

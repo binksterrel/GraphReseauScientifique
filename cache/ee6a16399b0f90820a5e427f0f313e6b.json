@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Meghnad Saha",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "998640fb810492b286093650658fb3f7",
+  "text_length": 8905,
+  "result": {
+    "inspired_by": [
+      "Jagannath Saha",
+      "Bhubaneshwari Devi",
+      "Satyendra Nath Bose",
+      "Jnan Ghosh",
+      "Jnanendra Nath Mukherjee"
+    ],
+    "inspired": [
+      "Students at Allahabad University (1923-1938)",
+      "Students at the University of Calcutta (from 1938)",
+      "Future scientists influenced by Saha's work"
+    ]
+  },
+  "timestamp": "2025-12-24T21:17:50.231918"
+}

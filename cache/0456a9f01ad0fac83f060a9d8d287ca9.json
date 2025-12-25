@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Otto Meyerhof",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f7f20847188c5bb5e92ed6bcca6f23f1",
+  "text_length": 2406,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:30:38.802515"
+}

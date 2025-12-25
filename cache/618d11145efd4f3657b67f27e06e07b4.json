@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Edwin McMillan",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d378e1962bdbd736b3bfd31c198d63ec",
+  "text_length": 21189,
+  "result": {
+    "inspired_by": [
+      "Linus Pauling",
+      "Edward Condon",
+      "Ernest Lawrence",
+      "Otto Stern",
+      "Immanuel Estermann",
+      "Robert Thornton",
+      "Samuel Ruben"
+    ],
+    "inspired": [
+      "Glenn Seaborg",
+      "John Clauser"
+    ]
+  },
+  "timestamp": "2025-12-25T16:51:55.365153"
+}

@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Glenn T. Seaborg",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ae28a6c74401bdc8bf8f95262a5b6ec2",
+  "text_length": 28327,
+  "result": {
+    "inspired_by": [
+      "Dwight Logan Reid",
+      "Gilbert Newton Lewis",
+      "Otto Hahn",
+      "Robert Oppenheimer"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:42:24.875762"
+}

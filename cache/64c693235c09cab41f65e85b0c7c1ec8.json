@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Kazimierz Vetulani",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "00d0fe2e2fef48a13ff3a04090d73db3",
+  "text_length": 17859,
+  "result": {
+    "inspired_by": [
+      "Stefan Banach",
+      "Tullio Levi-Civita"
+    ],
+    "inspired": [
+      "Kazimierz Vetulani"
+    ]
+  },
+  "timestamp": "2025-12-25T17:33:23.059337"
+}

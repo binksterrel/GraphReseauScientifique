@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Heinrich Pestalozzi",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "184b2538d1eab81ff62e23d16e312ee1",
+  "text_length": 25614,
+  "result": {
+    "inspired_by": [
+      "Johann Jakob Bodmer",
+      "Johann Jakob Breitinger",
+      "Jean-Jacques Rousseau"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T12:51:50.934190"
+}

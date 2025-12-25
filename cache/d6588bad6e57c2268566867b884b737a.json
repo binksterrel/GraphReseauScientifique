@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Chaim Weizmann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "aac5765925d38eb31a85a708cf9b8fbc",
+  "text_length": 26103,
+  "result": {
+    "inspired_by": [
+      "Oizer Weizmann",
+      "Rachel (Czemerinsky) Weizmann",
+      "Technische Hochschule in Darmstadt",
+      "Technische Hochschule Berlin",
+      "University of Fribourg"
+    ],
+    "inspired": [
+      "Benjamin (Benjie) Weizmann",
+      "Michael Weizmann",
+      "Trevor Weizmann"
+    ]
+  },
+  "timestamp": "2025-12-25T17:48:26.828923"
+}

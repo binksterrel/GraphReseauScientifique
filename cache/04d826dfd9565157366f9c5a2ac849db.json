@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Alexandre Dumas, fils",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "09c59d6d42e2b1ad4ead60a177a29337",
+  "text_length": 7001,
+  "result": {
+    "inspired_by": [
+      "Alexandre Dumas père"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:58:40.207096"
+}

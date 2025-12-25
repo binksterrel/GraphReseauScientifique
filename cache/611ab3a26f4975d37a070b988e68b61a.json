@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Hugo Steinhaus",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "ccc2a928dc3ae17f0b1aa41254cf1a6c",
+  "text_length": 13842,
+  "result": {
+    "inspired_by": [
+      "David Hilbert"
+    ],
+    "inspired": [
+      "Stefan Banach",
+      "Mark Kac",
+      "Jan Mycielski",
+      "Stanisław Ulam"
+    ]
+  },
+  "timestamp": "2025-12-25T01:45:37.287175"
+}

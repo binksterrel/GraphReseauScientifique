@@ -1,0 +1,15 @@
+{
+  "scientist_name": "C. L. Berthollet",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "21144bea094e77275383cf14917ad777",
+  "text_length": 6216,
+  "result": {
+    "inspired_by": [
+      "Antoine Lavoisier",
+      "Louis Bernard Guyton de Morveau",
+      "Antoine François, comte de Fourcroy"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T16:30:55.370136"
+}

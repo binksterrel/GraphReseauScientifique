@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Joseph Priestley",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "681967f57836127850957fc29210b59b",
+  "text_length": 27453,
+  "result": {
+    "inspired_by": [
+      "Isaac Watts",
+      "Willem 's Gravesande",
+      "John Locke",
+      "David Hartley"
+    ],
+    "inspired": [
+      "Jeremy Bentham",
+      "John Stuart Mill",
+      "Herbert Spencer"
+    ]
+  },
+  "timestamp": "2025-12-24T22:31:40.311291"
+}

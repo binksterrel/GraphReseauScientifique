@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Ibn Tufayl",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2b18d90512e59471eb6f93cebdcece1a",
+  "text_length": 10584,
+  "result": {
+    "inspired_by": [
+      "Ibn Bajjah (Avempace)"
+    ],
+    "inspired": [
+      "Abu 'Abdallah Muhammad b. al-Abbar",
+      "Abd al-Wahid al-Marrakushi",
+      "Ahmed Mohammed al-Maqqari",
+      "Ibn al-Khatib",
+      "Nur al-Din al-Bitruji"
+    ]
+  },
+  "timestamp": "2025-12-25T18:08:00.706806"
+}

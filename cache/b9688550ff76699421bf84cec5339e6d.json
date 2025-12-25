@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Dennis William Sciama",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "dd7c8c4c31cf0cf5d89b0576062a5d39",
+  "text_length": 5962,
+  "result": {
+    "inspired_by": [
+      "Paul Dirac"
+    ],
+    "inspired": [
+      "John D. Barrow",
+      "David Deutsch",
+      "George F. R. Ellis",
+      "Stephen Hawking",
+      "Adrian Melott",
+      "Martin Rees"
+    ]
+  },
+  "timestamp": "2025-12-24T23:39:40.688627"
+}

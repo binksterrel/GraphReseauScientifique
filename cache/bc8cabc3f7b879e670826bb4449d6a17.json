@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Scottish Enlightenment thinkers",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "06e4b781bf81a7dcf0bad17d70dc05d1",
+  "text_length": 27000,
+  "result": {
+    "inspired_by": [
+      "Francis Hutcheson",
+      "George Turnbull"
+    ],
+    "inspired": [
+      "James Boswell",
+      "Allan Ramsay"
+    ]
+  },
+  "timestamp": "2025-12-25T18:50:49.284657"
+}

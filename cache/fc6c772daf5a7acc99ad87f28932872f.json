@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Aaron Klug",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c5cba84ed33e7984a306a3fe912154c5",
+  "text_length": 6131,
+  "result": {
+    "inspired_by": [
+      "Reginald W. James",
+      "John Bernal",
+      "Rosalind Franklin"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T19:38:51.963235"
+}

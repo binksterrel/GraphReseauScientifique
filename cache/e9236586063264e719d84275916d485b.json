@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Edwin Hubble",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "4e45dd3b6b55a6ae8bec93cd28fd1639",
+  "text_length": 21061,
+  "result": {
+    "inspired_by": [
+      "Henrietta Swan Leavitt",
+      "Georges Lemaître",
+      "Vesto Slipher",
+      "Robert Millikan"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T22:12:24.954764"
+}

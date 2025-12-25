@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Isaac Barrow",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "476b8001b68ce6b50d0af890a9dfa2f6",
+  "text_length": 12252,
+  "result": {
+    "inspired_by": [
+      "Martin Holbeach",
+      "James Duport"
+    ],
+    "inspired": [
+      "Isaac Newton"
+    ]
+  },
+  "timestamp": "2025-12-25T15:43:27.507222"
+}

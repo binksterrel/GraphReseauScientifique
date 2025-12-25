@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Alexander von Humboldt",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "caf0a5b0274eb11a2d3db1a826b636cd",
+  "text_length": 26989,
+  "result": {
+    "inspired_by": [
+      "Johann Wolfgang von Goethe",
+      "Carl Ludwig Willdenow",
+      "Sir Joseph Banks"
+    ],
+    "inspired": [
+      "Aimé Bonpland"
+    ]
+  },
+  "timestamp": "2025-12-25T12:52:56.164006"
+}

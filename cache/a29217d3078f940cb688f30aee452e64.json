@@ -1,0 +1,22 @@
+{
+  "scientist_name": "Johanna Liebig",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f226e0546eaa96022e035ff2541635e4",
+  "text_length": 26181,
+  "result": {
+    "inspired_by": [
+      "Karl Wilhelm Gottlob Kastner",
+      "Joseph Louis Gay-Lussac",
+      "Alexander von Humboldt",
+      "Georges Cuvier"
+    ],
+    "inspired": [
+      "Georg Liebig",
+      "Agnes Liebig",
+      "Hermann Liebig",
+      "Johanna Liebig",
+      "Marie Liebig"
+    ]
+  },
+  "timestamp": "2025-12-25T14:48:16.843443"
+}

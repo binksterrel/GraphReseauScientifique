@@ -1,0 +1,30 @@
+{
+  "scientist_name": "Charles S. Peirce",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a6973f86ce20f552e33893f2fadcb2a7",
+  "text_length": 27036,
+  "result": {
+    "inspired_by": [
+      "Richard Whately",
+      "Charles William Eliot",
+      "Augustus De Morgan",
+      "William Stanley Jevons",
+      "William Kingdon Clifford"
+    ],
+    "inspired": [
+      "Francis Ellingwood Abbot",
+      "Chauncey Wright",
+      "William James",
+      "Oliver Wendell Holmes Jr.",
+      "Julius Hilgard",
+      "G. Stanley Hall",
+      "Joseph Jastrow",
+      "Allan Marquand",
+      "Christine Ladd",
+      "Benjamin Ives Gilman",
+      "Oscar Howard Mitchell",
+      "Simon Newcomb"
+    ]
+  },
+  "timestamp": "2025-12-25T14:21:32.645689"
+}

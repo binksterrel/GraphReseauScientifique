@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Ronald George Wreyford Norrish",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "684b5a4642e9c556d35b701d82f49d60",
+  "text_length": 2666,
+  "result": {
+    "inspired_by": [
+      "Eric Rideal"
+    ],
+    "inspired": [
+      "Rosalind Franklin",
+      "Manfred Eigen",
+      "George Porter"
+    ]
+  },
+  "timestamp": "2025-12-25T19:39:31.247294"
+}

@@ -1,0 +1,26 @@
+{
+  "scientist_name": "Roger Penrose",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "5bf140d9348551a3d10d7c4dbcca4905",
+  "text_length": 26021,
+  "result": {
+    "inspired_by": [
+      "W. V. D. Hodge",
+      "John A. Todd",
+      "Dennis Sciama",
+      "Stephen Hawking"
+    ],
+    "inspired": [
+      "Andrew Hodges",
+      "Lane Hughston",
+      "Richard Jozsa",
+      "Claude LeBrun",
+      "John McNamara",
+      "Tristan Needham",
+      "Tim Poston",
+      "Asghar Qadir",
+      "Richard S. Ward"
+    ]
+  },
+  "timestamp": "2025-12-24T23:40:32.021893"
+}

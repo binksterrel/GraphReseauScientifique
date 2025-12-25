@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Jakob Steiner",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "a07aaf19d6c48f1e07b5b1d8c9d9861c",
+  "text_length": 6043,
+  "result": {
+    "inspired_by": [
+      "Heinrich Pestalozzi",
+      "A. L. Crelle",
+      "Niels Henrik Abel",
+      "Carl Gustav Jacob Jacobi",
+      "Alexander von Humboldt",
+      "Wilhelm von Humboldt"
+    ],
+    "inspired": [
+      "Thomas Hirst"
+    ]
+  },
+  "timestamp": "2025-12-24T23:18:53.402358"
+}

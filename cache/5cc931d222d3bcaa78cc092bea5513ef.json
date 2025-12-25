@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Jack Dunitz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1efc8c090047ed7e995aba8f90c213c1",
+  "text_length": 4886,
+  "result": {
+    "inspired_by": [
+      "J.D. Dunitz's education and research fellowships were at various institutions including Oxford University, California Institute of Technology, US National Institutes of Health, Royal Institution, London, and ETH Zurich. The specific mentors or teachers during these periods are not explicitly mentioned in the text."
+    ],
+    "inspired": [
+      "Marguerite (1955) and Julia Gabrielle (1957), Jack Dunitz's daughters"
+    ]
+  },
+  "timestamp": "2025-12-24T23:01:53.698843"
+}

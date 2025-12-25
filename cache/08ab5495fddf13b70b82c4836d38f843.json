@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Joseph Fourier",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f6ff81a85949786cb51b3ebd335058bb",
+  "text_length": 9921,
+  "result": {
+    "inspired_by": [
+      "Joseph-Louis Lagrange",
+      "Benedictine Order of the Convent of St. Mark"
+    ],
+    "inspired": [
+      "Students at École Normale and subsequently at École Polytechnique",
+      "Scientists at Institut d'Égypte",
+      "Napoleon Bonaparte's army",
+      "Contributors to Description de l'Égypte"
+    ]
+  },
+  "timestamp": "2025-12-25T15:36:27.878956"
+}

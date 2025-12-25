@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Gustav Herglotz",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "572344be27ef7fdca3ce2636fc465b80",
+  "text_length": 5652,
+  "result": {
+    "inspired_by": [
+      "Ludwig Boltzmann",
+      "Hugo von Seeliger",
+      "Felix Klein"
+    ],
+    "inspired": [
+      "Emil Artin"
+    ]
+  },
+  "timestamp": "2025-12-25T18:23:48.809644"
+}

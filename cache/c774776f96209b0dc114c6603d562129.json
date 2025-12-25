@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Rudolf Seeliger",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f984419deb53e64cb64c5db6f616e8ab",
+  "text_length": 6650,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Ernst Gehrcke"
+    ],
+    "inspired": [
+      "Walter Schallreuter",
+      "Paul Schulz"
+    ]
+  },
+  "timestamp": "2025-12-25T13:44:58.661204"
+}

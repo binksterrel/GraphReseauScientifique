@@ -1,0 +1,19 @@
+{
+  "scientist_name": "Jules Tannery",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "72b09ef356e9a01ecca858b88029726d",
+  "text_length": 4632,
+  "result": {
+    "inspired_by": [
+      "Charles Hermite",
+      "Paul Tannery"
+    ],
+    "inspired": [
+      "Pierre Duhem",
+      "Paul Painlevé",
+      "Jules Drach",
+      "Émile Borel"
+    ]
+  },
+  "timestamp": "2025-12-25T18:33:55.727203"
+}

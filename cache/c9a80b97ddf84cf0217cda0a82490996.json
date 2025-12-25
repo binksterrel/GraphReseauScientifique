@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Ernest Courant",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6de24b00e353daea063a18d681d58171",
+  "text_length": 5107,
+  "result": {
+    "inspired_by": [
+      "Richard Courant",
+      "Milton S. Livingston",
+      "Hartland Snyder",
+      "Nicholas Christofilos"
+    ],
+    "inspired": [
+      "several generations of students"
+    ]
+  },
+  "timestamp": "2025-12-25T13:57:12.384304"
+}

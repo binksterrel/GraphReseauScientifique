@@ -1,0 +1,22 @@
+{
+  "scientist_name": "J. D. Bernal",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6314dd51fd221f32c3f1431b88f0a882",
+  "text_length": 17302,
+  "result": {
+    "inspired_by": [
+      "William Henry Bragg",
+      "Ronald G.W. Norrish",
+      "Tiny Powell",
+      "Max Perutz",
+      "Charles Kay Ogden"
+    ],
+    "inspired": [
+      "Dorothy Hodgkin",
+      "Aaron Klug",
+      "Rosalind Franklin",
+      "Andrew Donald Booth"
+    ]
+  },
+  "timestamp": "2025-12-25T15:17:41.895896"
+}

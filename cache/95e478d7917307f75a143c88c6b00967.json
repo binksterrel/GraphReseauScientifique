@@ -1,0 +1,21 @@
+{
+  "scientist_name": "Miguel A. Catalán",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "48d45bdea0fcd09c53bbf78e7b1de578",
+  "text_length": 3234,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld"
+    ],
+    "inspired": [
+      "José Elguero Bertolini",
+      "Antonio Hernando Grande",
+      "Amable Liñán Martínez",
+      "José Luis García Fierro",
+      "Miguel Francisco Sánchez Madrid",
+      "Oscar Fernández Carpetillo",
+      "Luis Raúl Sánchez Fernández"
+    ]
+  },
+  "timestamp": "2025-12-25T17:09:06.621839"
+}

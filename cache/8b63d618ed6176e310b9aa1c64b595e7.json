@@ -1,0 +1,16 @@
+{
+  "scientist_name": "Stefan Banach",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "da971fb4d61efd362e3aae5d748ac443",
+  "text_length": 14996,
+  "result": {
+    "inspired_by": [
+      "Hugo Steinhaus",
+      "Antoni Łomnicki"
+    ],
+    "inspired": [
+      "Not specified in the text"
+    ]
+  },
+  "timestamp": "2025-12-25T14:00:55.250280"
+}

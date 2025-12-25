@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Rudolf Clausius",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c4988483a00771d031d252f97441b79b",
+  "text_length": 7084,
+  "result": {
+    "inspired_by": [
+      "Sadi Carnot",
+      "Gustav Magnus",
+      "Peter Gustav Lejeune Dirichlet",
+      "Jakob Steiner",
+      "Leopold von Ranke"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-24T21:53:12.113543"
+}

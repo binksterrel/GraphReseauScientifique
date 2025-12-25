@@ -1,0 +1,17 @@
+{
+  "scientist_name": "Mahendra Lal Sircar",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "3d95f6b1d29d15403a5cdb891e00f599",
+  "text_length": 4790,
+  "result": {
+    "inspired_by": [
+      "Iswar Chandra Ghosh",
+      "Mahesh Chandra Ghosh",
+      "Thakurdas Dey",
+      "Professors at Calcutta Medical College",
+      "Rajendralal Dutt"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T14:36:36.757170"
+}

@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Donald Hebb",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "01174434480bee655480435e8ac8b6f1",
+  "text_length": 21692,
+  "result": {
+    "inspired_by": [
+      "Boris Babkin",
+      "Karl Lashley"
+    ],
+    "inspired": [
+      "Mortimer Mishkin",
+      "Haldor Enger Rosvold",
+      "Brenda Milner"
+    ]
+  },
+  "timestamp": "2025-12-25T18:22:09.177555"
+}

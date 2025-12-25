@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Friedrich Paulsen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "72ad6b094180a4124003a51f5df3efe2",
+  "text_length": 3309,
+  "result": {
+    "inspired_by": [
+      "Gustav Theodor Fechner"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T15:57:44.728262"
+}

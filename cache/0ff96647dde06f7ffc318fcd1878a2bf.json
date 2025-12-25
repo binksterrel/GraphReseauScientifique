@@ -1,0 +1,15 @@
+{
+  "scientist_name": "Otto Stern",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "668f5bb90f922d4a38bbdf00d881c54e",
+  "text_length": 4764,
+  "result": {
+    "inspired_by": [
+      "Otto Sackur",
+      "Albert Einstein",
+      "Gilbert Lewis"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:24:07.005791"
+}

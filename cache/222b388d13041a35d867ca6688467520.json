@@ -1,0 +1,16 @@
+{
+  "scientist_name": "James Clerk Maxwell",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "affa17234d5555831418158db1c320b6",
+  "text_length": 28687,
+  "result": {
+    "inspired_by": [
+      "Isaac Newton"
+    ],
+    "inspired": [
+      "Albert Einstein",
+      "Tom Siegfried"
+    ]
+  },
+  "timestamp": "2025-12-25T12:13:49.398724"
+}

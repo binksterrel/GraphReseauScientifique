@@ -1,0 +1,18 @@
+{
+  "scientist_name": "Giuseppe Levi",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "60349a9056718beb52d758532dfa64f2",
+  "text_length": 2393,
+  "result": {
+    "inspired_by": [
+      "Michele Levi",
+      "Emma Perugia"
+    ],
+    "inspired": [
+      "Salvador Luria",
+      "Renato Dulbecco",
+      "Rita Levi-Montalcini"
+    ]
+  },
+  "timestamp": "2025-12-25T15:03:15.124626"
+}

@@ -1,0 +1,13 @@
+{
+  "scientist_name": "Johannes Stark",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "465c0d2766e910555228b06c9f5b32fc",
+  "text_length": 10441,
+  "result": {
+    "inspired_by": [
+      "Eugen von Lommel"
+    ],
+    "inspired": []
+  },
+  "timestamp": "2025-12-25T17:01:10.928497"
+}

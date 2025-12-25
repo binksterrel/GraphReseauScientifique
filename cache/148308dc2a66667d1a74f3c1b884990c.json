@@ -1,0 +1,20 @@
+{
+  "scientist_name": "Wolfgang Pauli",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6efb5b8b4b29291f33d23e5e76e6d4b9",
+  "text_length": 19308,
+  "result": {
+    "inspired_by": [
+      "Arnold Sommerfeld",
+      "Max Born",
+      "Niels Bohr",
+      "Werner Heisenberg"
+    ],
+    "inspired": [
+      "Enrico Fermi",
+      "Frederick Reines",
+      "Clyde Cowan"
+    ]
+  },
+  "timestamp": "2025-12-24T23:45:54.928376"
+}
