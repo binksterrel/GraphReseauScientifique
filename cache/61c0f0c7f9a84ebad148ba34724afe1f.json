@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "9f00fe243e0ace4316d2a5f6357b846d",
+  "text_length": 27,
+  "result": {
+    "field": "Sociology"
+  },
+  "timestamp": "2025-12-27T22:52:42.345097"
+}

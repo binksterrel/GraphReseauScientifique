@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "18ed72bf2e9971ef6f673924ecc91b22",
+  "text_length": 21,
+  "result": {
+    "field": "Political Science"
+  },
+  "timestamp": "2025-12-27T22:55:54.011012"
+}

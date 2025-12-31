@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f94633c01684883b266b3b9d465367f3",
+  "text_length": 20,
+  "result": {
+    "field": "Economics"
+  },
+  "timestamp": "2025-12-27T23:08:17.892333"
+}

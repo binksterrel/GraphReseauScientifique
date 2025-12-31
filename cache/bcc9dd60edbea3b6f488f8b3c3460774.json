@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "56bb75cc46c05d85e4ad84b0625fa40c",
+  "text_length": 32,
+  "result": {
+    "field": "Music"
+  },
+  "timestamp": "2025-12-27T23:03:49.264972"
+}

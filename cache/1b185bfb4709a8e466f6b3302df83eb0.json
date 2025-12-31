@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "2d83aa7896b4376f3421cebdb79eb065",
+  "text_length": 16,
+  "result": {
+    "field": "Neuroanatomy"
+  },
+  "timestamp": "2025-12-27T22:57:55.845359"
+}

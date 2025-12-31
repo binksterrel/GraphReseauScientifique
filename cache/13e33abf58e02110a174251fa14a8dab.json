@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "894761522432c463627025ae783d09d9",
+  "text_length": 21,
+  "result": {
+    "field": "Botany"
+  },
+  "timestamp": "2025-12-27T22:51:57.679592"
+}

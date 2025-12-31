@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "6df92d15513f510d3dd01941b823effb",
+  "text_length": 22,
+  "result": {
+    "field": "Law"
+  },
+  "timestamp": "2025-12-27T22:52:13.481476"
+}

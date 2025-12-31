@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fedb0937bf0bb3c18bc4b61092096030",
+  "text_length": 34,
+  "result": {
+    "field": "Anthropology"
+  },
+  "timestamp": "2025-12-27T22:51:25.460415"
+}

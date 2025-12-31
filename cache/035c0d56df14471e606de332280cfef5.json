@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f1fdcecb86cc2a622a48138a7be06ebc",
+  "text_length": 19,
+  "result": {
+    "field": "Astronomy"
+  },
+  "timestamp": "2025-12-27T23:15:57.919915"
+}

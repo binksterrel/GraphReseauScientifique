@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "f2ce4bcf02930b5ca6cfb1546ae73b29",
+  "text_length": 18,
+  "result": {
+    "field": "Linguistics"
+  },
+  "timestamp": "2025-12-27T23:10:02.492204"
+}

@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fe8ef8d322b6cdbfe7ff106405b92501",
+  "text_length": 21,
+  "result": {
+    "field": "Epidemiology"
+  },
+  "timestamp": "2025-12-27T22:48:53.204848"
+}

@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d6269088354225a7624fbe157417b862",
+  "text_length": 23,
+  "result": {
+    "field": "Psychology"
+  },
+  "timestamp": "2025-12-27T22:58:24.368814"
+}

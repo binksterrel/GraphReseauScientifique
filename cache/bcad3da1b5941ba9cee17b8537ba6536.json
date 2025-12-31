@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "8a1bab83338c4d33df81b796c985582d",
+  "text_length": 16,
+  "result": {
+    "field": "Physiology"
+  },
+  "timestamp": "2025-12-27T23:10:44.090788"
+}

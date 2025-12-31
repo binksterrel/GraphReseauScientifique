@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "b0a9c582a86e95aa4beb85b6ca0eda39",
+  "text_length": 27,
+  "result": {
+    "field": "Other"
+  },
+  "timestamp": "2025-12-27T23:18:34.119171"
+}

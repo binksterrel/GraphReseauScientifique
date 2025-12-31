@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "fed108e507501901dc39d97d06a898db",
+  "text_length": 20,
+  "result": {
+    "field": "Geology"
+  },
+  "timestamp": "2025-12-27T23:15:23.490765"
+}

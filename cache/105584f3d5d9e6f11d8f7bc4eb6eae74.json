@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "0eb03be5f478a4d910a4866afe4daf7b",
+  "text_length": 23,
+  "result": {
+    "field": "Archeology"
+  },
+  "timestamp": "2025-12-27T22:49:50.456805"
+}

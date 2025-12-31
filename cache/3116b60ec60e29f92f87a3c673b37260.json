@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "642f5a752e176e929c6efd6ee9f0c882",
+  "text_length": 23,
+  "result": {
+    "field": "Neuroscience"
+  },
+  "timestamp": "2025-12-27T23:17:25.484472"
+}

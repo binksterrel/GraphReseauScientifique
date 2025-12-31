@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "065c02f23ae0c2847cc163c940d2c3fa",
+  "text_length": 23,
+  "result": {
+    "field": "Logic and Foundations of Mathematics"
+  },
+  "timestamp": "2025-12-27T23:06:42.039096"
+}

@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "659465213bd34a4539f0587f5e8fa894",
+  "text_length": 18,
+  "result": {
+    "field": "Ethnomusicology"
+  },
+  "timestamp": "2025-12-27T22:51:19.896346"
+}

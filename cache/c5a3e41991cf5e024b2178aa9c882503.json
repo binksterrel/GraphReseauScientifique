@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "dfd9a90cfd65d461696da7d92b594843",
+  "text_length": 16,
+  "result": {
+    "field": "Philosophy"
+  },
+  "timestamp": "2025-12-27T22:56:21.538586"
+}

@@ -6,7 +6,7 @@ class GraphVisualizer:
     def __init__(self, graph: nx.DiGraph):
         self.graph = graph
         
-    def create_interactive_html(self, output_file: str = "output/graph.html"):
+    def create_interactive_html(self, output_file: str = "output/graph.html", alt_graph=None):
         """
         Génère une visualisation interactive minimaliste et épurée.
         """
@@ -140,10 +140,13 @@ class GraphVisualizer:
                 "arrows": {"to": {"enabled": True, "scaleFactor": 0.3}},
                 "hoverWidth": 0.5 
             })
+
+
             
         import json
         json_nodes = json.dumps(nodes_data)
         json_edges = json.dumps(edges_data)
+
         json_legend = json.dumps(legend_data)
         total_nodes = len(nodes_data)
         
@@ -181,6 +184,9 @@ class GraphVisualizer:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>RÉSEAU SCIENTIFIQUE</title>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -722,6 +728,8 @@ class GraphVisualizer:
         <span class="stats">
             <span id="node-count">0</span> nœuds · <span id="edge-count">0</span> liens
         </span>
+        
+
     </div>
 
     <script type="text/javascript">
@@ -1130,6 +1138,8 @@ class GraphVisualizer:
         const sortedBySize = [...nodesData].sort((a, b) => b.size - a.size);
         // allNodesData and allEdgesData already declared above
         
+
+
         // Fonction pour mettre à jour la légende avec les comptes dynamiques
         function updateLegend(visibleNodes) {{
             const fieldCounts = {{}};

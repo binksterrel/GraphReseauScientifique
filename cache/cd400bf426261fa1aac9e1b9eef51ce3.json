@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "994c02a5997e830ab2f68fb2e3f77aa8",
+  "text_length": 21,
+  "result": {
+    "field": "Theology"
+  },
+  "timestamp": "2025-12-27T23:08:40.257529"
+}

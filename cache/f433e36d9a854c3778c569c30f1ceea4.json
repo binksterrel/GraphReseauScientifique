@@ -1,0 +1,10 @@
+{
+  "scientist_name": "field",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "db4f88c02ebda6138ceb0b2ee1673642",
+  "text_length": 44,
+  "result": {
+    "field": "Earth Science"
+  },
+  "timestamp": "2025-12-27T23:15:11.302257"
+}
