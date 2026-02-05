@@ -1,58 +1,63 @@
 # Configuration du projet Graphe d'Influence Scientifique
 
+import os
+from dotenv import load_dotenv
+
+# Charger les variables d'environnement depuis .env
+load_dotenv()
+
 # ============================================================
 # CONFIGURATION LLM
 # ============================================================
 
 # Clé API OpenAI (laisser vide si vous utilisez Ollama)
-OPENAI_API_KEY = ""
+OPENAI_API_KEY: str = os.environ.get("OPENAI_API_KEY", "")
 
 # True = utiliser Ollama (gratuit, local)
 # False = utiliser OpenAI (payant, nécessite clé API)
-USE_OLLAMA = True
+USE_OLLAMA: bool = os.environ.get("USE_OLLAMA", "true").lower() == "true"
 
 # Configuration Groq (API Rapide)
-USE_GROQ = False
-GROQ_API_KEY = "gsk_placeholder" # Set via environment variable
-GROQ_MODEL = "llama-3.3-70b-versatile"
+USE_GROQ: bool = os.environ.get("USE_GROQ", "false").lower() == "true"
+GROQ_API_KEY: str = os.environ.get("GROQ_API_KEY", "")
+GROQ_MODEL: str = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
 
 # Configuration Mistral (API)
-USE_MISTRAL = False
-MISTRAL_API_KEY = ""
-MISTRAL_MODEL = "mistral-large-latest"
-MISTRAL_API_URL = "https://api.mistral.ai"
+USE_MISTRAL: bool = os.environ.get("USE_MISTRAL", "false").lower() == "true"
+MISTRAL_API_KEY: str = os.environ.get("MISTRAL_API_KEY", "")
+MISTRAL_MODEL: str = os.environ.get("MISTRAL_MODEL", "mistral-large-latest")
+MISTRAL_API_URL: str = os.environ.get("MISTRAL_API_URL", "https://api.mistral.ai")
 
 # Configuration Cerebras (API Ultra Rapide)
-USE_CEREBRAS = False
-CEREBRAS_API_KEY = ""
-CEREBRAS_MODEL = "gpt-oss-120b"
-CEREBRAS_API_URL = "https://api.cerebras.ai/v1"
+USE_CEREBRAS: bool = os.environ.get("USE_CEREBRAS", "false").lower() == "true"
+CEREBRAS_API_KEY: str = os.environ.get("CEREBRAS_API_KEY", "")
+CEREBRAS_MODEL: str = os.environ.get("CEREBRAS_MODEL", "gpt-oss-120b")
+CEREBRAS_API_URL: str = os.environ.get("CEREBRAS_API_URL", "https://api.cerebras.ai/v1")
 
 # Configuration Ollama
-OLLAMA_URL = "http://127.0.0.1:11434"
-OLLAMA_MODEL = "mistral"  # ou "llama2", "codellama", etc.
+OLLAMA_URL: str = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11434")
+OLLAMA_MODEL: str = os.environ.get("OLLAMA_MODEL", "mistral")
 
 # ============================================================
 # PARAMÈTRES DE L'ALGORITHME
 # ============================================================
 
 # Profondeur maximale de récursion (3-4 recommandé)
-# MAX_DEPTH = 6
-MAX_DEPTH = 15
+MAX_DEPTH: int = int(os.environ.get("MAX_DEPTH", "15"))
 
 # Nombre maximum de scientifiques à analyser
-MAX_SCIENTISTS = 1000
+MAX_SCIENTISTS: int = int(os.environ.get("MAX_SCIENTISTS", "1000"))
 
 # Scientifique de départ
-START_SCIENTIST = "Albert Einstein"
+START_SCIENTIST: str = os.environ.get("START_SCIENTIST", "Albert Einstein")
 
 # Langue Wikipedia ('fr' pour français, 'en' pour anglais)
-WIKIPEDIA_LANGUAGE = "en"
+WIKIPEDIA_LANGUAGE: str = os.environ.get("WIKIPEDIA_LANGUAGE", "en")
 
 # ============================================================
 # LISTE NOIRE (personnes à exclure du graphe)
 # ============================================================
-BLACKLIST = [
+BLACKLIST: list[str] = [
     # Personnages politiques/dictateurs/militaires
     "Hitler", "Stalin", "Mussolini", "Mao", "Napoleon",
     "European Organization for Nuclear Research", "CERN",
@@ -61,9 +66,9 @@ BLACKLIST = [
     "Many physicists", "European intellectuals", "French Catholic Church",
     "Lenin", "Trotsky", "Marx", "Engels", "Queen Victoria",
     "Chief Justice", "President", "Prime Minister", "General",
-    
+
     # Juristes / Politiques US fréquents
-    "Rehnquist", "William Rehnquist", 
+    "Rehnquist", "William Rehnquist",
     "Robert H. Jackson", "Jackson",
     "Scalia", "Ginsburg",
     "Pothan Joseph", # Journaliste
@@ -72,7 +77,7 @@ BLACKLIST = [
     "Napoleon Bonaparte", "Russian Tsarina Elizabeth Alexeievna",
     "Writer", "Novelist", "Diplomat",  # "Philosopher" retiré - philosophes des sciences autorisés
     "Journalist", "Editor",
-    
+
     # Autres non-scientifiques fréquemment liés par erreur
     "Jesus", "Muhammad", "Buddha", "God",
 ]
@@ -80,7 +85,7 @@ BLACKLIST = [
 # ============================================================
 # PATTERNS D'EXCLUSION (regex pour filtrer automatiquement)
 # ============================================================
-EXCLUSION_PATTERNS = [
+EXCLUSION_PATTERNS: list[str] = [
     # Groupes/Mouvements (terminaisons)
     r"ists$",           # e.g., "Cognitive scientists", "Logical positivists"
     r"ism$",            # e.g., "Logical positivism", "Western Marxism"
@@ -88,7 +93,7 @@ EXCLUSION_PATTERNS = [
     r"socialists$",     # e.g., "Utopian socialists"
     r"theorists$",      # e.g., "communist theorists"
     r"philosophers$",   # e.g., "Early analytic philosophers"
-    
+
     # Organisations/Institutions
     r"\bUniversity\b",  # e.g., "University of Innsbruck"
     r"\bInstitute\b",   # e.g., "Adam Smith Institute"
@@ -100,7 +105,7 @@ EXCLUSION_PATTERNS = [
     r"\bCompany\b",
     r"\bCorporation\b",
     r"\bCourt\b",       # e.g., "Supreme Court"
-    
+
     # Mouvements/Concepts philosophiques/scientifiques (PAS des gens)
     r"\bCircle$",       # e.g., "Vienna Circle"
     r"\bSchool$",       # e.g., "Budapest School", "Stanford School"
@@ -113,13 +118,13 @@ EXCLUSION_PATTERNS = [
     r"\blaw$",          # e.g., "Newton's law"
     r"\beffect$",       # e.g., "Doppler effect"
     r"\bconstant$",     # e.g., "Planck constant"
-    
+
     # Titres et prefixes indésirables
     r"^Chief Justice",
     r"^Justice",
     r"^President",
     r"^General",
-    
+
     # Textes descriptifs (pas des noms propres)
     r"^members from",   # e.g., "members from SNOLAB"
     r"professor at",    # e.g., "first-year physics professor at..."

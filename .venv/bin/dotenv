@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/terrelnuentsa/Documents/Universite/MIASHS/L3/S2/Graphe et open data/Episteme-Network/.venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from dotenv.__main__ import cli
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli())
