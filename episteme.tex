@@ -1,0 +1,576 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{pgf-umlcd}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tocloft}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fvextra}
+\usepackage{listings}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usetikzlibrary{positioning, arrows.meta, shapes, calc, mindmap, trees, shadows}
+
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\setlength{\emergencystretch}{3pt}
+\sloppy
+
+% Styles pour les blocs de code et encadrés
+\definecolor{codebg}{HTML}{F1F5F9}
+\definecolor{codeborder}{HTML}{CBD5E1}
+
+\lstset{
+    backgroundcolor=\color{codebg},
+    basicstyle=\ttfamily\small\color{ink},
+    breaklines=true,
+    frame=single,
+    rulecolor=\color{codeborder},
+    keywordstyle=\color{purple}\bfseries,
+    commentstyle=\color{slate500}\itshape,
+    stringstyle=\color{ice500},
+    numbers=left,
+    numberstyle=\tiny\color{slate500},
+    stepnumber=1,
+    numbersep=5pt,
+    tabsize=2,
+    showstringspaces=false
+}
+
+\newtcolorbox{info}[1][]{
+    colback=ice50,
+    colframe=ice500,
+    title={#1},
+    fonttitle=\bfseries,
+    sharp corners,
+    boxrule=0.5pt,
+    left=5pt, right=5pt, top=5pt, bottom=5pt
+}
+
+\graphicspath{{captures/}}
+
+% ============================================================================
+% COULEURS (Palette Aurora appliquée sur structure Banquise)
+% ============================================================================
+% Mapping: 
+% - Ancien Bleu Glace -> Violet Aurore (#8B5CF6)
+% - Ancien Violet -> Teal Aurore (#14B8A6)
+% - Fond -> #FAFAFA
+\definecolor{ice50}{HTML}{FAFAFA}       % Fond principal
+\definecolor{ice200}{HTML}{DDD6FE}      % Violet très clair (pour ronds clairs)
+\definecolor{ice500}{HTML}{8B5CF6}      % VIOLET AURORE (Couleur dominante)
+\definecolor{ink}{HTML}{111111}         % Texte noir profond
+\definecolor{slate100}{HTML}{E2E8F0}
+\definecolor{slate500}{HTML}{64748B}    % Gris texte secondaire
+\definecolor{purple}{HTML}{14B8A6}      % TEAL AURORE (Accent secondaire)
+\definecolor{indigo}{HTML}{6366F1}      % INDIGO AURORE (Accent tertiaire)
+\definecolor{lightgray}{HTML}{F8FAFC}
+\definecolor{banquiseblue}{HTML}{8B5CF6} % Alias compatibilité
+
+% Configuration des liens
+\hypersetup{
+    colorlinks=true,
+    linkcolor={ink},
+    filecolor={ink},
+    urlcolor={ice500},
+    citecolor={ice500},
+    pdfauthor={Episteme Network},
+    pdftitle={Cahier des Charges - Episteme Network},
+    pdfsubject={Graph & Open Data},
+}
+
+% En-têtes
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\color{ice500}\textbf{Episteme Network}}
+\fancyfoot[C]{\color{slate500}\thepage}
+
+\title{
+    \Huge{\textbf{Cahier des Charges}} \\
+    \vspace{1cm}
+    \LARGE{Episteme Network} \\
+    \vspace{0.5cm}
+    \Large{Projet Graphe et Open Data}
+}
+\author{Équipe Episteme}
+\date{\today}
+
+\begin{document}
+
+% ============================================================================
+% PAGE DE GARDE (Structure Originale conservée)
+% ============================================================================
+\begin{titlepage}
+\begin{tikzpicture}[remember picture,overlay]
+    % Fond clair
+    \fill[ice50] (current page.north west) rectangle (current page.south east);
+    
+    % Bande verticale douce (Gradients mis à jour avec Violet/Teal)
+    \shade[left color=ice500!35,right color=purple!25,opacity=0.18]
+        ([xshift=-1cm,yshift=1cm]current page.north west) rectangle
+        ([xshift=2.5cm,yshift=-1cm]current page.south west);
+        
+    % Accents circulaires (Formes originales conservées)
+    \fill[ice200!35] ([xshift=1cm,yshift=-1cm]current page.north east) circle (2.3cm);
+    \fill[purple!18] ([xshift=-2.3cm,yshift=-7cm]current page.north east) circle (2.9cm);
+\end{tikzpicture}
+
+\vspace*{2.2cm}
+
+\begin{center}
+    % Badge année / projet
+    \begin{tikzpicture}
+        \node[
+            fill=ice200!45,
+            text=ice500,
+            rounded corners=9pt,
+            inner sep=7pt,
+            font=\large\bfseries
+        ] {Année 2025--2026 · Graphe \& Open Data};
+    \end{tikzpicture}
+
+    \vspace{1.1cm}
+
+    {\Huge\bfseries\color{ice500} CAHIER DES CHARGES DÉTAILLÉ}\\[0.35cm]
+    {\Large\bfseries Scraping Avancé, ETL IA et Modélisation de Graphes}\\[0.2cm]
+    {\LARGE\bfseries\color{ink} Episteme Network}\\[0.9cm]
+
+    % Ligne decorative gradient
+    \begin{tikzpicture}
+        \shade[left color=ice500,right color=purple] (0,0) rectangle (12,0.18);
+    \end{tikzpicture}
+
+    \vspace{1.1cm}
+
+    \begin{tabular}{@{}p{3.6cm}p{10cm}@{}}
+        \textbf{Projet} & Episteme Network \\
+        \textbf{Cours} & Graphe et Open Data \\
+        \textbf{Responsable} & Terrel NUENTSA \\[-2pt]
+        \textbf{Focus} & Scraping, ETL, Algorithmes de Graphe, LLM \\
+        \textbf{Contact} & nuentsa.terrel@gmail.com \\
+        \textbf{Version} & \today \\
+    \end{tabular}
+
+    \vfill
+    \textit{Spécifications techniques complètes, architecture ETL, modélisation mathématique du graphe d'influence et stratégie de scraping Open Data.}
+\end{center}
+\end{titlepage}
+
+\newpage
+\thispagestyle{empty}
+\tableofcontents
+
+\newpage
+
+% ============================================================================
+% CHAPITRE 1 : CONTEXTE ET ENJEUX
+% ============================================================================
+\chapter{Contexte et Enjeux}
+
+\section{Introduction}
+Episteme Network est un projet de \textbf{Data Science appliquée à l'Histoire des Sciences}. Il vise à construire dynamiquement un graphe orienté des influences intellectuelles entre scientifiques à travers les âges, en transformant des données non structurées (biographies Wikipédia) en connaissances structurées (graphe de relations).
+
+L'objectif pédagogique et technique est triple :
+\begin{enumerate}
+    \item \textbf{Exploitation de l'Open Data} : Démontrer une capacité à extraire, nettoyer et structurer des données massives issues de sources ouvertes (Wikipédia).
+    \item \textbf{IA & NLP} : Utiliser des LLM pour l'extraction d'information ("Information Retrieval") dans un contexte bruité.
+    \item \textbf{Théorie des Graphes} : Appliquer des algorithmes d'analyse de réseaux (centralité, communautés) pour révéler des structures cachées dans l'histoire des idées.
+\end{enumerate}
+
+\section{Problématique Scientifique}
+L'histoire des sciences est un système complexe.
+\begin{itemize}
+    \item \textbf{Volume} : Des centaines de milliers de scientifiques ont contribué au savoir humain.
+    \item \textbf{Non-linéarité} : Les influences ne sont pas seulement "Maître -> Élève", mais aussi transversales (ex: Einstein inspiré par la philosophie de Mach).
+    \item \textbf{Données cachées} : L'information n'existe pas sous forme de base de données relationnelle.
+\end{itemize}
+
+\textbf{Le défi} : Comment automatiser la reconstruction de ce réseau socio-épistémique avec une précision suffisante pour qu'il soit exploitable par des historiens ou des étudiants ?
+
+\section{Glossaire Technique}
+\begin{description}[style=nextline, leftmargin=3cm]
+    \item[Scraping] Extraction automatique de données depuis des sites web.
+    \item[ETL] Extract, Transform, Load. Pipeline de traitement de données.
+    \item[LLM] Large Language Model (ex: GPT-4, Llama 3).
+    \item[Hallucination] Phénomène où un LLM invente des faits.
+    \item[PageRank] Algorithme de scoring de nœuds basé sur la marche aléatoire.
+    \item[DAG] Directed Acyclic Graph (Graphe Orienté Acyclique).
+    \item[Louvain] Algorithme de détection de communautés par optimisation de la modularité.
+\end{description}
+
+% ============================================================================
+% CHAPITRE 2 : GESTION DE PROJET
+% ============================================================================
+\chapter{Gestion de Projet}
+
+\section{Méthodologie}
+Le projet suit une méthode \textbf{Itérative et Incrémentale}.
+\begin{itemize}
+    \item \textbf{Phase 1 : POC (Proof of Concept)} - Scraping simple et visualisation statique (Terminée).
+    \item \textbf{Phase 2 : Architecture ETL} - Intégration LLM et base de données graphe (Actuelle).
+    \item \textbf{Phase 3 : Interface Avancée} - Recherche, filtrage dynamique et interactivité (En cours).
+\end{itemize}
+
+\section{Planification (Roadmap)}
+\begin{longtable}{|p{3cm}|p{6cm}|p{5cm}|}
+\hline
+\rowcolor{ice500!20}
+\textbf{Phase} & \textbf{Tâches} & \textbf{Livrables} \\
+\hline
+\textbf{Semaine 1-2} & Étude de l'API Wikipédia, Choix des libs (NetworkX, Pyvis) & Prototype \texttt{graph\_builder.py} \\
+\hline
+\textbf{Semaine 3-4} & Intégration LLM (Groq), Prompt Engineering, Parsing JSON & Module \texttt{llm\_extractor.py} robuste \\
+\hline
+\textbf{Semaine 5} & Algorithmes de graphe (PageRank, Louvain), Validation & Rapport d'analyse topologique \\
+\hline
+\textbf{Semaine 6} & Interface Web (Frontend), Design "Glassmorphism" & Site Web interactif \\
+\hline
+\end{longtable}
+
+\section{Analyse des Risques}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{4cm}|p{6cm}|p{5cm}|}
+\hline
+\rowcolor{purple!20}
+\textbf{Risque} & \textbf{Impact} & \textbf{Mitigation} \\
+\hline
+Blocage API Wikipédia & Impossibilité de scraper & Respect des User-Agents, délais (sleep), Cache local \\
+\hline
+Coût API LLM & Facture élevée & Utilisation modèles open-weights (Llama3 via Groq/Ollama) \\
+\hline
+Hallucinations IA & Graphe faux (Anachronismes) & Validateur chronologique strict, Blacklists regex \\
+\hline
+\end{tabular}
+\end{table}
+
+% ============================================================================
+% CHAPITRE 3 : ANALYSE DES BESOINS (USER STORIES)
+% ============================================================================
+\chapter{Analyse des Besoins}
+
+\section{User Stories}
+
+\begin{longtable}{|c|p{3cm}|p{8cm}|c|}
+\hline
+\rowcolor{indigo!20}
+\textbf{ID} & \textbf{Acteur} & \textbf{Récit Utilisateur} & \textbf{Priorité} \\
+\hline
+US-1 & Utilisateur & Je veux générer un graphe à partir d'un scientifique donné (seed) pour explorer son réseau. & Haute \\
+\hline
+US-2 & Système & Je dois récupérer le contenu Wikipédia en traitant les redirections pour assurer l'unicité des nœuds. & Haute \\
+\hline
+US-3 & Système & Je dois identifier les relations "inspiré par" et "étudiant de" dans le texte biographique. & Haute \\
+\hline
+US-4 & Système & Je dois calculer le PageRank de chaque nœud pour dimensionner sa taille à l'écran. & Moyenne \\
+\hline
+US-5 & Utilisateur & Je veux voir les communautés scientifiques colorées différemment (ex: Physiciens vs Mathématiciens). & Moyenne \\
+\hline
+US-6 & Utilisateur & Je veux pouvoir filtrer le graphe par époque (ex: "XIXe siècle"). & Basse \\
+\hline
+US-7 & Système & Je dois rejeter tout lien anachronique (ex: Newton -> Einstein) automatiquement. & Critique \\
+\hline
+\end{longtable}
+
+% ============================================================================
+% CHAPITRE 4 : STRATÉGIE OPEN DATA & SCRAPING
+% ============================================================================
+\chapter{Stratégie Open Data et Scraping}
+
+\section{Source de Données : Wikipédia}
+Wikipédia est la plus grande base de connaissances libre (Licence CC-BY-SA). C'est une source idéale pour l'Open Data mais elle présente des défis techniques majeurs :
+\begin{itemize}
+    \item \textbf{Semi-structurée} : Mélange de texte libre, d'infoboxes (modèles) et de catégories.
+    \item \textbf{Hétérogène} : La qualité et le formatage varient énormément d'une page à l'autre.
+    \item \textbf{Polysémique} : Gestion des homonymies (ex: "Jordan" peut être le mathématicien, le basketteur ou le pays).
+\end{itemize}
+
+\section{Architecture de Scraping avancée}
+Le module d'acquisition ne se contente pas de télécharger des pages. Il implémente un pipeline complet :
+
+\subsection{1. Identification et Désambiguïsation}
+Avant de scraper, il faut identifier l'entité unique. Le système utilise l'API Wikipédia (\texttt{wikipedia-api}) pour :
+\begin{itemize}
+    \item Effectuer une recherche floue (\texttt{fuzzy search}) sur le nom.
+    \item Analyser les catégories de la page candidate. Si la page ne contient pas de catégories liées à "Scientist", "Physicist", "Mathematician", etc., elle est rejetée. C'est un filtre pré-LLM crucial pour réduire le bruit.
+\end{itemize}
+
+\subsection{2. Extraction du Contenu (Parsing)}
+Une fois la page validée, le contenu est récupéré.
+\begin{itemize}
+    \item \textbf{Texte intégral} : Pour l'analyse de contexte global.
+    \item \textbf{Sections clés} : Ciblage prioritaire des sections "Biographie", "Carrière", "Influence" pour réduire la fenêtre de contexte envoyée au LLM (optimisation des tokens).
+    \item \textbf{Métatadonnées} : Extraction des dates de naissance/mort via Regex sur la première phrase ou l'infobox, cruciales pour la validation chronologique ultérieure.
+\end{itemize}
+
+\subsection{3. Diagramme de Séquence : Scraping}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[>=stealth, node distance=2.5cm, font=\small]
+    \node (main) {Main};
+    \node[right=of main] (wiki) {WikiClient};
+    \node[right=of wiki] (page) {Page};
+    \node[right=of page] (llm) {LLMExtractor};
+    
+    \draw[dashed] (main) -- ++(0,-6);
+    \draw[dashed] (wiki) -- ++(0,-6);
+    \draw[dashed] (page) -- ++(0,-6);
+    \draw[dashed] (llm) -- ++(0,-6);
+    
+    \draw[->, thick, ice500] (main) -- node[above, text=black] {1: get\_scientist("Einstein")} (wiki);
+    \draw[->, thick, ice500] (wiki) -- node[above, text=black] {2: search()} (page);
+    \draw[->, thick, ice500] (wiki) -- node[above, text=black] {3: check\_categories()} (page);
+    \draw[<-, thick, purple] (wiki) -- node[above, text=black] {4: True/False} (page);
+    \draw[->, thick, ice500] (wiki) -- node[above, text=black] {5: extract\_text()} (page);
+    \draw[<-, thick, purple] (main) -- node[above, text=black] {6: Text} (wiki);
+    \draw[->, thick, ice500] (main) -- node[above, text=black] {7: extract\_relations(Text)} (llm);
+    \draw[<-, thick, purple] (main) -- node[above, text=black] {8: JSON Relations} (llm);
+\end{tikzpicture}
+\caption{Séquence d'extraction d'un scientifique}
+\end{figure}
+
+\section{Pipeline ETL (Extract-Transform-Load)}
+Le cœur du système est un pipeline ETL moderne assisté par IA.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[node distance=2.5cm, auto, >=latex', font=\small]
+    \tikzstyle{block} = [rectangle, draw, fill=ice50, text width=6em, text centered, rounded corners, minimum height=3em]
+    \tikzstyle{process} = [rectangle, draw, fill=ice500!20, text width=7em, text centered, rounded corners]
+    
+    \node [block] (raw) {Wikipédia (Raw HTML)};
+    \node [process, right of=raw, node distance=4.5cm] (clean) {Cleaning \& Regex filter};
+    \node [process, right of=clean, node distance=4.5cm] (llm) {LLM NLP Extraction};
+    \node [block, below of=llm, node distance=3cm] (meta) {Validateur Chrono};
+    \node [block, left of=meta, node distance=4.5cm] (graph) {Graph Building};
+    
+    \path [draw, ->] (raw) -- node {Scrape} (clean);
+    \path [draw, ->] (clean) -- node {Context} (llm);
+    \path [draw, ->] (llm) -- node {JSON} (meta);
+    \path [draw, ->] (meta) -- node {Valid Edges} (graph);
+\end{tikzpicture}
+\caption{Pipeline ETL Episteme}
+\end{figure}
+
+\subsection{Transformation par LLM (Le "Smart Scraping")}
+L'innovation majeure est de déléguer l'extraction de relations ("Structuring") à une IA.
+\begin{itemize}
+    \item \textbf{Input} : Texte brut de la biographie.
+    \item \textbf{Processing} : Le LLM (Groq/Mistral) analyse la sémantique. Il distingue "A a travaillé avec B" (collaboration) de "A a utilisé les travaux de B" (influence).
+    \item \textbf{Prompt Engineering} : Le prompt impose un format JSON strict.
+    \begin{codebg}
+\begin{verbatim}
+SYSTEM: You are a historian. Extract influences from the text.
+FORMAT: JSON { "inspired_by": [], "students": [] }
+CONSTRAINT: Only output JSON. No markdown.
+\end{verbatim}
+    \end{codebg}
+\end{itemize}
+Cette méthode transforme des données Open Data \textit{non structurées} en données de graphe \textit{structurées}.
+
+\section{Gestion des contraintes techniques}
+Le scraping à grande échelle impose des contraintes :
+\begin{itemize}
+    \item \textbf{Rate Limiting} : Respect des politiques de l'API Wikimedia (User-Agent correct, délais entre requêtes dans `GraphBuilder`).
+    \item \textbf{Mise en cache} : Implémentation d'un cache local (système de fichiers ou mémoire) pour ne jamais requêter deux fois la même page ou le même prompt LLM. Cela économise de la bande passante et des coûts API.
+    \item \textbf{Robustesse} : Gestion des erreurs HTTP (429, 503) avec "Exponential Backoff".
+\end{itemize}
+
+% ============================================================================
+% CHAPITRE 5 : MODÉLISATION ET ALGORITHMIQUE DE GRAPHE
+% ============================================================================
+\chapter{Modélisation et Algorithmique de Graphe}
+
+\section{Modèle Mathématique}
+Le choix de la structure de données est fondamental pour l'analyse.
+
+\subsection{Définition Formelle}
+Soit $G = (V, E)$ un graphe orienté (Directed Graph).
+\begin{itemize}
+    \item \textbf{Ensemble des Sommets $V$} : Les scientifiques. 
+    $$v \in V \implies v = \{ \text{id, label, birth\_year, field, ...} \}$$
+    \item \textbf{Ensemble des Arêtes $E$} : Les relations d'influence. 
+    $$e = (u, v) \in E \iff \text{u inspiré par v}$$
+\end{itemize}
+
+\subsection{Attributs des Arêtes}
+Les arêtes portent des propriétés sémantiques :
+\begin{itemize}
+    \item \texttt{type} : "INSPIRED\_BY" (influence intellectuelle) ou "STUDENT\_OF" (transmission académique).
+    \item \texttt{weight} : Poids (par défaut 1.0, ajustable si la citation est fréquente dans le texte).
+\end{itemize}
+
+\section{Algorithmes d'Analyse}
+L'intérêt du projet réside dans l'application de métriques de graphes pour objectiver l'histoire des sciences.
+
+\subsection{Centralité (Centrality Metrics)}
+\textbf{Degree Centrality} (Degré) :
+$$C_D(v) = \text{deg}_{in}(v) + \text{deg}_{out}(v)$$
+Indique les scientifiques les plus connectés (souvent les plus célèbres ou les pédagogues prolifiques).
+
+\textbf{PageRank} (Importance relative) :
+Adaptation de l'algorithme de Google. Un scientifique est important s'il est cité par d'autres scientifiques importants.
+$$PR(A) = (1-d) + d \sum_{i=1}^{n} \frac{PR(T_i)}{C(T_i)}$$
+Où $d$ est le damping factor (0.85). PageRank est utilisé pour déterminer la taille visuelle des nœuds dans l'interface ($Size \propto PageRank$).
+
+\subsection{Détection de Communautés (Clustering)}
+Pour identifier les "écoles de pensée" ou les disciplines sans utiliser les étiquettes explicites.
+
+\textbf{Algorithme de Louvain} : Optimisation de la modularité $Q$.
+$$Q = \frac{1}{2m} \sum_{i,j} \left[ A_{ij} - \frac{k_i k_j}{2m} \right] \delta(c_i, c_j)$$
+L'algorithme maximise $Q$ en déplaçant les nœuds entre communautés.
+\begin{itemize}
+    \item \textbf{Résultat} : Colorisation automatique des nœuds. On voit émerger naturellement des clusters (ex: "Physique Quantique", "Mathématiques Grecques") basés uniquement sur la topologie.
+\end{itemize}
+
+\subsection{Validation Topologique et Temporelle}
+Une innovation majeure d'Episteme est la contrainte temporelle sur la topologie.
+\begin{info}[Filtre Anti-Anachronisme]
+Un graphe d'influence doit être un \textbf{DAG} (Directed Acyclic Graph) dans une dimension temporelle parfaite.
+\begin{equation}
+    \forall (u, v) \in E, \quad \text{birth\_year}(v) < \text{birth\_year}(u) + \delta
+\end{equation}
+L'algorithme \texttt{\_is\_chronologically\_valid} coupe les cycles anachroniques potentiellement générés par des hallucinations du LLM (ex: Newton influencé par Einstein).
+\end{info}
+
+\section{Visualisation (Graph Layout)}
+Le rendu visuel est une projection 2D d'un espace complexe.
+\begin{itemize}
+    \item \textbf{Force-Directed Layout (Barnes-Hut)} : Simulation physique.
+    \begin{itemize}
+        \item Les nœuds se repoussent (Force de Coulomb).
+        \item Les arêtes les attirent (Loi de Hooke, ressorts).
+    \end{itemize}
+    \item Cette dynamique permet de "démêler" le graphe et de révéler visuellement les clusters.
+\end{itemize}
+
+% ============================================================================
+% CHAPITRE 6 : SPÉCIFICATIONS TECHNIQUES (BACKEND)
+% ============================================================================
+\chapter{Spécifications Techniques Détaillées}
+
+\section{Architecture Modulaire}
+Le code est organisé en modules Python distincts à responsabilités uniques (SRP).
+
+\subsection{Diagramme de Classes UML}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[scale=0.7, transform shape]
+    \begin{class}[text width=5cm]{WikipediaClient}{0,0}
+        \attribute{+ api : WikipediaAPI}
+        \operation{+ get\_page(name: str)}
+        \operation{+ search(query: str)}
+        \operation{+ is\_scientist(page)}
+    \end{class}
+
+    \begin{class}[text width=5cm]{LLMExtractor}{6,0}
+        \attribute{+ provider : str}
+        \attribute{+ api\_key : str}
+        \operation{+ extract\_relations(text)}
+        \operation{+ \_parse\_json(response)}
+    \end{class}
+
+    \begin{class}[text width=5cm]{GraphBuilder}{3,-5}
+        \attribute{+ graph : nx.DiGraph}
+        \attribute{+ queue : Deque}
+        \operation{+ build\_graph(seed, depth)}
+        \operation{+ \_is\_valid\_node(node)}
+        \operation{+ save\_gexf(filename)}
+    \end{class}
+
+    \draw[->] (GraphBuilder) -- (WikipediaClient);
+    \draw[->] (GraphBuilder) -- (LLMExtractor);
+\end{tikzpicture}
+\caption{Diagramme de Classes (Cœur du Système)}
+\end{figure}
+
+\section{Algorithme de Construction (Pseudocode)}
+L'algorithme principal est un BFS (Breadth-First Search) modifié.
+
+\begin{lstlisting}[language=Python, caption=Logique de construction du graphe]
+Queue Q = [seed_scientist]
+Visited V = {seed_scientist}
+Graph G = new DiGraph()
+
+while Q is not empty and depth < MAX_DEPTH:
+    current = Q.pop()
+    text = WikiClient.get_text(current)
+    
+    # Extraction IA
+    relations = LLM.extract(text) # {inspired_by: [A, B], students: [C]}
+    
+    for neighbor in relations:
+        if neighbor not in Visited:
+            # Validation
+            if not WikiClient.is_scientist(neighbor): continue
+            if not Validator.check_dates(current, neighbor): continue
+            
+            G.add_edge(current, neighbor)
+            Q.push(neighbor)
+            Visited.add(neighbor)
+\end{lstlisting}
+
+% ============================================================================
+% CHAPITRE 7 : QUALITÉ ET TESTS
+% ============================================================================
+\chapter{Qualité et Validation}
+
+\section{Stratégie de Tests}
+La nature probabiliste des LLM impose une stratégie de test rigoureuse.
+
+\subsection{Plans de Test}
+\begin{itemize}
+    \item \textbf{Unitaires} :
+    \begin{itemize}
+        \item Parser JSON : doit réparer les erreurs de syntaxe courantes des LLM (virgules manquantes).
+        \item Regex Dates : extraction robuste des années ("born 1879", "1879-1955").
+    \end{itemize}
+    \item \textbf{Intégration} :
+    \begin{itemize}
+        \item Pipeline complet sur un petit set connu (ex: "Socrates"). On vérifie que "Plato" est bien trouvé comme étudiant.
+    \end{itemize}
+    \item \textbf{Performance} :
+    \begin{itemize}
+        \item Benchmark du temps de scraping.
+        \item Test de charge de l'API (Rate limiting).
+    \end{itemize}
+\end{itemize}
+
+\section{Validation Métier}
+\begin{info}[Métriques de Qualité]
+\begin{itemize}
+    \item \textbf{Précision des entités} : > 95\% des nœuds doivent être des humains (pas des lieux/concepts).
+    \item \textbf{Cohérence Temporelle} : 0\% de cycles anachroniques (vérifié par algo).
+    \item \textbf{Recouvrement} : Le graphe doit retrouver les liens majeurs connus (ex: Bohr-Heisenberg).
+\end{itemize}
+\end{info}
+
+% ============================================================================
+% CONCLUSION
+% ============================================================================
+\chapter{Conclusion et Perspectives}
+
+\section{Bilan}
+Episteme Network réussit à combiner Scraping, NLP et Théorie des Graphes pour offrir une vue inédite de l'histoire des sciences. L'utilisation des LLM permet de structurer l'instructuré, tandis que les algorithmes de graphe valident et organisent cette connaissance.
+
+\section{Perspectives}
+\begin{itemize}
+    \item \textbf{Base de Données Graph} : Migration vers Neo4j pour persister les données à grande échelle.
+    \item \textbf{Timeline View} : Ajout d'une vue chronologique linéaire.
+    \item \textbf{Multi-langue} : Support de Wikipédia FR/DE/ES.
+\end{itemize}
+
+\end{document}

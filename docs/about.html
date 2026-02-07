@@ -229,35 +229,35 @@
             
             /* Hero container - Compact */
             .content-center > h1:first-child {
-                min-height: 60vh; /* Reduced further */
+                min-height: 70vh; /* Reduced from 100vh */
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                align-items: flex-start; /* Left align */
-                padding: 80px 24px 40px;
+                align-items: center;
+                padding: 80px 24px 60px; /* Less padding */
                 margin: 0 !important;
                 position: relative;
             }
             
             /* Hero title - Simpler */
             h1 {
-                font-size: 2.2rem !important;
+                font-size: 2.2rem !important; /* Slightly smaller */
                 font-weight: 700;
                 line-height: 1.15;
                 letter-spacing: -0.03em;
-                text-align: left !important; /* Left align */
+                text-align: center !important;
                 margin-bottom: 16px !important;
-                color: #000;
+                color: #000; /* Solid color, no gradient */
             }
             
             /* Hero subtitle - Concise */
             .content-center > p:first-of-type {
                 font-size: 15px !important;
                 line-height: 1.6;
-                text-align: left !important; /* Left align */
-                margin-bottom: 40px !important;
+                text-align: center;
+                margin-bottom: 40px !important; /* Less space */
                 color: #666;
-                max-width: 95%; /* Use more width */
+                max-width: 85%;
             }
             
             /* ========================================
@@ -267,7 +267,7 @@
                 display: flex !important;
                 gap: 12px !important;
                 margin-bottom: 0 !important;
-                justify-content: flex-start !important; /* Left align */
+                justify-content: center;
                 flex-wrap: wrap;
                 padding: 0 !important;
             }
@@ -367,11 +367,9 @@
                 margin-bottom: 20px;
             }
             
-            /* Show intro paragraph on mobile (previously hidden) */
+            /* Hide ONLY the intro paragraph on mobile */
             .content-center > p:nth-of-type(1) {
-                display: block !important;
-                margin-top: 0 !important;
-                margin-bottom: 32px !important;
+                display: none !important;
             }
             
             /* Ensure other paragraphs are visible and properly padded */

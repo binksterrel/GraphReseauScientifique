@@ -24,7 +24,7 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \tcbuselibrary{skins,breakable,listings}
-\usetikzlibrary{positioning, arrows.meta, shapes, calc, mindmap, trees, shadows, fit}
+\usetikzlibrary{positioning, arrows.meta, shapes, shapes.geometric, calc, mindmap, trees, shadows, fit, babel}
 
 \geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
 \setlength{\emergencystretch}{3pt}
@@ -271,55 +271,53 @@ Ce projet démontre la maîtrise de trois compétences fondamentales du cours :
 
 Le système Episteme Network est organisé en \textbf{pipeline ETL moderne assisté par IA}. Chaque module a une responsabilité unique (principe SRP - Single Responsibility Principle) et communique via des interfaces clairement définies.
 
-\begin{figure}[H]
-\centering
-\begin{tikzpicture}[
-    node distance=1.8cm,
-    block/.style={rectangle, draw, fill=ice50, text width=7em, text centered, rounded corners, minimum height=3em, font=\small},
-    process/.style={rectangle, draw, fill=ice500!20, text width=8em, text centered, rounded corners, minimum height=3em, font=\small},
-    data/.style={cylinder, draw, fill=purple!15, shape border rotate=90, aspect=0.25, minimum height=2.5em, minimum width=5em, font=\small},
-    arrow/.style={->, >=stealth, thick}
-]
-
-% Ligne 1 : Sources
-\node[block] (wiki) {Wikipédia\\(API)};
-\node[block, right=of wiki] (wikidata) {Wikidata\\(SPARQL)};
-
-% Ligne 2 : Extraction
-\node[process, below=of wiki] (wikiclient) {WikipediaClient\\Scraping + Parsing};
-\node[process, right=of wikiclient] (llm) {LLMExtractor\\NLP + JSON};
-
-% Ligne 3 : Cache et Validation
-\node[data, below=of wikiclient] (cache) {Cache MD5\\(1978 entrées)};
-\node[process, right=of cache] (validator) {Validator\\Chrono + Wikidata};
-
-% Ligne 4 : Construction
-\node[process, below=of cache, xshift=2cm] (builder) {GraphBuilder\\BFS + NetworkX};
-
-% Ligne 5 : Analyse et Visualisation
-\node[process, below left=of builder] (analyzer) {GraphAnalyzer\\PageRank, Louvain};
-\node[process, below right=of builder] (visualizer) {Visualizer\\PyVis + Vis.js};
-
-% Ligne 6 : Outputs
-\node[data, below=of analyzer] (gexf) {GEXF\\(Gephi)};
-\node[block, below=of visualizer] (html) {Interface Web\\Interactive};
-
-% Flèches
-\draw[arrow] (wiki) -- (wikiclient);
-\draw[arrow] (wikidata) -- (validator);
-\draw[arrow] (wikiclient) -- (llm);
-\draw[arrow] (wikiclient) -- (cache);
-\draw[arrow] (llm) -- (cache);
-\draw[arrow] (cache) -- (builder);
-\draw[arrow] (validator) -- (builder);
-\draw[arrow] (builder) -- (analyzer);
-\draw[arrow] (builder) -- (visualizer);
-\draw[arrow] (analyzer) -- (gexf);
-\draw[arrow] (visualizer) -- (html);
-
-\end{tikzpicture}
-\caption{Architecture globale du pipeline Episteme Network}
-\end{figure}
+% \begin{figure}[H]
+% \centering
+% \begin{tikzpicture}[
+%     node distance=1.8cm,
+%     block/.style={rectangle, draw, fill=ice50, text width=7em, text centered, rounded corners, minimum height=3em, font=\small},
+%     process/.style={rectangle, draw, fill=ice500!20, text width=8em, text centered, rounded corners, minimum height=3em, font=\small},
+%     data/.style={cylinder, draw, fill=purple!15, shape border rotate=90, aspect=0.25, minimum height=2.5em, minimum width=5em, font=\small},
+%     arrow/.style={->, >=stealth, thick}
+% ]
+%
+% % Ligne 1 : Sources
+% \node[block] (wiki) {Wikipédia\\(API)};
+% \node[block, right=of wiki] (wikidata) {Wikidata\\(SPARQL)};
+% % Ligne 2 : Extraction
+% \node[process, below=of wiki] (wikiclient) {WikipediaClient\\Scraping + Parsing};
+% \node[process, right=of wikiclient] (llm) {LLMExtractor\\NLP + JSON};
+% % Ligne 3 : Cache et Validation
+% \node[data, below=of wikiclient] (cache) {Cache MD5\\(1978 entrées)};
+% \node[process, right=of cache] (validator) {Validator\\Chrono + Wikidata};
+%
+% % Ligne 4 : Construction
+% \node[process, below=of cache, xshift=2cm] (builder) {GraphBuilder\\BFS + NetworkX};
+%
+% % Ligne 5 : Analyse et Visualisation
+% \node[process, below left=of builder] (analyzer) {GraphAnalyzer\\PageRank, Louvain};
+% \node[process, below right=of builder] (visualizer) {Visualizer\\PyVis + Vis.js};
+%
+% % Ligne 6 : Outputs
+% \node[data, below=of analyzer] (gexf) {GEXF\\(Gephi)};
+% \node[block, below=of visualizer] (html) {Interface Web\\Interactive};
+%
+% % Flèches
+% \draw[arrow] (wiki) -- (wikiclient);
+% \draw[arrow] (wikidata) -- (validator);
+% \draw[arrow] (wikiclient) -- (llm);
+% \draw[arrow] (wikiclient) -- (cache);
+% \draw[arrow] (llm) -- (cache);
+% \draw[arrow] (cache) -- (builder);
+% \draw[arrow] (validator) -- (builder);
+% \draw[arrow] (builder) -- (analyzer);
+% \draw[arrow] (builder) -- (visualizer);
+% \draw[arrow] (analyzer) -- (gexf);
+% \draw[arrow] (visualizer) -- (html);
+%
+% \end{tikzpicture}
+% \caption{Architecture globale du pipeline Episteme Network}
+% \end{figure}
 
 \section{Organisation des Modules}
 
@@ -1171,6 +1169,34 @@ Ce chapitre présente les maquettes et captures d'écran de l'interface utilisat
         \texttt{captures/interface\_clusters.png}
     \end{tcolorbox}
     \caption{Mise en évidence des communautés scientifiques (Codes couleurs).}
+\end{figure}
+
+
+% ============================================================================
+% ANNEXES VISUELLES
+% ============================================================================
+\chapter{Annexes Visuelles}
+
+\section{Interface Principale (Vue Graphe)}
+La vue principale permet d'explorer le réseau d'influence. Les nœuds sont colorés par communauté (Louvain) et dimensionnés selon leur importance (PageRank).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{episteme_graph_v5.png}
+    \caption{Visualisation du réseau d'influence scientifique (v5)}
+    \label{fig:graph_v5}
+\end{figure}
+
+\newpage
+
+\section{Rapport d'Analyse (Small World)}
+Le rapport généré automatiquement par \texttt{small\_world\_analysis.py} confirme les propriétés topologiques du réseau : un fort clustering associé à une distance moyenne faible (effet "Petit Monde").
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth, trim={0 0 0 0}, clip]{small_world_report.png}
+    \caption{Tableau de bord de l'analyse topologique (Design "Swiss Grid")}
+    \label{fig:sw_report}
 \end{figure}
 
 \end{document}

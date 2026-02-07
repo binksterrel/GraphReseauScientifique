@@ -6,7 +6,6 @@
     <meta name="theme-color" content="#FFFFFF">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <link rel="icon" type="image/png" href="RSlogo.png">
     <title>EPISTEME NETWORK</title>
     <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -482,7 +481,7 @@
             
             /* Reposition Status Bar as a floating pill at the TOP on mobile */
             .status-bar {
-                display: flex; /* Remove !important to allow JS to hide it */
+                display: flex !important;
                 position: fixed;
                 top: 70px; /* Below the logo header */
                 bottom: auto; /* Unset bottom */
@@ -504,24 +503,20 @@
                 gap: 8px;
             }
             
-            .status-bar.status-idle {
-                display: none;
-            }
-            
             /* Hide the separator lines to save space */
             .status-bar .status-separator {
                 display: none;
             }
 
             .floating-actions {
-                width: auto;
-                left: auto;
-                right: 16px;
+                width: 100%;
+                left: 0;
+                right: 0;
                 bottom: 110px; /* Moved up above the Dock (64px + 24px + space) */
                 flex-direction: column; /* Stack vertically: Filter then Buttons */
                 justify-content: flex-end;
-                align-items: flex-end; /* Right align to clear center */
-                padding: 0;
+                align-items: center; /* Center horizontally */
+                padding: 0 24px;
                 pointer-events: none;
                 gap: 16px;
                 z-index: 1000; /* Ensure above everything else but below modal */
@@ -788,15 +783,6 @@
         function updateStatus(htmlContent) {
             const sb = document.getElementById('status-bar');
             sb.innerHTML = htmlContent;
-            
-            // On mobile, hide the status bar if it's just "Ready" or "Normal View"
-            // The CSS class .status-idle is defined in the media query
-            if (htmlContent.includes('Prêt') || htmlContent.includes('Vue normale')) {
-                sb.classList.add('status-idle');
-            } else {
-                sb.classList.remove('status-idle');
-            }
-            
             lucide.createIcons();
         }
 
