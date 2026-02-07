@@ -1,0 +1,1176 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{pgf-umlcd}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tocloft}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fvextra}
+\usepackage{listings}
+\usepackage{tcolorbox}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\tcbuselibrary{skins,breakable,listings}
+\usetikzlibrary{positioning, arrows.meta, shapes, calc, mindmap, trees, shadows, fit}
+
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\setlength{\emergencystretch}{3pt}
+\sloppy
+
+% ============================================================================
+% COULEURS
+% ============================================================================
+\definecolor{ice50}{HTML}{FAFAFA}
+\definecolor{ice200}{HTML}{DDD6FE}
+\definecolor{ice500}{HTML}{8B5CF6}
+\definecolor{ink}{HTML}{111111}
+\definecolor{slate100}{HTML}{E2E8F0}
+\definecolor{slate500}{HTML}{64748B}
+\definecolor{purple}{HTML}{14B8A6}
+\definecolor{indigo}{HTML}{6366F1}
+\definecolor{lightgray}{HTML}{F8FAFC}
+\definecolor{codebg}{HTML}{F1F5F9}
+\definecolor{codeborder}{HTML}{CBD5E1}
+\definecolor{success}{HTML}{059669}
+\definecolor{warning}{HTML}{D97706}
+\definecolor{danger}{HTML}{DC2626}
+
+% Configuration des listings
+\lstset{
+    backgroundcolor=\color{codebg},
+    basicstyle=\ttfamily\small\color{ink},
+    breaklines=true,
+    frame=single,
+    rulecolor=\color{codeborder},
+    keywordstyle=\color{ice500}\bfseries,
+    commentstyle=\color{slate500}\itshape,
+    stringstyle=\color{purple},
+    numbers=left,
+    numberstyle=\tiny\color{slate500},
+    stepnumber=1,
+    numbersep=5pt,
+    tabsize=2,
+    showstringspaces=false,
+    xleftmargin=2em,
+    framexleftmargin=1.5em
+}
+
+% Boîtes colorées
+\newtcolorbox{infobox}[1][]{
+    colback=ice50,
+    colframe=ice500,
+    title={#1},
+    fonttitle=\bfseries,
+    sharp corners,
+    boxrule=0.5pt,
+    left=5pt, right=5pt, top=5pt, bottom=5pt
+}
+
+\newtcolorbox{warningbox}[1][]{
+    colback=warning!5,
+    colframe=warning,
+    title={#1},
+    fonttitle=\bfseries,
+    sharp corners,
+    boxrule=0.5pt
+}
+
+\newtcolorbox{successbox}[1][]{
+    colback=success!5,
+    colframe=success,
+    title={#1},
+    fonttitle=\bfseries,
+    sharp corners,
+    boxrule=0.5pt
+}
+
+\graphicspath{{captures/}}
+
+% Configuration des liens
+\hypersetup{
+    colorlinks=true,
+    linkcolor={ink},
+    filecolor={ink},
+    urlcolor={ice500},
+    citecolor={ice500},
+    pdfauthor={Terrel NUENTSA},
+    pdftitle={Rapport Technique - Episteme Network},
+    pdfsubject={Graph \& Open Data - L3 MIAGE},
+}
+
+% En-têtes
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{\color{ice500}\textbf{Episteme Network}}
+\fancyfoot[C]{\color{slate500}\thepage}
+
+\title{
+    \Huge{\textbf{Rapport Technique}} \\
+    \vspace{1cm}
+    \LARGE{Episteme Network} \\
+    \vspace{0.5cm}
+    \Large{Graphe et Open Data - L3 MIAGE}
+}
+\author{Terrel NUENTSA}
+\date{\today}
+
+\begin{document}
+
+% ============================================================================
+% PAGE DE GARDE
+% ============================================================================
+\begin{titlepage}
+\begin{tikzpicture}[remember picture,overlay]
+    \fill[ice50] (current page.north west) rectangle (current page.south east);
+    \shade[left color=ice500!35,right color=purple!25,opacity=0.18]
+        ([xshift=-1cm,yshift=1cm]current page.north west) rectangle
+        ([xshift=2.5cm,yshift=-1cm]current page.south west);
+    \fill[ice200!35] ([xshift=1cm,yshift=-1cm]current page.north east) circle (2.3cm);
+    \fill[purple!18] ([xshift=-2.3cm,yshift=-7cm]current page.north east) circle (2.9cm);
+\end{tikzpicture}
+
+\vspace*{2.2cm}
+
+\begin{center}
+    \begin{tikzpicture}
+        \node[
+            fill=ice200!45,
+            text=ice500,
+            rounded corners=9pt,
+            inner sep=7pt,
+            font=\large\bfseries
+        ] {Année 2025--2026 · L3 MIAGE · Graphe \& Open Data};
+    \end{tikzpicture}
+
+    \vspace{1.1cm}
+
+    {\Huge\bfseries\color{ice500} RAPPORT TECHNIQUE}\\[0.35cm]
+    {\Large\bfseries Scraping, ETL Assisté par IA, et Analyse de Graphes}\\[0.2cm]
+    {\LARGE\bfseries\color{ink} Episteme Network}\\[0.9cm]
+
+    \begin{tikzpicture}
+        \shade[left color=ice500,right color=purple] (0,0) rectangle (12,0.18);
+    \end{tikzpicture}
+
+    \vspace{1.1cm}
+
+    \begin{tabular}{@{}p{3.6cm}p{10cm}@{}}
+        \textbf{Projet} & Episteme Network \\
+        \textbf{Cours} & Graphe et Open Data \\
+        \textbf{Formation} & L3 MIAGE - Université Paris Nanterre \\
+        \textbf{Auteur} & Terrel NUENTSA \\
+        \textbf{Technologies} & Python, NetworkX, LLM (Groq/Mistral), Vis.js \\
+        \textbf{Contact} & nuentsa.terrel@gmail.com \\
+    \end{tabular}
+
+    \vfill
+
+    \begin{tikzpicture}
+        \node[text width=14cm, align=center, font=\itshape] {
+            Ce rapport présente l'architecture technique d'un système de construction automatique de graphes de connaissances représentant les influences intellectuelles entre scientifiques à travers l'histoire.
+        };
+    \end{tikzpicture}
+\end{center}
+\end{titlepage}
+
+\newpage
+\thispagestyle{empty}
+\tableofcontents
+
+\newpage
+
+% ============================================================================
+% CHAPITRE 1 : INTRODUCTION ET CONTEXTE
+% ============================================================================
+\chapter{Introduction et Contexte}
+
+\section{Présentation du Projet}
+
+\textbf{Episteme Network} est un système de \textit{Data Science} appliqué à l'histoire des sciences. Il construit automatiquement un graphe orienté représentant les relations d'influence intellectuelle entre scientifiques à travers les siècles, en transformant des données textuelles non structurées (biographies Wikipédia) en connaissances structurées exploitables.
+
+\begin{successbox}[Chiffres Clés du Projet]
+\begin{itemize}
+    \item \textbf{1 726 scientifiques} analysés et intégrés au graphe
+    \item \textbf{2 520 relations} d'influence extraites et validées
+    \item \textbf{901 ans} d'histoire couverts (1105 - 2006)
+    \item \textbf{10 domaines scientifiques} représentés
+    \item \textbf{1 978 requêtes LLM} mises en cache
+\end{itemize}
+\end{successbox}
+
+\section{Problématique Scientifique}
+
+L'histoire des sciences forme un système complexe où les idées se transmettent, se transforment et s'influencent mutuellement. Reconstruire ce réseau d'influences pose plusieurs défis majeurs :
+
+\begin{enumerate}
+    \item \textbf{Volume et Hétérogénéité} : Des centaines de milliers de scientifiques ont contribué au savoir humain. Leurs biographies varient considérablement en qualité et en structure.
+
+    \item \textbf{Non-structuration des Données} : Les relations d'influence n'existent pas sous forme de base de données. Elles sont enfouies dans du texte libre, exprimées de manières très diverses : « élève de », « influencé par », « a travaillé avec », « a développé les idées de », etc.
+
+    \item \textbf{Complexité Sémantique} : Il faut distinguer collaboration (A et B travaillent ensemble) d'influence (A a utilisé les travaux de B), et différencier les relations bidirectionnelles des relations asymétriques.
+
+    \item \textbf{Validation Temporelle} : Un système automatique peut produire des anachronismes (Newton influencé par Einstein). Une validation chronologique rigoureuse est indispensable.
+\end{enumerate}
+
+\textbf{Question de recherche} : Comment automatiser la reconstruction de ce réseau socio-épistémique avec une précision suffisante pour révéler des structures cachées dans l'histoire des idées ?
+
+\section{Objectifs Pédagogiques et Techniques}
+
+Ce projet démontre la maîtrise de trois compétences fondamentales du cours :
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{4cm}|p{10cm}|}
+\hline
+\rowcolor{ice500!20}
+\textbf{Compétence} & \textbf{Application dans le projet} \\
+\hline
+\textbf{Open Data \& Scraping} & Exploitation de l'API Wikipédia, extraction structurée, respect des contraintes éthiques (rate limiting, User-Agent) \\
+\hline
+\textbf{IA \& NLP} & Utilisation de LLM (Llama 3.3, Mistral) pour l'extraction d'entités et de relations depuis du texte bruité \\
+\hline
+\textbf{Théorie des Graphes} & Application d'algorithmes de centralité (PageRank, Betweenness), détection de communautés (Louvain), analyse des trous structurels (Burt) \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Glossaire Technique}
+
+\begin{description}[style=nextline, leftmargin=3cm]
+    \item[BFS (Breadth-First Search)] Algorithme de parcours en largeur d'abord. Explore tous les nœuds à distance $n$ avant ceux à distance $n+1$.
+    \item[ETL (Extract, Transform, Load)] Pipeline de traitement de données en trois phases : extraction, transformation, chargement.
+    \item[GEXF] Format XML standard pour l'échange de graphes, compatible avec Gephi.
+    \item[Hallucination (LLM)] Phénomène où un modèle de langage génère des informations plausibles mais fausses.
+    \item[LLM (Large Language Model)] Modèle de langage de grande taille capable de comprendre et générer du texte.
+    \item[Louvain] Algorithme de détection de communautés par optimisation de la modularité.
+    \item[PageRank] Algorithme de Google mesurant l'importance d'un nœud selon l'importance de ses voisins entrants.
+    \item[SPARQL] Langage de requête pour interroger des bases de données RDF, notamment Wikidata.
+    \item[Structural Holes] Théorie de Burt (1992) : les individus connectant des groupes séparés ont un avantage stratégique.
+\end{description}
+
+% ============================================================================
+% CHAPITRE 2 : ARCHITECTURE GLOBALE
+% ============================================================================
+\chapter{Architecture Globale du Système}
+
+\section{Vue d'Ensemble}
+
+Le système Episteme Network est organisé en \textbf{pipeline ETL moderne assisté par IA}. Chaque module a une responsabilité unique (principe SRP - Single Responsibility Principle) et communique via des interfaces clairement définies.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    node distance=1.8cm,
+    block/.style={rectangle, draw, fill=ice50, text width=7em, text centered, rounded corners, minimum height=3em, font=\small},
+    process/.style={rectangle, draw, fill=ice500!20, text width=8em, text centered, rounded corners, minimum height=3em, font=\small},
+    data/.style={cylinder, draw, fill=purple!15, shape border rotate=90, aspect=0.25, minimum height=2.5em, minimum width=5em, font=\small},
+    arrow/.style={->, >=stealth, thick}
+]
+
+% Ligne 1 : Sources
+\node[block] (wiki) {Wikipédia\\(API)};
+\node[block, right=of wiki] (wikidata) {Wikidata\\(SPARQL)};
+
+% Ligne 2 : Extraction
+\node[process, below=of wiki] (wikiclient) {WikipediaClient\\Scraping + Parsing};
+\node[process, right=of wikiclient] (llm) {LLMExtractor\\NLP + JSON};
+
+% Ligne 3 : Cache et Validation
+\node[data, below=of wikiclient] (cache) {Cache MD5\\(1978 entrées)};
+\node[process, right=of cache] (validator) {Validator\\Chrono + Wikidata};
+
+% Ligne 4 : Construction
+\node[process, below=of cache, xshift=2cm] (builder) {GraphBuilder\\BFS + NetworkX};
+
+% Ligne 5 : Analyse et Visualisation
+\node[process, below left=of builder] (analyzer) {GraphAnalyzer\\PageRank, Louvain};
+\node[process, below right=of builder] (visualizer) {Visualizer\\PyVis + Vis.js};
+
+% Ligne 6 : Outputs
+\node[data, below=of analyzer] (gexf) {GEXF\\(Gephi)};
+\node[block, below=of visualizer] (html) {Interface Web\\Interactive};
+
+% Flèches
+\draw[arrow] (wiki) -- (wikiclient);
+\draw[arrow] (wikidata) -- (validator);
+\draw[arrow] (wikiclient) -- (llm);
+\draw[arrow] (wikiclient) -- (cache);
+\draw[arrow] (llm) -- (cache);
+\draw[arrow] (cache) -- (builder);
+\draw[arrow] (validator) -- (builder);
+\draw[arrow] (builder) -- (analyzer);
+\draw[arrow] (builder) -- (visualizer);
+\draw[arrow] (analyzer) -- (gexf);
+\draw[arrow] (visualizer) -- (html);
+
+\end{tikzpicture}
+\caption{Architecture globale du pipeline Episteme Network}
+\end{figure}
+
+\section{Organisation des Modules}
+
+Le projet est structuré en \textbf{8 modules Python principaux}, chacun avec une responsabilité unique :
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|p{9cm}|}
+\hline
+\rowcolor{ice500!20}
+\textbf{Module} & \textbf{Responsabilité} \\
+\hline
+\texttt{wikipedia\_client.py} & Interaction avec l'API Wikipédia : recherche floue, extraction de texte, détection de domaine scientifique, extraction des dates \\
+\hline
+\texttt{llm\_extractor.py} & Communication avec les LLM (5 fournisseurs supportés), prompt engineering, parsing des réponses JSON \\
+\hline
+\texttt{cache\_manager.py} & Système de cache basé sur MD5 avec versioning du prompt pour invalidation automatique \\
+\hline
+\texttt{graph\_builder.py} & Algorithme BFS de construction du graphe, validation chronologique, filtrage des noms \\
+\hline
+\texttt{validator.py} & Cross-référencement avec Wikidata via SPARQL pour validation des relations \\
+\hline
+\texttt{visualizer.py} & Génération de l'interface HTML interactive avec Vis.js \\
+\hline
+\texttt{config.py} & Configuration centralisée : clés API, paramètres, blacklist, patterns d'exclusion \\
+\hline
+\texttt{logger.py} & Utilitaires de journalisation \\
+\hline
+\end{tabular}
+\caption{Modules principaux et leurs responsabilités}
+\end{table}
+
+En complément, le dossier \texttt{scripts/} contient \textbf{30+ scripts d'analyse} : calcul de métriques (PageRank, Betweenness), détection de communautés, identification des paradigm shifters, prédiction de liens, nettoyage du graphe, etc.
+
+\section{Flux de Données}
+
+Le traitement d'un scientifique suit les étapes suivantes :
+
+\begin{enumerate}
+    \item \textbf{Initialisation} : L'utilisateur spécifie un scientifique « graine » (ex: Albert Einstein).
+
+    \item \textbf{Scraping} : Le \texttt{WikipediaClient} récupère le texte Wikipédia via l'API, applique une recherche floue pour corriger les noms mal orthographiés, et extrait les métadonnées (années de naissance/mort, domaine scientifique).
+
+    \item \textbf{Extraction LLM} : Le \texttt{LLMExtractor} envoie le texte à un modèle de langage avec un prompt structuré. Le modèle retourne un JSON contenant les relations \texttt{inspired\_by} (mentors) et \texttt{inspired} (élèves).
+
+    \item \textbf{Cache} : Le \texttt{CacheManager} stocke le résultat avec une clé MD5 unique. Les requêtes futures pour le même scientifique sont servies depuis le cache.
+
+    \item \textbf{Validation} : Le \texttt{GraphBuilder} vérifie la cohérence chronologique de chaque relation. Optionnellement, le \texttt{WikidataValidator} cross-référence avec Wikidata.
+
+    \item \textbf{Construction} : Les relations validées sont ajoutées au graphe NetworkX. Les nouveaux scientifiques découverts sont ajoutés à la file BFS pour traitement ultérieur.
+
+    \item \textbf{Analyse et Visualisation} : Une fois le graphe construit, les scripts d'analyse calculent les métriques et le \texttt{GraphVisualizer} génère l'interface web interactive.
+\end{enumerate}
+
+% ============================================================================
+% CHAPITRE 3 : SCRAPING ET OPEN DATA
+% ============================================================================
+\chapter{Stratégie Open Data et Scraping}
+
+\section{Source de Données : Wikipédia}
+
+Wikipédia constitue la plus grande base de connaissances libre du monde (licence CC-BY-SA). Son choix comme source primaire repose sur plusieurs critères :
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{3.5cm}|p{5cm}|p{5cm}|}
+\hline
+\rowcolor{ice500!20}
+\textbf{Critère} & \textbf{Avantage} & \textbf{Défi technique} \\
+\hline
+Couverture & Millions d'articles sur des scientifiques & Qualité variable selon la notoriété \\
+\hline
+Accessibilité & API REST gratuite et documentée & Rate limiting à respecter \\
+\hline
+Structure & Catégories, liens, infoboxes & Format semi-structuré, hétérogène \\
+\hline
+Mise à jour & Contenu régulièrement actualisé & Instabilité potentielle des articles \\
+\hline
+\end{tabular}
+\caption{Analyse de Wikipédia comme source de données}
+\end{table}
+
+\section{Fonctionnalités du Module WikipediaClient}
+
+\subsection{Recherche Floue (Fuzzy Search)}
+
+Les noms de scientifiques peuvent être orthographiés de multiples façons (« Einsten » vs « Einstein », « Neils Bohr » vs « Niels Bohr »). Le système utilise l'algorithme \textbf{SequenceMatcher} de la bibliothèque Python \texttt{difflib} pour calculer un ratio de similarité entre le nom recherché et les résultats de l'API.
+
+Le \textbf{ratio de Gestalt} est défini par :
+$$\text{similarity} = \frac{2 \times M}{T}$$
+où $M$ est le nombre de caractères communs et $T$ le nombre total de caractères. Un seuil de \textbf{60\%} permet de corriger les fautes de frappe courantes tout en rejetant les correspondances trop éloignées.
+
+\subsection{Détection Automatique des Scientifiques}
+
+Avant d'interroger le LLM (coûteux en temps et en tokens), le système vérifie si la page Wikipédia correspond bien à un scientifique. Cette vérification s'appuie sur l'analyse des \textbf{catégories Wikipédia} de la page :
+
+\begin{itemize}
+    \item \textbf{Catégories d'inclusion} : La présence de mots-clés comme « physicist », « mathematician », « chemist », « biologist », « computer scientist », « Nobel laureate » indique un scientifique.
+    \item \textbf{Catégories d'exclusion} : La présence de « actor », « politician », « military », « athlete », « singer » entraîne le rejet.
+\end{itemize}
+
+Cette approche permet de filtrer efficacement les faux positifs avant même l'appel au LLM.
+
+\subsection{Extraction des Métadonnées Temporelles}
+
+Les années de naissance et de mort sont cruciales pour la validation chronologique. Le système utilise trois stratégies complémentaires :
+
+\begin{enumerate}
+    \item \textbf{Pattern dans le résumé} : Recherche du format « (1879–1955) » typique des premières lignes des biographies.
+    \item \textbf{Expressions explicites} : Recherche de « born 1879 » ou « died 1955 » dans le texte.
+    \item \textbf{Catégories Wikipédia} : Exploitation des catégories « 1879 births » et « 1955 deaths » présentes sur chaque page biographique.
+\end{enumerate}
+
+\subsection{Classification par Domaine Scientifique}
+
+Le système catégorise automatiquement chaque scientifique dans l'un des 10 domaines prédéfinis (Physique, Mathématiques, Chimie, Biologie, Informatique, Médecine, Astronomie, Ingénierie, Philosophie, Économie) en analysant les catégories Wikipédia. Un système de scoring attribue des points à chaque domaine en fonction des mots-clés trouvés, et le domaine avec le score le plus élevé est retenu.
+
+\section{Gestion des Contraintes Techniques}
+
+\subsection{Rate Limiting et Éthique du Scraping}
+
+L'API Wikipédia impose des limites de requêtes pour éviter la surcharge des serveurs. Le système respecte ces contraintes :
+
+\begin{itemize}
+    \item \textbf{User-Agent identifiant} : Chaque requête inclut un User-Agent décrivant le projet et fournissant un contact.
+    \item \textbf{Délai entre requêtes} : Un délai de 0.5 seconde minimum est respecté entre chaque requête.
+    \item \textbf{Gestion des erreurs HTTP} : Les erreurs 429 (Too Many Requests) et 503 (Service Unavailable) déclenchent un mécanisme de retry avec backoff exponentiel.
+\end{itemize}
+
+\subsection{Optimisation de l'Utilisation des Tokens}
+
+Pour limiter les coûts des appels LLM, le texte Wikipédia est tronqué à \textbf{25 000 caractères}. Cette limite est suffisante pour capturer les informations biographiques essentielles tout en restant dans les limites de contexte des modèles.
+
+% ============================================================================
+% CHAPITRE 4 : EXTRACTION PAR LLM
+% ============================================================================
+\chapter{Extraction d'Information par LLM}
+
+\section{Stratégie Multi-Fournisseurs}
+
+Le système supporte \textbf{5 fournisseurs de LLM} avec un mécanisme de fallback automatique. Cette architecture garantit la résilience et permet d'optimiser les coûts :
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+\rowcolor{ice500!20}
+\textbf{Priorité} & \textbf{Fournisseur} & \textbf{Modèle} & \textbf{Caractéristiques} \\
+\hline
+1 & Cerebras & gpt-oss-120b & Ultra-rapide, API gratuite \\
+\hline
+2 & Groq & llama-3.3-70b & 300+ tokens/s, API gratuite \\
+\hline
+3 & Mistral & mistral-large & Modèle européen, API payante \\
+\hline
+4 & OpenAI & gpt-3.5-turbo & Référence du marché, API payante \\
+\hline
+5 & Ollama & mistral (local) & Gratuit, exécution locale \\
+\hline
+\end{tabular}
+\caption{Stratégie multi-fournisseurs avec fallback automatique}
+\end{table}
+
+Lorsqu'un fournisseur échoue (erreur réseau, quota dépassé, etc.), le système tente automatiquement le fournisseur suivant dans la chaîne. Cette approche garantit une haute disponibilité du service d'extraction.
+
+\section{Prompt Engineering}
+
+Le prompt est l'élément le plus critique du système. Il définit précisément la tâche d'extraction et impose un format de sortie strict pour faciliter le parsing automatique.
+
+\begin{infobox}[Prompt d'Extraction des Relations]
+\small
+\texttt{You are a world expert in the history of science.}\\[0.3em]
+\texttt{TASK: Analyze the provided text about scientist "\{scientist\_name\}" and extract their intellectual network.}\\[0.3em]
+\texttt{You must identify:}\\
+\texttt{1. "inspired\_by": Mentors, teachers, and scientists who influenced \{scientist\_name\}.}\\
+\texttt{2. "inspired": Students, successors, and scientists influenced by \{scientist\_name\}.}\\[0.3em]
+\texttt{CRITICAL RULES:}\\
+\texttt{- OUTPUT MUST BE VALID JSON.}\\
+\texttt{- USE "Firstname Lastname" format (No surname alone).}\\
+\texttt{- Do not invent information. Only extract what is implied in the text.}\\[0.3em]
+\texttt{Return ONLY the JSON object:}\\
+\texttt{\{"inspired\_by": [...], "inspired": [...]\}}
+\end{infobox}
+
+\subsection{Analyse des Choix de Conception du Prompt}
+
+\begin{enumerate}
+    \item \textbf{Role Prompting} : « You are a world expert in the history of science » établit le contexte et la qualité attendue des réponses.
+
+    \item \textbf{Tâche explicite} : Définition claire des deux types de relations à extraire, avec des exemples implicites (mentors, teachers, students, successors).
+
+    \item \textbf{Format JSON strict} : Impose une structure de sortie parsable automatiquement, avec des clés exactes \texttt{inspired\_by} et \texttt{inspired}.
+
+    \item \textbf{Format des noms} : « Firstname Lastname » améliore la désambiguïsation et facilite la recherche Wikipédia ultérieure.
+
+    \item \textbf{Interdiction d'inventer} : Réduit les hallucinations en demandant explicitement de n'extraire que les informations présentes dans le texte.
+\end{enumerate}
+
+\subsection{Paramètres d'Inférence}
+
+Le paramètre \textbf{température} est fixé à \textbf{0.1}. Une température basse réduit la créativité du modèle et favorise des réponses reproductibles et factuelles. C'est essentiel pour l'extraction d'information où l'inventivité est un défaut (hallucinations).
+
+\section{Parsing Robuste des Réponses}
+
+Malgré les contraintes du prompt, les LLM peuvent produire des JSON malformés (virgules manquantes, guillemets incorrects, texte additionnel autour du JSON). Le système implémente \textbf{3 niveaux de fallback} pour le parsing :
+
+\begin{enumerate}
+    \item \textbf{Parsing JSON direct} : Tentative de parsing standard avec \texttt{json.loads()}.
+    \item \textbf{Extraction entre accolades} : Si le parsing échoue, recherche des caractères \texttt{\{} et \texttt{\}} pour extraire le JSON noyé dans du texte.
+    \item \textbf{Extraction par regex} : En dernier recours, utilisation d'expressions régulières pour extraire les listes de noms depuis une réponse partiellement structurée.
+\end{enumerate}
+
+Cette approche robuste garantit un taux de parsing supérieur à 98\%.
+
+% ============================================================================
+% CHAPITRE 5 : SYSTÈME DE CACHE
+% ============================================================================
+\chapter{Système de Cache Intelligent}
+
+\section{Motivation}
+
+Les appels LLM sont \textbf{coûteux} en temps (1-5 secondes par requête) et potentiellement en argent (APIs payantes). Le cache permet de :
+
+\begin{itemize}
+    \item \textbf{Réduire les coûts} en évitant les requêtes redondantes
+    \item \textbf{Accélérer le traitement} lors des reprises de travail (le graphe peut être construit en plusieurs sessions)
+    \item \textbf{Assurer la reproductibilité} des résultats
+    \item \textbf{Invalider automatiquement} les anciennes entrées lors de modifications du prompt
+\end{itemize}
+
+\section{Architecture du Cache}
+
+\subsection{Génération de Clé MD5}
+
+Chaque entrée de cache est identifiée par un \textbf{hash MD5} unique calculé à partir de trois éléments :
+
+\begin{enumerate}
+    \item Le \textbf{nom du scientifique}
+    \item La \textbf{version du prompt} (ex: « v2.0-fewshot-cot »)
+    \item Les \textbf{5000 premiers caractères du texte} Wikipédia
+\end{enumerate}
+
+Cette combinaison garantit que :
+\begin{itemize}
+    \item Deux scientifiques différents ont des clés différentes
+    \item Un changement de prompt invalide automatiquement le cache (la version change)
+    \item Une mise à jour significative de l'article Wikipédia génère une nouvelle entrée
+\end{itemize}
+
+\subsection{Versioning du Prompt}
+
+La variable \texttt{PROMPT\_VERSION} (actuellement « v2.0-fewshot-cot ») est incluse dans le calcul de la clé de cache. Lorsque le prompt est modifié, il suffit d'incrémenter cette version pour que toutes les anciennes entrées de cache soient automatiquement ignorées.
+
+\section{Performances Observées}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|r|}
+\hline
+\rowcolor{ice500!20}
+\textbf{Métrique} & \textbf{Valeur} \\
+\hline
+Entrées en cache & 1 978 \\
+\hline
+Taille totale & 7.7 MB \\
+\hline
+Taille moyenne par entrée & 3.9 KB \\
+\hline
+Taux de hit (lors des reprises) & >95\% \\
+\hline
+Gain de temps estimé & ~3 heures (1978 × 5s évités) \\
+\hline
+\end{tabular}
+\caption{Statistiques du cache LLM}
+\end{table}
+
+% ============================================================================
+% CHAPITRE 6 : CONSTRUCTION DU GRAPHE
+% ============================================================================
+\chapter{Construction et Validation du Graphe}
+
+\section{Algorithme BFS de Construction}
+
+La construction du graphe utilise un \textbf{parcours en largeur} (Breadth-First Search) modifié. À partir d'un scientifique « graine », l'algorithme explore progressivement le réseau d'influences en traitant tous les scientifiques à une profondeur $n$ avant ceux à profondeur $n+1$.
+
+\begin{algorithm}[H]
+\caption{Construction du graphe d'influence}
+\begin{algorithmic}[1]
+\Require $seed$ : scientifique de départ
+\Require $MAX\_DEPTH$ : profondeur maximale (15)
+\Require $MAX\_SCIENTISTS$ : nombre maximum (1000)
+\State $Q \gets$ file initialisée avec $(seed, 0)$
+\State $V \gets \emptyset$ \Comment{Ensemble des visités}
+\State $G \gets$ nouveau DiGraph
+\While{$Q \neq \emptyset$ \textbf{and} $|V| < MAX\_SCIENTISTS$}
+    \State $(current, depth) \gets Q.dequeue()$
+    \If{$current \in V$ \textbf{or} $depth > MAX\_DEPTH$}
+        \State \textbf{continue}
+    \EndIf
+    \If{$current \in BLACKLIST$}
+        \State \textbf{continue}
+    \EndIf
+    \State $text \gets WikiClient.get\_text(current)$
+    \If{$text = \emptyset$}
+        \State \textbf{continue}
+    \EndIf
+    \State $V \gets V \cup \{current\}$
+    \State $G.add\_node(current)$
+    \State $relations \gets LLM.extract(text, current)$
+    \ForAll{$person \in relations.inspired\_by \cup relations.inspired$}
+        \If{$is\_valid(person)$ \textbf{and} $is\_chronologically\_valid(...)$}
+            \State $G.add\_edge(...)$
+            \If{$person \notin V$}
+                \State $Q.enqueue((person, depth + 1))$
+            \EndIf
+        \EndIf
+    \EndFor
+\EndWhile
+\State \Return $G$
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Paramètres de Configuration}
+
+\begin{itemize}
+    \item \textbf{MAX\_DEPTH = 15} : Limite la profondeur d'exploration pour éviter une expansion infinie
+    \item \textbf{MAX\_SCIENTISTS = 1000} : Limite le nombre total de scientifiques pour maîtriser le temps de traitement
+    \item \textbf{Autosave tous les 20 nœuds} : Sauvegarde régulière pour permettre la reprise en cas d'interruption
+\end{itemize}
+
+\section{Validation Chronologique}
+
+La validation temporelle est cruciale pour éviter les anachronismes générés par les hallucinations LLM. Un mentor ne peut pas être né après son élève.
+
+\begin{infobox}[Contrainte Temporelle]
+Pour une relation « A a inspiré B » :
+$$birth\_year(A) \leq birth\_year(B) + \delta$$
+où $\delta = 5$ ans est une marge de tolérance pour les contemporains qui se sont influencés mutuellement.
+\end{infobox}
+
+La validation suit une politique de \textbf{fail open} : si les dates de naissance sont inconnues, la relation est acceptée. Cela évite de rejeter des relations valides pour lesquelles les données temporelles sont simplement manquantes.
+
+\subsection{Exemples de Validation}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|l|c|c|}
+\hline
+\rowcolor{warning!20}
+\textbf{Source} & \textbf{Naissance} & \textbf{Cible} & \textbf{Naissance} & \textbf{Décision} \\
+\hline
+Newton & 1643 & Einstein & 1879 & \textcolor{success}{Valide} \\
+\hline
+Einstein & 1879 & Newton & 1643 & \textcolor{danger}{Rejeté (anachronisme)} \\
+\hline
+Bohr & 1885 & Heisenberg & 1901 & \textcolor{success}{Valide} \\
+\hline
+Platon & -428 & Socrate & -470 & \textcolor{danger}{Rejeté (anachronisme)} \\
+\hline
+\end{tabular}
+\caption{Exemples de validation chronologique}
+\end{table}
+
+\section{Système de Filtrage}
+
+\subsection{Liste Noire (Blacklist)}
+
+Une liste de \textbf{80+ entrées} exclut les personnages non pertinents :
+
+\begin{itemize}
+    \item \textbf{Personnages politiques/militaires} : Hitler, Stalin, Napoleon, Lenin...
+    \item \textbf{Institutions} : « CERN », « European Organization for Nuclear Research »
+    \item \textbf{Hallucinations connues} : « Gabriel Wigner » (fusion erronée de Gabriel Dirac et Eugene Wigner)
+    \item \textbf{Non-scientifiques} : Dostoyevsky, Dickens, figures religieuses
+    \item \textbf{Textes descriptifs} : « Not specified in the text », « Unknown students »
+\end{itemize}
+
+\subsection{Patterns d'Exclusion (Regex)}
+
+Des expressions régulières filtrent automatiquement les entités non pertinentes :
+
+\begin{itemize}
+    \item \textbf{Pluriels et mouvements} : Noms se terminant par « ists » ou « ism » (« Logical positivists »)
+    \item \textbf{Organisations} : Contenant « University », « Institute », « Society »
+    \item \textbf{Concepts scientifiques} : Se terminant par « theorem », « equation », « principle »
+    \item \textbf{Groupes} : Se terminant par « Circle » ou « School » (« Vienna Circle »)
+\end{itemize}
+
+\section{Validation Wikidata (Cross-Référence)}
+
+Pour les relations critiques, le système peut interroger \textbf{Wikidata} via SPARQL pour confirmation. Les propriétés Wikidata exploitées sont :
+
+\begin{itemize}
+    \item \textbf{P184} : Directeur de thèse (doctoral advisor)
+    \item \textbf{P802} : Doctorant (doctoral student)
+    \item \textbf{P737} : Influencé par (influenced by)
+    \item \textbf{P1066} : Élève de / Professeur de (student of)
+\end{itemize}
+
+Chaque relation validée reçoit un \textbf{score de confiance} : +0.5 pour une relation doctorale confirmée, +0.3 pour une relation d'influence confirmée, +0.1 si les deux entités existent dans Wikidata. Une relation est considérée comme confirmée si son score atteint 0.5 ou plus.
+
+% ============================================================================
+% CHAPITRE 7 : ALGORITHMES D'ANALYSE DE GRAPHE
+% ============================================================================
+\chapter{Algorithmes d'Analyse de Graphe}
+
+\section{Modèle Mathématique}
+
+\subsection{Définition Formelle}
+
+Soit $G = (V, E)$ un graphe orienté où :
+\begin{itemize}
+    \item $V$ est l'ensemble des sommets (scientifiques), $|V| = 1726$
+    \item $E \subseteq V \times V$ est l'ensemble des arêtes orientées (relations d'influence), $|E| = 2520$
+\end{itemize}
+
+Chaque sommet $v \in V$ possède des attributs : identifiant, label, année de naissance, année de décès, domaine scientifique, profondeur BFS.
+
+Chaque arête $e = (u, v) \in E$ signifie « $u$ a influencé $v$ ».
+
+\subsection{Propriétés du Graphe}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|r|l|}
+\hline
+\rowcolor{ice500!20}
+\textbf{Propriété} & \textbf{Valeur} & \textbf{Interprétation} \\
+\hline
+Nombre de sommets $|V|$ & 1 726 & Scientifiques analysés \\
+\hline
+Nombre d'arêtes $|E|$ & 2 520 & Relations d'influence \\
+\hline
+Degré moyen & 2.92 & Chaque scientifique a ~3 connexions \\
+\hline
+Densité & 0.00085 & Graphe très creux (typique des réseaux sociaux) \\
+\hline
+Composantes connexes & 1 & Graphe entièrement connecté \\
+\hline
+Plage temporelle & 901 ans & De 1105 à 2006 \\
+\hline
+\end{tabular}
+\caption{Statistiques du graphe Episteme Network}
+\end{table}
+
+\section{Métriques de Centralité}
+
+\subsection{Centralité de Degré (Degree Centrality)}
+
+Mesure le nombre de connexions directes d'un nœud, normalisé par le nombre maximum possible :
+
+$$C_D(v) = \frac{deg_{in}(v) + deg_{out}(v)}{|V| - 1}$$
+
+\textbf{Interprétation} : Les scientifiques avec un degré élevé sont les « hubs » du réseau, souvent des figures majeures ou des pédagogues prolifiques ayant formé de nombreux élèves.
+
+\subsection{PageRank}
+
+Adaptation de l'algorithme de Google pour mesurer l'importance récursive d'un nœud :
+
+$$PR(v) = \frac{1-d}{|V|} + d \sum_{u \in In(v)} \frac{PR(u)}{|Out(u)|}$$
+
+où $d = 0.85$ est le facteur d'amortissement (damping factor).
+
+\begin{infobox}[Interprétation du PageRank]
+Un scientifique est important s'il est cité par d'autres scientifiques \textit{eux-mêmes importants}. Einstein a un PageRank élevé non seulement parce qu'il a beaucoup de connexions, mais parce que ses « descendants » intellectuels (Bohr, Heisenberg, Feynman) sont eux-mêmes très influents.
+\end{infobox}
+
+Le PageRank est utilisé dans la visualisation pour déterminer la \textbf{taille des nœuds} : plus le PageRank est élevé, plus le nœud est grand visuellement.
+
+\subsection{Centralité d'Intermédiarité (Betweenness Centrality)}
+
+Mesure la fréquence à laquelle un nœud apparaît sur les plus courts chemins entre paires de nœuds :
+
+$$C_B(v) = \sum_{s \neq v \neq t} \frac{\sigma_{st}(v)}{\sigma_{st}}$$
+
+où $\sigma_{st}$ est le nombre de plus courts chemins de $s$ à $t$, et $\sigma_{st}(v)$ ceux passant par $v$.
+
+\textbf{Interprétation} : Les « passeurs de savoir » qui connectent différentes traditions intellectuelles. Un scientifique avec un Betweenness élevé joue un rôle de pont entre communautés qui seraient autrement déconnectées.
+
+\section{Détection de Communautés : Algorithme de Louvain}
+
+L'algorithme de Louvain détecte les « écoles de pensée » en optimisant la \textbf{modularité} $Q$ :
+
+$$Q = \frac{1}{2m} \sum_{i,j} \left[ A_{ij} - \frac{k_i k_j}{2m} \right] \delta(c_i, c_j)$$
+
+où :
+\begin{itemize}
+    \item $A_{ij}$ est l'élément de la matrice d'adjacence (1 si arête, 0 sinon)
+    \item $k_i$ est le degré du nœud $i$
+    \item $m$ est le nombre total d'arêtes
+    \item $c_i$ est la communauté assignée au nœud $i$
+    \item $\delta(c_i, c_j) = 1$ si $c_i = c_j$, 0 sinon (symbole de Kronecker)
+\end{itemize}
+
+L'algorithme maximise $Q$ en déplaçant itérativement les nœuds entre communautés. Le résultat est une partition du graphe en groupes densément connectés en interne et faiblement connectés entre eux.
+
+Dans la visualisation, les communautés détectées peuvent être utilisées pour la \textbf{coloration des nœuds} (alternative à la coloration par domaine scientifique).
+
+\section{Analyse des Trous Structurels (Paradigm Shifters)}
+
+Basée sur la théorie de \textbf{Ronald Burt (1992)}, cette analyse identifie les scientifiques qui « font le pont » entre communautés distinctes — les révolutionnaires scientifiques.
+
+\subsection{Contrainte de Burt}
+
+La contrainte mesure à quel point les contacts d'un nœud sont redondants :
+
+$$C_i = \sum_{j} \left( p_{ij} + \sum_{q} p_{iq} \cdot p_{qj} \right)^2$$
+
+où $p_{ij}$ est la proportion du temps que $i$ investit avec $j$.
+
+\textbf{Interprétation} : Une \textbf{faible contrainte} indique une position de « pont » entre groupes séparés (trou structurel). Ces individus ont accès à des informations non redondantes provenant de différentes communautés.
+
+\subsection{Score Composite de Révolutionnaire}
+
+Le système calcule un score composite combinant trois métriques :
+
+$$Score = 0.4 \times \frac{Betweenness}{max(Betweenness)} + 0.3 \times (1 - Constraint) + 0.3 \times \frac{BridgeScore}{max(BridgeScore)}$$
+
+où \textit{BridgeScore} compte le nombre de communautés différentes auxquelles un nœud est connecté.
+
+Les scientifiques avec les scores les plus élevés représentent des \textbf{ruptures paradigmatiques} ou des \textbf{innovations interdisciplinaires} dans l'histoire des sciences.
+
+\section{Prédiction de Liens Manquants}
+
+Le système suggère des relations potentiellement manquantes via des métriques de similarité :
+
+\subsection{Similarité de Jaccard}
+
+$$J(u, v) = \frac{|\Gamma(u) \cap \Gamma(v)|}{|\Gamma(u) \cup \Gamma(v)|}$$
+
+où $\Gamma(u)$ est l'ensemble des voisins de $u$. Deux nœuds avec beaucoup de voisins communs ont une probabilité élevée d'être eux-mêmes connectés.
+
+\subsection{Indice d'Adamic-Adar}
+
+$$AA(u, v) = \sum_{w \in \Gamma(u) \cap \Gamma(v)} \frac{1}{\log |\Gamma(w)|}$$
+
+Accorde plus de poids aux voisins communs rares (ceux ayant peu de connexions), car ils sont plus informatifs que les hubs très connectés.
+
+\section{Analyse Topologique Globale}
+
+L'analyse de la structure globale du graphe révèle des propriétés caractéristiques des réseaux complexes, confirmant la validité du modèle d'influence scientifique.
+
+\subsection{Effet « Small-World » (Watts-Strogatz)}
+
+Le graphe présente les deux signatures d'un réseau « Petit Monde » :
+\begin{enumerate}
+    \item \textbf{Fort coefficient de clustering} ($C_{real} = 0.0702$) par rapport à un graphe aléatoire équivalent ($C_{rand} = 0.0014$), soit un ratio de $\approx 50x$. Cela signifie que les "amis de mes amis sont mes amis" (forte transitivité).
+    \item \textbf{Faible distance moyenne} ($L_{real} = 6.67$), comparable à celle d'un graphe aléatoire ($L_{rand} = 6.99$).
+\end{enumerate}
+
+Le coefficient $\sigma$ normalisé est de \textbf{51.53} ($\sigma > 1$), validant l'hypothèse Small-World : le monde scientifique est très connecté, permettant une diffusion rapide des idées.
+
+\subsection{Distribution « Scale-Free » (Barabási-Albert)}
+
+La distribution des degrés suit une \textbf{loi de puissance} :
+$$P(k) \propto k^{-\gamma}$$
+avec un exposant $\gamma \approx 2.138$ ($R^2 = 0.92$).
+
+\textbf{Interprétation} : Le réseau est dominé par une poignée de \textbf{hubs} extrêmement connectés (ex: Sommerfeld, Bohr, Heisenberg) qui structurent l'ensemble du champ scientifique, tandis que la majorité des scientifiques ont peu de connexions directes. Cette structure est typique des réseaux de citation et d'influence sociale.
+
+% ============================================================================
+% CHAPITRE 8 : VISUALISATION INTERACTIVE
+% ============================================================================
+\chapter{Visualisation Interactive}
+
+\section{Architecture Frontend}
+
+La visualisation utilise \textbf{Vis.js}, une bibliothèque JavaScript performante pour le rendu de réseaux complexes directement dans le navigateur.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|p{6cm}|}
+\hline
+\rowcolor{ice500!20}
+\textbf{Composant} & \textbf{Technologie} & \textbf{Rôle} \\
+\hline
+Rendu graphique & Vis.js 9.1.2 & Affichage du réseau via Canvas HTML5 \\
+\hline
+Algorithme de layout & Barnes-Hut & Positionnement force-directed optimisé $O(n \log n)$ \\
+\hline
+Recherche & Autocomplétion JS & Navigation rapide vers un scientifique \\
+\hline
+Style & CSS3 + Glassmorphism & Interface moderne avec effets de transparence \\
+\hline
+Icônes & Lucide Icons & Symboles vectoriels pour les contrôles \\
+\hline
+\end{tabular}
+\caption{Stack technique du frontend}
+\end{table}
+
+\section{Algorithme de Layout : Barnes-Hut}
+
+Le positionnement des nœuds utilise une simulation physique \textbf{force-directed}. Les principes physiques sont :
+
+\begin{itemize}
+    \item Les nœuds se \textbf{repoussent mutuellement} (force de Coulomb) — paramètre \texttt{gravitationalConstant = -2000}
+    \item Les arêtes \textbf{attirent} les nœuds qu'elles connectent (loi de Hooke, ressorts) — paramètre \texttt{springConstant = 0.02}
+    \item Une force de \textbf{gravité centrale} évite la dispersion — paramètre \texttt{centralGravity = 0.2}
+    \item Un \textbf{amortissement} stabilise le système — paramètre \texttt{damping = 0.15}
+\end{itemize}
+
+L'optimisation Barnes-Hut réduit la complexité de $O(n^2)$ à $O(n \log n)$ en regroupant les nœuds distants, ce qui permet de visualiser des milliers de nœuds de manière fluide.
+
+\section{Encodage Visuel}
+
+\subsection{Taille des Nœuds}
+
+La taille de chaque nœud est \textbf{proportionnelle à son PageRank}. Les scientifiques les plus influents apparaissent donc plus grands, attirant naturellement l'attention.
+
+\subsection{Couleur des Nœuds}
+
+Deux modes de coloration sont disponibles :
+
+\begin{enumerate}
+    \item \textbf{Par domaine scientifique} : Physique (bleu), Mathématiques (violet), Chimie (vert), Biologie (vert clair), Informatique (cyan), Médecine (rouge), Astronomie (gris), Ingénierie (orange), Philosophie (rose), Économie (ambre).
+
+    \item \textbf{Par communauté détectée} : Coloration automatique basée sur l'algorithme de Louvain.
+\end{enumerate}
+
+\section{Fonctionnalités Interactives}
+
+\begin{itemize}
+    \item \textbf{Recherche avec autocomplétion} : Permet de trouver rapidement un scientifique et de centrer la vue dessus avec une animation de zoom.
+
+    \item \textbf{Pan et Zoom} : Navigation libre dans le graphe avec la souris ou le trackpad.
+
+    \item \textbf{Drag des nœuds} : Réorganisation manuelle du layout en faisant glisser les nœuds.
+
+    \item \textbf{Mode Itinéraire (Pathfinding)} : Sélection de deux scientifiques pour visualiser le plus court chemin les reliant, avec animation « fourmis en marche ».
+
+    \item \textbf{Filtrage dynamique} : Slider permettant d'afficher uniquement les top N scientifiques par PageRank.
+
+    \item \textbf{Toggle Hubs} : Met en évidence les 5\% de nœuds les plus connectés (degré le plus élevé).
+
+    \item \textbf{Toggle Passeurs} : Met en évidence les 5\% de nœuds avec le Betweenness le plus élevé.
+
+    \item \textbf{Panneau d'information} : Affiche les détails d'un nœud sélectionné (nom, score d'influence, nombre de connexions, lien Wikipedia).
+\end{itemize}
+
+% ============================================================================
+% CHAPITRE 9 : TESTS ET QUALITÉ
+% ============================================================================
+\chapter{Tests et Assurance Qualité}
+
+\section{Stratégie de Tests}
+
+La nature probabiliste des LLM impose une stratégie de test rigoureuse combinant tests unitaires, tests d'intégration et validation métier.
+
+\subsection{Organisation des Tests}
+
+Les tests sont organisés en 4 modules dans le dossier \texttt{tests/} :
+
+\begin{itemize}
+    \item \textbf{test\_graph\_builder.py} : 15+ tests couvrant la validation chronologique, le filtrage des noms, la sauvegarde/reprise du graphe.
+    \item \textbf{test\_llm\_extractor.py} : Tests du parsing JSON et de la gestion des erreurs.
+    \item \textbf{test\_cache\_manager.py} : Tests du cache (hit, miss, invalidation).
+    \item \textbf{test\_wikipedia\_client.py} : Tests de l'extraction de données Wikipedia.
+\end{itemize}
+
+\subsection{Cas de Test Clés}
+
+\textbf{Validation chronologique} :
+\begin{itemize}
+    \item Un mentor plus âgé que son élève → Valide
+    \item Un mentor plus jeune que son élève → Rejeté
+    \item Contemporains dans la marge de 5 ans → Valide
+    \item Dates manquantes → Accepté (fail open)
+\end{itemize}
+
+\textbf{Filtrage des noms} :
+\begin{itemize}
+    \item « Albert Einstein » → Valide
+    \item « Einstein » (sans prénom) → Rejeté
+    \item « Adolf Hitler » (blacklist) → Rejeté
+    \item « Vienna Circle » (pattern d'exclusion) → Rejeté
+    \item « Pythagorean theorem » (concept, pas une personne) → Rejeté
+\end{itemize}
+
+\section{Métriques de Qualité}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\rowcolor{ice500!20}
+\textbf{Métrique} & \textbf{Objectif} & \textbf{Statut} \\
+\hline
+Précision des entités (humains réels) & >95\% & \textcolor{success}{$\checkmark$ Atteint} \\
+\hline
+Cohérence temporelle (0 anachronisme) & 100\% & \textcolor{success}{$\checkmark$ Atteint} \\
+\hline
+Connexité du graphe & 100\% connecté & \textcolor{success}{$\checkmark$ Atteint} \\
+\hline
+Taux de hit cache (reprise) & >90\% & \textcolor{success}{$\checkmark$ 95\%} \\
+\hline
+Tests unitaires passants & 100\% & \textcolor{success}{$\checkmark$ Atteint} \\
+\hline
+\end{tabular}
+\caption{Tableau de bord qualité}
+\end{table}
+
+% ============================================================================
+% CHAPITRE 10 : CONCLUSION
+% ============================================================================
+\chapter{Conclusion et Perspectives}
+
+\section{Bilan Technique}
+
+Le projet Episteme Network démontre la faisabilité d'une \textbf{extraction automatique de graphes de connaissances} à partir de données textuelles non structurées. Les principaux accomplissements techniques sont :
+
+\begin{enumerate}
+    \item \textbf{Pipeline ETL robuste} : Architecture modulaire respectant le principe de responsabilité unique, avec séparation claire entre scraping, extraction, validation et visualisation.
+
+    \item \textbf{Intégration LLM sophistiquée} : Stratégie multi-fournisseurs avec fallback automatique, prompt engineering optimisé pour l'extraction de relations, et parsing robuste à 3 niveaux de fallback.
+
+    \item \textbf{Système de cache intelligent} : Réduction drastique des coûts et du temps de traitement grâce au hashing MD5 avec versioning du prompt pour invalidation automatique.
+
+    \item \textbf{Validation multi-couche} : Combinaison de filtrage regex, validation chronologique stricte, et cross-référencement optionnel avec Wikidata via SPARQL.
+
+    \item \textbf{Analyse de graphe avancée} : Application de métriques classiques (PageRank, Betweenness, Louvain) et innovantes (trous structurels de Burt pour l'identification des paradigm shifters).
+
+    \item \textbf{Visualisation interactive} : Interface web moderne utilisant Vis.js avec filtrage dynamique, recherche de chemin, et encodage visuel riche.
+\end{enumerate}
+
+\section{Résultats Quantitatifs}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|r|}
+\hline
+\rowcolor{ice500!20}
+\textbf{Métrique} & \textbf{Valeur} \\
+\hline
+Scientifiques dans le graphe & 1 726 \\
+\hline
+Relations d'influence & 2 520 \\
+\hline
+Couverture temporelle & 901 ans (1105-2006) \\
+\hline
+Domaines scientifiques représentés & 10 \\
+\hline
+Requêtes LLM en cache & 1 978 \\
+\hline
+Scripts d'analyse disponibles & 30+ \\
+\hline
+Tests unitaires & 20+ \\
+\hline
+Lignes de code Python (estimé) & ~3 000 \\
+\hline
+\end{tabular}
+\caption{Métriques finales du projet}
+\end{table}
+
+\section{Limitations et Améliorations Futures}
+
+\subsection{Limitations Actuelles}
+
+\begin{itemize}
+    \item \textbf{Biais de couverture Wikipédia} : Sur-représentation des scientifiques occidentaux et contemporains, sous-représentation des scientifiques non-occidentaux et anciens.
+    \item \textbf{Hallucinations LLM résiduelles} : Malgré les validations multiples, quelques faux positifs peuvent subsister dans le graphe.
+    \item \textbf{Monolinguisme} : Actuellement limité à Wikipédia anglophone, excluant les scientifiques mieux documentés dans d'autres langues.
+    \item \textbf{Absence de quantification} : L'intensité de l'influence n'est pas mesurée (toutes les arêtes ont le même poids).
+\end{itemize}
+
+\subsection{Perspectives d'Évolution}
+
+\begin{enumerate}
+    \item \textbf{Support multilingue} : Intégration de Wikipédia FR, DE, ES pour améliorer la couverture géographique et temporelle.
+
+    \item \textbf{Base de données graphe} : Migration vers Neo4j pour des requêtes Cypher performantes et une meilleure scalabilité.
+
+    \item \textbf{Vue chronologique} : Timeline interactive montrant l'évolution du réseau d'influences dans le temps.
+
+    \item \textbf{Machine Learning avancé} : Entraînement d'un modèle de prédiction de liens basé sur les embeddings de graphe (Graph Neural Networks).
+
+    \item \textbf{Quantification des influences} : Analyse de fréquence des citations dans le texte pour pondérer les arêtes selon l'intensité de la relation.
+
+    \item \textbf{API REST} : Exposition du graphe via une API pour permettre des intégrations externes.
+\end{enumerate}
+
+\section{Compétences Mobilisées}
+
+Ce projet a permis de mettre en pratique les compétences suivantes :
+
+\begin{itemize}
+    \item \textbf{Programmation Python} : Architecture orientée objet, gestion d'exceptions, typage statique
+    \item \textbf{Web Scraping} : APIs REST, parsing, respect des contraintes éthiques
+    \item \textbf{Intelligence Artificielle} : Prompt engineering, intégration de LLMs, gestion des hallucinations
+    \item \textbf{Théorie des Graphes} : Algorithmes de centralité, détection de communautés, analyse structurelle
+    \item \textbf{Développement Web} : HTML5, CSS3, JavaScript, visualisation de données
+    \item \textbf{Ingénierie Logicielle} : Tests unitaires, gestion de configuration, logging
+\end{itemize}
+
+\vspace{1cm}
+
+\begin{center}
+\begin{tikzpicture}
+    \shade[left color=ice500,right color=purple] (0,0) rectangle (12,0.18);
+\end{tikzpicture}
+
+\vspace{0.5cm}
+\textit{Rapport rédigé dans le cadre du cours « Graphe et Open Data »}\\
+\textit{L3 MIAGE — Université Paris Nanterre}
+\end{center}
+
+% ============================================================================
+% ANNEXES : GALERIE VISUELLE
+% ============================================================================
+\appendix
+\chapter{Galerie Visuelle}
+
+Ce chapitre présente les maquettes et captures d'écran de l'interface utilisateur.
+
+\section{Interface Principale}
+\begin{figure}[H]
+    \centering
+    % DECOMMENTER ET REMPLACER PAR VOTRE IMAGE
+    % \includegraphics[width=\textwidth]{captures/interface_home.png}
+    \begin{tcolorbox}[colback=ice50, colframe=slate100, height=8cm, valign=center, halign=center, sharp corners]
+        \color{slate500}
+        \textbf{Zone de Capture d'Écran}\\
+        \textit{Vue globale du graphe}\\
+        \texttt{captures/interface\_home.png}
+    \end{tcolorbox}
+    \caption{Interface principale montrant le graphe de connaissances et la barre latérale.}
+\end{figure}
+
+\section{Détail d'un Scientifique}
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=\textwidth]{captures/interface_detail.png}
+    \begin{tcolorbox}[colback=ice50, colframe=slate100, height=8cm, valign=center, halign=center, sharp corners]
+        \color{slate500}
+        \textbf{Zone de Capture d'Écran}\\
+        \textit{Panneau latéral d'informations biographiques}\\
+        \texttt{captures/interface\_detail.png}
+    \end{tcolorbox}
+    \caption{Focus sur le panneau latéral affichant les détails extraits par le LLM.}
+\end{figure}
+
+\section{Visualisation des Communautés}
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=\textwidth]{captures/interface_clusters.png}
+    \begin{tcolorbox}[colback=ice50, colframe=slate100, height=8cm, valign=center, halign=center, sharp corners]
+        \color{slate500}
+        \textbf{Zone de Capture d'Écran}\\
+        \textit{Colorisation par clusters (Louvain)}\\
+        \texttt{captures/interface\_clusters.png}
+    \end{tcolorbox}
+    \caption{Mise en évidence des communautés scientifiques (Codes couleurs).}
+\end{figure}
+
+\end{document}

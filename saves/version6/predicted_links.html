@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Prédictions de Liens Manquants</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: #FAFAFA; padding: 40px; color: #111; }
+        h1 { font-size: 2rem; margin-bottom: 8px; }
+        .subtitle { color: #666; margin-bottom: 32px; }
+        table { width: 100%; border-collapse: collapse; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+        th { background: #111; color: white; padding: 16px; text-align: left; font-weight: 600; }
+        td { padding: 12px 16px; border-bottom: 1px solid #eee; }
+        tr:hover { background: #f8f9fa; }
+        .field-pill { background: rgba(0,0,0,0.05); padding: 4px 10px; border-radius: 100px; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <h1>🔮 Prédictions de Liens Manquants</h1>
+    <p class="subtitle">Relations d'influence probables non documentées, identifiées par Machine Learning.</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Influencé</th>
+                <th></th>
+                <th>Influenceur</th>
+                <th>Probabilité</th>
+                <th>Domaine 1</th>
+                <th>Domaine 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        <tr>
+            <td>1</td>
+            <td><strong>Enrico Fermi</strong></td>
+            <td>←</td>
+            <td><strong>Abdus Salam</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.9%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td><strong>Enrico Fermi</strong></td>
+            <td>←</td>
+            <td><strong>Howard P. Robertson</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.9%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td><strong>Niels Bohr</strong></td>
+            <td>←</td>
+            <td><strong>Howard P. Robertson</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.9%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>4</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>Hans Bethe</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.9%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>5</td>
+            <td><strong>Niels Bohr</strong></td>
+            <td>←</td>
+            <td><strong>Svante Arrhenius</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.9%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Chemistry</span></td>
+        </tr>
+        
+        <tr>
+            <td>6</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>George Uhlenbeck</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>7</td>
+            <td><strong>Werner Heisenberg</strong></td>
+            <td>←</td>
+            <td><strong>Hans Bethe</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>8</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>Samuel Goudsmit</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>9</td>
+            <td><strong>James Clerk Maxwell</strong></td>
+            <td>←</td>
+            <td><strong>Werner Heisenberg</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>10</td>
+            <td><strong>Enrico Fermi</strong></td>
+            <td>←</td>
+            <td><strong>Lev Landau</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>11</td>
+            <td><strong>Enrico Fermi</strong></td>
+            <td>←</td>
+            <td><strong>Arthur Eddington</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>12</td>
+            <td><strong>Enrico Fermi</strong></td>
+            <td>←</td>
+            <td><strong>Satyendra Nath Bose</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>13</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>Johann Bernoulli</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Mathematics</span></td>
+        </tr>
+        
+        <tr>
+            <td>14</td>
+            <td><strong>Enrico Fermi</strong></td>
+            <td>←</td>
+            <td><strong>Boris Podolsky</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>15</td>
+            <td><strong>Enrico Fermi</strong></td>
+            <td>←</td>
+            <td><strong>Nathan Rosen</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>16</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>Léon Rosenfeld</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>17</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>Meghnad Saha</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>18</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>Rudolf Clausius</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>19</td>
+            <td><strong>Christiaan Huygens</strong></td>
+            <td>←</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>20</td>
+            <td><strong>Niels Bohr</strong></td>
+            <td>←</td>
+            <td><strong>Meghnad Saha</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>21</td>
+            <td><strong>James Clerk Maxwell</strong></td>
+            <td>←</td>
+            <td><strong>Wolfgang Ernst Pauli</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>22</td>
+            <td><strong>Niels Bohr</strong></td>
+            <td>←</td>
+            <td><strong>Rudolf Clausius</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>23</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>Steven Weinberg</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>24</td>
+            <td><strong>Enrico Fermi</strong></td>
+            <td>←</td>
+            <td><strong>Isaac Newton</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>25</td>
+            <td><strong>Enrico Fermi</strong></td>
+            <td>←</td>
+            <td><strong>Ludwig Boltzmann</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>26</td>
+            <td><strong>Paul Dirac</strong></td>
+            <td>←</td>
+            <td><strong>Max Born</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>27</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>Paul Drude</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.8%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>28</td>
+            <td><strong>Werner Heisenberg</strong></td>
+            <td>←</td>
+            <td><strong>Abdus Salam</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>29</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>Lise Meitner</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>30</td>
+            <td><strong>Werner Heisenberg</strong></td>
+            <td>←</td>
+            <td><strong>Josiah Willard Gibbs</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>31</td>
+            <td><strong>Paul Dirac</strong></td>
+            <td>←</td>
+            <td><strong>Josiah Willard Gibbs</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>32</td>
+            <td><strong>Albert Einstein</strong></td>
+            <td>←</td>
+            <td><strong>Salim Mehmud</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Engineering</span></td>
+        </tr>
+        
+        <tr>
+            <td>33</td>
+            <td><strong>Werner Heisenberg</strong></td>
+            <td>←</td>
+            <td><strong>Lise Meitner</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>34</td>
+            <td><strong>Niels Bohr</strong></td>
+            <td>←</td>
+            <td><strong>Arthur Compton</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>35</td>
+            <td><strong>Werner Heisenberg</strong></td>
+            <td>←</td>
+            <td><strong>Svante Arrhenius</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Chemistry</span></td>
+        </tr>
+        
+        <tr>
+            <td>36</td>
+            <td><strong>Paul Dirac</strong></td>
+            <td>←</td>
+            <td><strong>Max Planck</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>37</td>
+            <td><strong>Niels Bohr</strong></td>
+            <td>←</td>
+            <td><strong>Ludwig Boltzmann</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>38</td>
+            <td><strong>Enrico Fermi</strong></td>
+            <td>←</td>
+            <td><strong>Ernest Rutherford</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>39</td>
+            <td><strong>David Hilbert</strong></td>
+            <td>←</td>
+            <td><strong>Arthur Eddington</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Mathematics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>40</td>
+            <td><strong>Werner Heisenberg</strong></td>
+            <td>←</td>
+            <td><strong>Subrahmanyan Chandrasekhar</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>41</td>
+            <td><strong>Max Born</strong></td>
+            <td>←</td>
+            <td><strong>George Uhlenbeck</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>42</td>
+            <td><strong>James Clerk Maxwell</strong></td>
+            <td>←</td>
+            <td><strong>Abdus Salam</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>43</td>
+            <td><strong>Werner Heisenberg</strong></td>
+            <td>←</td>
+            <td><strong>Richard Feynman</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>44</td>
+            <td><strong>Werner Heisenberg</strong></td>
+            <td>←</td>
+            <td><strong>Ernest Rutherford</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>45</td>
+            <td><strong>Werner Heisenberg</strong></td>
+            <td>←</td>
+            <td><strong>George Uhlenbeck</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>46</td>
+            <td><strong>Max Born</strong></td>
+            <td>←</td>
+            <td><strong>Abraham Pais</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>47</td>
+            <td><strong>Paul Dirac</strong></td>
+            <td>←</td>
+            <td><strong>Ernest Rutherford</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>48</td>
+            <td><strong>Niels Bohr</strong></td>
+            <td>←</td>
+            <td><strong>Christiaan Huygens</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>49</td>
+            <td><strong>Paul Dirac</strong></td>
+            <td>←</td>
+            <td><strong>Lise Meitner</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Physics</span></td>
+        </tr>
+        
+        <tr>
+            <td>50</td>
+            <td><strong>Niels Bohr</strong></td>
+            <td>←</td>
+            <td><strong>Hermann Weyl</strong></td>
+            <td style="color: #22c55e; font-weight: 600;">99.7%</td>
+            <td><span class="field-pill">Physics</span></td>
+            <td><span class="field-pill">Mathematics</span></td>
+        </tr>
+        
+        </tbody>
+    </table>
+</body>
+</html>

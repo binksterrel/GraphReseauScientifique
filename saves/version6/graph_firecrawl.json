@@ -1,0 +1,5932 @@
+{
+  "scientists": [
+    {
+      "name": "Albert Einstein",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "James Clerk Maxwell",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Bernhard Riemann",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Hermann Minkowski",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Ernst Mach",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Henri Poincaré",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "David Hume",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Max Planck",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Hendrik Lorentz",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Michael Faraday",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Galileo Galilei",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Marcel Grossmann",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Michele Besso",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Mileva Marić",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Arthur Eddington",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Satyendra Nath Bose",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Niels Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Leó Szilárd",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Kurt Gödel",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Nathan Rosen",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Boris Podolsky",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Louis de Broglie",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Erwin Schrödinger",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Otto Stern",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Robert Millikan",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Leopold Infeld",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Peter Bergmann",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "John Stewart Bell",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "John Archibald Wheeler",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Wolfgang Pauli",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        },
+        {
+          "value": "Stephen Hawking",
+          "value_citation": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+        },
+        {
+          "value": "Roger Penrose",
+          "value_citation": "https://en.wikipedia.org/wiki/Roger_Penrose"
+        },
+        {
+          "value": "Edwin Hubble",
+          "value_citation": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+        }
+      ],
+      "dates": {
+        "birth": "1879-03-14",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1955-04-18",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Special Relativity",
+          "value_citation": "https://www.hcplive.com/view/influencers-of-albert-einsteins-work"
+        },
+        {
+          "value": "General Relativity",
+          "value_citation": "https://www.hcplive.com/view/influencers-of-albert-einsteins-work"
+        },
+        {
+          "value": "Quantum Theory",
+          "value_citation": "https://www.hcplive.com/view/influencers-of-albert-einsteins-work"
+        },
+        {
+          "value": "Photoelectric Effect",
+          "value_citation": "https://medium.com/@prabhatmisra/meaning-of-being-the-personality-like-einstein-a29609f0cf40"
+        },
+        {
+          "value": "Brownian Motion",
+          "value_citation": "https://www.hcplive.com/view/influencers-of-albert-einsteins-work"
+        }
+      ]
+    },
+    {
+      "name": "Isaac Newton",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Isaac Barrow",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "René Descartes",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Robert Boyle",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Aristotle",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Thomas Street",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Johannes Kepler",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Robert Hooke",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Roger Cotes",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "William Whiston",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Joseph-Louis Lagrange",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Pierre-Simon Laplace",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Immanuel Kant",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Thomas Young",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Joseph Fourier",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Joseph von Fraunhofer",
+          "value_citation": "https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer"
+        }
+      ],
+      "dates": {
+        "birth": "1643-01-04",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1727-03-31",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Gravitation",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Calculus",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Universal Time",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Natural Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Natural Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Alchemy",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Theology",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ]
+    },
+    {
+      "name": "James Clerk Maxwell",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "William Hopkins",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Rudolf Clausius",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Daniel Bernoulli",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Oliver Heaviside",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Ludwig Boltzmann",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Lord Rayleigh",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "John Henry Poynting",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Horace Lamb",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ],
+      "dates": {
+        "birth": "1831-06-13",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1879-11-05",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Electromagnetism",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Electromagnetic Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Statistical Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Kinetic Theory of Gases",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Thermodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Optics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Color Vision",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ]
+    },
+    {
+      "name": "Bernhard Riemann",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "dates": {
+        "birth": "1826-09-17",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1866-07-20",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Non-Euclidean Geometry",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Curvature Tensor",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Hermann Minkowski",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Max Born",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "John von Neumann",
+          "value_citation": "https://en.wikipedia.org/wiki/John_von_Neumann"
+        }
+      ],
+      "dates": {
+        "birth": "1864-06-22",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1909-01-12",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Spacetime Geometry",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Ernst Mach",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "dates": {
+        "birth": "1838-02-18",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1916-02-19",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Philosophy of Science",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Henri Poincaré",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Henri Becquerel",
+          "value_citation": "https://en.wikipedia.org/wiki/Henri_Becquerel"
+        }
+      ],
+      "dates": {
+        "birth": "1854-04-29",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1912-07-17",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Geometry",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Topology",
+          "value_citation": "https://en.wikipedia.org/wiki/Henri_Poincaré"
+        },
+        {
+          "value": "Celestial Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Henri_Poincaré"
+        },
+        {
+          "value": "Special Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Henri_Poincaré"
+        }
+      ]
+    },
+    {
+      "name": "David Hume",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "dates": {
+        "birth": "1711-05-07",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1776-08-25",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Epistemology",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Max Planck",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Hermann von Helmholtz",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Gustav Kirchhoff",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Philipp von Jolly",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Max von Laue",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Walther Bothe",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Lise Meitner",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Walther Meissner",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ],
+      "dates": {
+        "birth": "1858-04-23",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1947-10-04",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Black-body Radiation",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Thermodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Black-body Radiation",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Entropy",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Physical Chemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ]
+    },
+    {
+      "name": "Hendrik Lorentz",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "dates": {
+        "birth": "1853-07-18",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1928-02-04",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Electrodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Special Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Lorentz Transformation",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Michael Faraday",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Humphry Davy",
+          "value_citation": "https://en.wikipedia.org/wiki/Michael_Faraday"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "dates": {
+        "birth": "1791-09-22",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1867-08-25",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Electrodynamic Induction",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Electromagnetism",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Electromagnetic Induction",
+          "value_citation": "https://en.wikipedia.org/wiki/Michael_Faraday"
+        },
+        {
+          "value": "Diamagnetism",
+          "value_citation": "https://en.wikipedia.org/wiki/Michael_Faraday"
+        },
+        {
+          "value": "Electrolysis",
+          "value_citation": "https://en.wikipedia.org/wiki/Michael_Faraday"
+        }
+      ]
+    },
+    {
+      "name": "Galileo Galilei",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Nicolaus Copernicus",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Archimedes",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Ostilio Ricci",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Evangelista Torricelli",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Vincenzo Viviani",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Christiaan Huygens",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        }
+      ],
+      "dates": {
+        "birth": "1564-02-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1642-01-08",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Law of Free Fall",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Engineering",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Natural Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Kinematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Heliocentrism",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        }
+      ]
+    },
+    {
+      "name": "Marcel Grossmann",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "dates": {
+        "birth": "1878-04-09",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1936-09-07",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Tensor Calculus",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Differential Geometry",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Michele Besso",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "dates": {
+        "birth": "1873-05-25",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1955-03-15",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Mileva Marić",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "dates": {
+        "birth": "1875-12-19",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1948-08-04",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Arthur Eddington",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1882-12-28",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1944-11-22",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Mathematical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Astrophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Satyendra Nath Bose",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1894-01-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1974-02-04",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Statistical Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Niels Bohr",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Ernest Rutherford",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "J. J. Thomson",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Werner Heisenberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Wolfgang Pauli",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Lev Landau",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Linus Pauling",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Aage Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Ben Mottelson",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Paul Dirac",
+          "value_citation": "https://en.wikipedia.org/wiki/Paul_Dirac"
+        }
+      ],
+      "dates": {
+        "birth": "1885-10-07",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1962-11-18",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Atomic Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Atomic Structure",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Philosophy of Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ]
+    },
+    {
+      "name": "Leó Szilárd",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1898-02-11",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1964-05-30",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Thermodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Kurt Gödel",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1906-04-28",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1978-01-14",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematical Logic",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Philosophy of Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Nathan Rosen",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1909-03-22",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1995-12-18",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "General Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Boris Podolsky",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1896-06-29",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1966-11-28",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Louis de Broglie",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Paul Langevin",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "David Bohm",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        },
+        {
+          "value": "Erwin Schrödinger",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        }
+      ],
+      "dates": {
+        "birth": "1892-08-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1987-03-19",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Matter Wave Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Wave Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        },
+        {
+          "value": "Wave-Particle Duality",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        },
+        {
+          "value": "X-ray Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        }
+      ]
+    },
+    {
+      "name": "Erwin Schrödinger",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Friedrich Hasenöhrl",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        },
+        {
+          "value": "Louis de Broglie",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Walter Heitler",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        },
+        {
+          "value": "James Watson",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        },
+        {
+          "value": "Francis Crick",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        }
+      ],
+      "dates": {
+        "birth": "1887-08-12",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1961-01-04",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Wave Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Wave Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        },
+        {
+          "value": "Statistical Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        },
+        {
+          "value": "General Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        },
+        {
+          "value": "Theoretical Biology",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        }
+      ]
+    },
+    {
+      "name": "Otto Stern",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1888-02-17",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1969-08-17",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Molecular Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Quantum Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Robert Millikan",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Carl Anderson",
+          "value_citation": "https://en.wikipedia.org/wiki/Carl_David_Anderson"
+        }
+      ],
+      "dates": {
+        "birth": "1868-03-22",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1953-12-19",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Photoelectric Effect",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Experimental Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Leopold Infeld",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1898-08-20",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1968-01-15",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Unified Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "General Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Peter Bergmann",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1915-03-24",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "2002-10-19",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "General Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Unified Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "John Stewart Bell",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Alain Aspect",
+          "value_citation": "https://en.wikipedia.org/wiki/Alain_Aspect"
+        },
+        {
+          "value": "Anton Zeilinger",
+          "value_citation": "https://en.wikipedia.org/wiki/Anton_Zeilinger"
+        }
+      ],
+      "dates": {
+        "birth": "1928-06-28",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "1990-10-01",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Bell's Inequality",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "John Archibald Wheeler",
+      "name_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Richard Feynman",
+          "value_citation": "https://en.wikipedia.org/wiki/Richard_Feynman"
+        },
+        {
+          "value": "Kip Thorne",
+          "value_citation": "https://en.wikipedia.org/wiki/Kip_Thorne"
+        },
+        {
+          "value": "Carlo Rovelli",
+          "value_citation": "https://en.wikipedia.org/wiki/Carlo_Rovelli"
+        },
+        {
+          "value": "Lee Smolin",
+          "value_citation": "https://en.wikipedia.org/wiki/Lee_Smolin"
+        }
+      ],
+      "dates": {
+        "birth": "1911-07-09",
+        "birth_citation": "https://en.wikipedia.org/wiki/Albert_Einstein",
+        "death": "2008-04-13",
+        "death_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "research_areas": [
+        {
+          "value": "General Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Black Holes",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        },
+        {
+          "value": "Quantum Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Albert_Einstein"
+        }
+      ]
+    },
+    {
+      "name": "Isaac Barrow",
+      "name_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ],
+      "dates": {
+        "birth": "1630-10-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "death": "1677-05-04",
+        "death_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Theology",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ]
+    },
+    {
+      "name": "René Descartes",
+      "name_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "inspired_by": [
+        {
+          "value": "Isaac Beeckman",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Johannes Kepler",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Ibn al-Haytham",
+          "value_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Baruch Spinoza",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Gottfried Wilhelm Leibniz",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "John Locke",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Nicolas Malebranche",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Christiaan Huygens",
+          "value_citation": "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+        }
+      ],
+      "dates": {
+        "birth": "1596-03-31",
+        "birth_citation": "https://plato.stanford.edu/entries/descartes/",
+        "death": "1650-02-11",
+        "death_citation": "https://plato.stanford.edu/entries/descartes/"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Analytic Geometry",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Natural Philosophy",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Metaphysics",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Epistemology",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        }
+      ]
+    },
+    {
+      "name": "Robert Boyle",
+      "name_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Robert Hooke",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Boyle"
+        }
+      ],
+      "dates": {
+        "birth": "1627-01-25",
+        "birth_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "death": "1691-12-31",
+        "death_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+      },
+      "research_areas": [
+        {
+          "value": "Chemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Natural Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Gas Laws",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Boyle"
+        },
+        {
+          "value": "Experimental Method",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Boyle"
+        }
+      ]
+    },
+    {
+      "name": "Aristotle",
+      "name_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "inspired_by": [
+        {
+          "value": "Plato",
+          "value_citation": "https://en.wikipedia.org/wiki/Aristotle"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ],
+      "dates": {
+        "birth": "-384-01-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "death": "-322-03-07",
+        "death_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+      },
+      "research_areas": [
+        {
+          "value": "Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Natural Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Logic",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Aristotle"
+        },
+        {
+          "value": "Metaphysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Aristotle"
+        },
+        {
+          "value": "Biology",
+          "value_citation": "https://en.wikipedia.org/wiki/Aristotle"
+        },
+        {
+          "value": "Ethics",
+          "value_citation": "https://en.wikipedia.org/wiki/Aristotle"
+        }
+      ]
+    },
+    {
+      "name": "Thomas Street",
+      "name_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ],
+      "dates": {
+        "birth": "1621-01-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "death": "1689-01-01",
+        "death_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+      },
+      "research_areas": [
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ]
+    },
+    {
+      "name": "Roger Cotes",
+      "name_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "inspired_by": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1682-07-10",
+        "birth_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "death": "1716-06-05",
+        "death_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ]
+    },
+    {
+      "name": "William Whiston",
+      "name_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "inspired_by": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1667-12-09",
+        "birth_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "death": "1752-08-22",
+        "death_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Theology",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ]
+    },
+    {
+      "name": "Joseph-Louis Lagrange",
+      "name_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "inspired_by": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Leonhard Euler",
+          "value_citation": "https://en.wikipedia.org/wiki/Joseph-Louis_Lagrange"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1736-01-25",
+        "birth_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "death": "1813-04-10",
+        "death_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ]
+    },
+    {
+      "name": "Pierre-Simon Laplace",
+      "name_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "inspired_by": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1749-03-23",
+        "birth_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "death": "1827-03-05",
+        "death_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ]
+    },
+    {
+      "name": "Joseph Fourier",
+      "name_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+      "inspired_by": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1768-03-21",
+        "birth_citation": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "death": "1830-05-16",
+        "death_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ]
+    },
+    {
+      "name": "William Hopkins",
+      "name_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "James Clerk Maxwell",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ],
+      "dates": {
+        "birth": "1793-02-02",
+        "birth_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+        "death": "1866-10-13",
+        "death_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Geology",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ]
+    },
+    {
+      "name": "Rudolf Clausius",
+      "name_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "James Clerk Maxwell",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ],
+      "dates": {
+        "birth": "1822-01-02",
+        "birth_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+        "death": "1888-08-24",
+        "death_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Thermodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ]
+    },
+    {
+      "name": "Daniel Bernoulli",
+      "name_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "James Clerk Maxwell",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ],
+      "dates": {
+        "birth": "1700-02-08",
+        "birth_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+        "death": "1782-03-17",
+        "death_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Fluid Dynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ]
+    },
+    {
+      "name": "Oliver Heaviside",
+      "name_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "inspired_by": [
+        {
+          "value": "James Clerk Maxwell",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1850-05-18",
+        "birth_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+        "death": "1925-02-03",
+        "death_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Electromagnetism",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Electrical Engineering",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ]
+    },
+    {
+      "name": "Ludwig Boltzmann",
+      "name_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "inspired_by": [
+        {
+          "value": "James Clerk Maxwell",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1844-02-20",
+        "birth_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+        "death": "1906-09-05",
+        "death_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+      },
+      "research_areas": [
+        {
+          "value": "Statistical Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Thermodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ]
+    },
+    {
+      "name": "Lord Rayleigh",
+      "name_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "inspired_by": [
+        {
+          "value": "James Clerk Maxwell",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1842-11-12",
+        "birth_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+        "death": "1919-06-30",
+        "death_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Acoustics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Optics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ]
+    },
+    {
+      "name": "John Henry Poynting",
+      "name_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "inspired_by": [
+        {
+          "value": "James Clerk Maxwell",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1852-09-09",
+        "birth_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+        "death": "1914-03-30",
+        "death_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Electromagnetism",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ]
+    },
+    {
+      "name": "Horace Lamb",
+      "name_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+      "inspired_by": [
+        {
+          "value": "James Clerk Maxwell",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1849-11-27",
+        "birth_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell",
+        "death": "1934-12-04",
+        "death_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        },
+        {
+          "value": "Fluid Dynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+        }
+      ]
+    },
+    {
+      "name": "Ernest Rutherford",
+      "name_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+      "inspired_by": [
+        {
+          "value": "Marie Curie",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Niels Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "James Chadwick",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Hans Geiger",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Patrick Blackett",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Frederick Soddy",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "John Cockcroft",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "George Gamow",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "J. Robert Oppenheimer",
+          "value_citation": "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"
+        }
+      ],
+      "dates": {
+        "birth": "1871-08-30",
+        "birth_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+        "death": "1937-10-19",
+        "death_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Radioactivity",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Atomic Structure",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Atomic Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Radiochemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Radioactivity",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ]
+    },
+    {
+      "name": "J. J. Thomson",
+      "name_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Niels Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ],
+      "dates": {
+        "birth": "1856-12-18",
+        "birth_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+        "death": "1940-08-30",
+        "death_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Atomic Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Electron Discovery",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ]
+    },
+    {
+      "name": "Werner Heisenberg",
+      "name_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+      "inspired_by": [
+        {
+          "value": "Niels Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Arnold Sommerfeld",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Max Born",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Felix Bloch",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Edward Teller",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Rudolf Peierls",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Carl Friedrich von Weizsäcker",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Paul Dirac",
+          "value_citation": "https://en.wikipedia.org/wiki/Paul_Dirac"
+        },
+        {
+          "value": "Sin-Itiro Tomonaga",
+          "value_citation": "https://en.wikipedia.org/wiki/Sin-Itiro_Tomonaga"
+        },
+        {
+          "value": "Hideki Yukawa",
+          "value_citation": "https://en.wikipedia.org/wiki/Hideki_Yukawa"
+        }
+      ],
+      "dates": {
+        "birth": "1901-12-05",
+        "birth_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+        "death": "1976-02-01",
+        "death_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Uncertainty Principle",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Uncertainty Principle",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Matrix Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        }
+      ]
+    },
+    {
+      "name": "Wolfgang Pauli",
+      "name_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+      "inspired_by": [
+        {
+          "value": "Niels Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Arnold Sommerfeld",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        },
+        {
+          "value": "Max Born",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        },
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Enrico Fermi",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Hendrik Casimir",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        },
+        {
+          "value": "Nicholas Kemmer",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        },
+        {
+          "value": "Abdus Salam",
+          "value_citation": "https://en.wikipedia.org/wiki/Abdus_Salam"
+        }
+      ],
+      "dates": {
+        "birth": "1900-04-25",
+        "birth_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+        "death": "1958-12-15",
+        "death_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Pauli Exclusion Principle",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        },
+        {
+          "value": "Spin Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        }
+      ]
+    },
+    {
+      "name": "Lev Landau",
+      "name_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+      "inspired_by": [
+        {
+          "value": "Niels Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "David Kirzhnits",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Kirzhnits"
+        }
+      ],
+      "dates": {
+        "birth": "1908-01-22",
+        "birth_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+        "death": "1968-04-01",
+        "death_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+      },
+      "research_areas": [
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Condensed Matter Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ]
+    },
+    {
+      "name": "Linus Pauling",
+      "name_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+      "inspired_by": [
+        {
+          "value": "Niels Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1901-02-28",
+        "birth_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+        "death": "1994-08-19",
+        "death_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Chemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Molecular Biology",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Chemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ]
+    },
+    {
+      "name": "Aage Bohr",
+      "name_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+      "inspired_by": [
+        {
+          "value": "Niels Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1922-06-19",
+        "birth_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+        "death": "2009-09-08",
+        "death_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ]
+    },
+    {
+      "name": "Ben Mottelson",
+      "name_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+      "inspired_by": [
+        {
+          "value": "Niels Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1926-07-09",
+        "birth_citation": "https://en.wikipedia.org/wiki/Niels_Bohr",
+        "death": "2022-05-13",
+        "death_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        },
+        {
+          "value": "Nuclear Structure",
+          "value_citation": "https://en.wikipedia.org/wiki/Niels_Bohr"
+        }
+      ]
+    },
+    {
+      "name": "Hermann von Helmholtz",
+      "name_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Max Planck",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ],
+      "dates": {
+        "birth": "1821-08-31",
+        "birth_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+        "death": "1894-09-08",
+        "death_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Physiology",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Thermodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Electrodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ]
+    },
+    {
+      "name": "Gustav Kirchhoff",
+      "name_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+      "inspired_by": [
+        {
+          "value": "Joseph von Fraunhofer",
+          "value_citation": "https://en.wikipedia.org/wiki/Gustav_Kirchhoff"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Max Planck",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ],
+      "dates": {
+        "birth": "1824-03-12",
+        "birth_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+        "death": "1887-10-17",
+        "death_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Spectroscopy",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Black-body Radiation",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ]
+    },
+    {
+      "name": "Philipp von Jolly",
+      "name_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Max Planck",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ],
+      "dates": {
+        "birth": "1809-09-26",
+        "birth_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+        "death": "1884-12-24",
+        "death_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ]
+    },
+    {
+      "name": "Max von Laue",
+      "name_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+      "inspired_by": [
+        {
+          "value": "Max Planck",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1879-10-09",
+        "birth_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+        "death": "1960-04-24",
+        "death_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "X-ray Diffraction",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Crystallography",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ]
+    },
+    {
+      "name": "Walther Bothe",
+      "name_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+      "inspired_by": [
+        {
+          "value": "Max Planck",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1891-01-08",
+        "birth_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+        "death": "1957-02-08",
+        "death_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ]
+    },
+    {
+      "name": "Lise Meitner",
+      "name_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+      "inspired_by": [
+        {
+          "value": "Max Planck",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1878-11-07",
+        "birth_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+        "death": "1968-10-27",
+        "death_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Radioactivity",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ]
+    },
+    {
+      "name": "Walther Meissner",
+      "name_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+      "inspired_by": [
+        {
+          "value": "Max Planck",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1882-12-16",
+        "birth_citation": "https://en.wikipedia.org/wiki/Max_Planck",
+        "death": "1974-11-16",
+        "death_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        },
+        {
+          "value": "Superconductivity",
+          "value_citation": "https://en.wikipedia.org/wiki/Max_Planck"
+        }
+      ]
+    },
+    {
+      "name": "Arnold Sommerfeld",
+      "name_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+      "inspired_by": [
+        {
+          "value": "Ferdinand von Lindemann",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Felix Klein",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "David Hilbert",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Werner Heisenberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Peter Debye",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Hans Bethe",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Isidor Isaac Rabi",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Wolfgang Pauli",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        }
+      ],
+      "dates": {
+        "birth": "1868-12-05",
+        "birth_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+        "death": "1951-04-26",
+        "death_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+      },
+      "research_areas": [
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Mathematical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Atomic Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Atomic Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Quantum Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Electrodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Hydrodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ]
+    },
+    {
+      "name": "Max Born",
+      "name_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+      "inspired_by": [
+        {
+          "value": "Felix Klein",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Hermann Minkowski",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Werner Heisenberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Enrico Fermi",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Pascual Jordan",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "J. Robert Oppenheimer",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Maria Goeppert-Mayer",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Wolfgang Pauli",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        }
+      ],
+      "dates": {
+        "birth": "1882-12-11",
+        "birth_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+        "death": "1970-01-05",
+        "death_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Solid State Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Probability Interpretation",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Matrix Mechanics",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Wave Function Probability",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Lattice Dynamics",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Crystal Theory",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        }
+      ]
+    },
+    {
+      "name": "Felix Bloch",
+      "name_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+      "inspired_by": [
+        {
+          "value": "Werner Heisenberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1905-10-23",
+        "birth_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+        "death": "1983-09-10",
+        "death_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+      },
+      "research_areas": [
+        {
+          "value": "Solid State Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Nuclear Magnetic Resonance",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        }
+      ]
+    },
+    {
+      "name": "Edward Teller",
+      "name_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+      "inspired_by": [
+        {
+          "value": "Werner Heisenberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1908-01-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+        "death": "2003-09-09",
+        "death_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Thermonuclear Weapons",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        }
+      ]
+    },
+    {
+      "name": "Rudolf Peierls",
+      "name_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+      "inspired_by": [
+        {
+          "value": "Werner Heisenberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1907-06-05",
+        "birth_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+        "death": "1995-09-19",
+        "death_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        }
+      ]
+    },
+    {
+      "name": "Carl Friedrich von Weizsäcker",
+      "name_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+      "inspired_by": [
+        {
+          "value": "Werner Heisenberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1912-06-28",
+        "birth_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
+        "death": "2007-04-28",
+        "death_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+      },
+      "research_areas": [
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        },
+        {
+          "value": "Astrophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+        }
+      ]
+    },
+    {
+      "name": "Nicolaus Copernicus",
+      "name_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+      "inspired_by": [
+        {
+          "value": "Ptolemy",
+          "value_citation": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Galileo Galilei",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Johannes Kepler",
+          "value_citation": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+        }
+      ],
+      "dates": {
+        "birth": "1473-02-19",
+        "birth_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+        "death": "1543-05-24",
+        "death_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      },
+      "research_areas": [
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Heliocentrism",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Heliocentrism",
+          "value_citation": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+        },
+        {
+          "value": "Mathematical Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+        }
+      ]
+    },
+    {
+      "name": "Archimedes",
+      "name_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+      "inspired_by": [
+        {
+          "value": "Euclid",
+          "value_citation": "https://en.wikipedia.org/wiki/Euclid"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Galileo Galilei",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Hero of Alexandria",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        },
+        {
+          "value": "Leonardo da Vinci",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        }
+      ],
+      "dates": {
+        "birth": "-287-01-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+        "death": "-212-01-01",
+        "death_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Engineering",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Geometry",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Hydrostatics",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        },
+        {
+          "value": "Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        },
+        {
+          "value": "Lever Principle",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        }
+      ]
+    },
+    {
+      "name": "Ostilio Ricci",
+      "name_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Galileo Galilei",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        }
+      ],
+      "dates": {
+        "birth": "1540-01-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+        "death": "1603-01-01",
+        "death_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        }
+      ]
+    },
+    {
+      "name": "Evangelista Torricelli",
+      "name_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+      "inspired_by": [
+        {
+          "value": "Galileo Galilei",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1608-10-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+        "death": "1647-10-25",
+        "death_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Fluid Dynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        }
+      ]
+    },
+    {
+      "name": "Vincenzo Viviani",
+      "name_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+      "inspired_by": [
+        {
+          "value": "Galileo Galilei",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1622-04-05",
+        "birth_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+        "death": "1703-09-22",
+        "death_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Engineering",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        }
+      ]
+    },
+    {
+      "name": "Christiaan Huygens",
+      "name_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+      "inspired_by": [
+        {
+          "value": "Galileo Galilei",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "René Descartes",
+          "value_citation": "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Gottfried Wilhelm Leibniz",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        },
+        {
+          "value": "Thomas Young",
+          "value_citation": "https://en.wikipedia.org/wiki/Thomas_Young_(scientist)"
+        }
+      ],
+      "dates": {
+        "birth": "1629-04-14",
+        "birth_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+        "death": "1695-07-08",
+        "death_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Optics",
+          "value_citation": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+        },
+        {
+          "value": "Wave Theory of Light",
+          "value_citation": "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+        },
+        {
+          "value": "Pendulum Clock",
+          "value_citation": "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+        }
+      ]
+    },
+    {
+      "name": "Friedrich Hasenöhrl",
+      "name_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Erwin Schrödinger",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        }
+      ],
+      "dates": {
+        "birth": "1874-11-30",
+        "birth_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger",
+        "death": "1915-10-07",
+        "death_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+      },
+      "research_areas": [
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        },
+        {
+          "value": "Thermodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        }
+      ]
+    },
+    {
+      "name": "Walter Heitler",
+      "name_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger",
+      "inspired_by": [
+        {
+          "value": "Erwin Schrödinger",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1904-01-02",
+        "birth_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger",
+        "death": "1981-11-15",
+        "death_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Chemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        },
+        {
+          "value": "Theoretical Chemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        }
+      ]
+    },
+    {
+      "name": "James Watson",
+      "name_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger",
+      "inspired_by": [
+        {
+          "value": "Erwin Schrödinger",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1928-04-06",
+        "birth_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+      },
+      "research_areas": [
+        {
+          "value": "Molecular Biology",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        },
+        {
+          "value": "Genetics",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        }
+      ]
+    },
+    {
+      "name": "Francis Crick",
+      "name_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger",
+      "inspired_by": [
+        {
+          "value": "Erwin Schrödinger",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1916-06-08",
+        "birth_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger",
+        "death": "2004-07-28",
+        "death_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+      },
+      "research_areas": [
+        {
+          "value": "Molecular Biology",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        },
+        {
+          "value": "Biophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Erwin_Schrödinger"
+        }
+      ]
+    },
+    {
+      "name": "Hans Geiger",
+      "name_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+      "inspired_by": [
+        {
+          "value": "Ernest Rutherford",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "James Chadwick",
+          "value_citation": "https://en.wikipedia.org/wiki/James_Chadwick"
+        }
+      ],
+      "dates": {
+        "birth": "1882-09-30",
+        "birth_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+        "death": "1945-09-24",
+        "death_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Radiation Detection",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ]
+    },
+    {
+      "name": "Patrick Blackett",
+      "name_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+      "inspired_by": [
+        {
+          "value": "Ernest Rutherford",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1897-11-18",
+        "birth_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+        "death": "1974-07-13",
+        "death_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Cosmic Rays",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ]
+    },
+    {
+      "name": "Frederick Soddy",
+      "name_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+      "inspired_by": [
+        {
+          "value": "Ernest Rutherford",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1877-09-02",
+        "birth_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+        "death": "1956-09-22",
+        "death_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+      },
+      "research_areas": [
+        {
+          "value": "Radiochemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Isotopes",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ]
+    },
+    {
+      "name": "John Cockcroft",
+      "name_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+      "inspired_by": [
+        {
+          "value": "Ernest Rutherford",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1897-05-27",
+        "birth_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+        "death": "1967-09-18",
+        "death_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Particle Acceleration",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ]
+    },
+    {
+      "name": "George Gamow",
+      "name_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+      "inspired_by": [
+        {
+          "value": "Ernest Rutherford",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Edwin Hubble",
+          "value_citation": "https://en.wikipedia.org/wiki/George_Gamow"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1904-03-04",
+        "birth_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford",
+        "death": "1968-08-19",
+        "death_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+      },
+      "research_areas": [
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        },
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ]
+    },
+    {
+      "name": "Ferdinand von Lindemann",
+      "name_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Arnold Sommerfeld",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ],
+      "dates": {
+        "birth": "1852-04-12",
+        "birth_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+        "death": "1939-03-06",
+        "death_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ]
+    },
+    {
+      "name": "Felix Klein",
+      "name_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Arnold Sommerfeld",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Max Born",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        }
+      ],
+      "dates": {
+        "birth": "1849-04-25",
+        "birth_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+        "death": "1925-06-22",
+        "death_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Group Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ]
+    },
+    {
+      "name": "David Hilbert",
+      "name_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Arnold Sommerfeld",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "John von Neumann",
+          "value_citation": "https://en.wikipedia.org/wiki/John_von_Neumann"
+        }
+      ],
+      "dates": {
+        "birth": "1862-01-23",
+        "birth_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+        "death": "1943-02-14",
+        "death_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Mathematical Logic",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Mathematical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Hilbert"
+        },
+        {
+          "value": "Functional Analysis",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Hilbert"
+        },
+        {
+          "value": "Foundations of Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Hilbert"
+        }
+      ]
+    },
+    {
+      "name": "Peter Debye",
+      "name_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+      "inspired_by": [
+        {
+          "value": "Arnold Sommerfeld",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1884-03-24",
+        "birth_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+        "death": "1966-11-02",
+        "death_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+      },
+      "research_areas": [
+        {
+          "value": "Physical Chemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "X-ray Diffraction",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Molecular Dipoles",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ]
+    },
+    {
+      "name": "Hans Bethe",
+      "name_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+      "inspired_by": [
+        {
+          "value": "Arnold Sommerfeld",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Richard Feynman",
+          "value_citation": "https://en.wikipedia.org/wiki/Richard_Feynman"
+        },
+        {
+          "value": "Freeman Dyson",
+          "value_citation": "https://en.wikipedia.org/wiki/Freeman_Dyson"
+        }
+      ],
+      "dates": {
+        "birth": "1906-07-02",
+        "birth_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+        "death": "2005-03-06",
+        "death_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Quantum Electrodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Astrophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ]
+    },
+    {
+      "name": "Isidor Isaac Rabi",
+      "name_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+      "inspired_by": [
+        {
+          "value": "Arnold Sommerfeld",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1898-07-29",
+        "birth_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld",
+        "death": "1988-01-11",
+        "death_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Magnetic Resonance",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        },
+        {
+          "value": "Atomic Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Arnold_Sommerfeld"
+        }
+      ]
+    },
+    {
+      "name": "Enrico Fermi",
+      "name_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+      "inspired_by": [
+        {
+          "value": "Max Born",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Wolfgang Pauli",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Tsung-Dao Lee",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Chen-Ning Yang",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Emilio Segrè",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Jack Steinberger",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Murray Gell-Mann",
+          "value_citation": "https://en.wikipedia.org/wiki/Murray_Gell-Mann"
+        },
+        {
+          "value": "Geoffrey Chew",
+          "value_citation": "https://en.wikipedia.org/wiki/Geoffrey_Chew"
+        }
+      ],
+      "dates": {
+        "birth": "1901-09-29",
+        "birth_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+        "death": "1954-11-28",
+        "death_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Statistical Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Quantum Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Nuclear Reactor Design",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        }
+      ]
+    },
+    {
+      "name": "Tsung-Dao Lee",
+      "name_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+      "inspired_by": [
+        {
+          "value": "Enrico Fermi",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1926-11-24",
+        "birth_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+      },
+      "research_areas": [
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Parity Violation",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        }
+      ]
+    },
+    {
+      "name": "Chen-Ning Yang",
+      "name_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+      "inspired_by": [
+        {
+          "value": "Enrico Fermi",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1922-10-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+      },
+      "research_areas": [
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Statistical Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        }
+      ]
+    },
+    {
+      "name": "Emilio Segrè",
+      "name_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+      "inspired_by": [
+        {
+          "value": "Enrico Fermi",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1905-02-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+        "death": "1989-04-22",
+        "death_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Antiproton Discovery",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        }
+      ]
+    },
+    {
+      "name": "Jack Steinberger",
+      "name_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+      "inspired_by": [
+        {
+          "value": "Enrico Fermi",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1921-05-25",
+        "birth_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi",
+        "death": "2020-12-12",
+        "death_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+      },
+      "research_areas": [
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        },
+        {
+          "value": "Neutrino Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+        }
+      ]
+    },
+    {
+      "name": "Isaac Beeckman",
+      "name_citation": "https://plato.stanford.edu/entries/descartes/",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "René Descartes",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        }
+      ],
+      "dates": {
+        "birth": "1588-12-10",
+        "birth_citation": "https://plato.stanford.edu/entries/descartes/",
+        "death": "1637-05-19",
+        "death_citation": "https://plato.stanford.edu/entries/descartes/"
+      },
+      "research_areas": [
+        {
+          "value": "Natural Philosophy",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        }
+      ]
+    },
+    {
+      "name": "Johannes Kepler",
+      "name_citation": "https://plato.stanford.edu/entries/descartes/",
+      "inspired_by": [
+        {
+          "value": "Nicolaus Copernicus",
+          "value_citation": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+        },
+        {
+          "value": "Ibn al-Haytham",
+          "value_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "René Descartes",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ],
+      "dates": {
+        "birth": "1571-12-27",
+        "birth_citation": "https://plato.stanford.edu/entries/descartes/",
+        "death": "1630-11-15",
+        "death_citation": "https://plato.stanford.edu/entries/descartes/"
+      },
+      "research_areas": [
+        {
+          "value": "Astronomy",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Natural Philosophy",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Planetary Motion",
+          "value_citation": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+        },
+        {
+          "value": "Optics",
+          "value_citation": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+        }
+      ]
+    },
+    {
+      "name": "Gottfried Wilhelm Leibniz",
+      "name_citation": "https://plato.stanford.edu/entries/descartes/",
+      "inspired_by": [
+        {
+          "value": "René Descartes",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Christiaan Huygens",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Christian Wolff",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        },
+        {
+          "value": "Leonhard Euler",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        }
+      ],
+      "dates": {
+        "birth": "1646-07-01",
+        "birth_citation": "https://plato.stanford.edu/entries/descartes/",
+        "death": "1716-11-14",
+        "death_citation": "https://plato.stanford.edu/entries/descartes/"
+      },
+      "research_areas": [
+        {
+          "value": "Philosophy",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Calculus",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Logic",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Differential Calculus",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        },
+        {
+          "value": "Integral Calculus",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        },
+        {
+          "value": "Binary System",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        }
+      ]
+    },
+    {
+      "name": "Nicolas Malebranche",
+      "name_citation": "https://plato.stanford.edu/entries/descartes/",
+      "inspired_by": [
+        {
+          "value": "René Descartes",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1638-08-06",
+        "birth_citation": "https://plato.stanford.edu/entries/descartes/",
+        "death": "1715-10-13",
+        "death_citation": "https://plato.stanford.edu/entries/descartes/"
+      },
+      "research_areas": [
+        {
+          "value": "Philosophy",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Metaphysics",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        },
+        {
+          "value": "Occasionalism",
+          "value_citation": "https://plato.stanford.edu/entries/descartes/"
+        }
+      ]
+    },
+    {
+      "name": "Pascual Jordan",
+      "name_citation": "https://www.britannica.com/biography/Max-Born",
+      "inspired_by": [
+        {
+          "value": "Max Born",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1902-10-18",
+        "birth_citation": "https://www.britannica.com/biography/Max-Born",
+        "death": "1980-07-31",
+        "death_citation": "https://www.britannica.com/biography/Max-Born"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Matrix Mechanics",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        }
+      ]
+    },
+    {
+      "name": "J. Robert Oppenheimer",
+      "name_citation": "https://www.britannica.com/biography/Max-Born",
+      "inspired_by": [
+        {
+          "value": "Max Born",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Ernest Rutherford",
+          "value_citation": "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Murray Gell-Mann",
+          "value_citation": "https://en.wikipedia.org/wiki/Murray_Gell-Mann"
+        },
+        {
+          "value": "Julian Schwinger",
+          "value_citation": "https://en.wikipedia.org/wiki/Julian_Schwinger"
+        }
+      ],
+      "dates": {
+        "birth": "1904-04-22",
+        "birth_citation": "https://www.britannica.com/biography/Max-Born",
+        "death": "1967-02-18",
+        "death_citation": "https://www.britannica.com/biography/Max-Born"
+      },
+      "research_areas": [
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Astrophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"
+        },
+        {
+          "value": "Black Holes",
+          "value_citation": "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer"
+        }
+      ]
+    },
+    {
+      "name": "Maria Goeppert-Mayer",
+      "name_citation": "https://www.britannica.com/biography/Max-Born",
+      "inspired_by": [
+        {
+          "value": "Max Born",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1906-06-28",
+        "birth_citation": "https://www.britannica.com/biography/Max-Born",
+        "death": "1972-02-20",
+        "death_citation": "https://www.britannica.com/biography/Max-Born"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        },
+        {
+          "value": "Nuclear Shell Model",
+          "value_citation": "https://www.britannica.com/biography/Max-Born"
+        }
+      ]
+    },
+    {
+      "name": "Hendrik Casimir",
+      "name_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli",
+      "inspired_by": [
+        {
+          "value": "Wolfgang Pauli",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1909-07-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli",
+        "death": "2000-05-04",
+        "death_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+      },
+      "research_areas": [
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        },
+        {
+          "value": "Casimir Effect",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        }
+      ]
+    },
+    {
+      "name": "Nicholas Kemmer",
+      "name_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli",
+      "inspired_by": [
+        {
+          "value": "Wolfgang Pauli",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1911-12-07",
+        "birth_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli",
+        "death": "1998-10-21",
+        "death_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+      },
+      "research_areas": [
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        },
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+        }
+      ]
+    },
+    {
+      "name": "Paul Langevin",
+      "name_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Louis de Broglie",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        }
+      ],
+      "dates": {
+        "birth": "1872-01-23",
+        "birth_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie",
+        "death": "1946-12-19",
+        "death_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        },
+        {
+          "value": "Magnetism",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        },
+        {
+          "value": "Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        }
+      ]
+    },
+    {
+      "name": "David Bohm",
+      "name_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie",
+      "inspired_by": [
+        {
+          "value": "Louis de Broglie",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1917-12-20",
+        "birth_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie",
+        "death": "1992-10-27",
+        "death_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        },
+        {
+          "value": "Plasma Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        },
+        {
+          "value": "Quantum Foundations",
+          "value_citation": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+        }
+      ]
+    },
+    {
+      "name": "Hero of Alexandria",
+      "name_citation": "https://en.wikipedia.org/wiki/Archimedes",
+      "inspired_by": [
+        {
+          "value": "Archimedes",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "10-01-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Archimedes",
+        "death": "70-12-31",
+        "death_citation": "https://en.wikipedia.org/wiki/Archimedes"
+      },
+      "research_areas": [
+        {
+          "value": "Engineering",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        },
+        {
+          "value": "Pneumatics",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        }
+      ]
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "name_citation": "https://en.wikipedia.org/wiki/Archimedes",
+      "inspired_by": [
+        {
+          "value": "Archimedes",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1452-04-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Archimedes",
+        "death": "1519-05-02",
+        "death_citation": "https://en.wikipedia.org/wiki/Archimedes"
+      },
+      "research_areas": [
+        {
+          "value": "Engineering",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        },
+        {
+          "value": "Anatomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        },
+        {
+          "value": "Art",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Archimedes"
+        }
+      ]
+    },
+    {
+      "name": "Plato",
+      "name_citation": "https://en.wikipedia.org/wiki/Aristotle",
+      "inspired_by": [
+        {
+          "value": "Pythagoras",
+          "value_citation": "https://en.wikipedia.org/wiki/Pythagoras"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Aristotle",
+          "value_citation": "https://en.wikipedia.org/wiki/Aristotle"
+        }
+      ],
+      "dates": {
+        "birth": "-428-01-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Aristotle",
+        "death": "-348-01-01",
+        "death_citation": "https://en.wikipedia.org/wiki/Aristotle"
+      },
+      "research_areas": [
+        {
+          "value": "Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Aristotle"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Aristotle"
+        },
+        {
+          "value": "Political Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Aristotle"
+        }
+      ]
+    },
+    {
+      "name": "Ptolemy",
+      "name_citation": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
+      "inspired_by": [
+        {
+          "value": "Euclid",
+          "value_citation": "https://en.wikipedia.org/wiki/Euclid"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Nicolaus Copernicus",
+          "value_citation": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+        }
+      ],
+      "dates": {
+        "birth": "100-01-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
+        "death": "170-01-01",
+        "death_citation": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+      },
+      "research_areas": [
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+        },
+        {
+          "value": "Geography",
+          "value_citation": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+        }
+      ]
+    },
+    {
+      "name": "Robert Hooke",
+      "name_citation": "https://en.wikipedia.org/wiki/Robert_Boyle",
+      "inspired_by": [
+        {
+          "value": "Robert Boyle",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Boyle"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Isaac_Newton"
+        }
+      ],
+      "dates": {
+        "birth": "1635-07-18",
+        "birth_citation": "https://en.wikipedia.org/wiki/Robert_Boyle",
+        "death": "1703-03-03",
+        "death_citation": "https://en.wikipedia.org/wiki/Robert_Boyle"
+      },
+      "research_areas": [
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Boyle"
+        },
+        {
+          "value": "Microscopy",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Boyle"
+        },
+        {
+          "value": "Elasticity",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Boyle"
+        }
+      ]
+    },
+    {
+      "name": "Christian Wolff",
+      "name_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+      "inspired_by": [
+        {
+          "value": "Gottfried Wilhelm Leibniz",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1679-01-24",
+        "birth_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+        "death": "1754-04-09",
+        "death_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+      },
+      "research_areas": [
+        {
+          "value": "Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        }
+      ]
+    },
+    {
+      "name": "Leonhard Euler",
+      "name_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+      "inspired_by": [
+        {
+          "value": "Gottfried Wilhelm Leibniz",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Joseph-Louis Lagrange",
+          "value_citation": "https://en.wikipedia.org/wiki/Joseph-Louis_Lagrange"
+        }
+      ],
+      "dates": {
+        "birth": "1707-04-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+        "death": "1783-09-18",
+        "death_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        },
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+        }
+      ]
+    },
+    {
+      "name": "Humphry Davy",
+      "name_citation": "https://en.wikipedia.org/wiki/Michael_Faraday",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Michael Faraday",
+          "value_citation": "https://en.wikipedia.org/wiki/Michael_Faraday"
+        }
+      ],
+      "dates": {
+        "birth": "1778-12-17",
+        "birth_citation": "https://en.wikipedia.org/wiki/Michael_Faraday",
+        "death": "1829-05-29",
+        "death_citation": "https://en.wikipedia.org/wiki/Michael_Faraday"
+      },
+      "research_areas": [
+        {
+          "value": "Chemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Michael_Faraday"
+        },
+        {
+          "value": "Electrochemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Michael_Faraday"
+        }
+      ]
+    },
+    {
+      "name": "Richard Feynman",
+      "name_citation": "https://en.wikipedia.org/wiki/Richard_Feynman",
+      "inspired_by": [
+        {
+          "value": "John Archibald Wheeler",
+          "value_citation": "https://en.wikipedia.org/wiki/Richard_Feynman"
+        },
+        {
+          "value": "Hans Bethe",
+          "value_citation": "https://en.wikipedia.org/wiki/Richard_Feynman"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Edward Witten",
+          "value_citation": "https://en.wikipedia.org/wiki/Edward_Witten"
+        },
+        {
+          "value": "Peter Shor",
+          "value_citation": "https://en.wikipedia.org/wiki/Peter_Shor"
+        }
+      ],
+      "dates": {
+        "birth": "1918-05-11",
+        "birth_citation": "https://en.wikipedia.org/wiki/Richard_Feynman",
+        "death": "1988-02-15",
+        "death_citation": "https://en.wikipedia.org/wiki/Richard_Feynman"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Electrodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Richard_Feynman"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Richard_Feynman"
+        },
+        {
+          "value": "Quantum Computing",
+          "value_citation": "https://en.wikipedia.org/wiki/Richard_Feynman"
+        }
+      ]
+    },
+    {
+      "name": "Paul Dirac",
+      "name_citation": "https://en.wikipedia.org/wiki/Paul_Dirac",
+      "inspired_by": [
+        {
+          "value": "Niels Bohr",
+          "value_citation": "https://en.wikipedia.org/wiki/Paul_Dirac"
+        },
+        {
+          "value": "Werner Heisenberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Paul_Dirac"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Hideki Yukawa",
+          "value_citation": "https://en.wikipedia.org/wiki/Hideki_Yukawa"
+        },
+        {
+          "value": "Edward Witten",
+          "value_citation": "https://en.wikipedia.org/wiki/Edward_Witten"
+        }
+      ],
+      "dates": {
+        "birth": "1902-08-08",
+        "birth_citation": "https://en.wikipedia.org/wiki/Paul_Dirac",
+        "death": "1984-10-20",
+        "death_citation": "https://en.wikipedia.org/wiki/Paul_Dirac"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Paul_Dirac"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Paul_Dirac"
+        },
+        {
+          "value": "Antimatter",
+          "value_citation": "https://en.wikipedia.org/wiki/Paul_Dirac"
+        }
+      ]
+    },
+    {
+      "name": "Murray Gell-Mann",
+      "name_citation": "https://en.wikipedia.org/wiki/Murray_Gell-Mann",
+      "inspired_by": [
+        {
+          "value": "Enrico Fermi",
+          "value_citation": "https://en.wikipedia.org/wiki/Murray_Gell-Mann"
+        },
+        {
+          "value": "J. Robert Oppenheimer",
+          "value_citation": "https://en.wikipedia.org/wiki/Murray_Gell-Mann"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Steven Weinberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Steven_Weinberg"
+        },
+        {
+          "value": "Frank Wilczek",
+          "value_citation": "https://en.wikipedia.org/wiki/Frank_Wilczek"
+        }
+      ],
+      "dates": {
+        "birth": "1929-09-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Murray_Gell-Mann",
+        "death": "2019-05-24",
+        "death_citation": "https://en.wikipedia.org/wiki/Murray_Gell-Mann"
+      },
+      "research_areas": [
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Murray_Gell-Mann"
+        },
+        {
+          "value": "Quarks",
+          "value_citation": "https://en.wikipedia.org/wiki/Murray_Gell-Mann"
+        },
+        {
+          "value": "Quantum Chromodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Murray_Gell-Mann"
+        }
+      ]
+    },
+    {
+      "name": "Steven Weinberg",
+      "name_citation": "https://en.wikipedia.org/wiki/Steven_Weinberg",
+      "inspired_by": [
+        {
+          "value": "Murray Gell-Mann",
+          "value_citation": "https://en.wikipedia.org/wiki/Steven_Weinberg"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1933-05-03",
+        "birth_citation": "https://en.wikipedia.org/wiki/Steven_Weinberg",
+        "death": "2021-07-23",
+        "death_citation": "https://en.wikipedia.org/wiki/Steven_Weinberg"
+      },
+      "research_areas": [
+        {
+          "value": "Electroweak Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Steven_Weinberg"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Steven_Weinberg"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Steven_Weinberg"
+        }
+      ]
+    },
+    {
+      "name": "Abdus Salam",
+      "name_citation": "https://en.wikipedia.org/wiki/Abdus_Salam",
+      "inspired_by": [
+        {
+          "value": "Wolfgang Pauli",
+          "value_citation": "https://en.wikipedia.org/wiki/Abdus_Salam"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1926-01-29",
+        "birth_citation": "https://en.wikipedia.org/wiki/Abdus_Salam",
+        "death": "1996-11-21",
+        "death_citation": "https://en.wikipedia.org/wiki/Abdus_Salam"
+      },
+      "research_areas": [
+        {
+          "value": "Electroweak Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Abdus_Salam"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Abdus_Salam"
+        },
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Abdus_Salam"
+        }
+      ]
+    },
+    {
+      "name": "Sheldon Glashow",
+      "name_citation": "https://en.wikipedia.org/wiki/Sheldon_Glashow",
+      "inspired_by": [
+        {
+          "value": "Julian Schwinger",
+          "value_citation": "https://en.wikipedia.org/wiki/Sheldon_Glashow"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Howard Georgi",
+          "value_citation": "https://en.wikipedia.org/wiki/Howard_Georgi"
+        }
+      ],
+      "dates": {
+        "birth": "1932-12-05",
+        "birth_citation": "https://en.wikipedia.org/wiki/Sheldon_Glashow"
+      },
+      "research_areas": [
+        {
+          "value": "Electroweak Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Sheldon_Glashow"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Sheldon_Glashow"
+        },
+        {
+          "value": "Standard Model",
+          "value_citation": "https://en.wikipedia.org/wiki/Sheldon_Glashow"
+        }
+      ]
+    },
+    {
+      "name": "Julian Schwinger",
+      "name_citation": "https://en.wikipedia.org/wiki/Julian_Schwinger",
+      "inspired_by": [
+        {
+          "value": "J. Robert Oppenheimer",
+          "value_citation": "https://en.wikipedia.org/wiki/Julian_Schwinger"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1918-02-12",
+        "birth_citation": "https://en.wikipedia.org/wiki/Julian_Schwinger",
+        "death": "1994-07-16",
+        "death_citation": "https://en.wikipedia.org/wiki/Julian_Schwinger"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Electrodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Julian_Schwinger"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Julian_Schwinger"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Julian_Schwinger"
+        }
+      ]
+    },
+    {
+      "name": "Sin-Itiro Tomonaga",
+      "name_citation": "https://en.wikipedia.org/wiki/Sin-Itiro_Tomonaga",
+      "inspired_by": [
+        {
+          "value": "Werner Heisenberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Sin-Itiro_Tomonaga"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1906-03-31",
+        "birth_citation": "https://en.wikipedia.org/wiki/Sin-Itiro_Tomonaga",
+        "death": "1979-07-08",
+        "death_citation": "https://en.wikipedia.org/wiki/Sin-Itiro_Tomonaga"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Electrodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Sin-Itiro_Tomonaga"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Sin-Itiro_Tomonaga"
+        },
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Sin-Itiro_Tomonaga"
+        }
+      ]
+    },
+    {
+      "name": "Freeman Dyson",
+      "name_citation": "https://en.wikipedia.org/wiki/Freeman_Dyson",
+      "inspired_by": [
+        {
+          "value": "Hans Bethe",
+          "value_citation": "https://en.wikipedia.org/wiki/Freeman_Dyson"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1923-12-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Freeman_Dyson",
+        "death": "2020-02-28",
+        "death_citation": "https://en.wikipedia.org/wiki/Freeman_Dyson"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Electrodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Freeman_Dyson"
+        },
+        {
+          "value": "Solid State Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Freeman_Dyson"
+        },
+        {
+          "value": "Astrophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Freeman_Dyson"
+        }
+      ]
+    },
+    {
+      "name": "Stephen Hawking",
+      "name_citation": "https://en.wikipedia.org/wiki/Stephen_Hawking",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+        },
+        {
+          "value": "Roger Penrose",
+          "value_citation": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Alan Guth",
+          "value_citation": "https://en.wikipedia.org/wiki/Alan_Guth"
+        }
+      ],
+      "dates": {
+        "birth": "1942-01-08",
+        "birth_citation": "https://en.wikipedia.org/wiki/Stephen_Hawking",
+        "death": "2018-03-14",
+        "death_citation": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+      },
+      "research_areas": [
+        {
+          "value": "Black Holes",
+          "value_citation": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+        },
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+        },
+        {
+          "value": "Quantum Gravity",
+          "value_citation": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+        }
+      ]
+    },
+    {
+      "name": "Roger Penrose",
+      "name_citation": "https://en.wikipedia.org/wiki/Roger_Penrose",
+      "inspired_by": [
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Roger_Penrose"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Carlo Rovelli",
+          "value_citation": "https://en.wikipedia.org/wiki/Carlo_Rovelli"
+        }
+      ],
+      "dates": {
+        "birth": "1931-08-08",
+        "birth_citation": "https://en.wikipedia.org/wiki/Roger_Penrose"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Roger_Penrose"
+        },
+        {
+          "value": "General Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Roger_Penrose"
+        },
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Roger_Penrose"
+        }
+      ]
+    },
+    {
+      "name": "Kip Thorne",
+      "name_citation": "https://en.wikipedia.org/wiki/Kip_Thorne",
+      "inspired_by": [
+        {
+          "value": "John Archibald Wheeler",
+          "value_citation": "https://en.wikipedia.org/wiki/Kip_Thorne"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1940-06-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Kip_Thorne"
+      },
+      "research_areas": [
+        {
+          "value": "General Relativity",
+          "value_citation": "https://en.wikipedia.org/wiki/Kip_Thorne"
+        },
+        {
+          "value": "Gravitational Waves",
+          "value_citation": "https://en.wikipedia.org/wiki/Kip_Thorne"
+        },
+        {
+          "value": "Astrophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Kip_Thorne"
+        }
+      ]
+    },
+    {
+      "name": "Euclid",
+      "name_citation": "https://en.wikipedia.org/wiki/Euclid",
+      "inspired_by": [
+        {
+          "value": "Pythagoras",
+          "value_citation": "https://en.wikipedia.org/wiki/Pythagoras"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Archimedes",
+          "value_citation": "https://en.wikipedia.org/wiki/Euclid"
+        },
+        {
+          "value": "Ptolemy",
+          "value_citation": "https://en.wikipedia.org/wiki/Euclid"
+        }
+      ],
+      "dates": {
+        "birth": "-325-01-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Euclid",
+        "death": "-265-01-01",
+        "death_citation": "https://en.wikipedia.org/wiki/Euclid"
+      },
+      "research_areas": [
+        {
+          "value": "Geometry",
+          "value_citation": "https://en.wikipedia.org/wiki/Euclid"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Euclid"
+        },
+        {
+          "value": "Number Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Euclid"
+        }
+      ]
+    },
+    {
+      "name": "Pythagoras",
+      "name_citation": "https://en.wikipedia.org/wiki/Pythagoras",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Plato",
+          "value_citation": "https://en.wikipedia.org/wiki/Pythagoras"
+        },
+        {
+          "value": "Euclid",
+          "value_citation": "https://en.wikipedia.org/wiki/Pythagoras"
+        }
+      ],
+      "dates": {
+        "birth": "-570-01-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Pythagoras",
+        "death": "-495-01-01",
+        "death_citation": "https://en.wikipedia.org/wiki/Pythagoras"
+      },
+      "research_areas": [
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Pythagoras"
+        },
+        {
+          "value": "Geometry",
+          "value_citation": "https://en.wikipedia.org/wiki/Pythagoras"
+        },
+        {
+          "value": "Philosophy",
+          "value_citation": "https://en.wikipedia.org/wiki/Pythagoras"
+        }
+      ]
+    },
+    {
+      "name": "Ibn al-Haytham",
+      "name_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Johannes Kepler",
+          "value_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+        },
+        {
+          "value": "René Descartes",
+          "value_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+        }
+      ],
+      "dates": {
+        "birth": "965-07-01",
+        "birth_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham",
+        "death": "1040-03-06",
+        "death_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+      },
+      "research_areas": [
+        {
+          "value": "Optics",
+          "value_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+        },
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+        }
+      ]
+    },
+    {
+      "name": "Marie Curie",
+      "name_citation": "https://en.wikipedia.org/wiki/Marie_Curie",
+      "inspired_by": [
+        {
+          "value": "Henri Becquerel",
+          "value_citation": "https://en.wikipedia.org/wiki/Marie_Curie"
+        },
+        {
+          "value": "Pierre Curie",
+          "value_citation": "https://en.wikipedia.org/wiki/Marie_Curie"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Ernest Rutherford",
+          "value_citation": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+        }
+      ],
+      "dates": {
+        "birth": "1867-11-07",
+        "birth_citation": "https://en.wikipedia.org/wiki/Marie_Curie",
+        "death": "1934-07-04",
+        "death_citation": "https://en.wikipedia.org/wiki/Marie_Curie"
+      },
+      "research_areas": [
+        {
+          "value": "Radioactivity",
+          "value_citation": "https://en.wikipedia.org/wiki/Marie_Curie"
+        },
+        {
+          "value": "Chemistry",
+          "value_citation": "https://en.wikipedia.org/wiki/Marie_Curie"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Marie_Curie"
+        }
+      ]
+    },
+    {
+      "name": "Henri Becquerel",
+      "name_citation": "https://en.wikipedia.org/wiki/Henri_Becquerel",
+      "inspired_by": [
+        {
+          "value": "Henri Poincaré",
+          "value_citation": "https://en.wikipedia.org/wiki/Henri_Becquerel"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1852-12-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Henri_Becquerel",
+        "death": "1908-08-25",
+        "death_citation": "https://en.wikipedia.org/wiki/Henri_Becquerel"
+      },
+      "research_areas": [
+        {
+          "value": "Radioactivity",
+          "value_citation": "https://en.wikipedia.org/wiki/Henri_Becquerel"
+        },
+        {
+          "value": "Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Henri_Becquerel"
+        }
+      ]
+    },
+    {
+      "name": "Pierre Curie",
+      "name_citation": "https://en.wikipedia.org/wiki/Pierre_Curie",
+      "inspired_by": [],
+      "inspired": [
+        {
+          "value": "Marie Curie",
+          "value_citation": "https://en.wikipedia.org/wiki/Marie_Curie"
+        }
+      ],
+      "dates": {
+        "birth": "1859-05-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Pierre_Curie",
+        "death": "1906-04-19",
+        "death_citation": "https://en.wikipedia.org/wiki/Pierre_Curie"
+      },
+      "research_areas": [
+        {
+          "value": "Radioactivity",
+          "value_citation": "https://en.wikipedia.org/wiki/Pierre_Curie"
+        },
+        {
+          "value": "Crystallography",
+          "value_citation": "https://en.wikipedia.org/wiki/Pierre_Curie"
+        },
+        {
+          "value": "Magnetism",
+          "value_citation": "https://en.wikipedia.org/wiki/Pierre_Curie"
+        }
+      ]
+    },
+    {
+      "name": "Hideki Yukawa",
+      "name_citation": "https://en.wikipedia.org/wiki/Hideki_Yukawa",
+      "inspired_by": [
+        {
+          "value": "Werner Heisenberg",
+          "value_citation": "https://en.wikipedia.org/wiki/Hideki_Yukawa"
+        },
+        {
+          "value": "Paul Dirac",
+          "value_citation": "https://en.wikipedia.org/wiki/Hideki_Yukawa"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1907-01-23",
+        "birth_citation": "https://en.wikipedia.org/wiki/Hideki_Yukawa",
+        "death": "1981-09-08",
+        "death_citation": "https://en.wikipedia.org/wiki/Hideki_Yukawa"
+      },
+      "research_areas": [
+        {
+          "value": "Nuclear Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Hideki_Yukawa"
+        },
+        {
+          "value": "Meson Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Hideki_Yukawa"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Hideki_Yukawa"
+        }
+      ]
+    },
+    {
+      "name": "Edward Witten",
+      "name_citation": "https://en.wikipedia.org/wiki/Edward_Witten",
+      "inspired_by": [
+        {
+          "value": "Paul Dirac",
+          "value_citation": "https://en.wikipedia.org/wiki/Edward_Witten"
+        },
+        {
+          "value": "Richard Feynman",
+          "value_citation": "https://en.wikipedia.org/wiki/Edward_Witten"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Brian Greene",
+          "value_citation": "https://en.wikipedia.org/wiki/Brian_Greene"
+        }
+      ],
+      "dates": {
+        "birth": "1951-08-26",
+        "birth_citation": "https://en.wikipedia.org/wiki/Edward_Witten"
+      },
+      "research_areas": [
+        {
+          "value": "String Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Edward_Witten"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Edward_Witten"
+        },
+        {
+          "value": "Mathematical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Edward_Witten"
+        }
+      ]
+    },
+    {
+      "name": "Carlo Rovelli",
+      "name_citation": "https://en.wikipedia.org/wiki/Carlo_Rovelli",
+      "inspired_by": [
+        {
+          "value": "John Archibald Wheeler",
+          "value_citation": "https://en.wikipedia.org/wiki/Carlo_Rovelli"
+        },
+        {
+          "value": "Roger Penrose",
+          "value_citation": "https://en.wikipedia.org/wiki/Carlo_Rovelli"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1956-05-03",
+        "birth_citation": "https://en.wikipedia.org/wiki/Carlo_Rovelli"
+      },
+      "research_areas": [
+        {
+          "value": "Loop Quantum Gravity",
+          "value_citation": "https://en.wikipedia.org/wiki/Carlo_Rovelli"
+        },
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Carlo_Rovelli"
+        },
+        {
+          "value": "Philosophy of Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Carlo_Rovelli"
+        }
+      ]
+    },
+    {
+      "name": "Lee Smolin",
+      "name_citation": "https://en.wikipedia.org/wiki/Lee_Smolin",
+      "inspired_by": [
+        {
+          "value": "John Archibald Wheeler",
+          "value_citation": "https://en.wikipedia.org/wiki/Lee_Smolin"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1955-06-06",
+        "birth_citation": "https://en.wikipedia.org/wiki/Lee_Smolin"
+      },
+      "research_areas": [
+        {
+          "value": "Loop Quantum Gravity",
+          "value_citation": "https://en.wikipedia.org/wiki/Lee_Smolin"
+        },
+        {
+          "value": "Quantum Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Lee_Smolin"
+        },
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Lee_Smolin"
+        }
+      ]
+    },
+    {
+      "name": "Brian Greene",
+      "name_citation": "https://en.wikipedia.org/wiki/Brian_Greene",
+      "inspired_by": [
+        {
+          "value": "Edward Witten",
+          "value_citation": "https://en.wikipedia.org/wiki/Brian_Greene"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1963-02-09",
+        "birth_citation": "https://en.wikipedia.org/wiki/Brian_Greene"
+      },
+      "research_areas": [
+        {
+          "value": "String Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Brian_Greene"
+        },
+        {
+          "value": "Superstring Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Brian_Greene"
+        },
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Brian_Greene"
+        }
+      ]
+    },
+    {
+      "name": "Lisa Randall",
+      "name_citation": "https://en.wikipedia.org/wiki/Lisa_Randall",
+      "inspired_by": [
+        {
+          "value": "Howard Georgi",
+          "value_citation": "https://en.wikipedia.org/wiki/Lisa_Randall"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1962-06-18",
+        "birth_citation": "https://en.wikipedia.org/wiki/Lisa_Randall"
+      },
+      "research_areas": [
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Lisa_Randall"
+        },
+        {
+          "value": "String Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Lisa_Randall"
+        },
+        {
+          "value": "Extra Dimensions",
+          "value_citation": "https://en.wikipedia.org/wiki/Lisa_Randall"
+        }
+      ]
+    },
+    {
+      "name": "Howard Georgi",
+      "name_citation": "https://en.wikipedia.org/wiki/Howard_Georgi",
+      "inspired_by": [
+        {
+          "value": "Sheldon Glashow",
+          "value_citation": "https://en.wikipedia.org/wiki/Howard_Georgi"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1947-01-06",
+        "birth_citation": "https://en.wikipedia.org/wiki/Howard_Georgi"
+      },
+      "research_areas": [
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Howard_Georgi"
+        },
+        {
+          "value": "Grand Unified Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Howard_Georgi"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Howard_Georgi"
+        }
+      ]
+    },
+    {
+      "name": "Frank Wilczek",
+      "name_citation": "https://en.wikipedia.org/wiki/Frank_Wilczek",
+      "inspired_by": [
+        {
+          "value": "Murray Gell-Mann",
+          "value_citation": "https://en.wikipedia.org/wiki/Frank_Wilczek"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1951-05-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Frank_Wilczek"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Chromodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/Frank_Wilczek"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Frank_Wilczek"
+        },
+        {
+          "value": "Asymptotic Freedom",
+          "value_citation": "https://en.wikipedia.org/wiki/Frank_Wilczek"
+        }
+      ]
+    },
+    {
+      "name": "David Gross",
+      "name_citation": "https://en.wikipedia.org/wiki/David_Gross",
+      "inspired_by": [
+        {
+          "value": "Geoffrey Chew",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Gross"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1941-02-19",
+        "birth_citation": "https://en.wikipedia.org/wiki/David_Gross"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Chromodynamics",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Gross"
+        },
+        {
+          "value": "String Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Gross"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Gross"
+        }
+      ]
+    },
+    {
+      "name": "Geoffrey Chew",
+      "name_citation": "https://en.wikipedia.org/wiki/Geoffrey_Chew",
+      "inspired_by": [
+        {
+          "value": "Enrico Fermi",
+          "value_citation": "https://en.wikipedia.org/wiki/Geoffrey_Chew"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1924-06-05",
+        "birth_citation": "https://en.wikipedia.org/wiki/Geoffrey_Chew",
+        "death": "2019-04-13",
+        "death_citation": "https://en.wikipedia.org/wiki/Geoffrey_Chew"
+      },
+      "research_areas": [
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Geoffrey_Chew"
+        },
+        {
+          "value": "S-Matrix Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Geoffrey_Chew"
+        },
+        {
+          "value": "Bootstrap Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/Geoffrey_Chew"
+        }
+      ]
+    },
+    {
+      "name": "Carl Anderson",
+      "name_citation": "https://en.wikipedia.org/wiki/Carl_David_Anderson",
+      "inspired_by": [
+        {
+          "value": "Robert Millikan",
+          "value_citation": "https://en.wikipedia.org/wiki/Carl_David_Anderson"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1905-09-03",
+        "birth_citation": "https://en.wikipedia.org/wiki/Carl_David_Anderson",
+        "death": "1991-01-11",
+        "death_citation": "https://en.wikipedia.org/wiki/Carl_David_Anderson"
+      },
+      "research_areas": [
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Carl_David_Anderson"
+        },
+        {
+          "value": "Cosmic Rays",
+          "value_citation": "https://en.wikipedia.org/wiki/Carl_David_Anderson"
+        },
+        {
+          "value": "Antimatter",
+          "value_citation": "https://en.wikipedia.org/wiki/Carl_David_Anderson"
+        }
+      ]
+    },
+    {
+      "name": "John von Neumann",
+      "name_citation": "https://en.wikipedia.org/wiki/John_von_Neumann",
+      "inspired_by": [
+        {
+          "value": "Hermann Minkowski",
+          "value_citation": "https://en.wikipedia.org/wiki/John_von_Neumann"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1903-12-28",
+        "birth_citation": "https://en.wikipedia.org/wiki/John_von_Neumann",
+        "death": "1957-02-08",
+        "death_citation": "https://en.wikipedia.org/wiki/John_von_Neumann"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/John_von_Neumann"
+        },
+        {
+          "value": "Mathematics",
+          "value_citation": "https://en.wikipedia.org/wiki/John_von_Neumann"
+        },
+        {
+          "value": "Computer Science",
+          "value_citation": "https://en.wikipedia.org/wiki/John_von_Neumann"
+        },
+        {
+          "value": "Game Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/John_von_Neumann"
+        }
+      ]
+    },
+    {
+      "name": "Alan Guth",
+      "name_citation": "https://en.wikipedia.org/wiki/Alan_Guth",
+      "inspired_by": [
+        {
+          "value": "Stephen Hawking",
+          "value_citation": "https://en.wikipedia.org/wiki/Alan_Guth"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Saul Perlmutter",
+          "value_citation": "https://en.wikipedia.org/wiki/Saul_Perlmutter"
+        }
+      ],
+      "dates": {
+        "birth": "1947-02-27",
+        "birth_citation": "https://en.wikipedia.org/wiki/Alan_Guth"
+      },
+      "research_areas": [
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Alan_Guth"
+        },
+        {
+          "value": "Inflationary Universe",
+          "value_citation": "https://en.wikipedia.org/wiki/Alan_Guth"
+        },
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Alan_Guth"
+        }
+      ]
+    },
+    {
+      "name": "Andrei Linde",
+      "name_citation": "https://en.wikipedia.org/wiki/Andrei_Linde",
+      "inspired_by": [
+        {
+          "value": "David Kirzhnits",
+          "value_citation": "https://en.wikipedia.org/wiki/Andrei_Linde"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1948-03-02",
+        "birth_citation": "https://en.wikipedia.org/wiki/Andrei_Linde"
+      },
+      "research_areas": [
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Andrei_Linde"
+        },
+        {
+          "value": "Inflationary Universe",
+          "value_citation": "https://en.wikipedia.org/wiki/Andrei_Linde"
+        },
+        {
+          "value": "Particle Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/Andrei_Linde"
+        }
+      ]
+    },
+    {
+      "name": "David Kirzhnits",
+      "name_citation": "https://en.wikipedia.org/wiki/David_Kirzhnits",
+      "inspired_by": [
+        {
+          "value": "Lev Landau",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Kirzhnits"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1926-10-03",
+        "birth_citation": "https://en.wikipedia.org/wiki/David_Kirzhnits",
+        "death": "1998-10-09",
+        "death_citation": "https://en.wikipedia.org/wiki/David_Kirzhnits"
+      },
+      "research_areas": [
+        {
+          "value": "Theoretical Physics",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Kirzhnits"
+        },
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Kirzhnits"
+        },
+        {
+          "value": "Quantum Field Theory",
+          "value_citation": "https://en.wikipedia.org/wiki/David_Kirzhnits"
+        }
+      ]
+    },
+    {
+      "name": "Saul Perlmutter",
+      "name_citation": "https://en.wikipedia.org/wiki/Saul_Perlmutter",
+      "inspired_by": [
+        {
+          "value": "Alan Guth",
+          "value_citation": "https://en.wikipedia.org/wiki/Saul_Perlmutter"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Adam Riess",
+          "value_citation": "https://en.wikipedia.org/wiki/Adam_Riess"
+        }
+      ],
+      "dates": {
+        "birth": "1959-09-22",
+        "birth_citation": "https://en.wikipedia.org/wiki/Saul_Perlmutter"
+      },
+      "research_areas": [
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Saul_Perlmutter"
+        },
+        {
+          "value": "Dark Energy",
+          "value_citation": "https://en.wikipedia.org/wiki/Saul_Perlmutter"
+        },
+        {
+          "value": "Astrophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Saul_Perlmutter"
+        }
+      ]
+    },
+    {
+      "name": "Adam Riess",
+      "name_citation": "https://en.wikipedia.org/wiki/Adam_Riess",
+      "inspired_by": [
+        {
+          "value": "Saul Perlmutter",
+          "value_citation": "https://en.wikipedia.org/wiki/Adam_Riess"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1969-12-16",
+        "birth_citation": "https://en.wikipedia.org/wiki/Adam_Riess"
+      },
+      "research_areas": [
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Adam_Riess"
+        },
+        {
+          "value": "Dark Energy",
+          "value_citation": "https://en.wikipedia.org/wiki/Adam_Riess"
+        },
+        {
+          "value": "Supernovae",
+          "value_citation": "https://en.wikipedia.org/wiki/Adam_Riess"
+        }
+      ]
+    },
+    {
+      "name": "Brian Schmidt",
+      "name_citation": "https://en.wikipedia.org/wiki/Brian_P._Schmidt",
+      "inspired_by": [
+        {
+          "value": "Robert Kirshner",
+          "value_citation": "https://en.wikipedia.org/wiki/Brian_P._Schmidt"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1967-02-24",
+        "birth_citation": "https://en.wikipedia.org/wiki/Brian_P._Schmidt"
+      },
+      "research_areas": [
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Brian_P._Schmidt"
+        },
+        {
+          "value": "Dark Energy",
+          "value_citation": "https://en.wikipedia.org/wiki/Brian_P._Schmidt"
+        },
+        {
+          "value": "Astrophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Brian_P._Schmidt"
+        }
+      ]
+    },
+    {
+      "name": "Robert Kirshner",
+      "name_citation": "https://en.wikipedia.org/wiki/Robert_Kirshner",
+      "inspired_by": [
+        {
+          "value": "Allan Sandage",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Kirshner"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1949-08-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Robert_Kirshner"
+      },
+      "research_areas": [
+        {
+          "value": "Astrophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Kirshner"
+        },
+        {
+          "value": "Supernovae",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Kirshner"
+        },
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Robert_Kirshner"
+        }
+      ]
+    },
+    {
+      "name": "Allan Sandage",
+      "name_citation": "https://en.wikipedia.org/wiki/Allan_Sandage",
+      "inspired_by": [
+        {
+          "value": "Edwin Hubble",
+          "value_citation": "https://en.wikipedia.org/wiki/Allan_Sandage"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1926-06-18",
+        "birth_citation": "https://en.wikipedia.org/wiki/Allan_Sandage",
+        "death": "2010-11-13",
+        "death_citation": "https://en.wikipedia.org/wiki/Allan_Sandage"
+      },
+      "research_areas": [
+        {
+          "value": "Observational Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Allan_Sandage"
+        },
+        {
+          "value": "Hubble Constant",
+          "value_citation": "https://en.wikipedia.org/wiki/Allan_Sandage"
+        },
+        {
+          "value": "Stellar Evolution",
+          "value_citation": "https://en.wikipedia.org/wiki/Allan_Sandage"
+        }
+      ]
+    },
+    {
+      "name": "Edwin Hubble",
+      "name_citation": "https://en.wikipedia.org/wiki/Edwin_Hubble",
+      "inspired_by": [
+        {
+          "value": "Vesto Slipher",
+          "value_citation": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+        },
+        {
+          "value": "Albert Einstein",
+          "value_citation": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "George Gamow",
+          "value_citation": "https://en.wikipedia.org/wiki/George_Gamow"
+        }
+      ],
+      "dates": {
+        "birth": "1889-11-20",
+        "birth_citation": "https://en.wikipedia.org/wiki/Edwin_Hubble",
+        "death": "1953-09-28",
+        "death_citation": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+      },
+      "research_areas": [
+        {
+          "value": "Observational Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+        },
+        {
+          "value": "Cosmology",
+          "value_citation": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+        },
+        {
+          "value": "Galaxy Classification",
+          "value_citation": "https://en.wikipedia.org/wiki/Edwin_Hubble"
+        }
+      ]
+    },
+    {
+      "name": "Vesto Slipher",
+      "name_citation": "https://en.wikipedia.org/wiki/Vesto_Slipher",
+      "inspired_by": [
+        {
+          "value": "Percival Lowell",
+          "value_citation": "https://en.wikipedia.org/wiki/Vesto_Slipher"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1875-11-11",
+        "birth_citation": "https://en.wikipedia.org/wiki/Vesto_Slipher",
+        "death": "1969-11-08",
+        "death_citation": "https://en.wikipedia.org/wiki/Vesto_Slipher"
+      },
+      "research_areas": [
+        {
+          "value": "Spectroscopy",
+          "value_citation": "https://en.wikipedia.org/wiki/Vesto_Slipher"
+        },
+        {
+          "value": "Galaxy Redshifts",
+          "value_citation": "https://en.wikipedia.org/wiki/Vesto_Slipher"
+        },
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Vesto_Slipher"
+        }
+      ]
+    },
+    {
+      "name": "Percival Lowell",
+      "name_citation": "https://en.wikipedia.org/wiki/Percival_Lowell",
+      "inspired_by": [
+        {
+          "value": "Giovanni Schiaparelli",
+          "value_citation": "https://en.wikipedia.org/wiki/Percival_Lowell"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1855-03-13",
+        "birth_citation": "https://en.wikipedia.org/wiki/Percival_Lowell",
+        "death": "1916-11-12",
+        "death_citation": "https://en.wikipedia.org/wiki/Percival_Lowell"
+      },
+      "research_areas": [
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Percival_Lowell"
+        },
+        {
+          "value": "Planetary Science",
+          "value_citation": "https://en.wikipedia.org/wiki/Percival_Lowell"
+        },
+        {
+          "value": "Mars Observation",
+          "value_citation": "https://en.wikipedia.org/wiki/Percival_Lowell"
+        }
+      ]
+    },
+    {
+      "name": "Giovanni Schiaparelli",
+      "name_citation": "https://en.wikipedia.org/wiki/Giovanni_Schiaparelli",
+      "inspired_by": [
+        {
+          "value": "Angelo Secchi",
+          "value_citation": "https://en.wikipedia.org/wiki/Giovanni_Schiaparelli"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1835-03-14",
+        "birth_citation": "https://en.wikipedia.org/wiki/Giovanni_Schiaparelli",
+        "death": "1910-07-04",
+        "death_citation": "https://en.wikipedia.org/wiki/Giovanni_Schiaparelli"
+      },
+      "research_areas": [
+        {
+          "value": "Astronomy",
+          "value_citation": "https://en.wikipedia.org/wiki/Giovanni_Schiaparelli"
+        },
+        {
+          "value": "Planetary Observation",
+          "value_citation": "https://en.wikipedia.org/wiki/Giovanni_Schiaparelli"
+        },
+        {
+          "value": "Double Stars",
+          "value_citation": "https://en.wikipedia.org/wiki/Giovanni_Schiaparelli"
+        }
+      ]
+    },
+    {
+      "name": "Angelo Secchi",
+      "name_citation": "https://en.wikipedia.org/wiki/Angelo_Secchi",
+      "inspired_by": [
+        {
+          "value": "Joseph von Fraunhofer",
+          "value_citation": "https://en.wikipedia.org/wiki/Angelo_Secchi"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1818-06-29",
+        "birth_citation": "https://en.wikipedia.org/wiki/Angelo_Secchi",
+        "death": "1878-02-26",
+        "death_citation": "https://en.wikipedia.org/wiki/Angelo_Secchi"
+      },
+      "research_areas": [
+        {
+          "value": "Astrophysics",
+          "value_citation": "https://en.wikipedia.org/wiki/Angelo_Secchi"
+        },
+        {
+          "value": "Spectroscopy",
+          "value_citation": "https://en.wikipedia.org/wiki/Angelo_Secchi"
+        },
+        {
+          "value": "Stellar Classification",
+          "value_citation": "https://en.wikipedia.org/wiki/Angelo_Secchi"
+        }
+      ]
+    },
+    {
+      "name": "Joseph von Fraunhofer",
+      "name_citation": "https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer",
+      "inspired_by": [
+        {
+          "value": "Isaac Newton",
+          "value_citation": "https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer"
+        }
+      ],
+      "inspired": [
+        {
+          "value": "Gustav Kirchhoff",
+          "value_citation": "https://en.wikipedia.org/wiki/Gustav_Kirchhoff"
+        }
+      ],
+      "dates": {
+        "birth": "1787-03-06",
+        "birth_citation": "https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer",
+        "death": "1826-06-07",
+        "death_citation": "https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer"
+      },
+      "research_areas": [
+        {
+          "value": "Optics",
+          "value_citation": "https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer"
+        },
+        {
+          "value": "Spectroscopy",
+          "value_citation": "https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer"
+        },
+        {
+          "value": "Solar Spectrum",
+          "value_citation": "https://en.wikipedia.org/wiki/Joseph_von_Fraunhofer"
+        }
+      ]
+    },
+    {
+      "name": "Peter Shor",
+      "name_citation": "https://en.wikipedia.org/wiki/Peter_Shor",
+      "inspired_by": [
+        {
+          "value": "Richard Feynman",
+          "value_citation": "https://en.wikipedia.org/wiki/Peter_Shor"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1959-08-14",
+        "birth_citation": "https://en.wikipedia.org/wiki/Peter_Shor"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Computing",
+          "value_citation": "https://en.wikipedia.org/wiki/Peter_Shor"
+        },
+        {
+          "value": "Quantum Algorithms",
+          "value_citation": "https://en.wikipedia.org/wiki/Peter_Shor"
+        },
+        {
+          "value": "Computer Science",
+          "value_citation": "https://en.wikipedia.org/wiki/Peter_Shor"
+        }
+      ]
+    },
+    {
+      "name": "Alain Aspect",
+      "name_citation": "https://en.wikipedia.org/wiki/Alain_Aspect",
+      "inspired_by": [
+        {
+          "value": "John Stewart Bell",
+          "value_citation": "https://en.wikipedia.org/wiki/Alain_Aspect"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1947-06-15",
+        "birth_citation": "https://en.wikipedia.org/wiki/Alain_Aspect"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Alain_Aspect"
+        },
+        {
+          "value": "Quantum Entanglement",
+          "value_citation": "https://en.wikipedia.org/wiki/Alain_Aspect"
+        },
+        {
+          "value": "Bell's Inequality Tests",
+          "value_citation": "https://en.wikipedia.org/wiki/Alain_Aspect"
+        }
+      ]
+    },
+    {
+      "name": "Anton Zeilinger",
+      "name_citation": "https://en.wikipedia.org/wiki/Anton_Zeilinger",
+      "inspired_by": [
+        {
+          "value": "John Stewart Bell",
+          "value_citation": "https://en.wikipedia.org/wiki/Anton_Zeilinger"
+        }
+      ],
+      "inspired": [],
+      "dates": {
+        "birth": "1945-05-20",
+        "birth_citation": "https://en.wikipedia.org/wiki/Anton_Zeilinger"
+      },
+      "research_areas": [
+        {
+          "value": "Quantum Mechanics",
+          "value_citation": "https://en.wikipedia.org/wiki/Anton_Zeilinger"
+        },
+        {
+          "value": "Quantum Teleportation",
+          "value_citation": "https://en.wikipedia.org/wiki/Anton_Zeilinger"
+        },
+        {
+          "value": "Quantum Information",
+          "value_citation": "https://en.wikipedia.org/wiki/Anton_Zeilinger"
+        }
+      ]
+    }
+  ]
+}

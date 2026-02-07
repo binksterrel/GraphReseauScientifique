@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heatmap des Influences Scientifiques</title>
+    <link rel="icon" type="image/png" href="RSlogo.png">
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #FAFAFA;
+            padding: 40px;
+            color: #111;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 32px;
+            font-size: 1.1rem;
+        }
+        #heatmap {
+            width: 100%;
+            height: 600px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-top: 32px;
+        }
+        .stat-card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #000;
+        }
+        .stat-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #666;
+            margin-top: 4px;
+            letter-spacing: 0.05em;
+        }
+        .legend {
+            margin-top: 32px;
+            padding: 24px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .legend h3 {
+            margin-bottom: 12px;
+            font-size: 1rem;
+        }
+        .legend p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 Matrice d'Influence Scientifique par Siècle</h1>
+    <p class="subtitle">
+        Qui a influencé qui ? Cette heatmap montre les transmissions de savoir entre générations.
+    </p>
+    
+    <div id="heatmap"></div>
+    
+    <div class="stats">
+        <div class="stat-card">
+            <div class="stat-value">0</div>
+            <div class="stat-label">Relations analysées</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">0</div>
+            <div class="stat-label">Max influences (cellule)</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">0</div>
+            <div class="stat-label">Total influences</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">0</div>
+            <div class="stat-label">Siècles couverts</div>
+        </div>
+    </div>
+    
+    <div class="legend">
+        <h3>📖 Comment lire cette matrice ?</h3>
+        <p>
+            <strong>Axe Y (vertical)</strong> : Siècle de l'influenceur (source du savoir)<br>
+            <strong>Axe X (horizontal)</strong> : Siècle de l'influencé (destinataire)<br><br>
+            Exemple : Une cellule [18e, 19e] = 45 signifie que 45 scientifiques du 19e siècle 
+            ont été influencés par des scientifiques du 18e siècle.<br><br>
+            La diagonale principale montre les influences entre contemporains. 
+            Les cellules au-dessus de la diagonale montrent les influences historiques (posthumes).
+        </p>
+    </div>
+    
+    <script>
+        const z = [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]];
+        const labels = ["15e", "16e", "17e", "18e", "19e", "20e", "21e"];
+        
+        const trace = {
+            z: z,
+            x: labels,
+            y: labels,
+            type: 'heatmap',
+            colorscale: [
+                [0, '#FFF5F5'],
+                [0.2, '#FEB2B2'],
+                [0.4, '#FC8181'],
+                [0.6, '#F56565'],
+                [0.8, '#E53E3E'],
+                [1, '#9B2C2C']
+            ],
+            hoverongaps: false,
+            hovertemplate: '%{y} → %{x}<br>Relations: %{z}<extra></extra>',
+            showscale: true,
+            colorbar: {
+                title: 'Nombre de relations',
+                titleside: 'right'
+            }
+        };
+        
+        const layout = {
+            xaxis: {
+                title: 'Siècle influencé (destinataire)',
+                tickangle: -45
+            },
+            yaxis: {
+                title: 'Siècle influenceur (source)',
+                autorange: 'reversed'
+            },
+            margin: { l: 100, r: 50, t: 30, b: 100 },
+            paper_bgcolor: 'transparent',
+            plot_bgcolor: 'transparent'
+        };
+        
+        const config = {
+            responsive: true,
+            displayModeBar: true,
+            modeBarButtonsToRemove: ['lasso2d', 'select2d']
+        };
+        
+        Plotly.newPlot('heatmap', [trace], layout, config);
+    </script>
+</body>
+</html>

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="EPISTEME NETWORK">
+    <title>EPISTEME NETWORK</title>
+    <link rel="icon" type="image/png" href="RSlogo.png">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #FAFAFA;
+            --text: #111111;
+            --gray: #444444; /* Darker gray for better readability */
+            --line: rgba(0,0,0,0.08); /* Slightly more visible lines */
+            --glass: rgba(255, 255, 255, 0.85); /* More opaque for text legibility */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            height: 100vh;
+            overflow: hidden;
+            font-size: 15px; /* Base size increase */
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- BACKGROUND (Matches graph.html) --- */
+        .aurora-container {
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: 0;
+            background: #FAFAFA;
+            overflow: hidden;
+        }
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.8;
+            animation: float 20s infinite ease-in-out;
+        }
+        .orb-1 { width: 60vw; height: 60vw; background: #E0E7FF; top: -20%; left: -10%; }
+        .orb-2 { width: 50vw; height: 50vw; background: #F0FDFA; bottom: -10%; right: -10%; animation-delay: -5s; }
+        .orb-3 { width: 40vw; height: 40vw; background: #F5F3FF; top: 40%; left: 40%; animation-delay: -10s; }
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.1); }
+            66% { transform: translate(-20px, 20px) scale(0.95); }
+        }
+
+        /* --- LAYOUT: CSS GRID (The "Swiss Grid") --- */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 340px 1fr 340px;
+            /* Top row removed as Header is now external/fixed */
+            grid-template-rows: 1fr 60px; 
+            height: calc(100vh - 110px); /* Adjusted for larger header gap */
+            width: 100vw;
+            position: relative;
+            z-index: 10;
+            margin-top: 110px; /* More space for the floating pill header */
+        }
+
+        /* Border Lines */
+        .border-r { border-right: 1px solid var(--line); }
+        .border-b { border-bottom: 1px solid var(--line); }
+        .border-t { border-top: 1px solid var(--line); }
+
+        /* Areas */
+        /* Header areas removed */
+
+        .sidebar-left {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            padding: 48px 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: rgba(255,255,255,0.6); 
+            backdrop-filter: blur(10px);
+            border-top: 1px solid var(--line); /* Add top border since header is gone */
+        }
+
+        .content-center {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border-top: 1px solid var(--line);
+        }
+
+        .sidebar-right {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+            padding: 48px 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            background: rgba(255,255,255,0.6);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid var(--line);
+        }
+
+        .footer {
+            grid-column: 1 / 4;
+            grid-row: 2 / 3;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 32px;
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            font-size: 13px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        /* --- TYPOGRAPHY & ELEMENTS --- */
+        h1 {
+            font-size: 5rem;
+            font-weight: 600;
+            line-height: 1;
+            letter-spacing: -0.04em;
+            margin-bottom: 32px;
+            text-align: center;
+            color: #000;
+            text-shadow: 0 20px 40px rgba(255,255,255,0.5); /* Lift off background */
+        }
+
+        .tagline {
+            font-size: 1.25rem;
+            color: #333; /* Darker tagline */
+            max-width: 500px;
+            text-align: center;
+            margin-bottom: 48px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .stat-block {
+            margin-bottom: 32px;
+        }
+        .stat-val { 
+            font-size: 2.25rem; 
+            font-weight: 600; 
+            letter-spacing: -0.04em; 
+            display: block; 
+            color: #000;
+            margin-bottom: 4px;
+        }
+        .stat-lbl { 
+            font-size: 13px; 
+            text-transform: uppercase; 
+            letter-spacing: 0.05em; 
+            color: #555; 
+            font-weight: 600;
+        }
+
+        .btn-main {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #000;
+            color: #fff;
+            padding: 18px 40px;
+            border-radius: 12px; /* Slightly squarer modern look */
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .btn-main:hover { 
+            transform: translateY(-2px); 
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15); 
+            background: #222;
+        }
+        
+        .nav-link { color: #666; text-decoration: none; font-weight: 500; transition: all 0.2s; font-size: 14px; }
+        .nav-link:hover { color: #000; }
+        .nav-link.active { color: #000; font-weight: 600; }
+
+        /* --- MARQUEE --- */
+        .marquee-container {
+            position: absolute;
+            top: 50%; left: 0; width: 100%;
+            transform: translateY(-50%) rotate(-5deg);
+            z-index: -1;
+            opacity: 0.03; /* Even more subtle */
+            pointer-events: none;
+            overflow: hidden;
+            white-space: nowrap;
+            mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent); /* Fade edges */
+        }
+        .marquee-text {
+            display: inline-block;
+            font-size: 8rem;
+            font-weight: 700;
+            animation: scroll 60s linear infinite;
+        }
+        @keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+        /* --- RESPONSIVE --- */
+        
+        /* Tablet */
+        @media (max-width: 1024px) {
+            .main-grid {
+                display: flex !important;
+                flex-direction: column;
+                height: auto !important;
+                min-height: 100vh;
+                margin-top: 70px;
+            }
+            .sidebar-left { 
+                order: 2;
+                padding: 32px 24px; 
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 24px;
+                border-right: none;
+            }
+            .sidebar-left .stat-block {
+                flex: 1;
+                min-width: 100px;
+            }
+            .content-center { 
+                order: 1;
+                padding: 60px 24px;
+                min-height: 60vh;
+            }
+            .sidebar-right { 
+                order: 3;
+                padding: 32px 24px;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 24px;
+                border-right: none;
+            }
+            .sidebar-right .feature-item {
+                flex: 1;
+                min-width: 200px;
+            }
+            .footer {
+                order: 4;
+                grid-column: auto;
+            }
+            h1 { font-size: 2.5rem !important; }
+            .marquee-container { display: none; }
+        }
+        
+        /* Menu Open Interaction */
+        body.menu-open .main-grid {
+            filter: blur(10px);
+            opacity: 0.8;
+            transition: all 0.3s ease;
+        }
+
+        /* Mobile Landscape */
+        /* Mobile Landscape & Portrait - HERO + SCROLL */
+        @media (max-width: 768px) {
+            /* Enable scrolling */
+            body {
+                overflow: auto !important;
+                height: auto;
+                position: static;
+            }
+            
+            .main-grid {
+                margin-top: 0 !important;
+                height: auto !important;
+                display: flex !important;
+                flex-direction: column;
+                padding-bottom: 80px; /* Space for dock */
+            }
+            
+            /* SHOW CONTENT BELOW HERO */
+            .sidebar-left,
+            .sidebar-right,
+            .footer {
+                display: flex !important;
+                flex-direction: column;
+                padding: 32px 24px;
+                background: rgba(255,255,255,0.5); /* Slight background */
+                width: 100%;
+            }
+            
+            /* Hide Marquee on mobile for clean look */
+            .marquee-container {
+                display: none !important;
+            }
+            
+            /* SAFE ZONE CONTAINER - Hero Section (First Screen) */
+            .content-center {
+                border: none !important;
+                padding: 0 24px !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                text-align: center;
+                min-height: 100vh; /* Takes full screen height */
+                margin-bottom: 40px;
+            }
+            
+            /* Typography Scale - Heroic */
+            h1 { 
+                font-size: 13vw !important; /* Massive relative to width */
+                line-height: 0.9;
+                margin-bottom: 24px;
+                letter-spacing: -0.04em;
+                text-transform: uppercase;
+                color: #111;
+                font-weight: 800; /* Extra bold */
+            }
+            
+            .tagline {
+                font-size: 16px;
+                line-height: 1.5;
+                margin-bottom: 48px;
+                color: #666;
+                max-width: 320px;
+                font-weight: 400;
+            }
+            
+            /* Button - EXACT MATCH */
+            .btn-main {
+                background: #111;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 16px 32px;
+                border-radius: 100px;
+                width: auto;
+                min-width: 240px;
+                justify-content: center;
+                box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            }
+            
+            /* Arrow Icon */
+            .btn-main svg {
+                width: 20px;
+                height: 20px;
+            }
+            
+            /* --- CONTENT SECTIONS STYLING --- */
+            
+            /* Stats Section */
+            .sidebar-left {
+                order: 2;
+                gap: 16px;
+            }
+            .sidebar-left .stat-block {
+                background: #fff;
+                padding: 20px !important;
+                border-radius: 16px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+            }
+            
+            /* Hide status indicator on mobile */
+            .sidebar-left > div[style*="margin-top: auto"] {
+                display: none !important;
+            }
+            
+            /* Features Section */
+            .sidebar-right {
+                order: 3;
+                gap: 16px;
+            }
+            .feature-item {
+                background: #fff;
+                padding: 24px !important;
+                border-radius: 16px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+            }
+            
+            /* Footer */
+            .footer {
+                order: 4;
+                text-align: center;
+                gap: 12px;
+                font-size: 12px;
+                padding-bottom: 100px !important; /* Extra padding for bottom dock */
+            }
+            
+            /* Scroll Down Indicator */
+            .content-center::after {
+                content: '↓';
+                position: absolute;
+                bottom: 30px;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 24px;
+                opacity: 0.3;
+                animation: bounce 2s infinite;
+            }
+            
+            @keyframes bounce {
+                0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+                40% { transform: translateX(-50%) translateY(-10px); }
+                60% { transform: translateX(-50%) translateY(-5px); }
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="aurora-container">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Background Decoration: Big Scrolling Text -->
+    <div class="marquee-container">
+        <div class="marquee-text">
+            EINSTEIN • CURIE • NEWTON • DARWIN • TURING • LOVELACE • BOHR • PLANCK • HAWKING • NOETHER • 
+            EINSTEIN • CURIE • NEWTON • DARWIN • TURING • LOVELACE • BOHR • PLANCK • HAWKING • NOETHER • 
+        </div>
+    </div>
+
+    <div id="app-header"></div>
+
+    <div class="main-grid">
+        <!-- HEADER REMOVED (Handled by header.js) -->
+
+        <!-- LEFT SIDEBAR -->
+        <aside class="sidebar-left border-r">
+            <div class="stat-block">
+                <span class="stat-lbl">Point de départ</span>
+                <span class="stat-val"><span class="hide-mobile">Albert </span>Einstein</span>
+            </div>
+            <div class="stat-block">
+                <span class="stat-lbl">Indexé</span>
+                <span class="stat-val">> 1,800</span>
+            </div>
+            <div class="stat-block">
+                <span class="stat-lbl">Connexions</span>
+                <span class="stat-val">~ 2,700</span>
+            </div>
+            <div class="stat-block">
+                <span class="stat-lbl">Période</span>
+                <span class="stat-val">XII - XXI</span>
+            </div>
+            
+            <div style="margin-top: auto; opacity: 0.5; font-size: 12px;">
+                <p>Status: <span style="color: #10B981;">● Online</span></p>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="content-center">
+            <h1>EPISTEME<br>NETWORK</h1>
+            <p class="tagline">
+                Une cartographie interactive de l'histoire intellectuelle, révélant les structures invisibles de la connaissance scientifique.
+            </p>
+            
+            <a href="graph.html" class="btn-main">
+                <i data-lucide="arrow-up-right"></i>
+                Explorer le Graphe
+            </a>
+        </main>
+
+        <!-- RIGHT SIDEBAR -->
+        <aside class="sidebar-right border-l" style="border-left: 1px solid var(--line);">
+            <div class="feature-item">
+                <i data-lucide="network" style="margin-bottom: 8px;"></i>
+                <h3 style="font-size: 14px; margin-bottom: 4px;">Structure</h3>
+                <p style="font-size: 12px; color: var(--gray);">Algorithme de force-dirigée pour visualiser les clusters d'influence.</p>
+            </div>
+            
+            <div class="feature-item">
+                <i data-lucide="cpu" style="margin-bottom: 8px;"></i>
+                <h3 style="font-size: 14px; margin-bottom: 4px;">Analyse IA</h3>
+                <p style="font-size: 12px; color: var(--gray);">Extraction sémantique des relations via Llama 3.</p>
+            </div>
+
+            <div class="feature-item">
+                <i data-lucide="globe" style="margin-bottom: 8px;"></i>
+                <h3 style="font-size: 14px; margin-bottom: 4px;">Global</h3>
+                <p style="font-size: 12px; color: var(--gray);">Couverture internationale et multidisciplinaire.</p>
+            </div>
+        </aside>
+
+        <!-- FOOTER -->
+        <footer class="footer border-t">
+            <span>© 2025 EPISTEME NETWORK</span>
+            <div style="display: flex; gap: 24px;">
+                <span>Projet Open Data</span>
+                <span>L3 MIAGE</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="header.js?v=2.5"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

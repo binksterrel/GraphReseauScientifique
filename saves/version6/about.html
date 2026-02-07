@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="EPISTEME NETWORK">
+    <title>EPISTEME NETWORK</title>
+    <link rel="icon" type="image/png" href="RSlogo.png">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #FAFAFA;
+            --text: #111111;
+            --gray: #444444; 
+            --line: rgba(0,0,0,0.08); 
+            --glass: rgba(255, 255, 255, 0.85); 
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: transparent; /* Allow fixed container to show */
+            color: var(--text);
+            height: 100vh;
+            overflow: hidden;
+            font-size: 15px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- BACKGROUND (Matches graph.html) --- */
+        .aurora-container {
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            z-index: 0; /* Brought forward behind grid */
+            background: #FAFAFA;
+            overflow: hidden;
+        }
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.8; /* Increased visibility */
+            animation: float 20s infinite ease-in-out;
+        }
+        .orb-1 { width: 60vw; height: 60vw; background: #E0E7FF; top: -20%; left: -10%; }
+        .orb-2 { width: 50vw; height: 50vw; background: #F0FDFA; bottom: -10%; right: -10%; animation-delay: -5s; }
+        .orb-3 { width: 40vw; height: 40vw; background: #F5F3FF; top: 40%; left: 40%; animation-delay: -10s; }
+        
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -50px) scale(1.1); }
+            66% { transform: translate(-20px, 20px) scale(0.95); }
+        }
+        /* ... Orb positions same ... */
+
+        /* --- LAYOUT: CSS GRID (The "Swiss Grid") --- */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 340px 1fr 340px;
+            grid-template-rows: 1fr 60px;
+            height: calc(100vh - 110px);
+            width: 100vw;
+            position: relative;
+            z-index: 10;
+            margin-top: 110px;
+        }
+
+        /* Border Lines */
+        .border-r { border-right: 1px solid var(--line); }
+        .border-b { border-bottom: 1px solid var(--line); }
+        .border-t { border-top: 1px solid var(--line); }
+
+        .sidebar-left {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            padding: 48px 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            background: rgba(255,255,255,0.4); /* More transparent */
+            backdrop-filter: blur(10px);
+            border-top: 1px solid var(--line);
+        }
+
+        .content-center {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            display: block;
+            position: relative;
+            border-top: 1px solid var(--line);
+            overflow-y: auto; /* Scrollable center */
+            padding: 60px 48px;
+        }
+
+        .sidebar-right {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+            padding: 48px 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            background: rgba(255,255,255,0.4); /* More transparent */
+            backdrop-filter: blur(10px);
+            border-top: 1px solid var(--line);
+            border-left: 1px solid var(--line);
+        }
+
+        .footer {
+            grid-column: 1 / 4;
+            grid-row: 2 / 3;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 32px;
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            font-size: 13px;
+            color: #555;
+            font-weight: 500;
+            border-top: 1px solid var(--line);
+        }
+
+        /* Content Styles within Grid */
+        h1 { font-size: 3rem; font-weight: 600; letter-spacing: -0.03em; margin-bottom: 24px; color: #000; }
+        h2 { font-size: 1.5rem; font-weight: 600; margin-bottom: 16px; margin-top: 40px; display: flex; align-items: center; gap: 12px; }
+        p { line-height: 1.7; color: #333; margin-bottom: 16px; max-width: 680px; }
+        
+        .stat-block { margin-bottom: 24px; }
+        .stat-val { font-size: 2rem; font-weight: 600; display: block; color: #000; }
+        .stat-lbl { font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: #666; font-weight: 600; }
+
+        .tech-pill {
+            display: inline-block;
+            padding: 6px 12px;
+            background: rgba(0,0,0,0.05); /* Softer pill */
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            margin-right: 4px;
+        }
+        
+        .pipeline-step {
+            padding: 24px;
+            background: rgba(255,255,255,0.3); /* More transparent cards */
+            border-radius: 16px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        /* Scrollbar Hiding */
+        .content-center::-webkit-scrollbar { width: 0px; background: transparent; }
+        
+        @media (max-width: 1024px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto auto auto;
+                height: auto;
+                overflow-y: auto;
+                display: block;
+                margin-top: 80px;
+            }
+            .sidebar-left, .sidebar-right, .content-center { 
+                grid-column: 1 / -1; 
+                padding: 32px; 
+                border: none;
+                border-bottom: 1px solid var(--line);
+            }
+        }
+        
+        /* ========================================
+           MOBILE PREMIUM UX/UI
+           ======================================== */
+        @media (max-width: 768px) {
+            /* Enable scrolling */
+            body {
+                overflow: auto !important;
+                height: auto;
+            }
+            
+            .main-grid {
+                margin-top: 0 !important;
+                padding-bottom: 0;
+                height: auto !important;
+                gap: 0;
+                display: flex !important; /* Use flexbox to reorder */
+                flex-direction: column;
+            }
+            
+            /* CONTENT FIRST */
+            .content-center {
+                order: 1;
+                overflow-y: visible !important;
+                padding: 0 !important;
+            }
+
+            /* HIDE DEFAULT SIDEBAR STYLE, BUT SHOW CONTENT AT BOTTOM */
+            .sidebar-left,
+            .sidebar-right {
+                display: block !important; /* Show them */
+                padding: 24px 24px !important;
+                height: auto !important;
+                overscroll-behavior: auto;
+                position: static !important; /* No sticky */
+                border: none !important;
+                background: transparent !important;
+                order: 2; /* Place after content */
+            }
+            
+            .sidebar-right {
+                order: 3;
+                padding-top: 0 !important; /* Reduce gap */
+            }
+
+            /* Hide Newton quote on mobile */
+            .sidebar-left > div:last-child {
+                display: none !important;
+            }
+
+            .footer {
+                order: 4;
+            }
+            
+            /* Hero container - Compact */
+            .content-center > h1:first-child {
+                min-height: 70vh; /* Reduced from 100vh */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 80px 24px 60px; /* Less padding */
+                margin: 0 !important;
+                position: relative;
+            }
+            
+            /* Hero title - Simpler */
+            h1 {
+                font-size: 2.2rem !important; /* Slightly smaller */
+                font-weight: 700;
+                line-height: 1.15;
+                letter-spacing: -0.03em;
+                text-align: center !important;
+                margin-bottom: 16px !important;
+                color: #000; /* Solid color, no gradient */
+            }
+            
+            /* Hero subtitle - Concise */
+            .content-center > p:first-of-type {
+                font-size: 15px !important;
+                line-height: 1.6;
+                text-align: center;
+                margin-bottom: 40px !important; /* Less space */
+                color: #666;
+                max-width: 85%;
+            }
+            
+            /* ========================================
+               STATS PILLS - Glassmorphic
+               ======================================== */
+            .content-center > div[style*="grid-template-columns"] {
+                display: flex !important;
+                gap: 12px !important;
+                margin-bottom: 0 !important;
+                justify-content: center;
+                flex-wrap: wrap;
+                padding: 0 !important;
+            }
+            
+            .content-center > div[style*="grid-template-columns"] > div {
+                min-width: auto !important;
+                flex: 0 0 auto;
+                padding: 14px 24px !important;
+                background: rgba(255, 255, 255, 0.7) !important;
+                backdrop-filter: blur(20px);
+                -webkit-backdrop-filter: blur(20px);
+                border: 1px solid rgba(255, 255, 255, 0.5) !important;
+                border-radius: 100px !important;
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08) !important;
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            
+            .content-center > div[style*="grid-template-columns"] > div:active {
+                transform: scale(0.95);
+            }
+            
+            .content-center > div[style*="grid-template-columns"] > div > div:first-child {
+                font-size: 1.5rem !important;
+                font-weight: 700;
+                margin-bottom: 4px;
+            }
+            
+            .content-center > div[style*="grid-template-columns"] > div > div:last-child {
+                font-size: 11px !important;
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                opacity: 0.7;
+            }
+            
+            /* Scroll indicator */
+            .content-center > h1:first-child::after {
+                content: '↓';
+                position: absolute;
+                bottom: 40px;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 24px;
+                opacity: 0.3;
+                animation: bounce 2s infinite;
+            }
+            
+            @keyframes bounce {
+                0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+                40% { transform: translateX(-50%) translateY(-10px); }
+                60% { transform: translateX(-50%) translateY(-5px); }
+            }
+            
+            /* ========================================
+               CONTENT SECTIONS - Spacious
+               ======================================== */
+            .content-center > * {
+                padding-left: 24px;
+                padding-right: 24px;
+            }
+            
+            .content-center > h1:first-child,
+            .content-center > p:first-of-type,
+            .content-center > div[style*="grid-template-columns"] {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+            
+            /* Section headers */
+            h2 {
+                font-size: 1.4rem !important;
+                font-weight: 600;
+                margin-top: 80px !important;
+                margin-bottom: 24px !important;
+                padding: 0 !important;
+                background: none !important;
+                display: flex;
+                align-items: center;
+                justify-content: center; /* Center the content */
+                gap: 12px;
+                text-align: center;
+            }
+            
+            h2 i, 
+            h2 svg, 
+            h2 [data-lucide],
+            h3 i, 
+            h3 svg, 
+            h3 [data-lucide] {
+                display: none !important; /* Hide all icons in headings on mobile */
+            }
+            
+            /* Paragraphs */
+            p {
+                font-size: 15px !important;
+                line-height: 1.7;
+                color: #555;
+                margin-bottom: 20px;
+            }
+            
+            /* Hide ONLY the intro paragraph on mobile */
+            .content-center > p:nth-of-type(1) {
+                display: none !important;
+            }
+            
+            /* Ensure other paragraphs are visible and properly padded */
+            .content-center > p:not(:nth-of-type(1)) {
+                display: block !important;
+                padding: 0 24px !important;
+                text-align: left !important; /* Reset alignment for content */
+            }
+            
+            /* Pipeline cards - Lighter */
+            .pipeline-step {
+                background: #fff !important; /* Solid white instead of glass */
+                border: 1px solid rgba(0, 0, 0, 0.08) !important;
+                border-radius: 16px !important; /* Less rounded */
+                padding: 20px !important; /* Less padding */
+                margin-bottom: 12px !important;
+                box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04) !important; /* Lighter shadow */
+                transition: all 0.2s ease;
+            }
+            
+            .pipeline-step:active {
+                transform: translateY(1px); /* Subtle press */
+                box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06) !important;
+            }
+            
+            .pipeline-step h3 {
+                font-size: 1.05rem !important;
+                font-weight: 600;
+                margin-bottom: 12px !important;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #000;
+            }
+            
+            .pipeline-step p {
+                font-size: 14px !important;
+                line-height: 1.65;
+                color: #666;
+                margin-bottom: 0 !important;
+            }
+            
+            .pipeline-step i {
+                opacity: 0.15 !important;
+                width: 20px !important;
+                height: 20px !important;
+            }
+            
+            /* ========================================
+               CODE & LISTS
+               ======================================== */
+            code {
+                font-size: 13px !important;
+                padding: 3px 8px !important;
+                background: rgba(0, 0, 0, 0.04) !important;
+                border-radius: 6px;
+                font-family: 'SF Mono', Monaco, monospace;
+            }
+            
+            ul {
+                padding-left: 24px !important;
+                font-size: 14px !important;
+                line-height: 1.7;
+            }
+            
+            ul li {
+                margin-bottom: 12px;
+                color: #555;
+            }
+            
+            ul li b {
+                color: #000;
+            }
+            
+            /* ========================================
+               TECH PILLS
+               ======================================== */
+            .tech-pill {
+                font-size: 12px !important;
+                padding: 6px 12px !important;
+                background: rgba(0, 0, 0, 0.04) !important;
+                border-radius: 100px;
+                display: inline-block;
+                margin: 4px;
+                transition: all 0.2s;
+            }
+            
+            .tech-pill:active {
+                transform: scale(0.95);
+                background: rgba(0, 0, 0, 0.08) !important;
+            }
+            
+            /* ========================================
+               FOOTER
+               ======================================== */
+            .footer {
+                flex-direction: column;
+                gap: 16px;
+                padding: 40px 24px !important;
+                text-align: center;
+                font-size: 13px !important;
+                background: rgba(255, 255, 255, 0.5);
+                backdrop-filter: blur(20px);
+                margin-top: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="app-header"></div>
+    
+    <div class="aurora-container">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+    <div class="noise-overlay"></div>
+
+    <div class="main-grid">
+        <!-- HEADER REMOVED (Handled by header.js) -->
+
+        <!-- LEFT SIDEBAR: Context -->
+        <aside class="sidebar-left border-r">
+            <div class="stat-block">
+                <span class="stat-lbl">Projet</span>
+                <span class="stat-val" style="font-size: 1.5rem;">EPISTEME<br>NETWORK</span>
+            </div>
+            
+            <div class="stat-block">
+                <span class="stat-lbl">Version</span>
+                <span class="stat-val">2.4.0</span>
+            </div>
+
+            <div class="stat-block">
+                <span class="stat-lbl">Statut</span>
+                <span class="stat-val" style="color:#22c55e;">● Actif</span>
+            </div>
+
+            <div style="margin-top: auto;">
+                <p style="font-size: 12px; color: #666;">
+                    "Si j'ai vu plus loin, c'est en montant sur les épaules de géants."<br>
+                    — Isaac Newton
+                </p>
+            </div>
+        </aside>
+
+        <!-- CENTER: Narrative -->
+        <main class="content-center">
+            <h1 style="text-align: center;">Architecture de<br>l'Intelligence Collective</h1>
+            <p style="font-size: 1.1rem; font-weight: 500; color: #000; margin-bottom: 48px; text-align: center !important; padding: 0 32px !important;">
+                Ce projet cartographie 5 siècles de pensée scientifique en combinant extraction sémantique par IA, 
+                théorie des graphes et visualisation interactive. Plus qu'un simple réseau social, c'est une machine 
+                à découvrir les structures invisibles de la connaissance.
+            </p>
+
+            <!-- STATS INLINE -->
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 48px;">
+                <div style="text-align: center; padding: 20px; background: rgba(0,0,0,0.02); border-radius: 12px;">
+                    <div style="font-size: 2.5rem; font-weight: 700; color: #000;">> 1,800</div>
+                    <div style="font-size: 12px; text-transform: uppercase; color: #666; font-weight: 600;">Scientifiques</div>
+                </div>
+                <div style="text-align: center; padding: 20px; background: rgba(0,0,0,0.02); border-radius: 12px;">
+                    <div style="font-size: 2.5rem; font-weight: 700; color: #000;">~ 2,700</div>
+                    <div style="font-size: 12px; text-transform: uppercase; color: #666; font-weight: 600;">Relations</div>
+                </div>
+                <div style="text-align: center; padding: 20px; background: rgba(0,0,0,0.02); border-radius: 12px;">
+                    <div style="font-size: 2.5rem; font-weight: 700; color: #000;">900+</div>
+                    <div style="font-size: 12px; text-transform: uppercase; color: #666; font-weight: 600;">Années</div>
+                </div>
+            </div>
+
+            <h2><i data-lucide="brain" style="width:20px;"></i> Intelligence Artificielle & Extraction</h2>
+            <div class="pipeline-step">
+                <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+                    <h3 style="font-size: 1.1rem; font-weight: 600;">Prompting Avancé : Few-Shot + Chain-of-Thought</h3>
+                    <i data-lucide="sparkles" style="opacity:0.4;"></i>
+                </div>
+                <p style="font-size: 0.95rem; margin-bottom:0;">
+                    Les LLMs (Llama 3, GPT, Mistral) analysent les biographies Wikipédia via une technique de <b>prompting sophistiqué</b> :
+                    <br><br>
+                    <b>1. Few-Shot Learning</b> : Le modèle reçoit des exemples avant chaque requête (ex : "Isaac Barrow a enseigné à Newton → Influence directe").
+                    <br>
+                    <b>2. Chain-of-Thought</b> : Le LLM doit <i>expliciter son raisonnement</i> ("Mach a critiqué Newton, donc il a influencé Einstein").
+                    <br>
+                    <b>3. Validation Multi-Critères</b> : Chaque relation extraite est scorée par confiance (high/medium/low) puis validée via Wikidata SPARQL.
+                    <br><br>
+                    → Résultat : <b>Précision de ~85%</b> sur les relations historiquement documentées.
+                </p>
+            </div>
+
+            <div class="pipeline-step">
+                <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+                    <h3 style="font-size: 1.1rem; font-weight: 600;">Système Multi-LLM avec Fallback</h3>
+                    <i data-lucide="cpu" style="opacity:0.4;"></i>
+                </div>
+                <p style="font-size: 0.95rem; margin-bottom:0;">
+                    Le code implémente une <b>cascade de services</b> pour garantir la disponibilité :
+                    <br><br>
+                    <code style="background: rgba(0,0,0,0.05); padding: 2px 6px; border-radius: 4px;">Cerebras</code> → 
+                    <code style="background: rgba(0,0,0,0.05); padding: 2px 6px; border-radius: 4px;">Groq (Llama 3)</code> → 
+                    <code style="background: rgba(0,0,0,0.05); padding: 2px 6px; border-radius: 4px;">Mistral</code> → 
+                    <code style="background: rgba(0,0,0,0.05); padding: 2px 6px; border-radius: 4px;">Ollama (local)</code> → 
+                    <code style="background: rgba(0,0,0,0.05); padding: 2px 6px; border-radius: 4px;">OpenAI</code>
+                    <br><br>
+                    Si un service échoue, le suivant prend le relais automatiquement. Les réponses sont <b>cachées avec versioning</b> pour éviter les appels redondants.
+                </p>
+            </div>
+
+            <h2><i data-lucide="network" style="width:20px;"></i> Théorie des Graphes & Algorithmes</h2>
+            <div class="pipeline-step">
+                <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+                    <h3 style="font-size: 1.1rem; font-weight: 600;">PageRank : L'Algorithme de Google</h3>
+                    <i data-lucide="trending-up" style="opacity:0.4;"></i>
+                </div>
+                <p style="font-size: 0.95rem; margin-bottom:0;">
+                    Chaque nœud (scientifique) reçoit un <b>score d'influence récursive</b> :
+                    <br><br>
+                    <i>Intuition</i> : Einstein est influent non seulement parce qu'il a influencé beaucoup de gens, mais parce qu'il a influencé des gens <b>eux-mêmes influents</b>.
+                    <br><br>
+                    → La <b>taille des nœuds</b> dans la visualisation reflète ce score. Isaac Newton domine historiquement.
+                </p>
+            </div>
+
+            <div class="pipeline-step">
+                <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+                    <h3 style="font-size: 1.1rem; font-weight: 600;">Algorithme de Louvain : Détection de Communautés</h3>
+                    <i data-lucide="git-fork" style="opacity:0.4;"></i>
+                </div>
+                <p style="font-size: 0.95rem; margin-bottom:0;">
+                    L'algorithme identifie automatiquement les <b>"écoles de pensée"</b> en regroupant les scientifiques densément connectés :
+                    <br><br>
+                    • <b style="color: #2563EB;">■</b> Physiciens quantiques (Bohr, Heisenberg, Pauli)
+                    <br>
+                    • <b style="color: #059669;">■</b> Mathématiciens des Lumières (Euler, Laplace, Gauss)
+                    <br>
+                    • <b style="color: #DB2777;">■</b> Philosophes grecs antiques (Platon, Aristote)
+                    <br><br>
+                    → Les <b>couleurs</b> du graphe représentent ces clusters thématiques.
+                </p>
+            </div>
+
+            <div class="pipeline-step">
+                <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+                    <h3 style="font-size: 1.1rem; font-weight: 600;">Betweenness Centrality : Les Ponts</h3>
+                    <i data-lucide="milestone" style="opacity:0.4;"></i>
+                </div>
+                <p style="font-size: 0.95rem; margin-bottom:0;">
+                    Identifie les scientifiques qui <b>connectent des domaines différents</b>.
+                    <br><br>
+                    Exemple : René Descartes a un score élevé car il est à la fois :
+                    <br>
+                    → Philosophe (lié à Spinoza, Leibniz)
+                    <br>
+                    → Mathématicien (lié à Fermat, Pascal)
+                    <br><br>
+                    Ces "ponts" sont cruciaux pour la diffusion interdisciplinaire des idées.
+                </p>
+            </div>
+
+            <h2><i data-lucide="clock" style="width:20px;"></i> Analyse Temporelle</h2>
+            <div class="pipeline-step">
+                <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+                    <h3 style="font-size: 1.1rem; font-weight: 600;">Pondération par Proximité Historique</h3>
+                    <i data-lucide="calendar" style="opacity:0.4;"></i>
+                </div>
+                <p style="font-size: 0.95rem; margin-bottom:0;">
+                    Les arêtes sont <b>pondérées</b> selon la différence d'époque entre deux scientifiques :
+                    <br><br>
+                    • Une influence entre contemporains (ex: Bohr → Heisenberg, 20 ans d'écart) est plus <b>forte</b>.
+                    <br>
+                    • Une influence posthume (ex: Euclide → Newton, 1800 ans) est plus <b>faible</b>.
+                    <br><br>
+                    → Cela permet de distinguer les <b>transmissions directes</b> des influences conceptuelles lointaines.
+                </p>
+            </div>
+
+            <h2><i data-lucide="search" style="width:20px;"></i> Validation & Précision</h2>
+            <p style="font-size: 0.95rem;">
+                Chaque relation extraite par l'IA est confrontée à <b>Wikidata</b> (base de connaissances structurée).
+                <br><br>
+                Le script <code style="background: rgba(0,0,0,0.05); padding: 2px 6px; border-radius: 4px;">validator.py</code> 
+                interroge l'API SPARQL pour vérifier si la relation "X a influencé Y" est documentée.
+                <br><br>
+                → Taux de confirmation : <b>~78%</b> (les 22% restants sont des relations implicites non wikifiées mais historiquement plausibles).
+            </p>
+
+            <h2><i data-lucide="lightbulb" style="width:20px;"></i> Applications & Insights</h2>
+            <p style="font-size: 0.95rem;">
+                Ce graphe n'est pas qu'une curiosité visuelle. Il permet :
+            </p>
+            <ul style="line-height: 1.8; color: #333; padding-left: 24px;">
+                <li><b>Détection des "révolutionnaires"</b> : via l'analyse des trous structurels (Burt's constraint), on identifie les scientifiques qui ont cassé des paradigmes.</li>
+                <li><b>Prédiction de liens manquants</b> : l'algorithme Adamic-Adar suggère des influences probables non documentées.</li>
+                <li><b>Comparaison des traditions</b> : analyse de densité entre écoles (Grèce antique vs Lumières vs Modernité).</li>
+                <li><b>Timeline interactive</b> : filtre par époque (1400-2000) pour voir l'évolution du réseau.</li>
+            </ul>
+
+            <h2><i data-lucide="code" style="width:20px;"></i> Détails Techniques</h2>
+            <p style="font-size: 0.95rem;">
+                <b>Architecture Backend</b> : Python 3.11 + NetworkX (graphes), Wikipedia-API (scraping), Requests (LLM APIs)
+                <br>
+                <b>Visualisation</b> : Vis.js (Force Atlas 2 pour la spatialisation), Canvas HTML5
+                <br>
+                <b>Données</b> : Export GEXF (compatible Gephi), JSON structuré
+                <br>
+                <b>Déploiement</b> : Pages statiques HTML, compatible GitHub Pages
+                <br><br>
+                → Code complet disponible : <a href="https://github.com/binksterrel/epistemenetwork" style="color: #0066cc; text-decoration: underline;">GitHub Repository</a>
+            </p>
+
+            <p style="margin-top: 60px; padding: 24px; background: rgba(0,0,0,0.03); border-left: 4px solid #111; font-size: 0.95rem; font-style: italic; color: #555;">
+                "Si j'ai vu plus loin, c'est en montant sur les épaules de géants."<br>
+                — Cette citation de Newton, reprise d'un proverbe médiéval, résume parfaitement ce que ce projet visualise : 
+                <b>la science comme accumulation non-linéaire de percées intellectuelles connectées</b>.
+            </p>
+        </main>
+
+        <!-- RIGHT SIDEBAR: Tech Stack -->
+        <aside class="sidebar-right border-l">
+            <div>
+                <span class="stat-lbl" style="display:block; margin-bottom:12px;">Architecture</span>
+                <div class="feature-item" style="margin-bottom: 24px;">
+                    <i data-lucide="layers" style="margin-bottom: 8px;"></i>
+                    <h3 style="font-size: 14px; margin-bottom: 4px; font-weight: 600;">Stack Hybride</h3>
+                    <p style="font-size: 12px; color: #666;">Python pour le backend, JS/Canvas pour le rendu.</p>
+                </div>
+            </div>
+
+            <div>
+                <span class="stat-lbl" style="display:block; margin-bottom:12px;">Technologies</span>
+                <div class="tech-stack" style="display: flex; flex-wrap: wrap;">
+                    <span class="tech-pill">Python 3.11</span>
+                    <span class="tech-pill">NetworkX</span>
+                    <span class="tech-pill">Llama 3</span>
+                    <span class="tech-pill">Groq API</span>
+                    <span class="tech-pill">Vis.js</span>
+                    <span class="tech-pill">HTML5</span>
+                </div>
+            </div>
+
+            <div style="margin-top: auto;">
+                <span class="stat-lbl">Développé par</span>
+                <p style="font-size: 13px; font-weight: 500; margin-top: 4px;">Terrel Nuentsa et Faiz DJAMA</p>
+                <p style="font-size: 12px; color: #666;">L3 MIAGE</p>
+            </div>
+        </aside>
+
+        <!-- FOOTER -->
+        <footer class="footer border-t">
+            <span>© 2025 EPISTEME NETWORK</span>
+            <div style="display: flex; gap: 24px;">
+                <span>Projet Open Data</span>
+                <span>L3 MIAGE</span>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="header.js?v=2.5"></script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>

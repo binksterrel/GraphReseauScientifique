@@ -1,0 +1,352 @@
+[
+  {
+    "source": "Enrico Fermi",
+    "target": "Abdus Salam",
+    "probability": 0.9994390870105394,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Enrico Fermi",
+    "target": "Howard P. Robertson",
+    "probability": 0.998712754644973,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Howard P. Robertson",
+    "probability": 0.9986257751284051,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Hans Bethe",
+    "probability": 0.9985228101020023,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Svante Arrhenius",
+    "probability": 0.9985051570473318,
+    "source_field": "Physics",
+    "target_field": "Chemistry"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "George Uhlenbeck",
+    "probability": 0.9984476240928989,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Werner Heisenberg",
+    "target": "Hans Bethe",
+    "probability": 0.9984051938678188,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Samuel Goudsmit",
+    "probability": 0.9983431565269231,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "James Clerk Maxwell",
+    "target": "Werner Heisenberg",
+    "probability": 0.9982511161437162,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Enrico Fermi",
+    "target": "Lev Landau",
+    "probability": 0.9982309188699757,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Enrico Fermi",
+    "target": "Arthur Eddington",
+    "probability": 0.9981896374821632,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Enrico Fermi",
+    "target": "Satyendra Nath Bose",
+    "probability": 0.998094523792616,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Johann Bernoulli",
+    "probability": 0.997998508341226,
+    "source_field": "Physics",
+    "target_field": "Mathematics"
+  },
+  {
+    "source": "Enrico Fermi",
+    "target": "Boris Podolsky",
+    "probability": 0.9979535517754686,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Enrico Fermi",
+    "target": "Nathan Rosen",
+    "probability": 0.9978358065861452,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Léon Rosenfeld",
+    "probability": 0.9978038519940601,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Meghnad Saha",
+    "probability": 0.9977928621881369,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Rudolf Clausius",
+    "probability": 0.9977928621881369,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Christiaan Huygens",
+    "target": "Albert Einstein",
+    "probability": 0.9977860927087941,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Meghnad Saha",
+    "probability": 0.9977464757025087,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "James Clerk Maxwell",
+    "target": "Wolfgang Ernst Pauli",
+    "probability": 0.9977044104505365,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Rudolf Clausius",
+    "probability": 0.9976906097807209,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Steven Weinberg",
+    "probability": 0.9976883946221612,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Enrico Fermi",
+    "target": "Isaac Newton",
+    "probability": 0.9976317622054525,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Enrico Fermi",
+    "target": "Ludwig Boltzmann",
+    "probability": 0.9976114907548532,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Paul Dirac",
+    "target": "Max Born",
+    "probability": 0.9975895338731717,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Paul Drude",
+    "probability": 0.9975662552748266,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Werner Heisenberg",
+    "target": "Abdus Salam",
+    "probability": 0.9974433827472751,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Lise Meitner",
+    "probability": 0.9974227795119494,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Werner Heisenberg",
+    "target": "Josiah Willard Gibbs",
+    "probability": 0.9973558806280903,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Paul Dirac",
+    "target": "Josiah Willard Gibbs",
+    "probability": 0.9973558806280903,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Albert Einstein",
+    "target": "Salim Mehmud",
+    "probability": 0.9973070311304225,
+    "source_field": "Physics",
+    "target_field": "Engineering"
+  },
+  {
+    "source": "Werner Heisenberg",
+    "target": "Lise Meitner",
+    "probability": 0.9972888178097541,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Arthur Compton",
+    "probability": 0.9972822338372205,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Werner Heisenberg",
+    "target": "Svante Arrhenius",
+    "probability": 0.997215917406789,
+    "source_field": "Physics",
+    "target_field": "Chemistry"
+  },
+  {
+    "source": "Paul Dirac",
+    "target": "Max Planck",
+    "probability": 0.9971655904378,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Ludwig Boltzmann",
+    "probability": 0.9971449390202747,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Enrico Fermi",
+    "target": "Ernest Rutherford",
+    "probability": 0.9971386315415051,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "David Hilbert",
+    "target": "Arthur Eddington",
+    "probability": 0.9971165903890857,
+    "source_field": "Mathematics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Werner Heisenberg",
+    "target": "Subrahmanyan Chandrasekhar",
+    "probability": 0.9971133792132629,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Max Born",
+    "target": "George Uhlenbeck",
+    "probability": 0.9971057793803918,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "James Clerk Maxwell",
+    "target": "Abdus Salam",
+    "probability": 0.9970840571712479,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Werner Heisenberg",
+    "target": "Richard Feynman",
+    "probability": 0.9970477259496691,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Werner Heisenberg",
+    "target": "Ernest Rutherford",
+    "probability": 0.9970477259496691,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Werner Heisenberg",
+    "target": "George Uhlenbeck",
+    "probability": 0.9970143792347064,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Max Born",
+    "target": "Abraham Pais",
+    "probability": 0.9969722050920065,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Paul Dirac",
+    "target": "Ernest Rutherford",
+    "probability": 0.9969699049379961,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Christiaan Huygens",
+    "probability": 0.9969357795777586,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Paul Dirac",
+    "target": "Lise Meitner",
+    "probability": 0.9969286685657138,
+    "source_field": "Physics",
+    "target_field": "Physics"
+  },
+  {
+    "source": "Niels Bohr",
+    "target": "Hermann Weyl",
+    "probability": 0.9969195499505439,
+    "source_field": "Physics",
+    "target_field": "Mathematics"
+  }
+]
