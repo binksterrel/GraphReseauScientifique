@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Gustav Heinrich Wiedemann",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "d92499d57f5d9b80abffc2d6cf181f79",
+  "text_length": 4862,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2026-03-17T13:56:22.304382"
+}

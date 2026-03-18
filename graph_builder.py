@@ -24,104 +24,140 @@ class GraphBuilder:
         """
         Construit le graphe d'influence en utilisant un parcours BFS (Largeur d'abord).
         Reprend le travail existant si un fichier est trouvé.
+        Utilise ThreadPoolExecutor pour accélérer les appels API LLM en parallèle.
         """
+        import concurrent.futures
+        
         filename = "output/scientist_graph.gexf"
         queue = self._load_existing_graph(filename, start_scientist)
 
         logger.info("DEMARRAGE de la construction du graphe")
         logger.info(f"Max Profondeur: {MAX_DEPTH} | Max Scientifiques: {MAX_SCIENTISTS}")
+        
+        # Nombre de workers parallèles (ajustable selon la limite de l'API LLM utilisée)
+        MAX_WORKERS = 5
 
-        while queue and len(self.visited) < MAX_SCIENTISTS:
-            current_scientist, depth = queue.popleft()
-
-            # 1. Vérifications préliminaires
-            if current_scientist in self.visited:
-                continue
-            if depth > MAX_DEPTH:
-                continue
-            # Vérifier la liste noire
-            if any(bl.lower() in current_scientist.lower() for bl in BLACKLIST):
-                logger.warning(f"{current_scientist} est dans la liste noire. Ignore.")
-                continue
-
-            logger.info(f"[{len(self.visited)+1}/{MAX_SCIENTISTS}] Analyse de: {current_scientist} (Prof: {depth})")
-
+        def process_node(current_scientist: str, depth: int):
             # 2. Récupération du texte
             try:
                 result = self.wiki_client.get_scientist_text(current_scientist)
             except Exception as e:
-                logger.error(f"Erreur critique recuperation Wikipedia ({e}). On passe au suivant.")
-                continue
+                logger.error(f"Erreur critique recuperation Wikipedia ({e}).")
+                return None
 
             if not result:
-                logger.warning(f"Pas de page Wikipedia trouvee pour {current_scientist}. Ignore.")
-                continue
+                logger.warning(f"Pas de page Wikipedia trouvee pour {current_scientist}.")
+                return None
 
             wiki_text, links = result
-            logger.debug(f"{len(wiki_text)} caracteres recuperes. {len(links)} liens identifies.")
 
             # Extraction du domaine scientifique
             field: Optional[str] = None
             if current_scientist in self.graph.nodes:
                 field = self.graph.nodes[current_scientist].get('field')
-
             if not field or field == 'Other':
                 field = self.wiki_client.get_scientific_field(current_scientist)
-
             if not field:
                 field = 'Other'
 
-            # 3. Ajout/Maj au graphe et marquage comme visité
-            self.visited.add(current_scientist)
-
-            # Récupération de l'année de naissance si elle n'est pas déjà présente
+            # Récupération de l'année de naissance
             birth_year: Optional[int] = None
             if current_scientist in self.graph.nodes:
                 birth_year = self.graph.nodes[current_scientist].get('birth_year')
             if not birth_year:
                 birth_year, _ = self.wiki_client.extract_years(current_scientist)
 
-            # On met à jour ou crée le nœud avec les attributs complets
-            self.graph.add_node(current_scientist, depth=depth, field=field, birth_year=birth_year)
+            # Récupération du pays/nationalité
+            country: Optional[str] = None
+            if current_scientist in self.graph.nodes:
+                country = self.graph.nodes[current_scientist].get('country')
+            if not country:
+                country = self.wiki_client.get_country(current_scientist)
 
-            # Si on atteint la profondeur max, on ne cherche pas les voisins
-            if depth == MAX_DEPTH:
-                continue
+            # Si on a atteint la profondeur max, on s'arrête là (pas d'appel LLM)
+            if depth >= MAX_DEPTH:
+                return {
+                    "scientist": current_scientist, "depth": depth, "field": field, 
+                    "birth_year": birth_year, "country": country, "relations": {}
+                }
 
             # 4. Extraction des relations via LLM
             relations = self.llm.extract_relations(wiki_text, current_scientist, links=links)
+            
+            return {
+                "scientist": current_scientist, "depth": depth, "field": field,
+                "birth_year": birth_year, "country": country, "relations": relations
+            }
 
-            # 5. Traitement des "inspirations" (A a inspiré current)
-            inspirations = relations.get('inspired_by', [])
-            for person in inspirations:
-                if person == current_scientist:
-                    continue
-                if self._is_valid_name(person):
-                    if self._is_chronologically_valid(current_scientist, person, "inspired_by"):
-                        self.graph.add_edge(person, current_scientist, relation="inspired")
-                        if person not in self.visited:
-                            queue.append((person, depth + 1))
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            while queue and len(self.visited) < MAX_SCIENTISTS:
+                # Préparer un lot (batch)
+                batch = []
+                while queue and len(batch) < MAX_WORKERS and len(self.visited) + len(batch) < MAX_SCIENTISTS:
+                    current_scientist, depth = queue.popleft()
 
-            # 6. Traitement des "inspirés" (current a inspiré B)
-            inspired_list = relations.get('inspired', [])
-            for person in inspired_list:
-                if person == current_scientist:
-                    continue
-                if self._is_valid_name(person):
-                    if self._is_chronologically_valid(current_scientist, person, "inspired"):
-                        self.graph.add_edge(current_scientist, person, relation="inspired")
-                        if person not in self.visited:
-                            queue.append((person, depth + 1))
+                    if current_scientist in self.visited:
+                        continue
+                    if depth > MAX_DEPTH + 1:
+                        continue
+                    if any(bl.lower() in current_scientist.lower() for bl in BLACKLIST):
+                        logger.warning(f"{current_scientist} est dans la liste noire. Ignore.")
+                        continue
+                        
+                    # Marquer comme visité tout de suite pour éviter les doublons dans le lot ou la file
+                    self.visited.add(current_scientist)
+                    batch.append((current_scientist, depth))
+                
+                if not batch:
+                    break
+                    
+                logger.info(f"Traitement en lot de {len(batch)} scientifiques en parallèle...")
+                
+                # Soumission des tâches
+                future_to_node = {executor.submit(process_node, sc, d): (sc, d) for sc, d in batch}
+                
+                for future in concurrent.futures.as_completed(future_to_node):
+                    sc, d = future_to_node[future]
+                    try:
+                        res = future.result()
+                        if not res:
+                            continue
+                            
+                        # Mettre à jour le graphe (thread principal)
+                        self.graph.add_node(res["scientist"], depth=res["depth"], field=res["field"], 
+                                            birth_year=res["birth_year"], country=res["country"])
+                        
+                        relations = res["relations"]
+                        
+                        # Inspirations
+                        inspirations = relations.get('inspired_by', [])
+                        for person in inspirations:
+                            if person == sc: continue
+                            if self._is_valid_name(person) and self._is_chronologically_valid(sc, person, "inspired_by"):
+                                self.graph.add_edge(person, sc, relation="inspired")
+                                if person not in self.visited:
+                                    queue.append((person, res["depth"] + 1))
+                                    self.visited.add(person) # Pre-mark to prevent duplicate queuing
+                                    
+                        # Inspirés
+                        inspired_list = relations.get('inspired', [])
+                        for person in inspired_list:
+                            if person == sc: continue
+                            if self._is_valid_name(person) and self._is_chronologically_valid(sc, person, "inspired"):
+                                self.graph.add_edge(sc, person, relation="inspired")
+                                if person not in self.visited:
+                                    queue.append((person, res["depth"] + 1))
+                                    self.visited.add(person) # Pre-mark
 
-            logger.info(f"Relations: {len(inspirations)} inspirations, {len(inspired_list)} inspires.")
-
-            # Petite pause pour être poli envers les APIs
-            time.sleep(0.5)
-
-            # --- AUTOSAVE ---
-            if len(self.visited) % 20 == 0:
-                logger.info(f"Autosave: Sauvegarde intermediaire ({len(self.visited)} noeuds)...")
-                self.save_graph(filename)
+                        logger.info(f"[{len(self.visited)}/{MAX_SCIENTISTS}] {sc} (Prof: {d}) terminé : {len(inspirations)} inspirations, {len(inspired_list)} inspirés.")
+                                    
+                    except Exception as exc:
+                        logger.error(f"Le traitement de {sc} a généré une exception: {exc}")
+                        
+                # --- AUTOSAVE après chaque lot (si le seuil des 20 est franchi) ---
+                if len(self.visited) % 20 < MAX_WORKERS: 
+                    logger.info(f"Autosave: Sauvegarde intermediaire ({len(self.visited)} noeuds)...")
+                    self.save_graph(filename)
 
         logger.info("CONSTRUCTION TERMINEE")
         logger.info(f"Total Noeuds: {self.graph.number_of_nodes()}")

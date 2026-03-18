@@ -676,17 +676,14 @@
                 hoverWidth: 0.5
             },
             physics: {
-                stabilization: { 
-                    enabled: true,
-                    iterations: 1000,
-                    updateInterval: 25
-                },
+                enabled: true,
+                stabilization: false,
                 barnesHut: {
                     gravitationalConstant: -2000,
-                    centralGravity: 0.2,
+                    centralGravity: 0.05,
                     springLength: 120,
-                    springConstant: 0.02,
-                    damping: 0.15,
+                    springConstant: 0.01,
+                    damping: 0.3,
                     avoidOverlap: 0.1
                 }
             },
@@ -705,45 +702,59 @@
         const loader = document.getElementById('loading');
         const progressBar = document.getElementById('progress-bar');
         const statusText = document.getElementById('loading-status');
-        
-        network.on("stabilizationProgress", function(params) {
-            const widthFactor = params.iterations / params.total;
-            const width = Math.round(widthFactor * 100);
-            progressBar.style.width = width + '%';
-            statusText.innerText = `Optimisation physique ${width}%`;
+
+        // Simulation de progression animée (stabilisation désactivée)
+        const stages = [
+            { pct: 10, label: 'Chargement des données…',      delay: 0    },
+            { pct: 25, label: 'Construction du graphe…',       delay: 800  },
+            { pct: 50, label: 'Positionnement des nœuds…',     delay: 1800 },
+            { pct: 70, label: 'Rendu des connexions…',         delay: 3000 },
+            { pct: 85, label: 'Calcul des influences…',        delay: 4200 },
+            { pct: 93, label: 'Finalisation…',                 delay: 5500 },
+        ];
+
+        stages.forEach(({ pct, label, delay }) => {
+            setTimeout(() => {
+                progressBar.style.width = pct + '%';
+                statusText.innerText = label;
+            }, delay);
         });
 
-        network.once("stabilizationIterationsDone", function() {
+        const MIN_LOADING_MS = 3000;
+        const startTime = Date.now();
+        let graphReady = false;
+        let graphDrawn = false;
+
+        function dismissLoader() {
+            if (graphReady) return;
+            graphReady = true;
             progressBar.style.width = '100%';
-            statusText.innerText = '100%';
-            
-            // Démarrage immersif : zoom sur le premier scientifique
-            if(nodesData.length > 0) {
-                const centralNode = nodesData[0].id;
-                network.focus(centralNode, {
-                    scale: 1.8,
-                    animation: {
-                        duration: 1200,
-                        easingFunction: "easeInOutQuad"
-                    }
-                });
-            }
-            
+            statusText.innerText = 'Prêt';
+            network.fit({ animation: { duration: 1200, easingFunction: 'easeInOutQuad' } });
             setTimeout(() => {
                 loader.style.opacity = '0';
                 loader.style.pointerEvents = 'none';
-                setTimeout(() => loader.remove(), 1000);
-            }, 500);
+                setTimeout(() => loader.remove(), 800);
+            }, 300);
+        }
+
+        function tryDismiss() {
+            const elapsed = Date.now() - startTime;
+            const remaining = MIN_LOADING_MS - elapsed;
+            if (remaining <= 0) {
+                dismissLoader();
+            } else {
+                setTimeout(dismissLoader, remaining);
+            }
+        }
+
+        network.once('afterDrawing', () => {
+            graphDrawn = true;
+            tryDismiss();
         });
-        
-        // Fallback safety if stabilization is too fast or disabled
-        setTimeout(() => {
-             const loader = document.getElementById('loading');
-             if(loader && loader.parentElement) {
-                 loader.style.opacity = '0';
-                 setTimeout(() => loader.remove(), 1000);
-             }
-        }, 6000);
+
+        // Fallback absolu
+        setTimeout(dismissLoader, 10000);
 
         const searchInput = document.getElementById('search-input');
         const resultsBox = document.getElementById('search-results');
@@ -1166,6 +1177,6 @@
             network.fit({ animation: { duration: 1000, easingFunction: "easeInOutQuart" } });
         }
     </script>
-    <script src="header.js?v=2.5"></script>
+    <script src="header.js?v=2.6"></script>
 </body>
 </html>

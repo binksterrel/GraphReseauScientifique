@@ -49,6 +49,11 @@ def main() -> None:
     # 3. Analyse
     analyzer = GraphAnalyzer(graph)
     analyzer.analyze()
+    analyzer.save_results("output/analysis.json")
+    analyzer.generate_small_world_html(
+        template_path="docs/small_world.html",
+        output_path="output/small_world.html",
+    )
 
     # 4. Visualisation
     visualizer = GraphVisualizer(graph)

@@ -99,6 +99,14 @@ class GraphVisualizer:
                     "color": community_colors[i]
                 })
 
+        # Calcul de la disposition spatiale (Layout) pour éviter que le navigateur gèle
+        print("Calcul de la disposition du graphe (peut prendre quelques secondes)...")
+        try:
+            pos = nx.spring_layout(self.graph, k=0.15, iterations=50, seed=42)
+        except Exception as e:
+            print(f"Erreur lors du calcul du layout : {e}")
+            pos = {}
+
         # Préparation des données pour Vis.js
         nodes_data = []
         for node in self.graph.nodes():
@@ -116,15 +124,36 @@ class GraphVisualizer:
             # Label nettoyé pour l'affichage
             label_display = clean_name(node)
             
+            # Info supplémentaires
+            node_data = self.graph.nodes[node]
+            field_display = node_data.get('field') or 'Non défini'
+            country = node_data.get('country') or 'Non défini'
+            birth = node_data.get('birth_year') or '?'
+            
+            tooltip_html = (
+                f"<div style='padding:4px; font-family: Inter, sans-serif;'>"
+                f"<b style='font-size: 14px; color: #111827;'>{label_display}</b><br/>"
+                f"<span style='color: #4B5563; font-size: 12px;'>"
+                f"<b>Domaine:</b> {field_display}<br/>"
+                f"<b>Pays:</b> {country}<br/>"
+                f"<b>Naissance:</b> {birth}"
+                f"</span></div>"
+            )
+            
+            node_pos = pos.get(node, (0, 0))
+
             nodes_data.append({
                 "id": node,
                 "label": label_display,
-                "title": f"{label_display}",
+                "title": tooltip_html,
                 "size": size,
                 "color": color,
                 "borderWidth": 1,
                 "borderWidthSelected": 2,
                 "shape": "dot",
+                "field": field_display,
+                "x": float(node_pos[0]) * 1500,
+                "y": float(node_pos[1]) * 1500,
                 "font": {"color": "#0A0A0A", "face": "Inter", "size": 11}
             })
             
@@ -142,7 +171,6 @@ class GraphVisualizer:
             })
 
 
-            
         import json
         json_nodes = json.dumps(nodes_data)
         json_edges = json.dumps(edges_data)
@@ -793,17 +821,14 @@ class GraphVisualizer:
                 hoverWidth: 0.5
             }},
             physics: {{
-                stabilization: {{ 
-                    enabled: true,
-                    iterations: 1000,
-                    updateInterval: 25
-                }},
+                enabled: true,
+                stabilization: false,
                 barnesHut: {{
                     gravitationalConstant: -2000,
-                    centralGravity: 0.2,
+                    centralGravity: 0.05,
                     springLength: 120,
-                    springConstant: 0.02,
-                    damping: 0.15,
+                    springConstant: 0.01,
+                    damping: 0.3,
                     avoidOverlap: 0.1
                 }}
             }},
@@ -823,26 +848,14 @@ class GraphVisualizer:
         const progressBar = document.getElementById('progress-bar');
         const statusText = document.getElementById('loading-status');
         
-        network.on("stabilizationProgress", function(params) {{
-            const widthFactor = params.iterations / params.total;
-            const width = Math.round(widthFactor * 100);
-            progressBar.style.width = width + '%';
-            statusText.innerText = `Optimisation physique ${{width}}%`;
-        }});
-
-        network.once("stabilizationIterationsDone", function() {{
+        network.once("afterDrawing", function() {{
             progressBar.style.width = '100%';
-            statusText.innerText = '100%';
+            statusText.innerText = 'Terminé';
             
-            // Démarrage immersif : zoom sur le premier scientifique
+            // Démarrage immersif : vue globale
             if(nodesData.length > 0) {{
-                const centralNode = nodesData[0].id;
-                network.focus(centralNode, {{
-                    scale: 1.8,
-                    animation: {{
-                        duration: 1200,
-                        easingFunction: "easeInOutQuad"
-                    }}
+                network.fit({{
+                    animation: {{ duration: 1200, easingFunction: "easeInOutQuad" }}
                 }});
             }}
             
@@ -850,7 +863,7 @@ class GraphVisualizer:
                 loader.style.opacity = '0';
                 loader.style.pointerEvents = 'none';
                 setTimeout(() => loader.remove(), 1000);
-            }}, 500);
+            }}, 100);
         }});
         
         // Fallback safety if stabilization is too fast or disabled
@@ -1196,7 +1209,7 @@ class GraphVisualizer:
             updateLegend(topNodes);
             
             updateStatus(`Affichage de ${{count}} scientifiques`);
-        }}
+        }}          
         
         // Hubs (Top 5% Degree Centrality)
         let hubsActive = false;

@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Harold Clayton Urey",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "1a8744ce23b4243fb5a6faf988239f38",
+  "text_length": 23413,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2026-03-17T13:56:09.147930"
+}

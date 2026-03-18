@@ -1,5 +1,7 @@
 import re
 import difflib
+import functools
+import requests
 from typing import Optional
 
 import wikipediaapi
@@ -134,11 +136,93 @@ class WikipediaClient:
 
         return True
 
+    @functools.lru_cache(maxsize=1024)
+    def _fetch_wikidata(self, name: str) -> dict:
+        """Fetch metadata (birth, death, field, country) from Wikidata."""
+        url = f"https://{WIKIPEDIA_LANGUAGE}.wikipedia.org/w/api.php"
+        params = {"action": "query", "prop": "pageprops", "titles": name, "format": "json"}
+        try:
+            response = requests.get(url, params=params, headers={"User-Agent": "StudentGraphProject/1.0"}, timeout=10)
+            data = response.json()
+            qid = None
+            for page_info in data.get("query", {}).get("pages", {}).values():
+                import logging
+                if "pageprops" in page_info and "wikibase_item" in page_info["pageprops"]:
+                    qid = page_info["pageprops"]["wikibase_item"]
+                    break
+            
+            if not qid:
+                search_results = wikipedia.search(name, results=1)
+                if search_results:
+                    params["titles"] = search_results[0]
+                    response = requests.get(url, params=params, headers={"User-Agent": "StudentGraphProject/1.0"}, timeout=10)
+                    for page_info in response.json().get("query", {}).get("pages", {}).values():
+                        if "pageprops" in page_info and "wikibase_item" in page_info["pageprops"]:
+                            qid = page_info["pageprops"]["wikibase_item"]
+                            break
+                            
+            if not qid: return {}
+                
+            query = f"""
+            SELECT ?birth ?death ?fieldLabel ?countryLabel WHERE {{
+              wd:{qid} wdt:P569 ?birth .
+              OPTIONAL {{ wd:{qid} wdt:P570 ?death . }}
+              OPTIONAL {{ wd:{qid} wdt:P101 ?field . }}
+              OPTIONAL {{ wd:{qid} wdt:P27 ?country . }}
+              SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+            }} LIMIT 20
+            """
+            response = requests.get("https://query.wikidata.org/sparql", params={"query": query, "format": "json"}, headers={"User-Agent": "StudentGraphProject/1.0"}, timeout=10)
+            bindings = response.json().get("results", {}).get("bindings", [])
+            
+            births = [int(b.get("birth", {}).get("value")[:4]) for b in bindings if "birth" in b and b.get("birth", {}).get("value")[:4].isdigit()]
+            deaths = [int(b.get("death", {}).get("value")[:4]) for b in bindings if "death" in b and b.get("death", {}).get("value")[:4].isdigit()]
+            fields = set([b.get("fieldLabel", {}).get("value").lower() for b in bindings if "fieldLabel" in b])
+            countries = set([b.get("countryLabel", {}).get("value") for b in bindings if "countryLabel" in b])
+            
+            standard_field = None
+            field_keywords = {{
+                'Physics': ['physic', 'quantum', 'relativity', 'thermodynamic', 'optic', 'mechanic', 'electromagnetism'],
+                'Mathematics': ['mathematic', 'geometry', 'algebra', 'topology', 'calculus'],
+                'Chemistry': ['chemist', 'molecule', 'radioactivity', 'radium', 'polonium'],
+                'Biology': ['biolog', 'zoolog', 'botan', 'genetic', 'evolution', 'neuro', 'paleontology'],
+                'Computer Science': ['computer', 'programming', 'algorithm', 'artificial intelligence', 'information', 'cybernetics'],
+                'Medicine': ['medicin', 'anatom', 'physiolog', 'pharmacolog', 'patholog', 'psychiatry', 'immunology'],
+                'Astronomy': ['astronom', 'astrophysic', 'cosmolog', 'celestial'],
+                'Engineering': ['engineer'],
+                'Philosophy': ['philosoph', 'logic', 'epistemology', 'ethic'],
+                'Economics': ['economic', 'finance', 'sociolog']
+            }}
+            for std_f, kws in field_keywords.items():
+                for f in fields:
+                    if any(kw in f for kw in kws):
+                        standard_field = std_f
+                        break
+                if standard_field: break
+                    
+            return {{
+                "birth_year": min(births) if births else None,
+                "death_year": max(deaths) if deaths else None,
+                "field": standard_field,
+                "country": list(countries)[0] if countries else None
+            }}
+        except Exception as e:
+            logger.debug(f"Wikidata extraction error for {{name}}: {{e}}")
+            return {{}}
+
+    def get_country(self, name: str) -> Optional[str]:
+        wd_info = self._fetch_wikidata(name)
+        return wd_info.get("country") if wd_info else None
+
     def get_scientific_field(self, name: str) -> Optional[str]:
         """
         Extrait le domaine scientifique à partir des catégories Wikipedia.
-        Retourne le domaine principal (ex: 'Physics', 'Biology', 'Mathematics').
+        Extrait le domaine scientifique. Essaie Wikidata d'abord, puis fallback Wikipedia.
         """
+        wd_info = self._fetch_wikidata(name)
+        if wd_info and wd_info.get("field"):
+            return wd_info["field"]
+            
         try:
             search_results = wikipedia.search(name, results=1)
             if search_results:
@@ -181,8 +265,12 @@ class WikipediaClient:
         """
         Extract birth and death years from Wikipedia page.
         Uses regex on summary and categories.
-        Returns (birth_year, death_year) or None values if not found.
+        Extract birth and death. Tries Wikidata first, falls back to regex.
         """
+        wd_info = self._fetch_wikidata(name)
+        if wd_info and wd_info.get("birth_year"):
+            return wd_info.get("birth_year"), wd_info.get("death_year")
+
         try:
             search_results = wikipedia.search(name, results=1)
             if search_results:

@@ -1,0 +1,11 @@
+{
+  "scientist_name": "Robert Wilhelm Bunsen",
+  "prompt_version": "v2.0-fewshot-cot",
+  "text_hash": "c53fb9609d496ac4fe17f8d1c3df55d6",
+  "text_length": 7336,
+  "result": {
+    "inspired_by": [],
+    "inspired": []
+  },
+  "timestamp": "2026-03-17T13:56:24.891785"
+}

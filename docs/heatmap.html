@@ -6,13 +6,14 @@
     <title>Heatmap des Influences Scientifiques</title>
     <link rel="icon" type="image/png" href="RSlogo.png">
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Inter', sans-serif;
             background: #FAFAFA;
-            padding: 40px;
+            padding: 110px 40px 40px;
             color: #111;
         }
         h1 {
@@ -74,6 +75,7 @@
     </style>
 </head>
 <body>
+    <div id="app-header"></div>
     <h1>📊 Matrice d'Influence Scientifique par Siècle</h1>
     <p class="subtitle">
         Qui a influencé qui ? Cette heatmap montre les transmissions de savoir entre générations.
@@ -160,5 +162,6 @@
         
         Plotly.newPlot('heatmap', [trace], layout, config);
     </script>
+    <script src="header.js?v=2.6"></script>
 </body>
 </html>
